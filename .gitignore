@@ -1,0 +1,6 @@
+/build_local/
+/node_modules/
+/vendor/
+.idea
+.DS_Store
+/source/assets/build/

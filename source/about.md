@@ -1,14 +1,23 @@
 ---
 extends: _layouts.page
 image: /assets/images/about-bg.jpg
-title: About Me
-subtitle: This is what I do.
+title: সাইট সম্পর্কে
+subtitle: আমি কেন এই ওয়েবসাইটটি তৈরি করলাম
 section: content
 ---
 
 
-This is where you can give a little more information about yourself or site. If you'd like to change the structure of this page, or to change this content, you can find the file at `source/about.blade.php`
+আমি নুরুজ্জামান মিলন, পেশায় একজন সফটয়্যার প্রকৌশলী। বর্তমান আবাস জার্মানির রাজধানী বার্লিনে।
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum officia dolorem accusantium veniam quae, possimus, temporibus explicabo magni voluptas. fugit natus deserunt atque veniam possimus earum harum itaque est!
+আমি নিজে কোন প্রফেশনাল শেফ নই। এমনকি ২০১৮ সালের আগে রান্নাঘরে কোনদিন যাইও নি। কিন্তু আমি খুব ভোজনরসিক মানুষ। বিদেশ-বিভূঁইয়ে এসে বাধ্য হয়েই রান্নার হাতেখড়ি, কারন পছন্দের দেশি খাবারগুলি খাবার একমাত্র উপায় হচ্ছে রান্না করে খাওয়া।
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum officia dolorem accusantium veniam quae, possimus, temporibus explicabo magni voluptas. fugit natus deserunt atque veniam!
+আমি নিজে যেহেতু রান্না করতে অনেক ঝামেলার মুখোমুখি হয়েছি, তাই সবাই যেন খুব সহজেই রান্নাটা আয়ত্ব করতে পারে, সেজন্যই আমার এ ছোট্ট প্রয়াস। যে কোন মতামত জানালে খুব খুশি হবো। মতামত জানাতে এই ওয়েবসাইটের [যোগাযোগ](/contact) লিঙ্কে থাকা ফরমটি ব্যবহার করতে পারেন।
+
+ধন্যবাদ।
+
+### ওয়েবসাইট তৈরিতে ব্যবহৃত টুলস
+
+এই ওয়েবসাইটি তৈরি করা হয়েছে স্ট্যাটিক সাইট জেনারেশন টুল [Jigsaw](https://jigsaw.tighten.co) দিয়ে। থিম হিসেবে ব্যবহার করা হয়েছে
+[Startbootstrap](https://startbootstrap.com/themes/clean-blog/) এর [Clean Blog](https://github.com/rickwest/jigsaw-clean-blog)
+থিমের উপর ভিত্তি করে। অধিকাংশ ব্যাকগ্রাউন্ড ছবি নেয়া হয়েছে [Unsplash](https://unsplash.com) থেকে। যোগাযোগ ফরমের জন্য ব্যবহার করা হয়েছে
+[অormspree](https://formspree.io/) এছাড়া সাইটি বর্তমানে হোস্ট করা হয়েছে [Netlify](https://www.netlify.com)-এ।

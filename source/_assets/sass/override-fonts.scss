@@ -1,0 +1,7 @@
+// override fonts
+@mixin serif-font() {
+  font-family: 'Galada', cursive;
+}
+@mixin sans-serif-font() {
+  font-family: 'Hind Siliguri', sans-serif;
+}

@@ -1,26 +1,46 @@
 // Custom fonts for this template
-@import url("https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800");
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Hind+Siliguri:wght@400;500;700&display=swap');
 @import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
 
 // Bootstrap core CSS
 @import "~bootstrap/scss/bootstrap";
 
 // Startbootstrap Clean Blog
-@import '~startbootstrap-clean-blog/scss/clean-blog';
+@import 'startbootstrap-clean-blog.scss';
 
-// Highlight.js theme
-@import '~highlight.js/styles/tomorrow-night-bright.css';
+// override fonts
+@mixin serif-font() {
+  font-family: 'Galada', cursive !important;
+}
+@mixin sans-serif-font() {
+  font-family: 'Hind Siliguri', sans-serif !important;
+}
+
+.font-normal {
+    @include sans-serif-font;
+}
+
+.font-cursive {
+    @include serif-font;
+}
 
 // Custom colors for social share links
 .text-facebook, a.text-facebook:hover {
   color: #4267b2;
 }
 
-.text-linkedin, a.text-linkedin:hover {
-  color: #0077b5;
-}
-
 .text-twitter, a.text-twitter:hover {
   color: #1da1f2;
+}
+
+.page-heading h1, .navbar-brand {
+    @include serif-font;
+}
+
+body {
+    @include sans-serif-font;
+}
+
+.form-control {
+    @include sans-serif-font;
 }

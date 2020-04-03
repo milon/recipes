@@ -2,7 +2,7 @@
 
 return [
     // Replace with the baseUrl of your site. For example, https://jigsaw-clean-blog.netlify.com
-    'baseUrl' => '',
+    'baseUrl' => 'https://easy-recipes.netlify.com/',
     'production' => false,
 
 
@@ -17,39 +17,31 @@ return [
     'perPage' => 5,
 
     // The email address to send the https://formspree.io/ contact form submissions to
-    'email' => '',
+    'email' => 'contact@milon.im',
 
     // The name of the site. This is used in the nav and footer
-    'siteName' => 'Jigsaw Clean Blog',
+    'siteName' => 'সহজ রেসিপি',
 
     // The description of the site. This is used in for the site's default metadata
-    'siteDescription' => 'Starter template for a blog, using Jigsaw by Tighten, based on the Start Bootstrap Clean Blog theme',
+    'siteDescription' => 'রান্না করা খুব কঠিন কোন কাজ না, আমি যেহেতু পারছি, পারবেন আপনিও...',
 
     // The name of the site Author. Your name! This is used when building the rss feed
-    'siteAuthor' => '',
+    'siteAuthor' => 'মিলন',
 
     // Social media links/icons that are used in the footer, add as many as you like!
     'socials' => [
         'twitter' => [
-            'link' => '#',
+            'link' => 'https://twitter.com/to_milon',
             'icon' => 'fab fa-twitter',
         ],
         'facebook' => [
-            'link' => '#',
+            'link' => 'https://www.facebook.com/page.milon.im',
             'icon' => 'fab fa-facebook-f',
-        ],
-        'github' => [
-            'link' => '#',
-            'icon' => 'fab fa-github',
         ],
         'rss' => [
             'link' => '/feed.xml',
             'icon' => 'fas fa-rss',
         ]
-//      'another social service' => [
-//          'link' => 'link to your account',
-//          'icon' => 'font awesome icon https://fontawesome.com/icons?d=gallery&m=free',
-//      ]
     ],
 
     // Google Analytics Tracking Id. For example, UA-123456789-1

@@ -31,10 +31,12 @@
         <meta name="twitter:card" content="summary">
         <meta name="twitter:title" content="{{ $page->siteName }}{{ $page->title ? ' | ' . $page->title : '' }}">
         <meta name="twitter:description" content="{{ $page->description ?? $page->excerpt ?? $page->siteDescription }}">
+        <meta name="twitter:image" content="{{ $page->randomBackground() }}" />
         <!-- Open Graph general (Facebook, Pinterest & Google+) -->
         <meta name="og:title" content="{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}">
         <meta name="og:description" content="{{ $page->description ?? $page->excerpt ?? $page->siteDescription }}">
         <meta name="og:type" content="website">
+        <meta property="og:image" content="{{ $page->randomBackground() }}" />
         @show
 
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">

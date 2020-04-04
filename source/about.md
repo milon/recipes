@@ -18,6 +18,7 @@ section: content
 ### ওয়েবসাইট তৈরিতে ব্যবহৃত টুলস
 
 এই ওয়েবসাইটি তৈরি করা হয়েছে স্ট্যাটিক সাইট জেনারেশন টুল [Jigsaw](https://jigsaw.tighten.co) দিয়ে। থিম হিসেবে ব্যবহার করা হয়েছে
-[Startbootstrap](https://startbootstrap.com/themes/clean-blog/) এর [Clean Blog](https://github.com/rickwest/jigsaw-clean-blog)
-থিমের উপর ভিত্তি করে। অধিকাংশ ব্যাকগ্রাউন্ড ছবি নেয়া হয়েছে [Unsplash](https://unsplash.com) থেকে। যোগাযোগ ফরমের জন্য ব্যবহার করা হয়েছে
-[অormspree](https://formspree.io/) এছাড়া সাইটি বর্তমানে হোস্ট করা হয়েছে [Netlify](https://www.netlify.com)-এ।
+[Startbootstrap](https://startbootstrap.com) এর [Clean Blog](https://startbootstrap.com/themes/clean-blog)
+থিমের উপর ভিত্তি করে তৈরি করা [Jigsaw Clean Blog](https://github.com/rickwest/jigsaw-clean-blog)। অধিকাংশ ব্যাকগ্রাউন্ড
+ছবি নেয়া হয়েছে [Unsplash](https://unsplash.com) থেকে। যোগাযোগ ফরমের জন্য ব্যবহার করা হয়েছে [Formspree](https://formspree.io/)
+এছাড়া সাইটি বর্তমানে হোস্ট করা হয়েছে [Netlify](https://www.netlify.com)-এ।

@@ -2,13 +2,14 @@
 
 return [
     // Replace with the baseUrl of your site. For example, https://jigsaw-clean-blog.netlify.com
-    'baseUrl' => 'https://easy-recipes.netlify.com/',
+    'baseUrl' => 'https://easy-recipes.netlify.com',
     'production' => false,
 
 
     'collections' => [
         // Posts collection sorted by date and in descending order (latest post at the top)
         'posts' => [
+            'path' => 'recipe/{filename}',
             'sort' => '-date'
         ]
     ],
@@ -45,27 +46,27 @@ return [
     ],
 
     // Google Analytics Tracking Id. For example, UA-123456789-1
-    'gaTrackingId' => '',
+    'gaTrackingId' => 'UA-162769200-1',
 
-    // True if you want to show a reading time (e.g 2 min read) or false to hide
-    'showReadingTime' => true,
+    'banglaDate' => function ($page, $date) {
+        // format date
+        $str = date("F j, Y", strtotime($date));
 
-    'readingTime' => function($post) {
-        $mins = round(str_word_count(strip_tags($post)) / 200);
-        return implode('', array_fill(0, round($mins / 5),'☕')) . ' ' . $mins . ' min read';
+        // translate number
+        $str = $page->translateNumber($str);
+
+        // translate day
+        $enDay = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        $enShortDay = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+        $bnDay = ['জানুয়ারী', 'ফেব্রুয়ারী', 'মার্চ', 'এপ্রিল', 'মে', 'জুন', 'জুলাই', 'অগাস্ট', 'সেপ্টেম্বর', 'অক্টোবর', 'নভেম্বর', 'ডিসেম্বর'];
+
+        $str = str_replace($enDay, $bnDay, $str);
+        return str_replace($enShortDay, $bnDay, $str);
     },
 
-    'getExcerpt' => function ($page, $length = 225) {
-        $content = $page->excerpt ?? $page->getContent();
-        $cleaned = strip_tags(
-            preg_replace(['/<pre>[\w\W]*?<\/pre>/', '/<h\d>[\w\W]*?<\/h\d>/'], '', $content), '<code>'
-        );
-        $truncated = substr($cleaned, 0, $length);
-        if (substr_count($truncated, '<code>') > substr_count($truncated, '</code>')) {
-            $truncated .= '</code>';
-        }
-        return strlen($cleaned) > $length
-            ? preg_replace('/\s+?(\S+)?$/', '', $truncated) . '...'
-            : $cleaned;
+    'translateNumber' => function($page, $number) {
+        $enNum = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+        $bnNum = ['০', '১', '২', '৩', '৪', '৫', '৬', '৭', '৮', '৯'];
+        return str_replace($enNum, $bnNum, $number);
     },
 ];

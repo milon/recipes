@@ -1,5 +1,6 @@
 // Custom fonts for this template
-@import url('https://fonts.googleapis.com/css2?family=Galada&family=Hind+Siliguri:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/earlyaccess/notosansbengali.css");
+@import url("https://fonts.googleapis.com/css2?family=Galada&display=swap");
 @import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
 
 // Bootstrap core CSS
@@ -9,13 +10,6 @@
 @import 'startbootstrap-clean-blog.scss';
 
 // override fonts
-@mixin serif-font() {
-  font-family: 'Galada', cursive !important;
-}
-@mixin sans-serif-font() {
-  font-family: 'Hind Siliguri', sans-serif !important;
-}
-
 .font-normal {
     @include sans-serif-font;
 }
@@ -29,18 +23,61 @@
   color: #4267b2;
 }
 
+.text-linkedin, a.text-linkedin:hover {
+  color: #0077b5;
+}
+
 .text-twitter, a.text-twitter:hover {
   color: #1da1f2;
 }
 
-.page-heading h1, .navbar-brand {
+.page-heading h1, .navbar-brand, .post-heading h1 {
     @include serif-font;
 }
 
+// generic style
 body {
     @include sans-serif-font;
 }
 
+a:hover {
+    color: #c0c0c0;
+}
+
+img {
+    padding: $thumbnail-padding;
+    background-color: $thumbnail-bg;
+    border: $thumbnail-border-width solid $thumbnail-border-color;
+    @include border-radius($thumbnail-border-radius);
+    @include box-shadow($thumbnail-box-shadow);
+
+    // Keep them at most 100% wide
+    @include img-fluid;
+}
+
 .form-control {
     @include sans-serif-font;
+}
+
+.post-preview > a:hover {
+    color: #c0c0c0;
+}
+
+.post-preview > .post-meta {
+    font-size: 16px;
+}
+
+// 2 column list style
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+@include media-breakpoint-down(sm) {
+    ul {
+      columns: 1;
+      -webkit-columns: 1;
+      -moz-columns: 1;
+    }
 }

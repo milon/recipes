@@ -1,5 +1,5 @@
 <ul class="list-inline">
-    Share this post:&nbsp;
+    শেয়ার করুন:&nbsp;
     <li class="list-inline-item">
         <a href="http://twitter.com/share?url={{ $page->getUrl() }}" target="_blank" class="text-twitter">
             <span class="fa-stack fa-lg">

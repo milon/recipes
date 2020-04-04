@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => 'https://jigsaw-clean-blog.netlify.com',
+    'baseUrl' => 'https://easy-recipes.netlify.com',
     'production' => true,
 ];

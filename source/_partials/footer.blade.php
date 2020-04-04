@@ -1,8 +1,8 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-md-10 mx-auto">
-                <ul class="list-inline text-center">
+            <div class="col-lg-8 col-md-10 mx-auto d-flex justify-content-center">
+                <ul class="list-inline d-flex justify-content-center">
                     @foreach($page->socials as $social)
                         <li class="list-inline-item">
                             <a href="{{ $social->link }}" target="_blank">
@@ -14,7 +14,11 @@
                         </li>
                     @endforeach
                 </ul>
-                <p class="copyright text-muted">Copyright &copy; {{ $page->siteName }} <script type="text/javascript">document.write(new Date().getFullYear());</script></p>
+            </div>
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <p class="copyright text-muted">
+                    কপিরাইট &copy; {{ $page->siteName }}, {{ $page->translateNumber(date('Y')) }}
+                </p>
             </div>
         </div>
     </div>

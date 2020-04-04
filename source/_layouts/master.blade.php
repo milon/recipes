@@ -36,7 +36,7 @@
         <meta name="og:title" content="{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}">
         <meta name="og:description" content="{{ $page->description ?? $page->excerpt ?? $page->siteDescription }}">
         <meta name="og:type" content="website">
-        <meta property="og:image" content="{{ $page->randomBackground() }}" />
+        <meta name="og:image" content="{{ $page->randomBackground() }}" />
         @show
 
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">

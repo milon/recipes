@@ -81,3 +81,15 @@ ul {
       -moz-columns: 1;
     }
 }
+
+// pagination
+section#paginator {
+  display: inline-block;
+}
+
+section#paginator a, section#paginator span {
+    float: left;
+    padding: 5px;
+    margin: 0 6px;
+    text-decoration: none;
+}

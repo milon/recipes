@@ -5,7 +5,7 @@
     @include('_partials.navigation')
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url({{ $page->image ? $page->image : $page->randomBackground() }})">
+    <header class="masthead" id="banner" style="background-image: url({{ $page->image ? $page->image : $page->randomBackground() }})">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">

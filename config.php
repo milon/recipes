@@ -69,4 +69,9 @@ return [
         $bnNum = ['০', '১', '২', '৩', '৪', '৫', '৬', '৭', '৮', '৯'];
         return str_replace($enNum, $bnNum, $number);
     },
+
+    'randomBackground' => function ($page) {
+        $random = rand(1, 10);
+        return "/assets/images/backgrounds/bg-$random.jpg";
+    },
 ];

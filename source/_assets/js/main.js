@@ -1,10 +1,14 @@
 // Bootstrap core JavaScript
 import 'bootstrap';
 
-// dynamically change background in every 20 seconds
-setInterval(function() {
-    let random = Math.floor(Math.random() * 10) + 1;
-    let imageUrl = `/assets/images/backgrounds/bg-${random}.jpg`;
-    let banner = document.querySelector('#banner');
-    banner.style.backgroundImage = `url(${imageUrl})`;
-}, 20*1000);
+function setAutoChangingBackground(cssSelector, durationInSeconds = 20) {
+    setInterval(function() {
+        let random = Math.floor(Math.random() * 10) + 1;
+        let imageUrl = `/assets/images/backgrounds/bg-${random}.jpg`;
+        let banner = document.querySelector(cssSelector);
+        banner.style.backgroundImage = `url(${imageUrl})`;
+    }, durationInSeconds*1000);
+}
+
+// dynamically change background in every 20 seconds for home page
+setAutoChangingBackground('#banner');

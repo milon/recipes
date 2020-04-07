@@ -4,6 +4,7 @@ title: বাধাঁকপির পাকোড়া
 subtitle: সহজেই তৈরি করুন বাধাঁকপির পাকোড়া
 excerpt: সহজেই তৈরি করুন বাধাঁকপির পাকোড়া
 date: "2020-04-04"
+metaImage: "/assets/images/recipes/badhakopir-pakora.jpg"
 section: content
 ---
 

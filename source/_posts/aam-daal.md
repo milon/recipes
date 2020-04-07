@@ -4,6 +4,7 @@ section: content
 title: আম ডালের রেসিপি
 subtitle: বাংলার আটপৌরে খাবার আম ডালের রেসিপি
 excerpt: বাংলার আটপৌরে খাবার আম ডালের রেসিপি
+metaImage: "/assets/images/recipes/aam-daal.jpg"
 date: "2020-04-04"
 ---
 

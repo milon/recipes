@@ -4,6 +4,7 @@ section: content
 title: আতপ চালের পায়েস
 subtitle: ঐতিহ্যবাহী আতপ চালের পায়েসের রেসিপি
 excerpt: ঐতিহ্যবাহী আতপ চালের পায়েসের রেসিপি
+metaImage: "/assets/images/recipes/atop-chaler-payesh.jpg"
 date: "2020-04-04"
 ---
 

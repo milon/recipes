@@ -24,6 +24,8 @@ date: "2020-04-07"
 
 ![চিকেন স্যান্ডউইচ মিক্স](/assets/images/recipes/chicken-sandwich-1.jpg)
 
+![চিকেন স্যান্ডউইচ মিক্স](/assets/images/recipes/chicken-sandwich-2.jpg)
+
 ![চিকেন স্যান্ডউইচ](/assets/images/recipes/chicken-sandwich-3.jpg)
 
 ## রন্ধনপ্রণালী

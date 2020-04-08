@@ -21,3 +21,6 @@ $events->afterBuild(App\Listeners\GenerateSitemap::class);
 
 // Generate rss feed listener
 $events->afterBuild(App\Listeners\GenerateFeed::class);
+
+// Generate search index
+// $events->afterBuild(App\Listeners\GenerateIndex::class);

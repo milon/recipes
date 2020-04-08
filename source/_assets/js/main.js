@@ -1,5 +1,16 @@
 // Bootstrap core JavaScript
+window.axios = require('axios');
+window.fuse = require('fuse.js');
+window.Vue = require('vue');
+
+import Search from './components/Search.vue';
 import 'bootstrap';
+
+new Vue({
+    components: {
+        Search,
+    },
+}).$mount('#vue-search');
 
 function setAutoChangingBackground(cssSelector, durationInSeconds = 20) {
     setInterval(function() {

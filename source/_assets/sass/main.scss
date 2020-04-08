@@ -55,6 +55,10 @@ img {
     @include img-fluid;
 }
 
+.hidden {
+    display: none;
+}
+
 .form-control {
     @include sans-serif-font;
 }

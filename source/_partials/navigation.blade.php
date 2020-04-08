@@ -6,6 +6,9 @@
             <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
+            <div id="vue-search">
+                <search></search>
+            </div>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="/">হোম</a>

@@ -1,5 +1,5 @@
 <template>
-    <form class="form-inline my-3 my-lg-0 position-relative">
+    <form class="form-inline my-3 my-lg-0 position-relative" v-on:submit.prevent="() => {}">
         <input
             id="search"
             v-model="query"

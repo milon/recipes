@@ -11,11 +11,11 @@
         >
         <button
             v-show="query"
-            class="position-absolute btn btn-link cancel-btn"
+            class="btn btn-link cancel-btn"
             @click="reset"
         ><i class="fas fa-times"></i></button>
 
-        <div v-if="query" class="position-absolute search-panel">
+        <div v-if="query" class="search-panel">
             <div class="search-scroll">
                 <a
                     v-for="(result, index) in results"
@@ -82,6 +82,7 @@ export default {
     .cancel-btn {
         right: 0;
         color: #495057;
+        position: absolute;
     }
 
     .cancel-btn:hover {
@@ -94,6 +95,9 @@ export default {
         right: 0;
         background: white;
         top: 100%;
+        position: absolute;
+        max-height: 350px;
+        overflow: scroll;
     }
 
     .no-result {

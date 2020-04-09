@@ -16,7 +16,6 @@
         "fuse.js": "^3.3.0",
         "hasbin": "^1.2.3",
         "laravel-mix": "^4.1.2",
-        "laravel-mix-purgecss": "^3.0.0",
         "node-cmd": "^3.0.0",
         "on-build-webpack": "^0.1.0",
         "sass": "^1.26.3",

@@ -1,10 +1,10 @@
 ---
 extends: _layouts.post
 section: content
-title: গাজরের হালুয়া
-date: "2020-04-04"
-subtitle: আমার সবচেয়ে প্রিয় নাস্তার আইটেম গাজরের হালুয়া তৈরির রেসিপি
-excerpt: আমার সবচেয়ে প্রিয় নাস্তার আইটেম গাজরের হালুয়া তৈরির রেসিপি
+title: লাচ্ছা সেমাইয়ের রেসিপি
+date: "2020-04-09"
+subtitle: খুব সহজেই লাচ্ছা সেমাই তৈরি করার রেসিপি
+excerpt: খুব সহজেই লাচ্ছা সেমাই তৈরি করার রেসিপি
 metaImage: "/assets/images/recipes/laccha-semai.jpg"
 ---
 

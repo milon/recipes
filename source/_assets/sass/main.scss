@@ -91,6 +91,11 @@ section#paginator {
   display: inline-block;
 }
 
+section#paginator .selected {
+    font-weight: bold;
+    color: #c0c0c0;
+}
+
 section#paginator a, section#paginator span {
     float: left;
     padding: 5px;

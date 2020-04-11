@@ -15,7 +15,7 @@ return [
     ],
 
     // Number of collection items to show per page
-    'perPage' => 5,
+    'perPage' => 7,
 
     // The email address to send the https://formspree.io/ contact form submissions to
     'email' => 'contact@milon.im',

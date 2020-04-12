@@ -2,8 +2,8 @@
 extends: _layouts.post
 section: content
 title: ইলিশের ঝাল কষা
-subtitle: লেবুপাতা দিয়ে ইলিশ মাছের ছাল কষার রেসিপি
-excerpt: লেবুপাতা দিয়ে ইলিশ মাছের ছাল কষার রেসিপি
+subtitle: লেবুপাতা দিয়ে ইলিশ মাছের ঝাল কষার রেসিপি
+excerpt: লেবুপাতা দিয়ে ইলিশ মাছের ঝাল কষার রেসিপি
 metaImage: "/assets/images/recipes/ilisher-jhal-kosha.jpg"
 date: "2020-04-11"
 ---

@@ -2,7 +2,7 @@
 
 return [
     // Replace with the baseUrl of your site. For example, https://jigsaw-clean-blog.netlify.com
-    'baseUrl' => 'https://easy-recipes.netlify.com',
+    'baseUrl' => 'http://localhost:8000',
     'production' => false,
 
 

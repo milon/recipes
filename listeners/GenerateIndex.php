@@ -14,6 +14,7 @@ class GenerateIndex
                 'link'              => rightTrimPath($jigsaw->getConfig('baseUrl')) . $page->getPath(),
                 'excerpt'           => $page->excerpt,
                 'englishSearchTerm' => str_replace('-', ' ', $page->getFilename()),
+                'categories'        => $page->categories ?? []
             ];
         })->values());
 

@@ -6,6 +6,7 @@ date: "2020-04-09"
 subtitle: খুব সহজেই লাচ্ছা সেমাই তৈরি করার রেসিপি
 excerpt: খুব সহজেই লাচ্ছা সেমাই তৈরি করার রেসিপি
 metaImage: "/assets/images/recipes/laccha-semai.jpg"
+categories: [নাস্তা, nasta, dessert, ডেসার্ট, ঈদ]
 ---
 
 ঈদসহ যে কোন উৎসব সেমাই ছাড়া চলেই না। চলুন দেখে নেই লাচ্ছা সেমাইয়ের রেসিপি।

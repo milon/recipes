@@ -6,6 +6,7 @@ subtitle: চিকেন ঝাল ফ্রাইয়ের রেসিপি
 excerpt: চিকেন ঝাল ফ্রাইয়ের রেসিপি
 metaImage: "/assets/images/recipes/chicken-jhal-fry.jpg"
 date: "2020-04-16"
+categories: [mangsher torkari, মাংসের তরকারী]
 ---
 
 পরোটা দিয়ে চিকেন ঝাল ফ্রাইয়ের কোন তুলনাই চলে না। চলুন রেসিপিটা দেখে নেই।

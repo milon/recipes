@@ -59,6 +59,12 @@ img {
     display: none;
 }
 
+.category {
+    font-weight: normal;
+    font-size: 90%;
+    padding: 0.5em 1em;
+}
+
 .form-control {
     @include sans-serif-font;
 }

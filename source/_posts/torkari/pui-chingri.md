@@ -6,6 +6,7 @@ subtitle: খুবই সাধারন কিন্তু মজাদার 
 excerpt: খুবই সাধারন কিন্তু মজাদার পুঁই শাক আর চিংড়ির তরকারী
 date: "2020-04-14"
 metaImage: "/assets/images/recipes/pui-chingri.jpg"
+categories: [macher torkari, মাছের তরকারী]
 ---
 
 পুঁই শাক দিয়ে চিংড়ির তরকারীটা আমার খুবই পছন্দের। সেই রেসিপিটাই চলুন দেখে নেয়া যাক।

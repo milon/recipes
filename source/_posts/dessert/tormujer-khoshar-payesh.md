@@ -6,6 +6,7 @@ subtitle: তরমুজের খোসা দিয়ে পায়েস র
 excerpt: তরমুজের খোসা দিয়ে পায়েস রান্নার রেসিপি
 metaImage: "/assets/images/recipes/tormujer-khoshar-payesh.jpg"
 date: "2020-04-12"
+categories: [নাস্তা, nasta, dessert, ডেসার্ট, তরমুজ, পায়েস]
 ---
 
 তরমুজ আমার খুব পছন্দ। চলুন দেখে নেই ভিন্নধর্মী রেসিপি তরমুজের খোসার পায়েস।

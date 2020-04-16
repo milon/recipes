@@ -28,6 +28,8 @@
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
                     @yield('content')
+
+                    @include('_partials/category_tags')
                     <hr>
                     @include('_partials/share')
                     <hr>

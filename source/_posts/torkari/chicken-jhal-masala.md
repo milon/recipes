@@ -1,15 +1,15 @@
 ---
 extends: _layouts.post
 section: content
-title: চিকেন ঝাল ফ্রাই
-subtitle: চিকেন ঝাল ফ্রাইয়ের রেসিপি
-excerpt: চিকেন ঝাল ফ্রাইয়ের রেসিপি
-metaImage: "/assets/images/recipes/chicken-jhal-fry.jpg"
+title: চিকেন ঝাল মাসালা
+subtitle: চিকেন ঝাল মাসালা রেসিপি
+excerpt: চিকেন ঝাল মাসালা রেসিপি
+metaImage: "/assets/images/recipes/chicken-jhal-masala.jpg"
 date: "2020-04-16"
 categories: [mangsher torkari, মাংসের তরকারী]
 ---
 
-পরোটা দিয়ে চিকেন ঝাল ফ্রাইয়ের কোন তুলনাই চলে না। চলুন রেসিপিটা দেখে নেই।
+পরোটা দিয়ে চিকেন ঝাল মাসালা কোন তুলনাই চলে না। চলুন রেসিপিটা দেখে নেই।
 
 ## উপকরণ
 
@@ -32,7 +32,7 @@ categories: [mangsher torkari, মাংসের তরকারী]
 - তেল (১/২ কাপ)
 - ভাজা জিরার গুড়া (১ চা চামচ)
 
-![চিকেন ঝাল ফ্রাই](/assets/images/recipes/chicken-jhal-fry.jpg)
+![চিকেন ঝাল ফ্রাই](/assets/images/recipes/chicken-jhal-masala.jpg)
 
 ## রন্ধনপ্রণালী
 

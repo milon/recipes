@@ -59,6 +59,12 @@ img {
     display: none;
 }
 
+.index-meta {
+    margin-top: 2em;
+    font-size: 24px;
+    @include serif-font;
+}
+
 .category {
     font-weight: normal;
     font-size: 90%;

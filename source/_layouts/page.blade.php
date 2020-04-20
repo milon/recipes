@@ -13,6 +13,7 @@
                     <div class="page-heading">
                         <h1>{{ $page->title ? $page->title : $page->siteName }}</h1>
                         <span class="subheading">{{ $page->subtitle ? $page->subtitle : $page->siteDescription }}</span>
+                        @yield('header-info')
                     </div>
                 </div>
             </div>

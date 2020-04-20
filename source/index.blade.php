@@ -5,6 +5,10 @@ pagination:
 
 @extends('_layouts.page')
 
+@section('header-info')
+    <p class="index-meta">মোট রেসিপির সংখ্যা: {{ $page->translateNumber($posts->count()) }}</p>
+@endsection
+
 @section('content')
     @foreach ($pagination->items as $post)
         <div class="post-preview">

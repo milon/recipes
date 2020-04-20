@@ -6,7 +6,7 @@ subtitle: খুবই সাধারন কিন্তু মজাদার 
 excerpt: খুবই সাধারন কিন্তু মজাদার লাউ আর চিংড়ির তরকারী
 date: "2020-04-04"
 metaImage: "/assets/images/recipes/lau-chingrir-torkari.jpg"
-categories: [macher torkari, মাছের তরকারী]
+categories: [মাছের তরকারী]
 ---
 
 বাংলাদেশে থাকাকালীন সময়ে লাউ চিংড়ির তরকারী ছিল আমার খুবই পছন্দের। সেই রেসিপিটাই চলুন দেখে নেয়া যাক।

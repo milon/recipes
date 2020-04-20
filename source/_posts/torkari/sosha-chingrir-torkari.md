@@ -6,7 +6,7 @@ subtitle: খুব সহজেই শসা, আলু আর চিংড়ি 
 excerpt: খুব সহজেই শসা, আলু আর চিংড়ি মাছের তরকারীর রেসিপি
 metaImage: "/assets/images/recipes/sosha-chingrir-torkari.jpg"
 date: "2020-04-13"
-categories: [macher torkari, মাছের তরকারী]
+categories: [মাছের তরকারী]
 ---
 
 খুব সাধারন কিন্তু অসম্ভব মজাদার শসা আর চিংড়ির তরকারি তৈরির রেসিপি দেখে নিন।

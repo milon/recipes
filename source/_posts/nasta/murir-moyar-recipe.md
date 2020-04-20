@@ -6,7 +6,7 @@ subtitle: দেশী জনপ্রিয় নাস্তা মুড়ির 
 excerpt: দেশী জনপ্রিয় নাস্তা মুড়ির মোয়ার রেসিপি
 date: "2020-04-09"
 metaImage: "/assets/images/recipes/murir-moyar-recipe.jpg"
-categories: [নাস্তা, nasta]
+categories: [নাস্তা]
 ---
 
 মুড়ির মোয়ার কথা উঠলেই মনে পড়ে যায় ছোট বেলার পুরাতন কাঁচের বোতল দিয়ে মোয়া কেনার কথা। চলুন দেখি নেই

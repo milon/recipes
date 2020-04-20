@@ -6,7 +6,7 @@ subtitle: ডিম, দুধ আর চিনি দিয়ে তৈরি ক
 excerpt: ডিম, দুধ আর চিনি দিয়ে তৈরি করুন ক্যারামেল পুডিং
 date: "2020-04-04"
 metaImage: "/assets/images/recipes/caramel-pudding.jpg"
-categories: [নাস্তা, nasta, dessert, ডেসার্ট, পুডিং]
+categories: [নাস্তা, ডেসার্ট, পুডিং]
 ---
 
 পুডিং আমার খুব পছন্দের একটা ডেজার্ট। চলুন দেখে নেই কিভাবে তৈরি করবেন ক্যারামেল পুডিং।

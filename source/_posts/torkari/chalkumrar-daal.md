@@ -6,7 +6,7 @@ subtitle: খুব সহজেই চালকুমড়া দিয়ে ডা
 excerpt: খুব সহজেই চালকুমড়া দিয়ে ডাল রান্নার রেসিপি
 metaImage: "/assets/images/recipes/chalkumrar-daal.jpg"
 date: "2020-04-14"
-categories: [ডাল, daal]
+categories: [ডাল]
 ---
 
 এখন চালকুমড়ার মৌসুম চলছে। চলুন দেখে নেই কিভাবে চালকুমড়া দিয়ে ডাল রান্না করবেন।

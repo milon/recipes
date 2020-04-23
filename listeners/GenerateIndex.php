@@ -12,6 +12,7 @@ class GenerateIndex
             return [
                 'title'             => $page->title,
                 'link'              => rightTrimPath($jigsaw->getConfig('baseUrl')) . $page->getPath(),
+                'date'              => $page->date,
                 'excerpt'           => $page->excerpt,
                 'body'              => $page->getContent(),
                 'englishSearchTerm' => str_replace('-', ' ', $page->getFilename()),

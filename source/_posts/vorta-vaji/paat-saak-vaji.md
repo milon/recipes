@@ -6,7 +6,7 @@ subtitle: পাট শাক ভাজির রেসিপি
 excerpt: পাট শাক ভাজির রেসিপি
 metaImage: "/assets/images/recipes/paat-saak-vaji.jpg"
 date: "2020-04-17"
-categories: [ভাজি]
+categories: ["ভাজি"]
 ---
 
 চলুন দেখে নেয়া যাক, দারুন মজাদার পাট শাক ভাজি।

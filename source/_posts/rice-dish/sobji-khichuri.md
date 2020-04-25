@@ -6,7 +6,7 @@ subtitle: খুব সহজেই সবজি খিচুরি রান্
 excerpt: খুব সহজেই সবজি খিচুরি রান্না করার রেসিপি
 metaImage: "/assets/images/recipes/sobji-khichuri.jpg"
 date: "2020-04-12"
-categories: [খিচুরি]
+categories: ["খিচুরি"]
 ---
 
 সহজে সবজি খিচুরি রান্না করার রেসিপিটি চলুন জেনে নেই।

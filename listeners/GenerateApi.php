@@ -4,7 +4,7 @@ namespace App\Listeners;
 
 use TightenCo\Jigsaw\Jigsaw;
 
-class GenerateIndex
+class GenerateApi
 {
     public function handle(Jigsaw $jigsaw)
     {
@@ -12,12 +12,15 @@ class GenerateIndex
             return [
                 'title'             => $page->title,
                 'link'              => rightTrimPath($jigsaw->getConfig('baseUrl')) . $page->getPath(),
+                'date'              => $page->date,
                 'excerpt'           => $page->excerpt,
+                'body'              => $page->getContent(),
                 'englishSearchTerm' => str_replace('-', ' ', $page->getFilename()),
                 'categories'        => $page->categories ?? []
             ];
         })->values());
 
-        file_put_contents($jigsaw->getDestinationPath() . '/index.json', json_encode($data));
+        mkdir($jigsaw->getDestinationPath().'/api', 0755);
+        file_put_contents($jigsaw->getDestinationPath() . '/api/index.json', json_encode($data));
     }
 }

@@ -6,7 +6,7 @@ subtitle: খুব সহজেই ভুনা খিচুরি রান্
 excerpt: খুব সহজেই ভুনা খিচুরি রান্না করার রেসিপি
 metaImage: "/assets/images/recipes/vuna-khichuri.jpg"
 date: "2020-04-13"
-categories: [খিচুরি]
+categories: ["খিচুরি"]
 ---
 
 ভুনা খিচুরি আমার অসম্ভব প্রিয় একটা ডিস। চলুন রেসিপিটা জেনে নেই।

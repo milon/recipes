@@ -6,7 +6,7 @@ subtitle: ক্যানড টুনা মাছের ভর্তার র
 excerpt: ক্যানড টুনা মাছের ভর্তার রেসিপি
 metaImage: "/assets/images/recipes/tuna-macher-vorta.jpg"
 date: "2020-04-12"
-categories: [ভর্তা]
+categories: ["ভর্তা"]
 ---
 
 দেশে থাকাকালীন টাকি মাছের ভর্তা খুব পছন্দ করতাম। এখানে টাটকা টাকি মাছ পাওয়া যায় না, তবে টুনা মাছ খুব

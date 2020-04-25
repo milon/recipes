@@ -6,7 +6,7 @@ subtitle: চিকেন ঝাল মাসালা রেসিপি
 excerpt: চিকেন ঝাল মাসালা রেসিপি
 metaImage: "/assets/images/recipes/chicken-jhal-masala.jpg"
 date: "2020-04-16"
-categories: [মাংসের তরকারী]
+categories: ["মাংসের তরকারী"]
 ---
 
 পরোটা দিয়ে চিকেন ঝাল মাসালা কোন তুলনাই চলে না। চলুন রেসিপিটা দেখে নেই।

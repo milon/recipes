@@ -4,7 +4,7 @@ section: content
 title: লাচ্ছি
 subtitle: দারুন মজাদার লাচ্ছি তৈরির রেসিপি
 excerpt: দারুন মজাদার লাচ্ছি তৈরির রেসিপি
-date: "2020-04-25"
+date: "2020-04-19"
 metaImage: "/assets/images/recipes/lacchi.jpg"
 categories: [পানীয়, লাচ্ছি]
 ---

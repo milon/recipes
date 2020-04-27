@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: বেগুন দিয়ে স্যামন মাছের তরকারি
 subtitle: আলু আর বেগুন দিয়ে স্যামন মাছের তরকারির রেসিপি

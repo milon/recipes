@@ -9,8 +9,24 @@ return [
     'collections' => [
         // Posts collection sorted by date and in descending order (latest post at the top)
         'posts' => [
-            'path' => 'recipe/{filename}',
-            'sort' => '-date'
+            'path' => [
+                'web' => '/recipe/{filename}',
+                'api' => '/api/recipe/{filename}',
+            ],
+            'sort' => '-date',
+            'api' => function ($page) {
+                return json_encode([
+                    'title'             => $page->title,
+                    'link'              => $page->getApiUrl(),
+                    'date'              => $page->date,
+                    'excerpt'           => $page->excerpt,
+                    'subtitle'          => $page->subtitle,
+                    'thumbnail'         => $page->getApiThumbnail(),
+                    'body'              => $page->getContent(),
+                    'englishSearchTerm' => str_replace('-', ' ', $page->getFilename()),
+                    'categories'        => $page->categories ?? []
+                ]);
+            },
         ]
     ],
 
@@ -47,6 +63,14 @@ return [
 
     // Google Analytics Tracking Id. For example, UA-123456789-1
     'gaTrackingId' => 'UA-162769200-1',
+
+    'getApiUrl' => function($page) {
+        return rightTrimPath($page->baseUrl) . "/api/recipe/{$page->getFilename()}.json";
+    },
+
+    'getApiThumbnail' => function($page) {
+        return rightTrimPath($page->baseUrl) . $page->metaImage;
+    },
 
     'banglaDate' => function ($page, $date) {
         // format date

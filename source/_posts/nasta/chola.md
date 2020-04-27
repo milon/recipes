@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: ছোলা
 subtitle: ছোলা রান্নার রেসিপি

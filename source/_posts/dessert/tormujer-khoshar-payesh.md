@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: তরমুজের খোসার পায়েস
 subtitle: তরমুজের খোসা দিয়ে পায়েস রান্নার রেসিপি

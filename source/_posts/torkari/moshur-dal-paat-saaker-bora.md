@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: মসুর ডাল দিয়ে পাট শাকের বড়া
 subtitle: মসুর ডাল দিয়ে পাট শাকের বড়া তৈরির রেসিপি

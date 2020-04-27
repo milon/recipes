@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: খিচুরি রান্নার রেসিপি
 subtitle: রাইস কুকারে খুব সহজেই খিচুরি রান্না করার রেসিপি

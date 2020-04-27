@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: শিম আলুর ভর্তা
 subtitle: খুব সহজ ও মজাদার শিম আলুর ভর্তা রেসিপি

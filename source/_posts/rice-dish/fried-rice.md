@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: ফ্রাইড রাইস
 subtitle: খুব সহজেই ঘরে তৈরি করে ফেলুন মজাদার ফ্রাইড রাইস

@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: ডোরাডো মাছের দোপেঁয়াজা
 subtitle: টমেটো দিয়ে ডোরাডো মাছের দোপেঁয়াজা রান্নার রেসিপি

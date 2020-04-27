@@ -25,5 +25,5 @@ $events->afterBuild(App\Listeners\GenerateFeed::class);
 // Generate search index
 $events->afterBuild(App\Listeners\GenerateIndex::class);
 
-// Generate json for API
-$events->afterBuild(App\Listeners\GenerateApi::class);
+// Generate json API index
+$events->afterBuild(App\Listeners\GenerateApiIndex::class);

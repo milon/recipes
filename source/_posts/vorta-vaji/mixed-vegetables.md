@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: মিক্সড ভেজিটেবল
 subtitle: সু্স্বাদু আর পুষ্টিকর মিক্সড ভেজিটবল ডিসের রেসিপি

@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: বেগুন ভর্তার রেসিপি
 subtitle: মাইক্রোওয়েভ ওভেনে বেগুন ভর্তা তৈরির রেসিপি

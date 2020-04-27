@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: মোঘলাই পরটা
 subtitle: দেশী জনপ্রিয় নাস্তা মোঘলাই পরটার রেসিপি

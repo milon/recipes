@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: "নাস্তার রেসিপি: চিকেন স্যান্ডউইচ"
 subtitle: মাত্র ১০ মিনিটেই চিকেন স্যান্ডউইচ তৈরির রেসিপি

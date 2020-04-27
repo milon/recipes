@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: মুড়ির মোয়ার রেসিপি
 subtitle: দেশী জনপ্রিয় নাস্তা মুড়ির মোয়ার রেসিপি

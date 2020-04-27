@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: লাচ্ছি
 subtitle: দারুন মজাদার লাচ্ছি তৈরির রেসিপি

@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: লাউ চিংড়ির তরকারী
 subtitle: খুবই সাধারন কিন্তু মজাদার লাউ আর চিংড়ির তরকারী

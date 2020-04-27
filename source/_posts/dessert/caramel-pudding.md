@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: ক্যারামেল পুডিং
 subtitle: ডিম, দুধ আর চিনি দিয়ে তৈরি করুন ক্যারামেল পুডিং

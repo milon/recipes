@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: টমেটো রুই মাছের তরকারি
 subtitle: টমেটো আর আলু দিয়ে রুই মাছের তরকারির রেসিপি

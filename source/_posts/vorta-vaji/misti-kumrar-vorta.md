@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: মিষ্টি কুমড়ার ভর্তা
 subtitle: মজাদার মিষ্টি কুমড়ার ভর্তার রেসিপি

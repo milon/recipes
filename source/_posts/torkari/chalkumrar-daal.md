@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: চালকুমড়ার ডাল
 subtitle: খুব সহজেই চালকুমড়া দিয়ে ডাল রান্নার রেসিপি

@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: শাহী টুকরার রেসিপি
 subtitle: ঢাকার ঐতিহ্যবাহী ডেজার্ট শাহী টুকরার রেসিপি

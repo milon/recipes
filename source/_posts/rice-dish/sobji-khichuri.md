@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: সবজি খিচুরির রেসিপি
 subtitle: খুব সহজেই সবজি খিচুরি রান্না করার রেসিপি

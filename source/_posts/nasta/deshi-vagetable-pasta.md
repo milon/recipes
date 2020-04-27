@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: দেশি স্টাইলে ভেজিটেবল পাস্তা
 subtitle: দেশি স্টাইলে মিক্সড ভেজিটেবল পাস্তার রেসিপি

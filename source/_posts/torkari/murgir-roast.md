@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: মুরগীর রোস্ট
 subtitle: অসম্ভব মজাদার মুরগীর রোস্ট তৈরির রেসিপি

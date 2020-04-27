@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 title: বাধাঁকপির পাকোড়া
 subtitle: সহজেই তৈরি করুন বাধাঁকপির পাকোড়া
 excerpt: সহজেই তৈরি করুন বাধাঁকপির পাকোড়া

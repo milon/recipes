@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: ভুনা খিচুরির রেসিপি
 subtitle: খুব সহজেই ভুনা খিচুরি রান্না করার রেসিপি

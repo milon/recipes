@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: মেথি শিংয়ের ঝোল
 subtitle: মেথি দিয়ে শিং মাছের ঝোলের রেসিপি

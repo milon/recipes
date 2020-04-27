@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: শুকনা মরিচের ভর্তা
 subtitle: জিহ্বে জল আনা শুকনা মরিচের রেসিপি

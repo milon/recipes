@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: খেজুরের গুড়ের পায়েস
 subtitle: ঐতিহ্যবাহী খেজুরের গুড়ের পায়েসের রেসিপি

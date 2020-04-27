@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: গরুর মাংসের হালিম
 subtitle: রাঁধুনী হালিম মিক্স দিয়ে গরুর মাংসের হালিম তৈরির রেসিপি

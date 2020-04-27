@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: "ইতালিয়ান পাস্তা: কার্বোনারা"
 subtitle: খুব সহজেই তৈরি করে ফেলুন ইতালিয়ান পাস্তা ডিস কার্বোনারা

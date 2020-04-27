@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: খোলাজা পিঠার রেসিপি
 subtitle: নোয়াখালীর ঐতিহ্যবাহী নাস্তা খোলাজা পিঠার রেসিপি

@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: "মিষ্টির রেসিপি: গোলাপজাম"
 date: "2020-04-23"

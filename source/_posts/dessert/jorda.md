@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: জর্দা রেসিপি
 subtitle: বিয়ের দাওয়াতের জনপ্রিয় ডেজার্ট জর্দার রেসিপি

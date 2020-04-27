@@ -1,5 +1,7 @@
 ---
-extends: _layouts.post
+extends:
+    web: _layouts.post
+    api: _layouts.api.post
 section: content
 title: বোরহানি
 subtitle: টক দই আর রাঁধুনি বোরহানি মিক্স দিয়ে বোরহারি তৈরির রেসিপি

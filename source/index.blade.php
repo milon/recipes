@@ -12,7 +12,7 @@ pagination:
 @section('content')
     @foreach ($pagination->items as $post)
         <div class="post-preview">
-            <a href="{{ $post->getPath() }}">
+            <a href="{{ $post->getPath('web') }}">
                 <h2 class="post-title">
                     {{ $post->title }}
                 </h2>

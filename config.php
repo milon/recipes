@@ -22,7 +22,7 @@ return [
                     'excerpt'           => $page->excerpt,
                     'subtitle'          => $page->subtitle,
                     'thumbnail'         => $page->getApiThumbnail(),
-                    'body'              => $page->getContent(),
+                    'body'              => $page->getBody(),
                     'englishSearchTerm' => str_replace('-', ' ', $page->getFilename()),
                     'categories'        => $page->categories ?? []
                 ]);
@@ -70,6 +70,14 @@ return [
 
     'getApiThumbnail' => function($page) {
         return rightTrimPath($page->baseUrl) . $page->metaImage;
+    },
+
+    'getBody' => function($page) {
+        return str_replace(
+            '/assets/images',
+            $page->baseUrl . '/assets/images',
+            $page->getContent()
+        );
     },
 
     'banglaDate' => function ($page, $date) {

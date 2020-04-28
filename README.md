@@ -8,6 +8,10 @@ This is a website for sharing recipes. This site generated with [Jigsaw](http://
 
 Website can be found here- [http://easy-recipes.netlify.com/](http://easy-recipes.netlify.com/).
 
+## API
+
+This website also exposes APIs for general purpose use under [Creative Commons 2.0 General Attributions](https://creativecommons.org/licenses/by/2.0/). APIs can be found [here](https://easy-recipes.netlify.app/api/index.json).
+
 ## Contact
 
 contact@milon.im

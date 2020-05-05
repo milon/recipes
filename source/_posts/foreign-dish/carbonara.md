@@ -5,7 +5,7 @@ extends:
 section: content
 title: "ইতালিয়ান পাস্তা: কার্বোনারা"
 subtitle: খুব সহজেই তৈরি করে ফেলুন ইতালিয়ান পাস্তা ডিস কার্বোনারা
-excerpt: খুব সহজেই তৈরি করে ফেলুন ইতালিয়ান পাস্তা ডিস কার্বোনারাি
+excerpt: খুব সহজেই তৈরি করে ফেলুন ইতালিয়ান পাস্তা ডিস কার্বোনারা
 date: "2020-04-04"
 metaImage: "/assets/images/recipes/carbonara.jpg"
 categories: ["পাস্তা", "ইতালিয়ান"]

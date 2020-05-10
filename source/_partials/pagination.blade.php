@@ -16,7 +16,9 @@
                 </a>
             @endif
         @endforeach
+        <span>...</span>
     @elseif ($pagination->currentPage >= ($pagination->totalPages - 2))
+        <span>...</span>
         @foreach ($pagination->pages as $pageNumber => $path)
             @if($pageNumber > ($pagination->totalPages - 5))
                 <a href="{{ $path }}"
@@ -26,6 +28,7 @@
             @endif
         @endforeach
     @else
+        <span>...</span>
         @foreach ($pagination->pages as $pageNumber => $path)
             @if($pageNumber >= ($pagination->currentPage - 2) && $pageNumber <= ($pagination->currentPage + 2))
                 <a href="{{ $path }}"
@@ -34,6 +37,7 @@
                 </a>
             @endif
         @endforeach
+        <span>...</span>
     @endif
 
     @if ($next = $pagination->next)

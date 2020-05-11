@@ -7,24 +7,24 @@
         <span><i class="fas fa-angle-left"></i></span>
     @endif
 
-    @if ($pagination->currentPage <= 3)
+    @if ($pagination->currentPage <= ceil($page->peginatationLinkNumber / 2))
         @foreach ($pagination->pages as $pageNumber => $path)
-            @if($pageNumber <= 5)
+            @if($pageNumber <= $page->peginatationLinkNumber)
                 <a href="{{ $path }}"
                 class="{{ $pagination->currentPage == $pageNumber ? 'selected' : '' }}">
                     {{ $page->translateNumber($pageNumber) }}
                 </a>
             @endif
         @endforeach
-        @if($pagination->totalPages > 5)
+        @if($pagination->totalPages > $page->peginatationLinkNumber)
             <span>...</span>
         @endif
-    @elseif ($pagination->currentPage >= ($pagination->totalPages - 2))
-        @if($pagination->totalPages > 5)
+    @elseif ($pagination->currentPage >= ($pagination->totalPages - floor($page->peginatationLinkNumber / 2)))
+        @if($pagination->totalPages > $page->peginatationLinkNumber)
             <span>...</span>
         @endif
         @foreach ($pagination->pages as $pageNumber => $path)
-            @if($pageNumber > ($pagination->totalPages - 5))
+            @if($pageNumber > ($pagination->totalPages - $page->peginatationLinkNumber))
                 <a href="{{ $path }}"
                 class="{{ $pagination->currentPage == $pageNumber ? 'selected' : '' }}">
                     {{ $page->translateNumber($pageNumber) }}
@@ -32,18 +32,18 @@
             @endif
         @endforeach
     @else
-        @if($pagination->totalPages > 5)
+        @if($pagination->totalPages > $page->peginatationLinkNumber)
             <span>...</span>
         @endif
         @foreach ($pagination->pages as $pageNumber => $path)
-            @if($pageNumber >= ($pagination->currentPage - 2) && $pageNumber <= ($pagination->currentPage + 2))
+            @if($pageNumber >= ($pagination->currentPage - floor($page->peginatationLinkNumber / 2)) && $pageNumber <= ($pagination->currentPage + floor($page->peginatationLinkNumber / 2)))
                 <a href="{{ $path }}"
                 class="{{ $pagination->currentPage == $pageNumber ? 'selected' : '' }}">
                     {{ $page->translateNumber($pageNumber) }}
                 </a>
             @endif
         @endforeach
-        @if($pagination->totalPages > 5)
+        @if($pagination->totalPages > $page->peginatationLinkNumber)
             <span>...</span>
         @endif
     @endif

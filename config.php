@@ -33,6 +33,9 @@ return [
     // Number of collection items to show per page
     'perPage' => 7,
 
+    // Number of links in the pagination section, should be a odd number greater than or equals to 3
+    'peginatationLinkNumber' => 5,
+
     // The email address to send the https://formspree.io/ contact form submissions to
     'email' => 'contact@milon.im',
 

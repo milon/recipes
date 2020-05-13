@@ -11,7 +11,7 @@ class GenerateIndex
         $data = collect($jigsaw->getCollection('posts')->map(function ($page) use ($jigsaw) {
             return [
                 'title'             => $page->title,
-                'link'              => rightTrimPath($jigsaw->getConfig('baseUrl')) . $page->getPath(),
+                'link'              => rightTrimPath($jigsaw->getConfig('baseUrl')) . $page->getPath('web'),
                 'excerpt'           => $page->excerpt,
                 'englishSearchTerm' => str_replace('-', ' ', $page->getFilename()),
                 'categories'        => $page->categories ?? []

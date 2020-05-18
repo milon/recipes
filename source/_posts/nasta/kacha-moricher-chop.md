@@ -7,7 +7,7 @@ title: কাঁচা মরিচের চপ
 subtitle: ভিন্নধর্মী কাঁচা মরিচের চপ তৈরির রেসিপি
 excerpt: ভিন্নধর্মী কাঁচা মরিচের চপ তৈরির রেসিপি
 date: "2020-05-16"
-metaImage: "/assets/images/recipes/kacha-moricher-chop.jpg"
+metaImage: "/assets/images/recipes/kacha-moricher-chop-1.jpg"
 categories: ["নাস্তা", "ইফতার"]
 ---
 
@@ -23,7 +23,9 @@ categories: ["নাস্তা", "ইফতার"]
 - তেল (ভাজার জন্য)
 - লবন (স্বাদমতো)
 
-![টমেটোর চপ](/assets/images/recipes/kacha-moricher-chop.jpg)
+![টমেটোর চপ](/assets/images/recipes/kacha-moricher-chop-2.jpg)
+
+![টমেটোর চপ](/assets/images/recipes/kacha-moricher-chop-1.jpg)
 
 ## রন্ধনপ্রণালী
 

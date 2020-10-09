@@ -55,7 +55,7 @@ return [
             'icon' => 'fab fa-twitter',
         ],
         'facebook' => [
-            'link' => 'https://www.facebook.com/page.milon.im',
+            'link' => 'https://www.facebook.com/sohoj.recipes',
             'icon' => 'fab fa-facebook-f',
         ],
         'rss' => [

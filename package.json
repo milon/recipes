@@ -10,7 +10,7 @@
     "devDependencies": {
         "axios": "^0.18.0",
         "browser-sync": "^2.26.13",
-        "browser-sync-webpack-plugin": "^2.0.1",
+        "browser-sync-webpack-plugin": "^2.3.0",
         "cross-env": "^5.2.0",
         "extra-watch-webpack-plugin": "^1.0.3",
         "fuse.js": "^3.3.0",
@@ -18,7 +18,7 @@
         "laravel-mix": "^4.1.2",
         "node-cmd": "^3.0.0",
         "on-build-webpack": "^0.1.0",
-        "sass": "^1.29.0",
+        "sass": "^1.30.0",
         "sass-loader": "^7.3.1",
         "vue": "^2.6.12",
         "vue-template-compiler": "^2.6.12",

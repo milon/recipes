@@ -12,6 +12,10 @@ Website can be found here- [http://easy-recipes.netlify.com/](http://easy-recipe
 
 This website also exposes APIs for general purpose use under [Creative Commons 2.0 General Attributions](https://creativecommons.org/licenses/by/2.0/). APIs can be found [here](https://easy-recipes.netlify.app/api/index.json).
 
+## License
+
+Everthing of this site is published under [Creative Commons Attribution 2.0 Generic](https://creativecommons.org/licenses/by/2.0/deed.en) license.
+
 ## Contact
 
 contact@milon.im

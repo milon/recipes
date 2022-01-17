@@ -4,7 +4,7 @@ namespace App\Listeners;
 
 use TightenCo\Jigsaw\Jigsaw;
 
-class GenerateIndex
+class GenerateSearchIndex
 {
     public function handle(Jigsaw $jigsaw)
     {

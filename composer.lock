@@ -652,7 +652,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v9.42.2",
+            "version": "v9.43.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",

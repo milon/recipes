@@ -1,0 +1,38 @@
+name: Build & Publish
+
+on:
+  push:
+    branches:
+      - develop
+  schedule:
+    - cron: "0 2 * * 1-5"
+
+jobs:
+  build-site:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        ref: develop
+        fetch-depth: 0
+    - name: Install Composer Dependencies
+      run: composer install --no-ansi --no-interaction --ignore-platform-reqs --no-scripts --no-suggest --no-progress --prefer-dist
+    - name: Install NPM Dependencies
+      run: npm install
+    - name: Build assets
+      run: npm run production
+    - name: Build Jigsaw site
+      run: ./vendor/bin/jigsaw build production
+    - name: Stage Files
+      run: git add -f build_production
+    - name: Commit files
+      run: |
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
+        git commit -m "Build for deploy"
+    - name: Publish
+      run: |
+        git subtree split --prefix build_production -b gh-pages
+        git push -f origin gh-pages:gh-pages
+        git branch -D gh-pages

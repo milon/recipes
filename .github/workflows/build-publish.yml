@@ -12,10 +12,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       with:
         ref: develop
         fetch-depth: 0
+    - name: Setup Node 16
+      uses: actions/setup-node@v3
+      with:
+        node-version: 16
     - name: Install Composer Dependencies
       run: composer install --no-ansi --no-interaction --ignore-platform-reqs --no-scripts --no-suggest --no-progress --prefer-dist
     - name: Install NPM Dependencies
@@ -24,6 +28,8 @@ jobs:
       run: npm run production
     - name: Build Jigsaw site
       run: ./vendor/bin/jigsaw build production
+    - name: Create CNAME File
+      run: echo "recipes.milon.im" >> build_production/CNAME
     - name: Stage Files
       run: git add -f build_production
     - name: Commit files

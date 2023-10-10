@@ -8,7 +8,7 @@ subtitle: আপনার যদি কোন প্রশ্ন থাকে
 
 @section('content')
     <p class="font-normal">আমি নিজে কোন প্রফেশনাল শেফ নই, তবুও আপনার মনের যেকোন প্রশ্নের উত্তর দেয়ার সর্বাত্মক চেষ্টা করবো। স্বাচ্ছন্দে প্রশ্ন করুন।</p>
-    <form method="POST" action="https://formspree.io/{{ $page->email }}">
+    <form method="POST" action="{{ $page->contactFormUrl }}">
         <div class="control-group">
             <div class="form-group floating-label-form-group controls">
                 <label>নাম</label>

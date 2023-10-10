@@ -109,4 +109,6 @@ return [
         $random = rand(1, 10);
         return "/assets/images/backgrounds/bg-$random.jpg";
     },
+
+    'contactFormUrl' => 'https://formspree.io/f/mjvqjkvl',
 ];

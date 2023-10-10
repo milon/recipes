@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => 'https://easy-recipes.netlify.app',
+    'baseUrl' => 'https://milon.im/recipes/',
     'production' => true,
 ];

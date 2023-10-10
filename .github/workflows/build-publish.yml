@@ -3,7 +3,7 @@ name: Build & Publish
 on:
   push:
     branches:
-      - develop
+      - master
   schedule:
     - cron: "0 2 * * 1-5"
 

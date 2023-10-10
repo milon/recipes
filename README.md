@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ffa8a96c-6365-4d04-b9d9-f38e3bc512cb/deploy-status)](https://app.netlify.com/sites/easy-recipes/deploys)
+![Github Actions](https://github.com/milon/recipes/actions/workflows/build-publish.yml/badge.svg)
 
 # Easy Recipe
 
@@ -6,7 +6,7 @@ This is a website for sharing recipes. This site generated with [Jigsaw](http://
 
 ## URL
 
-Website can be found here- [http://easy-recipes.netlify.com/](http://easy-recipes.netlify.com/).
+Website can be found here- [https://recipes.milon.im/](https://recipes.milon.im/).
 
 ## API
 

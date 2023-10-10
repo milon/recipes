@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => 'https://milon.im/recipes/',
+    'baseUrl' => 'https://recipes.milon.im/',
     'production' => true,
 ];

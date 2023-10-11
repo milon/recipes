@@ -2,7 +2,7 @@
 
 return [
     // Replace with the baseUrl of your site. For example, https://jigsaw-clean-blog.netlify.com
-    'baseUrl' => 'http://localhost:8000',
+    'baseUrl' => 'http://recipes.test/',
     'production' => false,
 
     'contactFormUrl' => 'https://formspree.io/f/mjvqjkvl',

@@ -5,6 +5,7 @@ return [
     'baseUrl' => 'http://localhost:8000',
     'production' => false,
 
+    'contactFormUrl' => 'https://formspree.io/f/mjvqjkvl',
 
     'collections' => [
         // Posts collection sorted by date and in descending order (latest post at the top)
@@ -109,6 +110,4 @@ return [
         $random = rand(1, 10);
         return "/assets/images/backgrounds/bg-$random.jpg";
     },
-
-    'contactFormUrl' => 'https://formspree.io/f/mjvqjkvl',
 ];

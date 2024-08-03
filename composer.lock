@@ -376,7 +376,7 @@
         },
         {
             "name": "illuminate/bus",
-            "version": "v11.18.1",
+            "version": "v11.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/bus.git",
@@ -429,7 +429,7 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v11.18.1",
+            "version": "v11.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
@@ -484,7 +484,7 @@
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v11.18.1",
+            "version": "v11.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/conditionable.git",
@@ -530,16 +530,16 @@
         },
         {
             "name": "illuminate/console",
-            "version": "v11.18.1",
+            "version": "v11.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
-                "reference": "896cc74364c8bc8ecd8adba98278a482c9626b73"
+                "reference": "5e62f816d1b361e8b7d7649b246b29a66669c462"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/console/zipball/896cc74364c8bc8ecd8adba98278a482c9626b73",
-                "reference": "896cc74364c8bc8ecd8adba98278a482c9626b73",
+                "url": "https://api.github.com/repos/illuminate/console/zipball/5e62f816d1b361e8b7d7649b246b29a66669c462",
+                "reference": "5e62f816d1b361e8b7d7649b246b29a66669c462",
                 "shasum": ""
             },
             "require": {
@@ -592,11 +592,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-07-15T21:52:09+00:00"
+            "time": "2024-07-30T07:04:41+00:00"
         },
         {
             "name": "illuminate/container",
-            "version": "v11.18.1",
+            "version": "v11.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -647,16 +647,16 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v11.18.1",
+            "version": "v11.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "be935e9d9115a57be74d20176f43fa8a207029f3"
+                "reference": "ebe2b8d69b8fb1c07111e3500d464e77dfab3202"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/be935e9d9115a57be74d20176f43fa8a207029f3",
-                "reference": "be935e9d9115a57be74d20176f43fa8a207029f3",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/ebe2b8d69b8fb1c07111e3500d464e77dfab3202",
+                "reference": "ebe2b8d69b8fb1c07111e3500d464e77dfab3202",
                 "shasum": ""
             },
             "require": {
@@ -691,11 +691,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-07-09T13:57:38+00:00"
+            "time": "2024-07-29T06:48:51+00:00"
         },
         {
             "name": "illuminate/events",
-            "version": "v11.18.1",
+            "version": "v11.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -750,7 +750,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v11.18.1",
+            "version": "v11.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -817,7 +817,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v11.18.1",
+            "version": "v11.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
@@ -863,7 +863,7 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v11.18.1",
+            "version": "v11.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
@@ -911,16 +911,16 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v11.18.1",
+            "version": "v11.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "135bfb40087df34e7eae3ed699e753442f349020"
+                "reference": "f3c19ee61d875dca1045df2d90000ae97f1645f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/135bfb40087df34e7eae3ed699e753442f349020",
-                "reference": "135bfb40087df34e7eae3ed699e753442f349020",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/f3c19ee61d875dca1045df2d90000ae97f1645f9",
+                "reference": "f3c19ee61d875dca1045df2d90000ae97f1645f9",
                 "shasum": ""
             },
             "require": {
@@ -981,11 +981,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-07-26T05:48:25+00:00"
+            "time": "2024-07-30T06:57:25+00:00"
         },
         {
             "name": "illuminate/view",
-            "version": "v11.18.1",
+            "version": "v11.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
@@ -1632,23 +1632,23 @@
         },
         {
             "name": "nunomaduro/collision",
-            "version": "v8.3.0",
+            "version": "v8.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/collision.git",
-                "reference": "b49f5b2891ce52726adfd162841c69d4e4c84229"
+                "reference": "e7d1aa8ed753f63fa816932bbc89678238843b4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/b49f5b2891ce52726adfd162841c69d4e4c84229",
-                "reference": "b49f5b2891ce52726adfd162841c69d4e4c84229",
+                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/e7d1aa8ed753f63fa816932bbc89678238843b4a",
+                "reference": "e7d1aa8ed753f63fa816932bbc89678238843b4a",
                 "shasum": ""
             },
             "require": {
                 "filp/whoops": "^2.15.4",
                 "nunomaduro/termwind": "^2.0.1",
                 "php": "^8.2.0",
-                "symfony/console": "^7.1.2"
+                "symfony/console": "^7.1.3"
             },
             "conflict": {
                 "laravel/framework": "<11.0.0 || >=12.0.0",
@@ -1656,13 +1656,13 @@
             },
             "require-dev": {
                 "larastan/larastan": "^2.9.8",
-                "laravel/framework": "^11.16.0",
-                "laravel/pint": "^1.16.2",
-                "laravel/sail": "^1.30.2",
+                "laravel/framework": "^11.19.0",
+                "laravel/pint": "^1.17.1",
+                "laravel/sail": "^1.31.0",
                 "laravel/sanctum": "^4.0.2",
                 "laravel/tinker": "^2.9.0",
-                "orchestra/testbench-core": "^9.2.1",
-                "pestphp/pest": "^2.34.9 || ^3.0.0",
+                "orchestra/testbench-core": "^9.2.3",
+                "pestphp/pest": "^2.35.0 || ^3.0.0",
                 "sebastian/environment": "^6.1.0 || ^7.0.0"
             },
             "type": "library",
@@ -1725,7 +1725,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2024-07-16T22:41:01+00:00"
+            "time": "2024-08-03T15:32:23+00:00"
         },
         {
             "name": "nunomaduro/termwind",
@@ -2391,16 +2391,16 @@
         },
         {
             "name": "spatie/flare-client-php",
-            "version": "1.7.0",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/flare-client-php.git",
-                "reference": "097040ff51e660e0f6fc863684ac4b02c93fa234"
+                "reference": "180f8ca4c0d0d6fc51477bd8c53ce37ab5a96122"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/flare-client-php/zipball/097040ff51e660e0f6fc863684ac4b02c93fa234",
-                "reference": "097040ff51e660e0f6fc863684ac4b02c93fa234",
+                "url": "https://api.github.com/repos/spatie/flare-client-php/zipball/180f8ca4c0d0d6fc51477bd8c53ce37ab5a96122",
+                "reference": "180f8ca4c0d0d6fc51477bd8c53ce37ab5a96122",
                 "shasum": ""
             },
             "require": {
@@ -2418,7 +2418,7 @@
                 "phpstan/extension-installer": "^1.1",
                 "phpstan/phpstan-deprecation-rules": "^1.0",
                 "phpstan/phpstan-phpunit": "^1.0",
-                "spatie/phpunit-snapshot-assertions": "^4.0|^5.0"
+                "spatie/pest-plugin-snapshots": "^1.0|^2.0"
             },
             "type": "library",
             "extra": {
@@ -2448,7 +2448,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/flare-client-php/issues",
-                "source": "https://github.com/spatie/flare-client-php/tree/1.7.0"
+                "source": "https://github.com/spatie/flare-client-php/tree/1.8.0"
             },
             "funding": [
                 {
@@ -2456,7 +2456,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-06-12T14:39:14+00:00"
+            "time": "2024-08-01T08:27:26+00:00"
         },
         {
             "name": "spatie/ignition",

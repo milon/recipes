@@ -10,7 +10,7 @@ Website can be found here- [https://recipes.milon.im/](https://recipes.milon.im/
 
 ## API
 
-This website also exposes APIs for general purpose use under [Creative Commons 2.0 General Attributions](https://creativecommons.org/licenses/by/2.0/). APIs can be found [here](https://easy-recipes.netlify.app/api/index.json).
+This website also exposes APIs for general purpose use under [Creative Commons 2.0 General Attributions](https://creativecommons.org/licenses/by/2.0/). APIs can be found [here](https://recipes.milon.im/api/index.json).
 
 ## License
 

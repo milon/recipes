@@ -21,10 +21,10 @@ jobs:
       with:
         php-version: 8.4
         tools: composer:v2
-    - name: Setup Node 16
-      uses: actions/setup-node@v3
+    - name: Setup Node
+      uses: actions/setup-node@v4
       with:
-        node-version: 16
+        node-version: 20
     - name: Install Composer Dependencies
       run: composer install --no-ansi --no-interaction --ignore-platform-reqs --no-scripts --no-suggest --no-progress --prefer-dist
     - name: Install NPM Dependencies

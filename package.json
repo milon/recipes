@@ -1,34 +1,28 @@
 {
-    "private": true,
-    "scripts": {
-        "local": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --env=local --config=node_modules/laravel-mix/setup/webpack.config.js",
-        "staging": "cross-env NODE_ENV=staging node_modules/webpack/bin/webpack.js --progress --hide-modules --env=staging --config=node_modules/laravel-mix/setup/webpack.config.js",
-        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
-        "dev": "npm run local",
-        "watch": "npm run local -- --watch"
-    },
-    "devDependencies": {
-        "axios": "^0.21.1",
-        "browser-sync": "^2.26.13",
-        "browser-sync-webpack-plugin": "^2.3.0",
-        "cross-env": "^5.2.0",
-        "extra-watch-webpack-plugin": "^1.0.3",
-        "fuse.js": "^3.3.0",
-        "hasbin": "^1.2.3",
-        "laravel-mix": "^4.1.2",
-        "node-cmd": "^3.0.0",
-        "on-build-webpack": "^0.1.0",
-        "sass": "^1.30.0",
-        "sass-loader": "^7.3.1",
-        "vue": "^2.6.12",
-        "vue-template-compiler": "^2.6.12",
-        "webpack-watch": "^0.2.0",
-        "yargs": "^13.2.4"
-    },
-    "dependencies": {
-        "bootstrap": "^4.5.3",
-        "jquery": "^3.5",
-        "popper.js": "^1.14.4",
-        "startbootstrap-clean-blog": "^5.0.10"
-    }
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "local": "vite build",
+    "staging": "vite build",
+    "production": "vite build",
+    "watch": "vite build --watch"
+  },
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "sass": "^1.30.0",
+    "vite": "^5.4.0",
+    "vite-plugin-vue2": "^2.0.3",
+    "vue": "^2.6.12",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "fuse.js": "^3.3.0",
+    "jquery": "^3.5",
+    "popper.js": "^1.14.4",
+    "startbootstrap-clean-blog": "^5.0.10"
+  }
 }

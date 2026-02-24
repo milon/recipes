@@ -41,10 +41,10 @@
         <meta property="og:image" content="{{ $page->metaImage ?? $page->image ?? $page->randomBackground() }}" />
         @show
 
-        <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+        <link rel="stylesheet" href="{{ vite_asset('css/main.css', 'assets/build') }}">
     </head>
     <body>
         @yield('body')
-        <script src="{{ mix('js/main.js', 'assets/build') }}" type="text/javascript"></script>
+        <script src="{{ vite_asset('js/main.js', 'assets/build') }}" type="module"></script>
     </body>
 </html>

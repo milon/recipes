@@ -2,6 +2,8 @@
 
 use TightenCo\Jigsaw\Jigsaw;
 
+require_once __DIR__ . '/helpers.php';
+
 /** @var $container \Illuminate\Container\Container */
 /** @var $events \TightenCo\Jigsaw\Events\EventBus */
 

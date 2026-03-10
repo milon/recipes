@@ -37,7 +37,7 @@
         <meta property="og:type" content="website">
         <meta property="og:image" content="/assets/images/recipes/shahi-firni.jpg" />
         
-        <link rel="stylesheet" href="/assets/build/css/main-DwmBH3tg.css">
+        <link rel="stylesheet" href="/assets/build/css/main-DF8UPdSY.css">
     </head>
     <body>
             <!-- Navigation -->
@@ -49,9 +49,106 @@
             <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <div id="vue-search">
-                <search></search>
-            </div>
+            <div
+    x-data="{
+        init() {
+            fetch('/index.json')
+                .then(response => response.json())
+                .then(data => {
+                    const list = Array.isArray(data) ? data : Object.values(data || {});
+                    this.fuse = new window.Fuse(list, {
+                        minMatchCharLength: 1,
+                        threshold: 0.4,
+                        keys: ['title', 'excerpt', 'englishSearchTerm', 'categories'],
+                    });
+                })
+                .catch(() => { this.fuse = new window.Fuse([], { keys: ['title'] }); });
+        },
+        get results() {
+            if (!this.query || !this.fuse) return [];
+            const raw = this.fuse.search(this.query, { limit: 7 });
+            return raw.map(r => r.item != null ? r.item : r);
+        },
+        get isQuerying() {
+            return Boolean(this.query);
+        },
+        fuse: null,
+        query: '',
+        showInput() {
+            this.searching = true;
+            this.$nextTick(() => this.$refs.searchInput && this.$refs.searchInput.focus());
+        },
+        reset() {
+            this.query = '';
+            this.searching = false;
+        },
+        searching: false,
+    }"
+    x-cloak
+    class="navbar-search-wrapper position-relative"
+>
+    <div
+        class="align-items-center w-100"
+        :class="searching ? 'd-flex' : 'd-none d-lg-flex'"
+    >
+        <label for="search-input" class="sr-only">খুঁজুন</label>
+        <input
+            id="search-input"
+            type="text"
+            x-ref="searchInput"
+            x-model="query"
+            class="form-control search-input"
+            placeholder="খুঁজুন..."
+            autocomplete="off"
+            @keyup.esc="reset"
+        />
+        <button
+            type="button"
+            x-show="query"
+            x-transition
+            class="btn btn-link search-cancel"
+            @click="reset"
+            aria-label="বাতিল"
+        >
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+
+    <div
+        x-show="isQuerying"
+        x-cloak
+        x-transition
+        class="search-panel position-absolute bg-white border rounded shadow-sm mt-1 py-0 left-0 right-0"
+        style="max-height: 350px; overflow-y: auto; z-index: 1050;"
+    >
+        <template x-for="(result, index) in results" :key="result.link">
+            <a
+                :href="result.link"
+                :title="result.title"
+                class="search-item d-block px-3 py-2 border-bottom text-dark text-decoration-none"
+                @mousedown.prevent
+            >
+                <span class="font-weight-bold" x-text="result.title"></span>
+                <span class="search-item-excerpt d-block small text-muted" x-html="result.excerpt || ''"></span>
+            </a>
+        </template>
+        <div
+            x-show="isQuerying && !results.length"
+            class="px-3 py-2 text-muted small"
+        >
+            <span x-text="query"></span>-এর জন্যে কোন ফলাফল পাওয়া যায় নি।
+        </div>
+    </div>
+
+    <button
+        type="button"
+        title="খুঁজুন"
+        class="btn btn-outline-secondary d-lg-none rounded-pill ml-2"
+        @click="showInput"
+    >
+        <i class="fas fa-search"></i>
+    </button>
+</div>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="/">হোম</a>
@@ -68,7 +165,7 @@
 </nav>
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url(/assets/images/backgrounds/bg-4.jpg)">
+    <header class="masthead" style="background-image: url(/assets/images/backgrounds/bg-1.jpg)">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
@@ -211,6 +308,6 @@
         </div>
     </div>
 </footer>
-        <script src="/assets/build/js/main-ZVb5qaJz.js" type="module"></script>
+        <script src="/assets/build/js/main-CBXUyOXE.js" type="module"></script>
     </body>
 </html>

@@ -35,6 +35,14 @@
     @include serif-font;
 }
 
+// Keep each nav menu item on one line (no wrap)
+#mainNav .navbar-nav {
+    flex-wrap: nowrap;
+}
+#mainNav .nav-link {
+    white-space: nowrap;
+}
+
 // generic style
 body {
     @include sans-serif-font;
@@ -114,4 +122,111 @@ section#paginator a, section#paginator span {
     padding: 5px;
     margin: 0 6px;
     text-decoration: none;
+}
+
+// Alpine.js: hide until initialized
+[x-cloak] {
+    display: none !important;
+}
+
+// Search (Alpine + Fuse) in navbar — transparent, underline only
+.navbar-search-wrapper {
+    display: flex;
+    align-items: center;
+    min-width: 200px;
+    margin-right: 1rem;
+    position: relative;
+
+    .search-bar-row {
+        width: 100%;
+    }
+    .search-input {
+        min-width: 180px;
+        max-width: 320px;
+        color: #212529;
+        background: transparent !important;
+        border: none !important;
+        border-radius: 0 !important;
+        border-bottom: 1px solid currentColor !important;
+        box-shadow: none !important;
+        padding-left: 0;
+        padding-right: 2rem;
+        transition: border-color 0.2s ease, opacity 0.2s ease;
+
+        &::placeholder {
+            opacity: 0.75;
+            color: #6c757d;
+        }
+        &:focus {
+            outline: none;
+            border-bottom-color: currentColor !important;
+            box-shadow: none !important;
+        }
+    }
+    .search-cancel {
+        position: absolute;
+        right: 0;
+        padding: 0.25rem;
+        color: inherit;
+        opacity: 0.8;
+        background: none;
+        border: none;
+        &:hover {
+            opacity: 1;
+        }
+    }
+    .search-item:hover {
+        background-color: rgba(0, 0, 0, 0.04);
+    }
+    .search-item-selected,
+    .search-item.search-item-selected:hover {
+        background-color: var(--accent-soft, rgba(193, 127, 89, 0.15));
+    }
+    .search-item-excerpt {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+// When nav is over masthead (transparent), search uses same light text
+#mainNav:not(.is-fixed) .navbar-search-wrapper .search-input,
+#mainNav:not(.is-fixed) .navbar-search-wrapper .search-cancel {
+    color: rgba(255, 255, 255, 0.95);
+}
+#mainNav:not(.is-fixed) .navbar-search-wrapper .search-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+// Mobile / tablet: search bar full width at top of hamburger menu (navbar-expand-lg)
+@include media-breakpoint-down(lg) {
+    #navbarResponsive {
+        .navbar-search-mobile {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .navbar-search-wrapper {
+            min-width: 0;
+            margin-right: 0;
+            margin-bottom: 0.5rem;
+            .search-bar-row {
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+            .search-input {
+                min-width: 0;
+                max-width: none;
+                width: 100%;
+                color: #212529;
+                &::placeholder {
+                    color: #6c757d;
+                }
+            }
+        }
+        .search-panel {
+            left: 0 !important;
+            right: 0 !important;
+            max-height: min(350px, 60vh);
+        }
+    }
 }

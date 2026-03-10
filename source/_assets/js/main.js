@@ -1,32 +1,29 @@
-// Bootstrap core JavaScript
-import axios from 'axios';
+// Search: Alpine.js + Fuse.js (per Jigsaw blog template)
+import Alpine from 'alpinejs';
 import Fuse from 'fuse.js';
-import Vue from 'vue';
-import $ from 'jquery';
-import Search from './components/Search.vue';
+import search from './components/searchData.js';
+
+window.Alpine = Alpine;
+window.Fuse = Fuse;
+
+Alpine.data('search', search);
+
 import 'bootstrap';
 import '../sass/main.scss';
 
+// Bootstrap + jQuery for nav and other components
+import $ from 'jquery';
 window.$ = window.jQuery = $;
 
-window.axios = axios;
-window.fuse = Fuse;
-window.Vue = Vue;
+Alpine.start();
 
-new Vue({
-    components: {
-        Search,
-    },
-}).$mount('#vue-search');
-
+// Dynamic background rotation for home page
 function setAutoChangingBackground(cssSelector, durationInSeconds = 20) {
-    setInterval(function() {
-        let random = Math.floor(Math.random() * 10) + 1;
-        let imageUrl = `/assets/images/backgrounds/bg-${random}.jpg`;
-        let banner = document.querySelector(cssSelector);
-        banner.style.backgroundImage = `url(${imageUrl})`;
-    }, durationInSeconds*1000);
+    setInterval(function () {
+        const random = Math.floor(Math.random() * 10) + 1;
+        const imageUrl = `/assets/images/backgrounds/bg-${random}.jpg`;
+        const banner = document.querySelector(cssSelector);
+        if (banner) banner.style.backgroundImage = `url(${imageUrl})`;
+    }, durationInSeconds * 1000);
 }
-
-// dynamically change background in every 20 seconds for home page
 setAutoChangingBackground('#banner');

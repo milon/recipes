@@ -6,8 +6,8 @@
             <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <div id="vue-search">
-                <search></search>
+            <div class="navbar-search-mobile w-100 order-first order-lg-0 mr-lg-0 mb-2 mb-lg-0">
+                @include('_components.search')
             </div>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">

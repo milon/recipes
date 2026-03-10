@@ -1,9 +1,8 @@
 import { defineConfig } from 'vite';
 import { resolve } from 'path';
-import { createVuePlugin } from 'vite-plugin-vue2';
 
 export default defineConfig({
-  plugins: [createVuePlugin()],
+  plugins: [],
   root: __dirname,
   publicDir: false,
   build: {

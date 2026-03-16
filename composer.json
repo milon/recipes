@@ -10,6 +10,12 @@
             "App\\Listeners\\": "listeners"
         }
     },
+    "scripts": {
+        "build": [
+            "npm run build",
+            "./vendor/bin/jigsaw build"
+        ]
+    },
     "config": {
         "sort-packages": true
     }

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+                <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162769200-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-162769200-1');
+        </script>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title>সহজ রেসিপি | ম্যারা পিঠা</title>
+
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+                <!-- Search Engine -->
+        <meta name="description" content="ম্যারা পিঠা তৈরির রেসিপি">
+        <!-- Schema.org for Google -->
+        <meta itemprop="name" content="সহজ রেসিপি | ম্যারা পিঠা">
+        <meta itemprop="description" content="ম্যারা পিঠা তৈরির রেসিপি">
+        <!-- Twitter -->
+        <meta name="twitter:site" content="@to_milon" />
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="সহজ রেসিপি | ম্যারা পিঠা">
+        <meta name="twitter:description" content="ম্যারা পিঠা তৈরির রেসিপি">
+        <meta name="twitter:image" content="/assets/images/recipes/mera-pitha.jpg" />
+        <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+        <meta property="og:url" content="https://recipes.milon.im/recipe/mera-pitha">
+        <meta property="og:title" content="ম্যারা পিঠা | সহজ রেসিপি">
+        <meta property="og:description" content="ম্যারা পিঠা তৈরির রেসিপি">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="/assets/images/recipes/mera-pitha.jpg" />
+        
+        <link rel="stylesheet" href="/assets/build/css/main-Bl3pSHqb.css">
+    </head>
+    <body>
+            <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="/">সহজ রেসিপি</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            মেনু &nbsp;
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <div class="navbar-search-mobile w-100 order-first order-lg-0 mr-lg-0 mb-2 mb-lg-0">
+                <div
+    x-data="search()"
+    x-cloak
+    class="navbar-search-wrapper position-relative"
+>
+    <div class="search-bar-row d-flex align-items-center w-100">
+        <label for="search-input" class="sr-only">খুঁজুন</label>
+        <input
+            id="search-input"
+            type="text"
+            x-ref="searchInput"
+            x-model="query"
+            class="form-control search-input"
+            placeholder="খুঁজুন..."
+            autocomplete="off"
+            @keydown.esc="reset"
+            @keydown="onInputKeydown($event)"
+        />
+        <button
+            type="button"
+            x-show="query"
+            x-transition
+            class="btn btn-link search-cancel"
+            @click="reset"
+            aria-label="বাতিল"
+        >
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+
+    <div
+        x-show="isQuerying"
+        x-cloak
+        x-transition
+        class="search-panel position-absolute bg-white border rounded shadow-sm py-0 left-0 right-0"
+        style="top: 100%; margin-top: 0.25rem; max-height: 350px; overflow-y: auto; z-index: 1050;"
+    >
+        <template x-for="(result, index) in results" :key="result.link">
+            <a
+                x-ref="resultItem"
+                :href="result.link"
+                :title="result.title"
+                class="search-item d-block px-3 py-2 border-bottom text-dark text-decoration-none"
+                :class="{ 'search-item-selected': index === selectedIndexClamped }"
+                :aria-selected="index === selectedIndexClamped"
+                @mousedown.prevent
+            >
+                <span class="font-weight-bold" x-text="result.title"></span>
+                <span class="search-item-excerpt d-block small text-muted" x-html="result.excerpt || ''"></span>
+            </a>
+        </template>
+        <div
+            x-show="isQuerying && !results.length"
+            class="px-3 py-2 text-muted small"
+        >
+            <span x-text="query"></span>-এর জন্যে কোন ফলাফল পাওয়া যায় নি।
+        </div>
+    </div>
+</div>
+            </div>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">হোম</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">সাইট সম্পর্কে</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">যোগাযোগ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url(/assets/images/backgrounds/bg-7.jpg)">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="post-heading">
+                        <h1>ম্যারা পিঠা</h1>
+                        <h2 class="subheading">ম্যারা পিঠা তৈরির রেসিপি</h2>
+                        <span class="meta">
+                            পোস্ট করা হয়েছে - মার্চ ১৫, ২০২৬
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <p>চলুন দেখে নেয়া যাক খুব সহজেই ঐতিহ্যবাহী ম্যারা পিঠা তৈরি করার রেসিপি।</p>
+
+<h2>উপকরণ</h2>
+
+<ul>
+<li>চালের গুড়া (৫০০ গ্রাম/ ২ কাপ)</li>
+<li>খেজুরের গুড় অথবা চিনি (১ কাপ - মিষ্টির জন্য)</li>
+<li>কোরানো নারিকেল (১ কাপ)</li>
+<li>পানি (২ কাপ অথবা প্রয়োজনমতো)</li>
+<li>লবন (১/২ চা চামচ বা স্বাদমতো)</li>
+</ul>
+
+<p><img src="/assets/images/recipes/mera-pitha.jpg" alt="ম্যারা পিঠা" /></p>
+
+<h2>রন্ধনপ্রণালী</h2>
+
+<p>একটি হাঁড়িতে পানি, লবন এবং গুড় (মিষ্টি করতে চাইলে) দিয়ে জ্বাল দিন। পানি ফুটে উঠলে তাতে কোরানো নারিকেল দিয়ে দিন। এরপর চালের গুড়া মিশিয়ে আঁচ কমিয়ে ঢেকে দিন ২-৩ মিনিটের জন্য যাতে চালের গুড়া সেদ্ধ হয়। চুলা থেকে নামিয়ে কিছুটা ঠান্ডা হলে হাত দিয়ে ভালো করে ময়ান করে একটি মসৃণ ডো (খামির) তৈরি করুন।</p>
+
+<p>এবার এই খামির থেকে অল্প অল্প অংশ নিয়ে দুই হাতের তালুর সাহায্যে গোল বা লম্বাকৃতি করে ছোট ছোট পিঠা তৈরি করে নিন। একটি স্টিমারে বা ভাপে দেওয়ার পাত্রে পিঠাগুলো সাজিয়ে ২০-২৫ মিনিট ভাপে সেদ্ধ করুন। তৈরি হয়ে গেল গরম গরম ম্যারা পিঠা।</p>
+
+                    <div class="mt-3">
+            <span class="badge badge-pill badge-secondary category">নাস্তা</span>
+            <span class="badge badge-pill badge-secondary category">ডেসার্ট</span>
+            <span class="badge badge-pill badge-secondary category">পিঠা</span>
+    </div>
+                    <hr>
+                    <ul class="list-inline">
+    শেয়ার করুন:&nbsp;
+    <li class="list-inline-item">
+        <a href="http://twitter.com/share?url=https://recipes.milon.im/recipe/mera-pitha" target="_blank" class="text-twitter">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+            </span>
+        </a>
+    </li>
+    <li class="list-inline-item">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://recipes.milon.im/recipe/mera-pitha" target="_blank" class="text-facebook">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+            </span>
+        </a>
+    </li>
+    <li class="list-inline-item">
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://recipes.milon.im/recipe/mera-pitha" target="_blank" class="text-linkedin">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+            </span>
+        </a>
+    </li>
+</ul>
+                    <hr>
+                    <div class="clearfix">
+                <a href="/recipe/rui-mach-lau-shaker-torkari" class="float-right">
+            রুই মাছ দিয়ে লাউ শাক রান্না
+            <i class="fas fa-angle-right"></i>
+        </a>
+    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- Footer -->
+    <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto d-flex justify-content-center">
+                <ul class="list-inline d-flex justify-content-center">
+                                            <li class="list-inline-item">
+                            <a href="https://twitter.com/to_milon" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                                            <li class="list-inline-item">
+                            <a href="https://www.facebook.com/sohoj.recipes" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                                            <li class="list-inline-item">
+                            <a href="/feed.xml" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                                    </ul>
+            </div>
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <p class="copyright text-muted">
+                    কপিরাইট &copy; সহজ রেসিপি, ২০২৬
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+        <script src="/assets/build/js/main-DklNxEGf.js" type="module"></script>
+    </body>
+</html>

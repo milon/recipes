@@ -1,5 +1,7 @@
 <?php
 
+use League\HTMLToMarkdown\HtmlConverter;
+
 return [
     // Replace with the baseUrl of your site. For example, https://jigsaw-clean-blog.netlify.com
     'baseUrl' => 'http://recipes.test/',
@@ -76,11 +78,20 @@ return [
         return rightTrimPath($page->baseUrl) . $page->metaImage;
     },
 
-    'getBody' => function($page) {
+    'getBody' => function ($page) {
+        static $converter;
+
+        if ($converter === null) {
+            $converter = new HtmlConverter(['header_style' => 'atx']);
+            $converter->getConfig()->setOption('strip_tags', true);
+        }
+
+        $markdown = $converter->convert($page->getContent());
+
         return str_replace(
             '/assets/images',
             $page->baseUrl . '/assets/images',
-            $page->getContent()
+            $markdown
         );
     },
 

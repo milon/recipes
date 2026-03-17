@@ -7,8 +7,36 @@
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://recipes.milon.im/feed.xml" type="application/rss+xml" rel="self"/>
     <language>en-GB</language>
     <copyright>Copyright © সহজ রেসিপি 2026</copyright>
-    <pubDate>Tue, 10 Mar 2026 22:50:31 +0000</pubDate>
-    <lastBuildDate>Tue, 10 Mar 2026 22:50:31 +0000</lastBuildDate>
+    <pubDate>Tue, 17 Mar 2026 17:48:21 +0000</pubDate>
+    <lastBuildDate>Tue, 17 Mar 2026 17:48:21 +0000</lastBuildDate>
+    <item>
+      <title><![CDATA[ম্যারা পিঠা]]></title>
+      <link>https://recipes.milon.im/api/recipe/mera-pitha.json</link>
+      <description><![CDATA[ম্যারা পিঠা তৈরির রেসিপি]]></description>
+      <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক খুব সহজেই ঐতিহ্যবাহী ম্যারা পিঠা তৈরি করার রেসিপি।</p>
+
+<h2>উপকরণ</h2>
+
+<ul>
+<li>চালের গুড়া (৫০০ গ্রাম/ ২ কাপ)</li>
+<li>খেজুরের গুড় অথবা চিনি (১ কাপ - মিষ্টির জন্য)</li>
+<li>কোরানো নারিকেল (১ কাপ)</li>
+<li>পানি (২ কাপ অথবা প্রয়োজনমতো)</li>
+<li>লবন (১/২ চা চামচ বা স্বাদমতো)</li>
+</ul>
+
+<p><img src="/assets/images/recipes/mera-pitha.jpg" alt="ম্যারা পিঠা" /></p>
+
+<h2>রন্ধনপ্রণালী</h2>
+
+<p>একটি হাঁড়িতে পানি, লবন এবং গুড় (মিষ্টি করতে চাইলে) দিয়ে জ্বাল দিন। পানি ফুটে উঠলে তাতে কোরানো নারিকেল দিয়ে দিন। এরপর চালের গুড়া মিশিয়ে আঁচ কমিয়ে ঢেকে দিন ২-৩ মিনিটের জন্য যাতে চালের গুড়া সেদ্ধ হয়। চুলা থেকে নামিয়ে কিছুটা ঠান্ডা হলে হাত দিয়ে ভালো করে ময়ান করে একটি মসৃণ ডো (খামির) তৈরি করুন।</p>
+
+<p>এবার এই খামির থেকে অল্প অল্প অংশ নিয়ে দুই হাতের তালুর সাহায্যে গোল বা লম্বাকৃতি করে ছোট ছোট পিঠা তৈরি করে নিন। একটি স্টিমারে বা ভাপে দেওয়ার পাত্রে পিঠাগুলো সাজিয়ে ২০-২৫ মিনিট ভাপে সেদ্ধ করুন। তৈরি হয়ে গেল গরম গরম ম্যারা পিঠা।</p>
+]]></content:encoded>
+      <guid>https://recipes.milon.im/api/recipe/mera-pitha.json</guid>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+      <author>মিলন</author>
+    </item>
     <item>
       <title><![CDATA[রুই মাছ দিয়ে লাউ শাক রান্না]]></title>
       <link>https://recipes.milon.im/api/recipe/rui-mach-lau-shaker-torkari.json</link>

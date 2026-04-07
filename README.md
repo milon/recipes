@@ -6,8 +6,8 @@ This is a website for sharing recipes. This site generated with [Jigsaw](http://
 
 ## Development
 
-- **Assets (Vite):** `npm run dev` for development with HMR, or `npm run build` for production assets.
-- **Site (Jigsaw):** `./vendor/bin/jigsaw build local` for a local build, or `./vendor/bin/jigsaw build production` for production. Build assets first with `npm run build`.
+- **Assets (Vite):** `bun run dev` for development with HMR, or `bun run build` for production assets.
+- **Site (Jigsaw):** `./vendor/bin/jigsaw build local` for a local build, or `./vendor/bin/jigsaw build production` for production. Build assets first with `bun run build`.
 
 ## URL
 

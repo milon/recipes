@@ -21,16 +21,16 @@ jobs:
       with:
         php-version: 8.4
         tools: composer:v2
-    - name: Setup Node
-      uses: actions/setup-node@v4
+    - name: Setup Bun
+      uses: oven-sh/setup-bun@v2
       with:
-        node-version: 24
+        bun-version: latest
     - name: Install Composer Dependencies
       run: composer install --no-ansi --no-interaction --ignore-platform-reqs --no-scripts --no-suggest --no-progress --prefer-dist
-    - name: Install NPM Dependencies
-      run: npm install
+    - name: Install JS dependencies (Bun)
+      run: bun install --frozen-lockfile
     - name: Build assets
-      run: npm run production
+      run: bun run production
     - name: Build Jigsaw site
       run: ./vendor/bin/jigsaw build production
     - name: Create CNAME File

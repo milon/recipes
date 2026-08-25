@@ -15,6 +15,36 @@ import '../sass/main.scss';
 import $ from 'jquery';
 window.$ = window.jQuery = $;
 
+// Sticky navbar on scroll (from Start Bootstrap Clean Blog)
+(function initNavbarScroll() {
+    const nav = document.getElementById('mainNav');
+    if (!nav || window.innerWidth <= 992) {
+        return;
+    }
+
+    let previousTop = 0;
+    const headerHeight = nav.offsetHeight;
+
+    window.addEventListener('scroll', () => {
+        const currentTop = window.scrollY;
+
+        if (currentTop < previousTop) {
+            if (currentTop > 0 && nav.classList.contains('is-fixed')) {
+                nav.classList.add('is-visible');
+            } else {
+                nav.classList.remove('is-visible', 'is-fixed');
+            }
+        } else if (currentTop > previousTop) {
+            nav.classList.remove('is-visible');
+            if (currentTop > headerHeight && !nav.classList.contains('is-fixed')) {
+                nav.classList.add('is-fixed');
+            }
+        }
+
+        previousTop = currentTop;
+    });
+})();
+
 Alpine.start();
 
 // Dynamic background rotation for home page

@@ -43,8 +43,9 @@
 
         <link rel="stylesheet" href="{{ vite_asset('css/main.css', 'assets/build') }}">
     </head>
-    <body>
+    <body x-data="search()" @keydown.window.escape="closeModal()">
         @yield('body')
+        @include('_components.search_modal')
         <script src="{{ vite_asset('js/main.js', 'assets/build') }}" type="module"></script>
     </body>
 </html>

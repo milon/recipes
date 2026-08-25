@@ -1,3 +1,6 @@
+// Warm Kitchen theme variables (must load before Bootstrap)
+@import "theme-variables";
+
 // Custom fonts for this template
 @import url("https://fonts.googleapis.com/earlyaccess/notosansbengali.css");
 @import url("https://fonts.googleapis.com/css2?family=Galada&display=swap");
@@ -49,7 +52,7 @@ body {
 }
 
 a:hover {
-    color: #c0c0c0;
+    color: $warm-paprika;
 }
 
 img {
@@ -59,7 +62,6 @@ img {
     @include border-radius($thumbnail-border-radius);
     @include box-shadow($thumbnail-box-shadow);
 
-    // Keep them at most 100% wide
     @include img-fluid;
 }
 
@@ -68,15 +70,21 @@ img {
 }
 
 .index-meta {
-    margin-top: 2em;
-    font-size: 24px;
-    @include serif-font;
+    margin-top: 1.25em;
+    font-size: 1.25rem;
+    font-weight: 400;
+    opacity: 0.95;
+    @include sans-serif-font;
 }
 
-.category {
-    font-weight: normal;
-    font-size: 90%;
-    padding: 0.5em 1em;
+.category,
+.recipe-tag {
+    font-weight: 600;
+    font-size: 0.8rem;
+    padding: 0.35em 0.85em;
+    background-color: $warm-sand;
+    color: $warm-brown;
+    border: none;
 }
 
 .form-control {
@@ -84,7 +92,7 @@ img {
 }
 
 .post-preview > a:hover {
-    color: #c0c0c0;
+    color: $warm-paprika;
 }
 
 .post-preview > .post-meta {
@@ -114,7 +122,7 @@ section#paginator {
 
 section#paginator .selected {
     font-weight: bold;
-    color: #c0c0c0;
+    color: $warm-terracotta;
 }
 
 section#paginator a, section#paginator span {
@@ -129,104 +137,467 @@ section#paginator a, section#paginator span {
     display: none !important;
 }
 
-// Search (Alpine + Fuse) in navbar — transparent, underline only
-.navbar-search-wrapper {
+// Search overlay modal (Alpine + Fuse)
+body.search-modal-open {
+    overflow: hidden;
+}
+
+.search-root {
     display: flex;
     align-items: center;
-    min-width: 200px;
-    margin-right: 1rem;
-    position: relative;
+}
 
-    .search-bar-row {
-        width: 100%;
+.search-open-btn {
+    color: inherit;
+    text-decoration: none;
+    border: none;
+    background: transparent;
+    font-size: 0.85rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    white-space: nowrap;
+
+    &:hover,
+    &:focus {
+        color: $warm-terracotta;
+        text-decoration: none;
     }
-    .search-input {
-        min-width: 180px;
-        max-width: 320px;
-        color: #212529;
-        background: transparent !important;
-        border: none !important;
-        border-radius: 0 !important;
-        border-bottom: 1px solid currentColor !important;
-        box-shadow: none !important;
-        padding-left: 0;
-        padding-right: 2rem;
-        transition: border-color 0.2s ease, opacity 0.2s ease;
+}
 
-        &::placeholder {
-            opacity: 0.75;
-            color: #6c757d;
-        }
+#mainNav:not(.is-fixed) .search-open-btn {
+    @include media-breakpoint-up(lg) {
+        color: rgba(255, 255, 255, 0.95);
+
+        &:hover,
         &:focus {
-            outline: none;
-            border-bottom-color: currentColor !important;
-            box-shadow: none !important;
+            color: rgba(255, 255, 255, 0.75);
         }
     }
-    .search-cancel {
-        position: absolute;
-        right: 0;
-        padding: 0.25rem;
-        color: inherit;
-        opacity: 0.8;
-        background: none;
+}
+
+.navbar-mobile-tools {
+    gap: 0.15rem;
+
+    .search-open-btn {
+        color: $warm-brown;
+        padding: 0.5rem 0.65rem;
+        min-width: 2.75rem;
+        min-height: 2.75rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.05rem;
+
+        &:hover,
+        &:focus {
+            color: $warm-terracotta;
+        }
+    }
+
+    .navbar-toggler {
+        margin-left: 0;
+    }
+}
+
+#mainNav.is-fixed .search-open-btn {
+    color: $warm-brown;
+
+    &:hover,
+    &:focus {
+        color: $warm-terracotta;
+    }
+}
+
+.search-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 10500;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1.25rem;
+    padding-top: max(1.25rem, 8vh);
+
+    @include media-breakpoint-up(md) {
+        padding-top: max(2rem, 10vh);
+    }
+}
+
+.search-modal-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(92, 45, 24, 0.55);
+    backdrop-filter: blur(4px);
+}
+
+.search-modal-panel {
+    position: relative;
+    width: 100%;
+    max-width: 640px;
+    max-height: min(80vh, 720px);
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 24px 64px rgba(92, 45, 24, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.search-modal-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1rem 0.5rem;
+}
+
+.search-modal-input-wrap {
+    flex: 1;
+    position: relative;
+}
+
+.search-modal-input-icon {
+    position: absolute;
+    left: 0.85rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(92, 45, 24, 0.45);
+    pointer-events: none;
+}
+
+.search-modal-input {
+    padding-left: 2.5rem;
+    padding-right: 1rem;
+    height: 3rem;
+    font-size: 1.05rem;
+    border: 2px solid $warm-cream-dark;
+    border-radius: 0.65rem;
+    background: $warm-cream;
+    appearance: none;
+    -webkit-appearance: none;
+
+    &:focus {
+        border-color: $warm-terracotta;
+        box-shadow: 0 0 0 3px rgba(196, 92, 38, 0.15);
+    }
+}
+
+.search-modal-close {
+    flex-shrink: 0;
+    color: $warm-brown;
+    font-size: 1.25rem;
+    padding: 0.35rem 0.5rem;
+    line-height: 1;
+
+    &:hover {
+        color: $warm-terracotta;
+    }
+}
+
+.search-modal-body {
+    flex: 1;
+    overflow-y: auto;
+    padding: 0.75rem 1rem 1rem;
+}
+
+.search-modal-hint kbd {
+    display: inline-block;
+    padding: 0.1em 0.45em;
+    font-size: 0.85em;
+    background: $warm-sand;
+    border-radius: 0.25rem;
+    color: $warm-brown;
+}
+
+.search-results {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.search-result-item {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    padding: 0.65rem 0.75rem;
+    border-radius: 0.65rem;
+    text-decoration: none;
+    color: $warm-brown;
+    transition: background-color 0.15s ease;
+
+    &:hover {
+        background-color: rgba(196, 92, 38, 0.08);
+        text-decoration: none;
+        color: $warm-brown;
+    }
+}
+
+.search-result-item-selected,
+.search-result-item.search-result-item-selected:hover {
+    background-color: rgba(196, 92, 38, 0.12);
+}
+
+.search-result-thumb {
+    flex-shrink: 0;
+    width: 72px;
+    height: 72px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background: $warm-cream-dark;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        padding: 0;
+        margin: 0;
         border: none;
-        &:hover {
-            opacity: 1;
-        }
-    }
-    .search-item:hover {
-        background-color: rgba(0, 0, 0, 0.04);
-    }
-    .search-item-selected,
-    .search-item.search-item-selected:hover {
-        background-color: var(--accent-soft, rgba(193, 127, 89, 0.15));
-    }
-    .search-item-excerpt {
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        border-radius: 0;
+        box-shadow: none;
     }
 }
 
-// When nav is over masthead (transparent), search uses same light text
-#mainNav:not(.is-fixed) .navbar-search-wrapper .search-input,
-#mainNav:not(.is-fixed) .navbar-search-wrapper .search-cancel {
-    color: rgba(255, 255, 255, 0.95);
-}
-#mainNav:not(.is-fixed) .navbar-search-wrapper .search-input::placeholder {
-    color: rgba(255, 255, 255, 0.7);
+.search-result-thumb-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: rgba(92, 45, 24, 0.35);
+    font-size: 1.35rem;
 }
 
-// Mobile / tablet: search bar full width at top of hamburger menu (navbar-expand-lg)
+.search-result-text {
+    flex: 1;
+    min-width: 0;
+}
+
+.search-result-title {
+    display: block;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.35;
+    margin-bottom: 0.2rem;
+}
+
+.search-result-excerpt {
+    font-size: 0.875rem;
+    color: rgba(92, 45, 24, 0.65);
+    line-height: 1.4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.search-no-results {
+    padding: 1.5rem 0.75rem;
+    text-align: center;
+    color: rgba(92, 45, 24, 0.6);
+    font-size: 0.95rem;
+}
+
 @include media-breakpoint-down(lg) {
-    #navbarResponsive {
-        .navbar-search-mobile {
-            flex: 0 0 100%;
-            max-width: 100%;
+    #mainNav .navbar-toggler {
+        color: $warm-brown;
+    }
+}
+
+// ---------------------------------------------------------------------------
+// Warm Kitchen (Option A)
+// ---------------------------------------------------------------------------
+
+body {
+    background-color: $warm-cream;
+}
+
+.page-content {
+    padding-bottom: 3rem;
+}
+
+header.masthead {
+    margin-bottom: 0;
+
+    .overlay {
+        background: linear-gradient(
+            135deg,
+            rgba(92, 45, 24, 0.82) 0%,
+            rgba(196, 92, 38, 0.62) 55%,
+            rgba(92, 45, 24, 0.75) 100%
+        );
+        opacity: 1;
+    }
+
+    .page-heading,
+    .post-heading {
+        padding: 9rem 0 6rem;
+
+        @include media-breakpoint-up(md) {
+            padding: 10rem 0 7rem;
         }
-        .navbar-search-wrapper {
-            min-width: 0;
-            margin-right: 0;
-            margin-bottom: 0.5rem;
-            .search-bar-row {
-                border: 1px solid #ccc;
-                border-radius: 4px;
-            }
-            .search-input {
-                min-width: 0;
-                max-width: none;
-                width: 100%;
-                color: #212529;
-                &::placeholder {
-                    color: #6c757d;
+    }
+
+    .page-heading h1,
+    .post-heading h1 {
+        text-shadow: 0 2px 24px rgba(0, 0, 0, 0.25);
+        letter-spacing: 0.01em;
+    }
+
+    .subheading {
+        opacity: 0.95;
+    }
+}
+
+#mainNav {
+    @include media-breakpoint-up(lg) {
+        &.is-fixed {
+            background-color: rgba(255, 248, 240, 0.97);
+            border-bottom: 1px solid $warm-cream-dark;
+            backdrop-filter: blur(8px);
+
+            .navbar-brand,
+            .navbar-nav > li.nav-item > a {
+                color: $warm-brown;
+
+                &:hover,
+                &:focus {
+                    color: $warm-terracotta;
                 }
             }
         }
-        .search-panel {
-            left: 0 !important;
-            right: 0 !important;
-            max-height: min(350px, 60vh);
-        }
     }
+}
+
+footer {
+    margin-top: 2rem;
+    padding-top: 3rem;
+    border-top: 1px solid $warm-cream-dark;
+    background-color: $warm-sand;
+
+    .copyright {
+        color: $warm-brown;
+    }
+
+    .fa-circle {
+        color: $warm-terracotta !important;
+    }
+}
+
+.recipe-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+    margin-top: -2.5rem;
+    position: relative;
+    z-index: 2;
+
+    @include media-breakpoint-up(md) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include media-breakpoint-up(xl) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.recipe-card {
+    background: #fff;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(92, 45, 24, 0.08);
+    transition: transform 0.22s ease, box-shadow 0.22s ease;
+    height: 100%;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 32px rgba(92, 45, 24, 0.14);
+    }
+}
+
+.recipe-card-link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: $warm-brown;
+    text-decoration: none;
+
+    &:hover {
+        color: $warm-brown;
+        text-decoration: none;
+    }
+}
+
+.recipe-card-image {
+    overflow: hidden;
+    aspect-ratio: 16 / 10;
+    background-color: $warm-cream-dark;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        padding: 0;
+        margin: 0;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        background: transparent;
+        transition: transform 0.35s ease;
+    }
+}
+
+.recipe-card:hover .recipe-card-image img {
+    transform: scale(1.04);
+}
+
+.recipe-card-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1.15rem 1.25rem 1.35rem;
+}
+
+.recipe-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 0.65rem;
+}
+
+.recipe-card-title {
+    font-size: 1.35rem;
+    font-weight: 700;
+    line-height: 1.35;
+    margin: 0 0 0.5rem;
+    color: $warm-brown;
+    @include serif-font;
+}
+
+.recipe-card-excerpt {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: rgba(92, 45, 24, 0.72);
+    margin: 0 0 0.75rem;
+    flex: 1;
+}
+
+.recipe-card-meta {
+    font-size: 0.85rem;
+    color: rgba(92, 45, 24, 0.55);
+    margin: 0;
+    font-style: italic;
+}
+
+.recipe-pagination {
+    margin-top: 2.5rem;
+    padding-top: 1rem;
+}
+
+article hr {
+    border-color: $warm-cream-dark;
+}
+
+section#paginator a:hover {
+    color: $warm-terracotta;
 }

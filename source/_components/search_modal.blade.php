@@ -13,7 +13,7 @@
         <div class="search-modal-header">
             <label for="search-modal-input" class="sr-only">খুঁজুন</label>
             <div class="search-modal-input-wrap">
-                <i class="fas fa-search search-modal-input-icon" aria-hidden="true"></i>
+                @include('_components.icon', ['name' => 'search', 'class' => 'icon--sm search-modal-input-icon'])
                 <input
                     id="search-modal-input"
                     type="text"
@@ -32,7 +32,7 @@
                 @click="closeModal()"
                 aria-label="বন্ধ করুন"
             >
-                <i class="fas fa-times"></i>
+                @include('_components.icon', ['name' => 'close', 'class' => 'icon--sm'])
             </button>
         </div>
 
@@ -67,7 +67,7 @@
                                 class="search-result-thumb-placeholder"
                                 aria-hidden="true"
                             >
-                                <i class="fas fa-utensils"></i>
+                                @include('_components.icon', ['name' => 'utensils', 'class' => 'icon--sm'])
                             </span>
                         </div>
                         <div class="search-result-text">

@@ -1,4 +1,3 @@
-// Search: Alpine.js + Fuse.js (per Jigsaw blog template)
 import Alpine from 'alpinejs';
 import Fuse from 'fuse.js';
 import search from './components/searchData.js';
@@ -15,36 +14,6 @@ import '../sass/main.scss';
 import $ from 'jquery';
 window.$ = window.jQuery = $;
 
-// Sticky navbar on scroll (from Start Bootstrap Clean Blog)
-(function initNavbarScroll() {
-    const nav = document.getElementById('mainNav');
-    if (!nav || window.innerWidth <= 992) {
-        return;
-    }
-
-    let previousTop = 0;
-    const headerHeight = nav.offsetHeight;
-
-    window.addEventListener('scroll', () => {
-        const currentTop = window.scrollY;
-
-        if (currentTop < previousTop) {
-            if (currentTop > 0 && nav.classList.contains('is-fixed')) {
-                nav.classList.add('is-visible');
-            } else {
-                nav.classList.remove('is-visible', 'is-fixed');
-            }
-        } else if (currentTop > previousTop) {
-            nav.classList.remove('is-visible');
-            if (currentTop > headerHeight && !nav.classList.contains('is-fixed')) {
-                nav.classList.add('is-fixed');
-            }
-        }
-
-        previousTop = currentTop;
-    });
-})();
-
 Alpine.start();
 
 // Dynamic background rotation for home page
@@ -57,3 +26,18 @@ function setAutoChangingBackground(cssSelector, durationInSeconds = 20) {
     }, durationInSeconds * 1000);
 }
 setAutoChangingBackground('#banner');
+
+document.querySelectorAll('.recipe-share-btn[data-share]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+        const pageUrl = encodeURIComponent(btn.dataset.url || '');
+        const shareUrls = {
+            x: `https://x.com/intent/tweet?url=${pageUrl}`,
+            fb: `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`,
+            in: `https://www.linkedin.com/shareArticle?mini=true&url=${pageUrl}`,
+        };
+        const target = shareUrls[btn.dataset.share];
+        if (target) {
+            window.open(target, '_blank', 'noopener,noreferrer');
+        }
+    });
+});

@@ -5,6 +5,6 @@
     aria-label="খুঁজুন"
     title="খুঁজুন (/)"
 >
-    <i class="fas fa-search"></i>
+    @include('_components.icon', ['name' => 'search', 'class' => 'icon--sm'])
     <span class="search-open-label d-none d-lg-inline ml-1">খুঁজুন</span>
 </button>

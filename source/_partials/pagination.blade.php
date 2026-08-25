@@ -1,10 +1,10 @@
 <section id="paginator">
     @if ($previous = $pagination->previous)
-        <a href="{{ $pagination->first }}"><i class="fas fa-angle-double-left"></i></a>
-        <a href="{{ $previous }}"><i class="fas fa-angle-left"></i></a>
+        <a href="{{ $pagination->first }}">@include('_components.icon', ['name' => 'chevrons-left', 'class' => 'icon--sm'])</a>
+        <a href="{{ $previous }}">@include('_components.icon', ['name' => 'chevron-left', 'class' => 'icon--sm'])</a>
     @else
-        <span><i class="fas fa-angle-double-left"></i></span>
-        <span><i class="fas fa-angle-left"></i></span>
+        <span>@include('_components.icon', ['name' => 'chevrons-left', 'class' => 'icon--sm'])</span>
+        <span>@include('_components.icon', ['name' => 'chevron-left', 'class' => 'icon--sm'])</span>
     @endif
 
     @if ($pagination->currentPage <= ceil($page->paginatationLinkNumber / 2))
@@ -49,10 +49,10 @@
     @endif
 
     @if ($next = $pagination->next)
-        <a href="{{ $next }}"><i class="fas fa-angle-right"></i></a>
-        <a href="{{ $pagination->last }}"><i class="fas fa-angle-double-right"></i></a>
+        <a href="{{ $next }}">@include('_components.icon', ['name' => 'chevron-right', 'class' => 'icon--sm'])</a>
+        <a href="{{ $pagination->last }}">@include('_components.icon', ['name' => 'chevrons-right', 'class' => 'icon--sm'])</a>
     @else
-        <span><i class="fas fa-angle-right"></i></span>
-        <span><i class="fas fa-angle-double-right"></i></span>
+        <span>@include('_components.icon', ['name' => 'chevron-right', 'class' => 'icon--sm'])</span>
+        <span>@include('_components.icon', ['name' => 'chevrons-right', 'class' => 'icon--sm'])</span>
     @endif
 </section>

@@ -55,15 +55,15 @@ return [
     'socials' => [
         'twitter' => [
             'link' => 'https://twitter.com/to_milon',
-            'icon' => 'fab fa-twitter',
+            'icon' => 'twitter',
         ],
         'facebook' => [
             'link' => 'https://www.facebook.com/sohoj.recipes',
-            'icon' => 'fab fa-facebook-f',
+            'icon' => 'facebook',
         ],
         'rss' => [
             'link' => '/feed.xml',
-            'icon' => 'fas fa-rss',
+            'icon' => 'rss',
         ]
     ],
 

@@ -6,7 +6,7 @@
             @include('_components.search_trigger')
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 মেনু &nbsp;
-                <i class="fa fa-bars"></i>
+                @include('_components.icon', ['name' => 'menu', 'class' => 'icon--sm'])
             </button>
         </div>
 

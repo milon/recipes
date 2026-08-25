@@ -1,18 +1,24 @@
 ---
+heroImage: /assets/images/recipes/beef-kosha.jpg
 pagination:
     collection: posts
-image: /assets/images/recipes/mixed-vegetables.jpg
 ---
 
 @extends('_layouts.page')
 
-@section('content-width', 'col-12')
-
-@section('header-info')
-    <p class="index-meta">মোট রেসিপির সংখ্যা: {{ $page->translateNumber($posts->count()) }}</p>
+@section('hero')
+    @include('_partials.hero_home')
 @endsection
 
+@section('page-content-class', 'page-content--home')
+
+@section('content-width', 'col-12')
+
 @section('content')
+    <div id="recipes" class="recipe-section-intro">
+        <h2 class="recipe-section-title">সব রেসিপি</h2>
+    </div>
+
     <div class="recipe-grid">
         @foreach ($pagination->items as $post)
             @include('_partials.recipe_card', ['post' => $post])

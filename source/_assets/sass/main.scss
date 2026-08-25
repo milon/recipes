@@ -515,43 +515,50 @@ header.masthead {
 
 .hero-home {
     position: relative;
-    padding: 5.25rem 0 2.5rem;
+    display: flex;
+    align-items: flex-end;
+    min-height: clamp(24rem, 55vh, 38rem);
+    padding: 5.5rem 0 2.75rem;
     overflow: hidden;
-    background: $warm-cream;
-
-    @include media-breakpoint-up(lg) {
-        padding: 6.5rem 0 3.5rem;
-    }
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: $warm-brown;
 }
 
-.hero-home-bg {
+.hero-home-scrim {
     position: absolute;
     inset: 0;
-    background:
-        radial-gradient(circle at 8% 88%, rgba(244, 228, 212, 0.95) 0%, transparent 42%),
-        radial-gradient(circle at 92% 12%, rgba(196, 92, 38, 0.07) 0%, transparent 38%);
+    background: linear-gradient(
+        to top,
+        rgba(40, 18, 8, 0.92) 0%,
+        rgba(40, 18, 8, 0.52) 46%,
+        rgba(40, 18, 8, 0.14) 100%
+    );
     pointer-events: none;
 }
 
-.hero-home-copy {
+.hero-home-content {
     position: relative;
     z-index: 1;
+    max-width: 42rem;
 }
 
 .hero-home-eyebrow {
-    font-size: clamp(1.35rem, 3vw, 1.75rem);
-    color: $warm-terracotta;
-    margin-bottom: 0.85rem;
+    font-size: clamp(1.2rem, 2.5vw, 1.55rem);
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 0.65rem;
     line-height: 1.2;
     @include serif-font;
 }
 
 .hero-home-title {
-    font-size: clamp(1.65rem, 3.6vw, 2.5rem);
+    font-size: clamp(1.75rem, 4vw, 2.75rem);
     font-weight: 700;
-    line-height: 1.4;
-    color: $warm-brown;
-    margin-bottom: 1.15rem;
+    line-height: 1.35;
+    color: #fff;
+    margin-bottom: 1rem;
+    text-shadow: 0 2px 24px rgba(0, 0, 0, 0.28);
     @include sans-serif-font;
 }
 
@@ -563,60 +570,34 @@ header.masthead {
     display: inline-block;
     padding: 0.4rem 0.95rem;
     border-radius: 999px;
-    background: $warm-sand;
-    color: $warm-brown;
+    background: $warm-terracotta;
+    color: #fff;
     font-size: 0.92rem;
     font-weight: 600;
 }
 
 .hero-home-cta {
-    margin-top: 1.65rem;
-    background: $warm-terracotta;
-    border: none;
+    margin-top: 1.5rem;
+    background: transparent;
+    border: 2px solid #fff;
     color: #fff;
     font-weight: 700;
     font-size: 1rem;
-    padding: 0.8rem 1.65rem;
+    padding: 0.75rem 1.55rem;
     border-radius: 999px;
-    box-shadow: 0 10px 28px rgba(196, 92, 38, 0.28);
-    transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: none;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+
+    .icon {
+        fill: currentColor;
+    }
 
     &:hover,
     &:focus {
-        background: $warm-paprika;
-        color: #fff;
+        background: #fff;
+        color: $warm-brown;
         transform: translateY(-1px);
-        box-shadow: 0 14px 32px rgba(196, 92, 38, 0.32);
-    }
-}
-
-.hero-home-visual {
-    position: relative;
-    z-index: 1;
-    margin-top: 2rem;
-
-    @include media-breakpoint-up(lg) {
-        margin-top: 0;
-        padding-left: 1.5rem;
-    }
-}
-
-.hero-home-image-frame {
-    border-radius: 1.25rem;
-    overflow: hidden;
-    box-shadow: 0 22px 52px rgba(92, 45, 24, 0.16);
-
-    img {
-        display: block;
-        width: 100%;
-        aspect-ratio: 4 / 3;
-        object-fit: cover;
-        padding: 0;
-        margin: 0;
-        border: none;
-        border-radius: 0;
-        box-shadow: none;
-        background: $warm-cream-dark;
+        box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
     }
 }
 

@@ -6,13 +6,11 @@
             </div>
         @endif
         <div class="recipe-card-body">
-            @if (!empty($post->categories))
-                <div class="recipe-card-tags">
-                    @foreach (array_slice($post->categories, 0, 2) as $category)
-                        <span class="recipe-tag">{{ $category }}</span>
-                    @endforeach
-                </div>
-            @endif
+            @include('_partials.category_tags', [
+                'categories' => $post->categories ?? [],
+                'limit' => 2,
+                'wrapperClass' => 'recipe-card-tags',
+            ])
             <h2 class="recipe-card-title">{{ $post->title }}</h2>
             @if ($post->excerpt ?? null)
                 <p class="recipe-card-excerpt">{{ $post->excerpt }}</p>

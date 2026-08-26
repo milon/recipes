@@ -14,13 +14,9 @@
                     <a href="/">← সব রেসিপি</a>
                 </nav>
 
-                @if (!empty($page->categories))
-                    <div class="recipe-detail-tags">
-                        @foreach ($page->categories as $category)
-                            <span class="recipe-tag recipe-tag--hero">{{ $category }}</span>
-                        @endforeach
-                    </div>
-                @endif
+                @include('_partials.category_tags', [
+                    'class' => 'recipe-tag--hero',
+                ])
 
                 <h1 class="recipe-detail-title">{{ $page->title }}</h1>
 

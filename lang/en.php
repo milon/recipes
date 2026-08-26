@@ -12,7 +12,7 @@ return [
         "contact" => "Contact",
         "menu" => "Menu",
         "open_menu" => "Open navigation menu",
-        "language" => "Language",
+        "switch_language" => "View in Bangla",
     ],
     "common" => [
         "skip_to_content" => "Skip to main content",

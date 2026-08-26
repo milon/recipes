@@ -12,7 +12,7 @@ return [
         "contact" => "যোগাযোগ",
         "menu" => "মেনু",
         "open_menu" => "নেভিগেশন মেনু খুলুন",
-        "language" => "ভাষা",
+        "switch_language" => "ইংরেজিতে দেখুন",
     ],
     "common" => [
         "skip_to_content" => "মূল কনটেন্টে যান",

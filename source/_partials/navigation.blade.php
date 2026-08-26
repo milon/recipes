@@ -8,6 +8,7 @@
         </a>
 
         <div class="navbar-mobile-tools d-flex d-lg-none align-items-center ml-auto">
+            @include('_components.language_switch')
             @include('_components.search_trigger')
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="{{ $page->t('nav.open_menu') }}">
                 <span>{{ $page->t('nav.menu') }}</span>
@@ -26,14 +27,8 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ $page->localePrefix() }}/contact">{{ $page->t('nav.contact') }}</a>
                 </li>
-                <li class="nav-item d-flex align-items-center" aria-label="{{ $page->t('nav.language') }}">
-                    @if ($page->locale === 'bn')
-                        <span class="nav-link" aria-current="page">বাংলা</span>
-                        <a class="nav-link" href="{{ $page->alternateUrl() }}" lang="en">EN</a>
-                    @else
-                        <a class="nav-link" href="{{ $page->alternateUrl() }}" lang="bn">বাংলা</a>
-                        <span class="nav-link" aria-current="page">EN</span>
-                    @endif
+                <li class="nav-item d-none d-lg-flex align-items-center">
+                    @include('_components.language_switch')
                 </li>
                 <li class="nav-item d-none d-lg-flex align-items-center">
                     @include('_components.search_trigger')

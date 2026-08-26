@@ -43,11 +43,44 @@
             <path d="m13 17 5-5-5-5" />
         </svg>
         @break
+    @case('logo')
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="{{ $class }}" @if(empty($label)) aria-hidden="true" @endif @if(!empty($label)) role="img" aria-label="{{ $label }}" @endif>
+            <path d="M2.5 12.5h19" />
+            <path d="M4.5 12.5a7.5 7.5 0 0 0 15 0" />
+            <path d="M9.2 9.8c0-1.3 1.3-1.8 1.3-3.1S9.2 4.4 9.2 3.1" />
+            <path d="M14.8 9.8c0-1.3-1.3-1.8-1.3-3.1S14.8 4.4 14.8 3.1" />
+        </svg>
+        @break
     @case('utensils')
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="{{ $class }}" @if(empty($label)) aria-hidden="true" @endif @if(!empty($label)) role="img" aria-label="{{ $label }}" @endif>
             <path d="M3 2v7c0 1.1.9 2 2 2h0a2 2 0 0 0 2-2V2" />
             <path d="M7 2v20" />
             <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
+        </svg>
+        @break
+    @case('users')
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="{{ $class }}" @if(empty($label)) aria-hidden="true" @endif @if(!empty($label)) role="img" aria-label="{{ $label }}" @endif>
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
+        </svg>
+        @break
+    @case('clock')
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="{{ $class }}" @if(empty($label)) aria-hidden="true" @endif @if(!empty($label)) role="img" aria-label="{{ $label }}" @endif>
+            <circle cx="12" cy="12" r="9" />
+            <path d="M12 7v5l3.5 2" />
+        </svg>
+        @break
+    @case('calendar')
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="{{ $class }}" @if(empty($label)) aria-hidden="true" @endif @if(!empty($label)) role="img" aria-label="{{ $label }}" @endif>
+            <rect x="3" y="5" width="18" height="16" rx="2" />
+            <path d="M3 10h18M8 3v4M16 3v4" />
+        </svg>
+        @break
+    @case('tag')
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="{{ $class }}" @if(empty($label)) aria-hidden="true" @endif @if(!empty($label)) role="img" aria-label="{{ $label }}" @endif>
+            <path d="M20.6 13.4 12 22l-9-9 8.6-8.6a2 2 0 0 1 1.4-.6H20a2 2 0 0 1 2 2v6.2a2 2 0 0 1-.6 1.4Z" />
+            <circle cx="16.5" cy="7.5" r="1.5" />
         </svg>
         @break
     @case('rss')

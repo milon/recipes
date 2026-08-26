@@ -37,7 +37,7 @@
         <meta property="og:type" content="website">
         <meta property="og:image" content="/assets/images/about-bg.jpg" />
         
-        <link rel="stylesheet" href="/assets/build/css/main-BEBKsz28.css">
+        <link rel="stylesheet" href="/assets/build/css/main-CKMyvOyN.css">
     </head>
     <body x-data="search()" @keydown.window.escape="closeModal()">
         <a class="skip-link" href="#main-content">মূল কনটেন্টে যান</a>
@@ -45,7 +45,6 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
         <a class="navbar-brand" href="/" aria-label="সহজ রেসিপি — হোম">
-            <span class="navbar-brand-mark" aria-hidden="true">র</span>
             <span>সহজ রেসিপি</span>
         </a>
 
@@ -239,10 +238,10 @@
                 <kbd>/</kbd> চাপ দিয়ে যেকোনো পাতা থেকে খুঁজুন
             </p>
 
-            <div x-show="query" class="search-results">
+            <div x-show="query" class="search-results" x-ref="resultsList">
                 <template x-for="(result, index) in results" :key="result.link">
                     <a
-                        x-ref="resultItem"
+                        data-search-result
                         :href="result.link"
                         :title="result.title"
                         class="search-result-item"
@@ -290,6 +289,6 @@
         </div>
     </div>
 </div>
-        <script src="/assets/build/js/main-Dzsy4ql_.js" type="module"></script>
+        <script src="/assets/build/js/main-DSZUOB5W.js" type="module"></script>
     </body>
 </html>

@@ -7,22 +7,7 @@
     @hasSection('hero')
         @yield('hero')
     @else
-        <header class="page-hero">
-            <div class="container page-hero-grid">
-                <div class="page-hero-copy">
-                    <p class="editorial-kicker">{{ $page->siteName }}</p>
-                    <h1>{{ $page->title ? $page->title : $page->siteName }}</h1>
-                    <p class="page-hero-subtitle">{{ $page->subtitle ? $page->subtitle : $page->siteDescription }}</p>
-                    @yield('header-info')
-                </div>
-                <div
-                    class="page-hero-image"
-                    role="img"
-                    aria-label="{{ $page->title ? $page->title : $page->siteName }}"
-                    style="background-image: url({{ $page->image ? $page->image : $page->randomBackground() }})"
-                ></div>
-            </div>
-        </header>
+        @include('_partials.hero')
     @endif
 
     <!-- Main Content -->

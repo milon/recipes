@@ -135,12 +135,14 @@ export default function search() {
     },
 
     scrollSelectedIntoView() {
-      const refs = this.$refs.resultItem;
-      const el = Array.isArray(refs) ? refs[this.selectedIndexClamped] : refs;
-      if (el && el.scrollIntoView) {
-        const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-        el.scrollIntoView({ block: 'nearest', behavior: reduceMotion ? 'auto' : 'smooth' });
-      }
+      const list = this.$refs.resultsList;
+      if (!list) return;
+
+      const el = list.querySelectorAll('[data-search-result]')[this.selectedIndexClamped];
+      if (!el) return;
+
+      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      el.scrollIntoView({ block: 'nearest', behavior: reduceMotion ? 'auto' : 'smooth' });
     },
   };
 }

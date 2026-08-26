@@ -1,29 +1,46 @@
-<article class="recipe-card">
-    <div class="recipe-card-inner">
-        @if ($post->metaImage ?? null)
-            <a href="{{ $post->getPath('web') }}" class="recipe-card-image" tabindex="-1" aria-hidden="true">
-                <img src="{{ $post->metaImage }}" alt="" loading="lazy">
-            </a>
+@php
+    $tileServings = $page->formatServings($post->servings ?? null);
+    $tilePrepTime = $page->formatPrepTime($post->prepMinutes ?? null);
+@endphp
+
+<article class="recipe-tile">
+    @if ($post->metaImage ?? null)
+        <a href="{{ $post->getPath('web') }}" class="recipe-tile-photo" tabindex="-1" aria-hidden="true">
+            <img src="{{ $post->metaImage }}" alt="" loading="lazy">
+        </a>
+    @endif
+
+    <div class="recipe-tile-body">
+        @include('_partials.category_tags', [
+            'categories' => $post->categories ?? [],
+            'limit' => 2,
+            'wrapperClass' => 'recipe-tile-tags',
+        ])
+
+        <h2 class="recipe-tile-title">
+            <a href="{{ $post->getPath('web') }}" class="recipe-tile-link">{{ $post->title }}</a>
+        </h2>
+
+        @if ($post->excerpt ?? null)
+            <p class="recipe-tile-excerpt">{{ $post->excerpt }}</p>
         @endif
-        <div class="recipe-card-body">
-            <p class="recipe-card-meta">{{ $page->banglaDate($post->date) }}</p>
-            @include('_partials.category_tags', [
-                'categories' => $post->categories ?? [],
-                'limit' => 2,
-                'wrapperClass' => 'recipe-card-tags',
-            ])
-            <h2 class="recipe-card-title">
-                <a href="{{ $post->getPath('web') }}" class="recipe-card-title-link">{{ $post->title }}</a>
-            </h2>
-            @if ($post->excerpt ?? null)
-                <p class="recipe-card-excerpt">
-                    <a href="{{ $post->getPath('web') }}" class="recipe-card-excerpt-link">{{ $post->excerpt }}</a>
-                </p>
-            @endif
-            <a class="recipe-card-action" href="{{ $post->getPath('web') }}">
-                রেসিপি পড়ুন
-                @include('_components.icon', ['name' => 'chevron-right', 'class' => 'icon--sm'])
-            </a>
-        </div>
+
+        @if ($tileServings || $tilePrepTime)
+            <ul class="recipe-facts recipe-facts--compact">
+                @if ($tileServings)
+                    <li>
+                        @include('_components.icon', ['name' => 'users', 'class' => 'recipe-fact-icon'])
+                        {{ $tileServings }}
+                    </li>
+                @endif
+
+                @if ($tilePrepTime)
+                    <li>
+                        @include('_components.icon', ['name' => 'clock', 'class' => 'recipe-fact-icon'])
+                        {{ $tilePrepTime }}
+                    </li>
+                @endif
+            </ul>
+        @endif
     </div>
 </article>

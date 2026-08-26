@@ -45,10 +45,10 @@
                 <kbd>/</kbd> চাপ দিয়ে যেকোনো পাতা থেকে খুঁজুন
             </p>
 
-            <div x-show="query" class="search-results">
+            <div x-show="query" class="search-results" x-ref="resultsList">
                 <template x-for="(result, index) in results" :key="result.link">
                     <a
-                        x-ref="resultItem"
+                        data-search-result
                         :href="result.link"
                         :title="result.title"
                         class="search-result-item"

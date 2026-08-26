@@ -1,7 +1,9 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
         <a class="navbar-brand" href="/" aria-label="{{ $page->siteName }} — হোম">
-            <span class="navbar-brand-mark" aria-hidden="true">র</span>
+            <span class="navbar-brand-mark">
+                @include('_components.icon', ['name' => 'logo', 'class' => 'icon--md'])
+            </span>
             <span>{{ $page->siteName }}</span>
         </a>
 

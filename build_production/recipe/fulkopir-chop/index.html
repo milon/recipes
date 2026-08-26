@@ -37,14 +37,13 @@
         <meta property="og:type" content="website">
         <meta property="og:image" content="/assets/images/recipes/fulkopir-chop.jpg" />
         
-        <link rel="stylesheet" href="/assets/build/css/main-BEBKsz28.css">
+        <link rel="stylesheet" href="/assets/build/css/main-CKMyvOyN.css">
     </head>
     <body x-data="search()" @keydown.window.escape="closeModal()">
         <a class="skip-link" href="#main-content">মূল কনটেন্টে যান</a>
             <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
         <a class="navbar-brand" href="/" aria-label="সহজ রেসিপি — হোম">
-            <span class="navbar-brand-mark" aria-hidden="true">র</span>
             <span>সহজ রেসিপি</span>
         </a>
 
@@ -125,28 +124,30 @@
             </div>
                     </div>
 
-                    <ul class="recipe-card-facts">
+                    <ul class="recipe-facts recipe-facts--stacked">
                                                     <li>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="recipe-card-fact-icon" aria-hidden="true">
-                                    <path d="M4 3v7a2 2 0 0 0 4 0V3M6 12v9" />
-                                    <path d="M16 3c-1.5 1.5-2 3-2 5s.5 3 2 3 2-1 2-3-.5-3.5-2-5zM16 11v10" />
-                                </svg>
-                                ৬টি উপকরণ
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
+        </svg>
+                                        ৪ জন
                             </li>
                         
                                                     <li>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="recipe-card-fact-icon" aria-hidden="true">
-                                    <path d="M9 6h11M9 12h11M9 18h11M4 6h1M4 12h1M4 18h1" />
-                                </svg>
-                                ২টি ধাপ
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
+            <circle cx="12" cy="12" r="9" />
+            <path d="M12 7v5l3.5 2" />
+        </svg>
+                                        ৩৫ মিনিট
                             </li>
                         
                         <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="recipe-card-fact-icon" aria-hidden="true">
-                                <circle cx="12" cy="12" r="9" />
-                                <path d="M12 7v5l3.5 2" />
-                            </svg>
-                            জুলাই ২৬, ২০২০
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
+            <rect x="3" y="5" width="18" height="16" rx="2" />
+            <path d="M3 10h18M8 3v4M16 3v4" />
+        </svg>
+                                    জুলাই ২৬, ২০২০
                         </li>
                     </ul>
                 </header>
@@ -339,10 +340,10 @@
                 <kbd>/</kbd> চাপ দিয়ে যেকোনো পাতা থেকে খুঁজুন
             </p>
 
-            <div x-show="query" class="search-results">
+            <div x-show="query" class="search-results" x-ref="resultsList">
                 <template x-for="(result, index) in results" :key="result.link">
                     <a
-                        x-ref="resultItem"
+                        data-search-result
                         :href="result.link"
                         :title="result.title"
                         class="search-result-item"
@@ -390,6 +391,6 @@
         </div>
     </div>
 </div>
-        <script src="/assets/build/js/main-Dzsy4ql_.js" type="module"></script>
+        <script src="/assets/build/js/main-DSZUOB5W.js" type="module"></script>
     </body>
 </html>

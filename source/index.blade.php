@@ -1,5 +1,4 @@
 ---
-heroImage: /assets/images/recipes/beef-kosha.jpg
 pagination:
     collection: posts
 ---
@@ -7,7 +6,18 @@ pagination:
 @extends('_layouts.page')
 
 @section('hero')
-    @include('_partials.hero_home')
+    @include('_partials.hero', [
+        'heroRotate' => true,
+        'heroKicker' => 'সহজ রান্না · ঘরের স্বাদ',
+        'heroTitle' => $page->siteName,
+        'heroSummary' => [
+            $page->siteDescription,
+            'প্রতিটি রেসিপিতে পরিমাণসহ উপকরণের তালিকা আর ধাপে ধাপে রান্নার নির্দেশনা দেয়া আছে, সবই ঘরের চেনা উপকরণে।',
+        ],
+        'heroFacts' => [
+            ['icon' => 'utensils', 'label' => $page->translateNumber($posts->count()) . 'টি বাংলা রেসিপি'],
+        ],
+    ])
 @endsection
 
 @section('page-content-class', 'page-content--home')
@@ -16,11 +26,9 @@ pagination:
 
 @section('content')
     <div id="recipes" class="recipe-section-intro">
-        <div>
-            <p class="editorial-kicker">রেসিপি সংগ্রহ</p>
-            <h2 class="recipe-section-title">আজ কী রান্না করবেন?</h2>
-        </div>
-        <p class="recipe-section-count">সহজ উপকরণ, পরিষ্কার নির্দেশনা, পরিচিত স্বাদ।</p>
+        <p class="editorial-kicker">রেসিপি সংগ্রহ</p>
+        <h2 class="recipe-section-title">আজ কী রান্না করবেন?</h2>
+        <p class="recipe-section-note">সহজ উপকরণ, পরিষ্কার নির্দেশনা, পরিচিত স্বাদ।</p>
     </div>
 
     <div class="recipe-grid">

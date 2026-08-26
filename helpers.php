@@ -71,14 +71,12 @@ if (!function_exists('recipe_without_image')) {
 
 if (!function_exists('recipe_method_steps')) {
     /**
-     * Turn the method paragraphs into numbered steps, keeping in-between photos in place.
+     * Turn the method paragraphs into steps, keeping in-between photos in place.
      *
      * Returns the HTML untouched when the section holds anything other than paragraphs,
      * so unexpected markup is never reshaped into steps.
-     *
-     * @param callable|null $formatNumber Formats each step number, e.g. into Bengali digits.
      */
-    function recipe_method_steps(string $html, ?callable $formatNumber = null): string
+    function recipe_method_steps(string $html): string
     {
         $blocks = '/<p\b[^>]*>(.*?)<\/p>/s';
 
@@ -94,7 +92,7 @@ if (!function_exists('recipe_method_steps')) {
         $steps = [];
         $number = 1;
 
-        $flush = function () use (&$output, &$steps, &$number, $formatNumber) {
+        $flush = function () use (&$output, &$steps, &$number) {
             if (!$steps) {
                 return;
             }
@@ -102,10 +100,7 @@ if (!function_exists('recipe_method_steps')) {
             $output .= '<ol class="recipe-steps" start="' . $number . '">';
 
             foreach ($steps as $step) {
-                $label = $formatNumber ? $formatNumber($number) : (string) $number;
-
                 $output .= '<li class="recipe-step">'
-                    . '<span class="recipe-step-number" aria-hidden="true">' . $label . '</span>'
                     . '<div class="recipe-step-body">' . $step . '</div>'
                     . '</li>';
 

@@ -53,6 +53,9 @@ return [
     // The name of the site Author. Your name! This is used when building the rss feed
     'siteAuthor' => 'মিলন',
 
+    // How many bg-{n}.jpg files live in source/assets/images/backgrounds
+    'backgroundCount' => 10,
+
     // Social media links/icons that are used in the footer, add as many as you like!
     'socials' => [
         'twitter' => [
@@ -123,14 +126,14 @@ return [
         return str_replace($enNum, $bnNum, $number);
     },
 
-    'formatServings' => function ($page) {
-        $servings = (int) ($page->servings ?? 0);
+    'formatServings' => function ($page, $servings = null) {
+        $servings = (int) ($servings ?? $page->servings ?? 0);
 
         return $servings > 0 ? $page->translateNumber($servings) . ' জন' : null;
     },
 
-    'formatPrepTime' => function ($page) {
-        $minutes = (int) ($page->prepMinutes ?? 0);
+    'formatPrepTime' => function ($page, $minutes = null) {
+        $minutes = (int) ($minutes ?? $page->prepMinutes ?? 0);
         if ($minutes <= 0) {
             return null;
         }
@@ -150,8 +153,11 @@ return [
         return $label;
     },
 
+    'backgroundImage' => function ($page, $number) {
+        return "/assets/images/backgrounds/bg-$number.jpg";
+    },
+
     'randomBackground' => function ($page) {
-        $random = rand(1, 10);
-        return "/assets/images/backgrounds/bg-$random.jpg";
+        return $page->backgroundImage(rand(1, $page->backgroundCount));
     },
 ];

@@ -1,6 +1,6 @@
 // Modern white-and-beige editorial recipe theme.
 @import "theme-variables";
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700&family=Noto+Serif+Bengali:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Galada&family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap");
 @import "bootstrap/scss/bootstrap";
 @import "startbootstrap-clean-blog.scss";
 
@@ -184,10 +184,15 @@ textarea {
         width: 2rem;
         height: 2rem;
         place-items: center;
-        border: 1px solid $ink;
-        border-radius: 50%;
-        font-size: 0.95rem;
+        border-radius: 0.6rem;
+        background: $accent;
+        color: $paper;
         line-height: 1;
+    }
+
+    .navbar-brand:hover .navbar-brand-mark,
+    .navbar-brand:focus .navbar-brand-mark {
+        background: $accent-dark;
     }
 
     .navbar-nav {
@@ -247,157 +252,169 @@ textarea {
 
 @include media-breakpoint-down(md) {
     #mainNav {
+        // Bootstrap strips the gutters from a navbar container below its expand
+        // breakpoint, so restore them to keep the header inside the viewport.
+        > .container {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+
+        // The open panel adds a second flex line, so without a fixed bar height
+        // the brand and toggler lose their centring and jump to the top edge.
+        .navbar-brand,
+        .navbar-mobile-tools {
+            min-height: 4.5rem;
+        }
+
+        // Padding and border belong on the list, not on the collapsing element:
+        // Bootstrap animates only its height, so a box here pops open instantly.
         .navbar-collapse {
             margin: 0 -15px;
-            padding: 0.75rem 15px 1rem;
-            border-top: 1px solid $rule;
             background: $paper;
         }
 
         .navbar-nav {
             gap: 0;
             align-items: stretch !important;
+            padding: 0.75rem 15px 1rem;
+            border-top: 1px solid $rule;
         }
     }
 }
 
 // ---------------------------------------------------------------------------
-// Home and static-page heroes
+// Shared hero — home and static pages
 // ---------------------------------------------------------------------------
 
-.hero-home {
-    padding: 7.5rem 0 3.5rem;
-    border-bottom: 1px solid $rule;
-    background: $canvas;
+.hero {
+    padding: 7.25rem 0 0;
 }
 
-.hero-home-grid,
-.page-hero-grid {
-    display: grid;
-    align-items: center;
-    gap: 2.5rem;
+.hero-frame {
+    position: relative;
 }
 
-.hero-home-copy {
-    max-width: 35rem;
+.hero-stage {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 1.35rem;
+    background: $canvas-deep;
 }
 
-.hero-home-title {
-    margin: 0;
+.hero-photo {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1.1s ease;
+
+    &.is-visible {
+        opacity: 1;
+    }
+}
+
+.hero-panel {
+    position: relative;
+    margin: -3rem 0.75rem 0;
+    padding: clamp(1.4rem, 3vw, 2.4rem);
+    border-radius: 1.2rem;
+    background: $paper;
+    box-shadow: 0 26px 60px rgba($ink, 0.16);
+}
+
+.hero-title {
+    margin: 0.4rem 0 0;
     color: $ink;
-    font-size: clamp(2.65rem, 8vw, 5.75rem);
+    font-size: clamp(2.2rem, 5vw, 3.5rem);
     font-weight: 600;
-    line-height: 1.04;
+    line-height: 1.06;
     @include serif-font;
 }
 
-.hero-home-summary {
-    max-width: 31rem;
-    margin: 1.4rem 0 1.65rem;
+.hero-summary {
+    margin: 0.9rem 0 0;
     color: $muted;
-    font-size: 1rem;
-    line-height: 1.8;
+    font-size: 0.97rem;
+    line-height: 1.75;
+
+    p {
+        margin: 0 0 0.55rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
 }
 
-.hero-home-cta,
-.recipe-card-action {
+.hero-panel .recipe-facts {
+    margin-top: 1.45rem;
+}
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem 0.75rem;
+    margin-top: 1.6rem;
+}
+
+.hero-action {
     display: inline-flex;
     align-items: center;
-    gap: 0.45rem;
-    padding-bottom: 0.18rem;
-    border-bottom: 1px solid currentColor;
-    color: $ink;
-    font-size: 0.84rem;
-    font-weight: 700;
-    letter-spacing: 0.04em;
+    padding: 0.7rem 1.3rem;
+    border: 1px solid $ink;
+    color: $paper;
+    background: $ink;
+    font-size: 0.88rem;
+    font-weight: 600;
     text-decoration: none;
 
     &:hover,
     &:focus {
-        color: $accent;
+        border-color: $accent;
+        color: $paper;
+        background: $accent;
         text-decoration: none;
     }
 }
 
-.hero-home-visual {
-    position: relative;
-    min-width: 0;
-}
+.hero-action--quiet {
+    color: $ink;
+    background: transparent;
 
-.hero-home-image {
-    min-height: clamp(21rem, 54vw, 35rem);
-    background-position: center;
-    background-size: cover;
-}
-
-.hero-home-note {
-    position: absolute;
-    right: -0.5rem;
-    bottom: -1rem;
-    display: flex;
-    width: 7.5rem;
-    height: 7.5rem;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    color: $paper;
-    background: $accent;
-
-    span {
-        font-size: 0.7rem;
-        letter-spacing: 0.12em;
-        text-transform: uppercase;
+    &:hover,
+    &:focus {
+        color: $paper;
     }
-
-    strong {
-        margin-top: 0.15rem;
-        font-size: 1.65rem;
-        font-weight: 500;
-        @include serif-font;
-    }
-}
-
-.page-hero {
-    padding: 7.5rem 0 3.25rem;
-    border-bottom: 1px solid $rule;
-    background: $canvas;
-}
-
-.page-hero-copy h1 {
-    margin: 0;
-    font-size: clamp(2.6rem, 7vw, 5rem);
-    line-height: 1.08;
-}
-
-.page-hero-subtitle {
-    max-width: 32rem;
-    margin: 1.15rem 0 0;
-    color: $muted;
-    font-size: 1.05rem;
-}
-
-.page-hero-image {
-    min-height: clamp(18rem, 43vw, 29rem);
-    background-position: center;
-    background-size: cover;
 }
 
 @include media-breakpoint-up(md) {
-    .hero-home-grid,
-    .page-hero-grid {
-        grid-template-columns: minmax(0, 0.88fr) minmax(0, 1.12fr);
-        gap: clamp(2.75rem, 6vw, 6rem);
+    .hero {
+        padding-bottom: 3.25rem;
     }
 
-    .hero-home-copy,
-    .page-hero-copy {
-        padding-left: clamp(0rem, 2vw, 1.5rem);
+    .hero-panel {
+        position: absolute;
+        bottom: -3.25rem;
+        left: 2.75rem;
+        max-width: 33rem;
+        margin: 0;
+    }
+
+}
+
+// Static pages carry less panel copy than the home hero, so the photo can sit
+// shallower once there is room for the panel to overlap it.
+@include media-breakpoint-up(lg) {
+    .hero--page .hero-stage {
+        aspect-ratio: 2 / 1;
     }
 }
 
 // ---------------------------------------------------------------------------
-// Page content and forms
+// Page content
 // ---------------------------------------------------------------------------
 
 .page-content {
@@ -405,7 +422,8 @@ textarea {
     padding-bottom: clamp(4rem, 8vw, 7rem);
 }
 
-.page-content:not(.page-content--home) {
+// Markdown pages that render a single column of prose.
+.page-content:not(.page-content--home):not(.page-content--static) {
     p,
     li {
         color: $ink;
@@ -417,37 +435,323 @@ textarea {
     }
 }
 
-.page-content--home {
-    padding-top: clamp(3rem, 6vw, 5rem);
-}
+// ---------------------------------------------------------------------------
+// Static pages — about and contact
+// ---------------------------------------------------------------------------
 
-.form-group {
-    label {
-        display: block;
-        margin-bottom: 0.45rem;
-        opacity: 1;
-        color: $muted;
-        font-size: 0.82rem;
-        font-weight: 600;
+.static-layout {
+    display: grid;
+    align-items: start;
+    gap: clamp(2rem, 4vw, 3.25rem);
+
+    @include media-breakpoint-up(lg) {
+        grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
     }
 }
 
-.floating-label-form-group {
-    padding: 1rem 0;
-    border-bottom: 1px solid $rule;
+.static-main {
+    > p:not(.editorial-kicker) {
+        max-width: 44rem;
+        margin: 0 0 1.3rem;
+        color: $ink;
+        line-height: 1.9;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.static-title {
+    margin: 0 0 1.6rem;
+    font-size: clamp(1.9rem, 3.6vw, 2.7rem);
+    line-height: 1.18;
+}
+
+.static-section {
+    margin-top: clamp(3rem, 6vw, 4.5rem);
+    padding-top: clamp(2.5rem, 5vw, 3.5rem);
+    border-top: 1px solid $rule;
+}
+
+.static-section-title {
+    margin: 0 0 clamp(1.5rem, 3vw, 2.25rem);
+    font-size: clamp(1.8rem, 3.4vw, 2.5rem);
+    line-height: 1.18;
+}
+
+.info-card {
+    padding: clamp(1.4rem, 3vw, 2.1rem);
+    border-radius: 1.2rem;
+    background: $paper;
+    box-shadow: 0 14px 34px rgba($ink, 0.05);
+}
+
+.info-list {
+    margin: 0;
+
+    > div {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 0.65rem 0;
+        border-bottom: 1px solid $rule;
+
+        &:last-child {
+            border-bottom: 0;
+        }
+    }
+
+    dt {
+        margin: 0;
+        color: $muted;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
+    dd {
+        margin: 0;
+        color: $ink;
+        font-size: 0.92rem;
+        text-align: right;
+    }
+}
+
+.info-points {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+        position: relative;
+        padding: 0.45rem 0 0.45rem 1.1rem;
+        color: $ink;
+        font-size: 0.94rem;
+        line-height: 1.7;
+
+        &::before {
+            position: absolute;
+            top: 0.45rem;
+            left: 0;
+            color: $accent;
+            content: "•";
+        }
+    }
+}
+
+.info-note {
+    margin: 1.25rem 0 0;
+    padding-top: 1.25rem;
+    border-top: 1px solid $rule;
+    color: $muted;
+    font-size: 0.88rem;
+    line-height: 1.8;
+}
+
+.info-social {
+    display: flex;
+    gap: 0.5rem;
+    margin: 1.4rem 0 0;
+    padding: 0;
+    list-style: none;
+
+    a {
+        display: inline-grid;
+        width: 2.35rem;
+        height: 2.35rem;
+        place-items: center;
+        border: 1px solid $rule;
+        border-radius: 50%;
+        color: $ink;
+
+        &:hover,
+        &:focus {
+            border-color: $ink;
+            color: $paper;
+            background: $ink;
+        }
+    }
+}
+
+.tool-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: clamp(1rem, 2vw, 1.5rem);
+
+    @include media-breakpoint-up(sm) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    @include media-breakpoint-up(lg) {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+.tool-card {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    padding: clamp(1.2rem, 2.4vw, 1.6rem);
+    border-radius: 1.1rem;
+    background: $paper;
+    box-shadow: 0 14px 34px rgba($ink, 0.05);
+
+    h3 {
+        margin: 0 0 0.6rem;
+        font-size: 1.15rem;
+        line-height: 1.3;
+    }
+
+    p {
+        flex: 1;
+        margin: 0 0 1rem;
+        color: $muted;
+        font-size: 0.88rem;
+        line-height: 1.7;
+    }
+
+    a {
+        font-size: 0.8rem;
+        font-weight: 600;
+        overflow-wrap: anywhere;
+    }
+}
+
+.callout-card {
+    display: grid;
+    align-items: center;
+    gap: clamp(1.5rem, 3vw, 2.5rem);
+    margin-top: clamp(3rem, 6vw, 4.5rem);
+    padding: clamp(1.6rem, 4vw, 3rem);
+    border-radius: 1.35rem;
+    background: $ink;
+
+    @include media-breakpoint-up(md) {
+        grid-template-columns: minmax(0, 1fr) auto;
+    }
+
+    .editorial-kicker {
+        color: rgba($paper, 0.58);
+    }
+
+    p:not(.editorial-kicker) {
+        max-width: 40rem;
+        margin: 0;
+        color: rgba($paper, 0.76);
+        font-size: 0.95rem;
+        line-height: 1.85;
+
+        a {
+            color: $paper;
+            text-decoration: underline;
+        }
+    }
+
+    .hero-action {
+        border-color: $paper;
+        color: $ink;
+        background: $paper;
+        white-space: nowrap;
+
+        &:hover,
+        &:focus {
+            border-color: $accent;
+            color: $paper;
+            background: $accent;
+        }
+    }
+}
+
+.callout-title {
+    margin: 0 0 0.85rem;
+    color: $paper;
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    line-height: 1.22;
+}
+
+// ---------------------------------------------------------------------------
+// Contact form
+// ---------------------------------------------------------------------------
+
+.form-card {
+    padding: clamp(1.5rem, 3.5vw, 2.75rem);
+    border-radius: 1.35rem;
+    background: $paper;
+    box-shadow: 0 20px 48px rgba($ink, 0.06);
+}
+
+.form-card-title {
+    margin: 0 0 1.75rem;
+    font-size: clamp(1.7rem, 3vw, 2.3rem);
+    line-height: 1.2;
+}
+
+.contact-form {
+    display: grid;
+    gap: 1.1rem 1.35rem;
+
+    @include media-breakpoint-up(sm) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+.contact-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+
+    label {
+        margin: 0;
+        color: $muted;
+        font-size: 0.8rem;
+        font-weight: 600;
+        letter-spacing: 0.03em;
+    }
 
     input,
     textarea {
-        padding: 0.5rem 0;
-        border: 0;
+        width: 100%;
+        padding: 0.75rem 0.95rem;
+        border: 1px solid $rule;
+        border-radius: 0.7rem;
         color: $ink;
-        background: transparent;
-        font-size: 1rem;
+        background: $canvas;
+        font-size: 0.97rem;
+
+        &::placeholder {
+            color: rgba($muted, 0.7);
+        }
 
         &:focus {
-            box-shadow: none;
+            border-color: $accent;
+            background: $paper;
         }
     }
+
+    textarea {
+        resize: vertical;
+    }
+}
+
+.contact-field--wide,
+.contact-actions {
+    @include media-breakpoint-up(sm) {
+        grid-column: 1 / -1;
+    }
+}
+
+.contact-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.85rem 1.25rem;
+    margin-top: 0.35rem;
+}
+
+.contact-note {
+    margin: 0;
+    color: $muted;
+    font-size: 0.82rem;
 }
 
 .btn-primary {
@@ -507,7 +811,7 @@ textarea {
 }
 
 .recipe-detail-tags,
-.recipe-card-tags {
+.recipe-tile-tags {
     display: flex;
     flex-wrap: wrap;
     gap: 0.45rem 0.75rem;
@@ -540,43 +844,29 @@ textarea {
 // ---------------------------------------------------------------------------
 
 .recipe-section-intro {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin-bottom: 2rem;
-    padding-bottom: 1.35rem;
+    max-width: 38rem;
+    margin: 0 auto clamp(2rem, 4vw, 2.85rem);
+    padding-bottom: clamp(1.35rem, 3vw, 1.85rem);
     border-bottom: 1px solid $rule;
+    text-align: center;
 }
 
 .recipe-section-title {
     margin: 0;
-    font-size: clamp(2rem, 4vw, 3rem);
+    font-size: clamp(2rem, 4vw, 2.9rem);
     line-height: 1.15;
 }
 
-.recipe-section-count {
-    max-width: 24rem;
-    margin: 0;
+.recipe-section-note {
+    margin: 0.85rem 0 0;
     color: $muted;
-    font-size: 0.9rem;
-}
-
-@include media-breakpoint-up(md) {
-    .recipe-section-intro {
-        flex-direction: row;
-        align-items: flex-end;
-        justify-content: space-between;
-    }
-
-    .recipe-section-count {
-        text-align: right;
-    }
+    font-size: 0.95rem;
 }
 
 .recipe-grid {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
-    gap: 2rem 1.35rem;
+    gap: clamp(1.35rem, 2.5vw, 2rem);
 
     @include media-breakpoint-up(sm) {
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -587,31 +877,27 @@ textarea {
     }
 }
 
-.recipe-card {
-    height: 100%;
-    border: 1px solid $rule;
-    border-radius: 0;
-    background: $paper;
-    box-shadow: none;
-    overflow: hidden;
-    transition: border-color 0.2s ease, transform 0.2s ease;
-
-    &:hover {
-        border-color: $accent;
-        transform: translateY(-3px);
-    }
-}
-
-.recipe-card-inner {
+.recipe-tile {
     display: flex;
     height: 100%;
     flex-direction: column;
+    padding: clamp(0.8rem, 1.5vw, 1.1rem);
+    border-radius: 1.15rem;
+    background: $paper;
+    box-shadow: 0 14px 34px rgba($ink, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 22px 46px rgba($ink, 0.09);
+    }
 }
 
-.recipe-card-image {
+.recipe-tile-photo {
     display: block;
-    aspect-ratio: 1 / 0.82;
+    aspect-ratio: 4 / 3;
     overflow: hidden;
+    border-radius: 0.85rem;
     background: $canvas-deep;
 
     img {
@@ -622,36 +908,28 @@ textarea {
     }
 }
 
-.recipe-card:hover .recipe-card-image img {
-    transform: scale(1.025);
+.recipe-tile:hover .recipe-tile-photo img {
+    transform: scale(1.03);
 }
 
-.recipe-card-body {
+.recipe-tile-body {
     display: flex;
     flex: 1;
     flex-direction: column;
-    padding: 1.35rem 1.3rem 1.45rem;
+    padding: 1.2rem 0.55rem 0.65rem;
 }
 
-.recipe-card-meta {
-    margin: 0 0 0.65rem;
-    color: $muted;
-    font-size: 0.72rem;
-    letter-spacing: 0.04em;
+.recipe-tile-tags {
+    margin-bottom: 0.7rem;
 }
 
-.recipe-card-tags {
-    margin-bottom: 0.8rem;
-}
-
-.recipe-card-title {
-    margin: 0 0 0.65rem;
-    font-size: clamp(1.35rem, 2.3vw, 1.7rem);
+.recipe-tile-title {
+    margin: 0 0 0.6rem;
+    font-size: clamp(1.3rem, 2.2vw, 1.65rem);
     line-height: 1.25;
 }
 
-.recipe-card-title-link,
-.recipe-card-excerpt-link {
+.recipe-tile-link {
     color: inherit;
     text-decoration: none;
 
@@ -662,17 +940,12 @@ textarea {
     }
 }
 
-.recipe-card-excerpt {
+.recipe-tile-excerpt {
     flex: 1;
-    margin: 0 0 1.25rem;
+    margin: 0 0 1.1rem;
     color: $muted;
     font-size: 0.88rem;
     line-height: 1.65;
-}
-
-.recipe-card-action {
-    align-self: flex-start;
-    font-size: 0.76rem;
 }
 
 .recipe-pagination {
@@ -695,6 +968,7 @@ textarea {
         margin: 0;
         padding: 0.3rem;
         border: 1px solid transparent;
+        border-radius: 999px;
         color: $muted;
         font-size: 0.82rem;
         text-decoration: none;
@@ -703,12 +977,13 @@ textarea {
     a:hover,
     a:focus,
     .selected {
-        border-color: $ink;
+        border-color: $rule;
         color: $ink;
+        background: $paper;
     }
 
     .selected {
-        background: $paper;
+        border-color: $ink;
         font-weight: 700;
     }
 }
@@ -781,10 +1056,10 @@ textarea {
     margin-top: 1.15rem;
 }
 
-.recipe-card-facts {
+.recipe-facts {
     display: flex;
-    flex-direction: column;
-    gap: 0.65rem;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.35rem;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -795,6 +1070,14 @@ textarea {
         gap: 0.55rem;
         color: $muted;
         font-size: 0.92rem;
+    }
+}
+
+.recipe-facts--stacked {
+    flex-direction: column;
+    gap: 0.65rem;
+
+    li {
         white-space: nowrap;
     }
 
@@ -804,7 +1087,21 @@ textarea {
     }
 }
 
-.recipe-card-fact-icon {
+.recipe-facts--compact {
+    gap: 0.4rem 1rem;
+    margin-bottom: 1.15rem;
+
+    li {
+        font-size: 0.8rem;
+    }
+
+    .recipe-fact-icon {
+        width: 0.95rem;
+        height: 0.95rem;
+    }
+}
+
+.recipe-fact-icon {
     width: 1.1rem;
     height: 1.1rem;
     flex-shrink: 0;
@@ -884,25 +1181,8 @@ textarea {
 }
 
 .recipe-step {
-    display: grid;
-    align-items: start;
-    gap: 0 0.55rem;
-    grid-template-columns: 1.4rem minmax(0, 1fr);
-
     + .recipe-step {
         margin-top: 1.15rem;
-    }
-}
-
-.recipe-step-number {
-    color: $accent;
-    font-size: 0.95rem;
-    line-height: 1.9;
-    text-align: right;
-    @include serif-font;
-
-    &::after {
-        content: ".";
     }
 }
 
@@ -1035,6 +1315,10 @@ textarea {
 .recipe-nav-link--next {
     text-align: right;
 
+    @include media-breakpoint-up(sm) {
+        grid-column: 2;
+    }
+
     .recipe-nav-link-title {
         justify-content: flex-end;
     }
@@ -1077,7 +1361,7 @@ body.search-modal-open {
 .search-modal-backdrop {
     position: absolute;
     inset: 0;
-    background: rgba($ink, 0.58);
+    background: rgba($ink, 0.5);
     backdrop-filter: blur(5px);
 }
 
@@ -1089,17 +1373,16 @@ body.search-modal-open {
     max-height: min(80vh, 760px);
     flex-direction: column;
     overflow: hidden;
-    border: 1px solid $rule;
-    border-radius: 0;
+    border-radius: 1.35rem;
     background: $paper;
-    box-shadow: 0 24px 70px rgba($ink, 0.2);
+    box-shadow: 0 24px 60px rgba($ink, 0.18);
 }
 
 .search-modal-header {
     display: flex;
     align-items: center;
     gap: 0.75rem;
-    padding: 1.15rem;
+    padding: clamp(1rem, 2.5vw, 1.35rem);
     border-bottom: 1px solid $rule;
 }
 
@@ -1121,40 +1404,48 @@ body.search-modal-open {
     height: 3.1rem;
     padding: 0.55rem 1rem 0.55rem 2.55rem;
     border: 1px solid $rule;
-    border-radius: 0;
+    border-radius: 0.85rem;
     color: $ink;
     background: $canvas;
     font-size: 1rem;
 
     &:focus {
         border-color: $accent;
+        background: $paper;
         box-shadow: 0 0 0 3px rgba($accent, 0.13);
     }
 }
 
 .search-modal-close {
+    display: inline-grid;
+    width: 2.5rem;
+    height: 2.5rem;
     flex-shrink: 0;
-    padding: 0.5rem;
+    place-items: center;
+    padding: 0;
+    border-radius: 50%;
     color: $ink;
 
-    &:hover {
+    &:hover,
+    &:focus {
         color: $accent;
+        background: $canvas;
     }
 }
 
 .search-modal-body {
     flex: 1;
     overflow-y: auto;
-    padding: 1rem;
+    padding: clamp(0.85rem, 2vw, 1.1rem);
 }
 
 .search-modal-hint {
     color: $muted !important;
 
     kbd {
-        padding: 0.15rem 0.4rem;
+        padding: 0.15rem 0.45rem;
         border: 1px solid $rule;
-        border-radius: 0;
+        border-radius: 0.4rem;
         color: $ink;
         background: $canvas;
     }
@@ -1163,31 +1454,36 @@ body.search-modal-open {
 .search-results {
     display: flex;
     flex-direction: column;
+    gap: 0.2rem;
 }
 
 .search-result-item {
     display: flex;
     align-items: center;
     gap: 1rem;
-    padding: 0.85rem 0;
-    border-bottom: 1px solid $rule;
+    padding: 0.7rem;
+    border-radius: 0.95rem;
     color: $ink;
+    scroll-margin: 0.5rem;
     text-decoration: none;
+    transition: background 0.2s ease, box-shadow 0.2s ease;
 
     &:hover,
     &:focus,
     &.search-result-item-selected {
         color: $ink;
-        background: rgba($canvas, 0.65);
+        background: $canvas;
+        box-shadow: 0 10px 26px rgba($ink, 0.05);
         text-decoration: none;
     }
 }
 
 .search-result-thumb {
-    width: 76px;
-    height: 76px;
+    width: 72px;
+    height: 72px;
     flex-shrink: 0;
     overflow: hidden;
+    border-radius: 0.7rem;
     background: $canvas-deep;
 
     img {
@@ -1329,26 +1625,12 @@ body.search-modal-open {
         font-size: 17px;
     }
 
-    .hero-home,
-    .page-hero {
+    .hero {
         padding-top: 6.75rem;
     }
 
-    .hero-home-grid,
-    .page-hero-grid {
-        gap: 2rem;
-    }
-
-    .hero-home-visual,
-    .page-hero-image {
-        margin-right: -15px;
-        margin-left: -15px;
-    }
-
-    .hero-home-note {
-        right: 0.75rem;
-        width: 6.5rem;
-        height: 6.5rem;
+    .hero-stage {
+        aspect-ratio: 4 / 3;
     }
 
     .recipe-detail-main {
@@ -1359,8 +1641,14 @@ body.search-modal-open {
         aspect-ratio: 4 / 3;
     }
 
-    .recipe-card-sheet {
+    .hero-stage,
+    .recipe-card-sheet,
+    .search-modal-panel {
         border-radius: 1rem;
+    }
+
+    .recipe-tile {
+        border-radius: 0.95rem;
     }
 }
 

@@ -29,15 +29,15 @@
         <meta name="twitter:card" content="summary">
         <meta name="twitter:title" content="সহজ রেসিপি">
         <meta name="twitter:description" content="রান্না করা খুব কঠিন কোন কাজ না, আমি যেহেতু পারছি, পারবেন আপনিও...">
-        <meta name="twitter:image" content="/assets/images/backgrounds/bg-8.jpg" />
+        <meta name="twitter:image" content="/assets/images/backgrounds/bg-5.jpg" />
         <!-- Open Graph general (Facebook, Pinterest & Google+) -->
         <meta property="og:url" content="https://recipes.milon.im/2">
         <meta property="og:title" content="সহজ রেসিপি">
         <meta property="og:description" content="রান্না করা খুব কঠিন কোন কাজ না, আমি যেহেতু পারছি, পারবেন আপনিও...">
         <meta property="og:type" content="website">
-        <meta property="og:image" content="/assets/images/backgrounds/bg-7.jpg" />
+        <meta property="og:image" content="/assets/images/backgrounds/bg-4.jpg" />
         
-        <link rel="stylesheet" href="/assets/build/css/main-BEBKsz28.css">
+        <link rel="stylesheet" href="/assets/build/css/main-CKMyvOyN.css">
     </head>
     <body x-data="search()" @keydown.window.escape="closeModal()">
         <a class="skip-link" href="#main-content">মূল কনটেন্টে যান</a>
@@ -45,7 +45,6 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
         <a class="navbar-brand" href="/" aria-label="সহজ রেসিপি — হোম">
-            <span class="navbar-brand-mark" aria-hidden="true">র</span>
             <span>সহজ রেসিপি</span>
         </a>
 
@@ -105,32 +104,37 @@
 </nav>
 
                 <section class="hero-home">
-    <div class="container hero-home-grid">
-        <div class="hero-home-copy">
-            <p class="editorial-kicker">সহজ রান্না · ঘরের স্বাদ</p>
-            <h1 class="hero-home-title">সহজ রেসিপি</h1>
-            <p class="hero-home-summary">
-                রান্না করা খুব কঠিন কোন কাজ না, আমি যেহেতু পারছি, পারবেন আপনিও...
-                পরিচিত উপকরণে সহজভাবে রান্না করার জন্য সাজানো
-                ২০০টি বাংলা রেসিপি।
-            </p>
-            <a href="#recipes" class="hero-home-cta">
-                সব রেসিপি দেখুন
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm"  aria-hidden="true"  >
-            <path d="m9 18 6-6-6-6" />
+    <div class="container">
+        <div
+            class="hero-home-frame"
+            data-hero-rotate="10"
+            data-hero-next="8"
+            data-hero-src="/assets/images/backgrounds/bg-{n}.jpg"
+        >
+            <div class="hero-home-stage">
+                <img class="hero-home-photo is-visible" src="/assets/images/backgrounds/bg-7.jpg" alt="">
+                <img class="hero-home-photo" src="/assets/images/backgrounds/bg-8.jpg" alt="" loading="lazy">
+            </div>
+
+            <div class="hero-home-panel">
+                <p class="editorial-kicker">সহজ রান্না · ঘরের স্বাদ</p>
+                <h1 class="hero-home-title">সহজ রেসিপি</h1>
+
+                <div class="hero-home-summary">
+                    <p>রান্না করা খুব কঠিন কোন কাজ না, আমি যেহেতু পারছি, পারবেন আপনিও...</p>
+                    <p>প্রতিটি রেসিপিতে পরিমাণসহ উপকরণের তালিকা আর ধাপে ধাপে রান্নার নির্দেশনা দেয়া আছে, সবই ঘরের চেনা উপকরণে।</p>
+                </div>
+
+                <ul class="recipe-facts">
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
+            <path d="M3 2v7c0 1.1.9 2 2 2h0a2 2 0 0 0 2-2V2" />
+            <path d="M7 2v20" />
+            <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
         </svg>
-                    </a>
-        </div>
-        <div class="hero-home-visual">
-            <div
-                class="hero-home-image"
-                role="img"
-                aria-label="সাজানো খাবার"
-                style="background-image: url(/assets/images/recipes/beef-kosha.jpg)"
-            ></div>
-            <div class="hero-home-note" aria-hidden="true">
-                <span>রেসিপি</span>
-                <strong>২০০</strong>
+                                ২০০টি বাংলা রেসিপি
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
@@ -141,241 +145,338 @@
         <div class="row">
             <div class="col-12">
                     <div id="recipes" class="recipe-section-intro">
-        <div>
-            <p class="editorial-kicker">রেসিপি সংগ্রহ</p>
-            <h2 class="recipe-section-title">আজ কী রান্না করবেন?</h2>
-        </div>
-        <p class="recipe-section-count">সহজ উপকরণ, পরিষ্কার নির্দেশনা, পরিচিত স্বাদ।</p>
+        <p class="editorial-kicker">রেসিপি সংগ্রহ</p>
+        <h2 class="recipe-section-title">আজ কী রান্না করবেন?</h2>
+        <p class="recipe-section-note">সহজ উপকরণ, পরিষ্কার নির্দেশনা, পরিচিত স্বাদ।</p>
     </div>
 
     <div class="recipe-grid">
-                    <article class="recipe-card">
-    <div class="recipe-card-inner">
-                    <a href="/recipe/akhni" class="recipe-card-image" tabindex="-1" aria-hidden="true">
-                <img src="/assets/images/recipes/akhni.jpg" alt="" loading="lazy">
-            </a>
-                <div class="recipe-card-body">
-            <p class="recipe-card-meta">নভেম্বর ৩০, ২০২৩</p>
-            <div class="recipe-card-tags">
+                    <article class="recipe-tile">
+            <a href="/recipe/akhni" class="recipe-tile-photo" tabindex="-1" aria-hidden="true">
+            <img src="/assets/images/recipes/akhni.jpg" alt="" loading="lazy">
+        </a>
+    
+    <div class="recipe-tile-body">
+        <div class="recipe-tile-tags">
                     <a href="/category/biriyani" class="recipe-tag">#বিরিয়ানি</a>
                     <a href="/category/tehari" class="recipe-tag">#তেহারি</a>
             </div>
-            <h2 class="recipe-card-title">
-                <a href="/recipe/akhni" class="recipe-card-title-link">আখনি</a>
-            </h2>
-                            <p class="recipe-card-excerpt">
-                    <a href="/recipe/akhni" class="recipe-card-excerpt-link">চট্টগ্রামের ঐতিহ্যবাহী আখনি বিরিয়ানি রান্নার রেসিপি</a>
-                </p>
-                        <a class="recipe-card-action" href="/recipe/akhni">
-                রেসিপি পড়ুন
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm"  aria-hidden="true"  >
-            <path d="m9 18 6-6-6-6" />
+
+        <h2 class="recipe-tile-title">
+            <a href="/recipe/akhni" class="recipe-tile-link">আখনি</a>
+        </h2>
+
+                    <p class="recipe-tile-excerpt">চট্টগ্রামের ঐতিহ্যবাহী আখনি বিরিয়ানি রান্নার রেসিপি</p>
+        
+                    <ul class="recipe-facts recipe-facts--compact">
+                                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
         </svg>
-                    </a>
-        </div>
-    </div>
+                                ৮ জন
+                    </li>
+                
+                                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
+            <circle cx="12" cy="12" r="9" />
+            <path d="M12 7v5l3.5 2" />
+        </svg>
+                                ১ ঘণ্টা ৩০ মিনিট
+                    </li>
+                            </ul>
+            </div>
 </article>
-                    <article class="recipe-card">
-    <div class="recipe-card-inner">
-                    <a href="/recipe/sillago-macher-chocchori" class="recipe-card-image" tabindex="-1" aria-hidden="true">
-                <img src="/assets/images/recipes/sillago-macher-chocchori.jpg" alt="" loading="lazy">
-            </a>
-                <div class="recipe-card-body">
-            <p class="recipe-card-meta">নভেম্বর ১২, ২০২৩</p>
-            <div class="recipe-card-tags">
+                    <article class="recipe-tile">
+            <a href="/recipe/sillago-macher-chocchori" class="recipe-tile-photo" tabindex="-1" aria-hidden="true">
+            <img src="/assets/images/recipes/sillago-macher-chocchori.jpg" alt="" loading="lazy">
+        </a>
+    
+    <div class="recipe-tile-body">
+        <div class="recipe-tile-tags">
                     <a href="/category/macher-trkaree" class="recipe-tag">#মাছের তরকারী</a>
             </div>
-            <h2 class="recipe-card-title">
-                <a href="/recipe/sillago-macher-chocchori" class="recipe-card-title-link">সিলাগো মাছের চচ্চড়ি</a>
-            </h2>
-                            <p class="recipe-card-excerpt">
-                    <a href="/recipe/sillago-macher-chocchori" class="recipe-card-excerpt-link">সিলাগো মাছের চচ্চড়ি রান্নার রেসিপি</a>
-                </p>
-                        <a class="recipe-card-action" href="/recipe/sillago-macher-chocchori">
-                রেসিপি পড়ুন
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm"  aria-hidden="true"  >
-            <path d="m9 18 6-6-6-6" />
+
+        <h2 class="recipe-tile-title">
+            <a href="/recipe/sillago-macher-chocchori" class="recipe-tile-link">সিলাগো মাছের চচ্চড়ি</a>
+        </h2>
+
+                    <p class="recipe-tile-excerpt">সিলাগো মাছের চচ্চড়ি রান্নার রেসিপি</p>
+        
+                    <ul class="recipe-facts recipe-facts--compact">
+                                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
         </svg>
-                    </a>
-        </div>
-    </div>
+                                ৪ জন
+                    </li>
+                
+                                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
+            <circle cx="12" cy="12" r="9" />
+            <path d="M12 7v5l3.5 2" />
+        </svg>
+                                ৩০ মিনিট
+                    </li>
+                            </ul>
+            </div>
 </article>
-                    <article class="recipe-card">
-    <div class="recipe-card-inner">
-                    <a href="/recipe/french-fries" class="recipe-card-image" tabindex="-1" aria-hidden="true">
-                <img src="/assets/images/recipes/french-fries.jpg" alt="" loading="lazy">
-            </a>
-                <div class="recipe-card-body">
-            <p class="recipe-card-meta">নভেম্বর ৮, ২০২৩</p>
-            <div class="recipe-card-tags">
+                    <article class="recipe-tile">
+            <a href="/recipe/french-fries" class="recipe-tile-photo" tabindex="-1" aria-hidden="true">
+            <img src="/assets/images/recipes/french-fries.jpg" alt="" loading="lazy">
+        </a>
+    
+    <div class="recipe-tile-body">
+        <div class="recipe-tile-tags">
                     <a href="/category/nasta" class="recipe-tag">#নাস্তা</a>
             </div>
-            <h2 class="recipe-card-title">
-                <a href="/recipe/french-fries" class="recipe-card-title-link">ফ্রেঞ্চ ফ্রাইস</a>
-            </h2>
-                            <p class="recipe-card-excerpt">
-                    <a href="/recipe/french-fries" class="recipe-card-excerpt-link">খুব সহজেই তৈরি করে ফেলুন মজাদার ফ্রেঞ্চ ফ্রাইস</a>
-                </p>
-                        <a class="recipe-card-action" href="/recipe/french-fries">
-                রেসিপি পড়ুন
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm"  aria-hidden="true"  >
-            <path d="m9 18 6-6-6-6" />
+
+        <h2 class="recipe-tile-title">
+            <a href="/recipe/french-fries" class="recipe-tile-link">ফ্রেঞ্চ ফ্রাইস</a>
+        </h2>
+
+                    <p class="recipe-tile-excerpt">খুব সহজেই তৈরি করে ফেলুন মজাদার ফ্রেঞ্চ ফ্রাইস</p>
+        
+                    <ul class="recipe-facts recipe-facts--compact">
+                                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
         </svg>
-                    </a>
-        </div>
-    </div>
+                                ২ জন
+                    </li>
+                
+                                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
+            <circle cx="12" cy="12" r="9" />
+            <path d="M12 7v5l3.5 2" />
+        </svg>
+                                ২৫ মিনিট
+                    </li>
+                            </ul>
+            </div>
 </article>
-                    <article class="recipe-card">
-    <div class="recipe-card-inner">
-                    <a href="/recipe/chicken-ball" class="recipe-card-image" tabindex="-1" aria-hidden="true">
-                <img src="/assets/images/recipes/chicken-ball.jpg" alt="" loading="lazy">
-            </a>
-                <div class="recipe-card-body">
-            <p class="recipe-card-meta">নভেম্বর ৪, ২০২৩</p>
-            <div class="recipe-card-tags">
+                    <article class="recipe-tile">
+            <a href="/recipe/chicken-ball" class="recipe-tile-photo" tabindex="-1" aria-hidden="true">
+            <img src="/assets/images/recipes/chicken-ball.jpg" alt="" loading="lazy">
+        </a>
+    
+    <div class="recipe-tile-body">
+        <div class="recipe-tile-tags">
                     <a href="/category/nasta" class="recipe-tag">#নাস্তা</a>
             </div>
-            <h2 class="recipe-card-title">
-                <a href="/recipe/chicken-ball" class="recipe-card-title-link">চিকেন বল</a>
-            </h2>
-                            <p class="recipe-card-excerpt">
-                    <a href="/recipe/chicken-ball" class="recipe-card-excerpt-link">সুস্বাদু চিকেন বল তৈরির রেসিপি</a>
-                </p>
-                        <a class="recipe-card-action" href="/recipe/chicken-ball">
-                রেসিপি পড়ুন
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm"  aria-hidden="true"  >
-            <path d="m9 18 6-6-6-6" />
+
+        <h2 class="recipe-tile-title">
+            <a href="/recipe/chicken-ball" class="recipe-tile-link">চিকেন বল</a>
+        </h2>
+
+                    <p class="recipe-tile-excerpt">সুস্বাদু চিকেন বল তৈরির রেসিপি</p>
+        
+                    <ul class="recipe-facts recipe-facts--compact">
+                                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
         </svg>
-                    </a>
-        </div>
-    </div>
+                                ৪ জন
+                    </li>
+                
+                                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
+            <circle cx="12" cy="12" r="9" />
+            <path d="M12 7v5l3.5 2" />
+        </svg>
+                                ৪০ মিনিট
+                    </li>
+                            </ul>
+            </div>
 </article>
-                    <article class="recipe-card">
-    <div class="recipe-card-inner">
-                    <a href="/recipe/carrot-cake" class="recipe-card-image" tabindex="-1" aria-hidden="true">
-                <img src="/assets/images/recipes/carrot-cake.jpg" alt="" loading="lazy">
-            </a>
-                <div class="recipe-card-body">
-            <p class="recipe-card-meta">অক্টোবর ১২, ২০২৩</p>
-            <div class="recipe-card-tags">
+                    <article class="recipe-tile">
+            <a href="/recipe/carrot-cake" class="recipe-tile-photo" tabindex="-1" aria-hidden="true">
+            <img src="/assets/images/recipes/carrot-cake.jpg" alt="" loading="lazy">
+        </a>
+    
+    <div class="recipe-tile-body">
+        <div class="recipe-tile-tags">
                     <a href="/category/kek" class="recipe-tag">#কেক</a>
             </div>
-            <h2 class="recipe-card-title">
-                <a href="/recipe/carrot-cake" class="recipe-card-title-link">ক্যারট কেক</a>
-            </h2>
-                            <p class="recipe-card-excerpt">
-                    <a href="/recipe/carrot-cake" class="recipe-card-excerpt-link">খুব সহজেই মজাদার ক্যারট কেক তৈরির রেসিপি</a>
-                </p>
-                        <a class="recipe-card-action" href="/recipe/carrot-cake">
-                রেসিপি পড়ুন
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm"  aria-hidden="true"  >
-            <path d="m9 18 6-6-6-6" />
+
+        <h2 class="recipe-tile-title">
+            <a href="/recipe/carrot-cake" class="recipe-tile-link">ক্যারট কেক</a>
+        </h2>
+
+                    <p class="recipe-tile-excerpt">খুব সহজেই মজাদার ক্যারট কেক তৈরির রেসিপি</p>
+        
+                    <ul class="recipe-facts recipe-facts--compact">
+                                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
         </svg>
-                    </a>
-        </div>
-    </div>
+                                ৮ জন
+                    </li>
+                
+                                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
+            <circle cx="12" cy="12" r="9" />
+            <path d="M12 7v5l3.5 2" />
+        </svg>
+                                ১ ঘণ্টা ১০ মিনিট
+                    </li>
+                            </ul>
+            </div>
 </article>
-                    <article class="recipe-card">
-    <div class="recipe-card-inner">
-                    <a href="/recipe/kumra-fuler-bora" class="recipe-card-image" tabindex="-1" aria-hidden="true">
-                <img src="/assets/images/recipes/kumra-fuler-bora.jpg" alt="" loading="lazy">
-            </a>
-                <div class="recipe-card-body">
-            <p class="recipe-card-meta">আগস্ট ২৩, ২০২৩</p>
-            <div class="recipe-card-tags">
+                    <article class="recipe-tile">
+            <a href="/recipe/kumra-fuler-bora" class="recipe-tile-photo" tabindex="-1" aria-hidden="true">
+            <img src="/assets/images/recipes/kumra-fuler-bora.jpg" alt="" loading="lazy">
+        </a>
+    
+    <div class="recipe-tile-body">
+        <div class="recipe-tile-tags">
                     <a href="/category/nasta" class="recipe-tag">#নাস্তা</a>
             </div>
-            <h2 class="recipe-card-title">
-                <a href="/recipe/kumra-fuler-bora" class="recipe-card-title-link">কুমড়া ফুলের বড়া</a>
-            </h2>
-                            <p class="recipe-card-excerpt">
-                    <a href="/recipe/kumra-fuler-bora" class="recipe-card-excerpt-link">কুমড়া ফুলের বড়া তৈরির রেসিপি</a>
-                </p>
-                        <a class="recipe-card-action" href="/recipe/kumra-fuler-bora">
-                রেসিপি পড়ুন
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm"  aria-hidden="true"  >
-            <path d="m9 18 6-6-6-6" />
+
+        <h2 class="recipe-tile-title">
+            <a href="/recipe/kumra-fuler-bora" class="recipe-tile-link">কুমড়া ফুলের বড়া</a>
+        </h2>
+
+                    <p class="recipe-tile-excerpt">কুমড়া ফুলের বড়া তৈরির রেসিপি</p>
+        
+                    <ul class="recipe-facts recipe-facts--compact">
+                                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
         </svg>
-                    </a>
-        </div>
-    </div>
+                                ৪ জন
+                    </li>
+                
+                                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
+            <circle cx="12" cy="12" r="9" />
+            <path d="M12 7v5l3.5 2" />
+        </svg>
+                                ২৫ মিনিট
+                    </li>
+                            </ul>
+            </div>
 </article>
-                    <article class="recipe-card">
-    <div class="recipe-card-inner">
-                    <a href="/recipe/orange-chicken" class="recipe-card-image" tabindex="-1" aria-hidden="true">
-                <img src="/assets/images/recipes/orange-chicken.jpg" alt="" loading="lazy">
-            </a>
-                <div class="recipe-card-body">
-            <p class="recipe-card-meta">মার্চ ১২, ২০২৩</p>
-            <div class="recipe-card-tags">
+                    <article class="recipe-tile">
+            <a href="/recipe/orange-chicken" class="recipe-tile-photo" tabindex="-1" aria-hidden="true">
+            <img src="/assets/images/recipes/orange-chicken.jpg" alt="" loading="lazy">
+        </a>
+    
+    <div class="recipe-tile-body">
+        <div class="recipe-tile-tags">
                     <a href="/category/cainij" class="recipe-tag">#চাইনিজ</a>
                     <a href="/category/mangser-trkari" class="recipe-tag">#মাংসের তরকারি</a>
             </div>
-            <h2 class="recipe-card-title">
-                <a href="/recipe/orange-chicken" class="recipe-card-title-link">অরেঞ্জ চিকেন</a>
-            </h2>
-                            <p class="recipe-card-excerpt">
-                    <a href="/recipe/orange-chicken" class="recipe-card-excerpt-link">সুস্বাদু চাইনিজ অরেঞ্জ চিকেন তৈরির রেসিপি</a>
-                </p>
-                        <a class="recipe-card-action" href="/recipe/orange-chicken">
-                রেসিপি পড়ুন
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm"  aria-hidden="true"  >
-            <path d="m9 18 6-6-6-6" />
+
+        <h2 class="recipe-tile-title">
+            <a href="/recipe/orange-chicken" class="recipe-tile-link">অরেঞ্জ চিকেন</a>
+        </h2>
+
+                    <p class="recipe-tile-excerpt">সুস্বাদু চাইনিজ অরেঞ্জ চিকেন তৈরির রেসিপি</p>
+        
+                    <ul class="recipe-facts recipe-facts--compact">
+                                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
         </svg>
-                    </a>
-        </div>
-    </div>
+                                ৪ জন
+                    </li>
+                
+                                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
+            <circle cx="12" cy="12" r="9" />
+            <path d="M12 7v5l3.5 2" />
+        </svg>
+                                ৫০ মিনিট
+                    </li>
+                            </ul>
+            </div>
 </article>
-                    <article class="recipe-card">
-    <div class="recipe-card-inner">
-                    <a href="/recipe/bibikhana-pitha" class="recipe-card-image" tabindex="-1" aria-hidden="true">
-                <img src="/assets/images/recipes/bibikhana-pitha.jpg" alt="" loading="lazy">
-            </a>
-                <div class="recipe-card-body">
-            <p class="recipe-card-meta">জানুয়ারি ৪, ২০২৩</p>
-            <div class="recipe-card-tags">
+                    <article class="recipe-tile">
+            <a href="/recipe/bibikhana-pitha" class="recipe-tile-photo" tabindex="-1" aria-hidden="true">
+            <img src="/assets/images/recipes/bibikhana-pitha.jpg" alt="" loading="lazy">
+        </a>
+    
+    <div class="recipe-tile-body">
+        <div class="recipe-tile-tags">
                     <a href="/category/nasta" class="recipe-tag">#নাস্তা</a>
                     <a href="/category/desart" class="recipe-tag">#ডেসার্ট</a>
             </div>
-            <h2 class="recipe-card-title">
-                <a href="/recipe/bibikhana-pitha" class="recipe-card-title-link">বিবিখানা পিঠা</a>
-            </h2>
-                            <p class="recipe-card-excerpt">
-                    <a href="/recipe/bibikhana-pitha" class="recipe-card-excerpt-link">ঐতিহ্যবাহী বিবিখানা পিঠা তৈরির রেসিপি</a>
-                </p>
-                        <a class="recipe-card-action" href="/recipe/bibikhana-pitha">
-                রেসিপি পড়ুন
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm"  aria-hidden="true"  >
-            <path d="m9 18 6-6-6-6" />
+
+        <h2 class="recipe-tile-title">
+            <a href="/recipe/bibikhana-pitha" class="recipe-tile-link">বিবিখানা পিঠা</a>
+        </h2>
+
+                    <p class="recipe-tile-excerpt">ঐতিহ্যবাহী বিবিখানা পিঠা তৈরির রেসিপি</p>
+        
+                    <ul class="recipe-facts recipe-facts--compact">
+                                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
         </svg>
-                    </a>
-        </div>
-    </div>
+                                ৮ জন
+                    </li>
+                
+                                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
+            <circle cx="12" cy="12" r="9" />
+            <path d="M12 7v5l3.5 2" />
+        </svg>
+                                ১ ঘণ্টা ৩০ মিনিট
+                    </li>
+                            </ul>
+            </div>
 </article>
-                    <article class="recipe-card">
-    <div class="recipe-card-inner">
-                    <a href="/recipe/achari-begun" class="recipe-card-image" tabindex="-1" aria-hidden="true">
-                <img src="/assets/images/recipes/achari-begun.jpg" alt="" loading="lazy">
-            </a>
-                <div class="recipe-card-body">
-            <p class="recipe-card-meta">অক্টোবর ৩১, ২০২২</p>
-            <div class="recipe-card-tags">
+                    <article class="recipe-tile">
+            <a href="/recipe/achari-begun" class="recipe-tile-photo" tabindex="-1" aria-hidden="true">
+            <img src="/assets/images/recipes/achari-begun.jpg" alt="" loading="lazy">
+        </a>
+    
+    <div class="recipe-tile-body">
+        <div class="recipe-tile-tags">
                     <a href="/category/trkaree" class="recipe-tag">#তরকারী</a>
             </div>
-            <h2 class="recipe-card-title">
-                <a href="/recipe/achari-begun" class="recipe-card-title-link">আচারি বেগুন</a>
-            </h2>
-                            <p class="recipe-card-excerpt">
-                    <a href="/recipe/achari-begun" class="recipe-card-excerpt-link">আচারি বেগুন রেসিপি</a>
-                </p>
-                        <a class="recipe-card-action" href="/recipe/achari-begun">
-                রেসিপি পড়ুন
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm"  aria-hidden="true"  >
-            <path d="m9 18 6-6-6-6" />
+
+        <h2 class="recipe-tile-title">
+            <a href="/recipe/achari-begun" class="recipe-tile-link">আচারি বেগুন</a>
+        </h2>
+
+                    <p class="recipe-tile-excerpt">আচারি বেগুন রেসিপি</p>
+        
+                    <ul class="recipe-facts recipe-facts--compact">
+                                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
         </svg>
-                    </a>
-        </div>
-    </div>
+                                ৪ জন
+                    </li>
+                
+                                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
+            <circle cx="12" cy="12" r="9" />
+            <path d="M12 7v5l3.5 2" />
+        </svg>
+                                ৩০ মিনিট
+                    </li>
+                            </ul>
+            </div>
 </article>
             </div>
 
@@ -528,10 +629,10 @@
                 <kbd>/</kbd> চাপ দিয়ে যেকোনো পাতা থেকে খুঁজুন
             </p>
 
-            <div x-show="query" class="search-results">
+            <div x-show="query" class="search-results" x-ref="resultsList">
                 <template x-for="(result, index) in results" :key="result.link">
                     <a
-                        x-ref="resultItem"
+                        data-search-result
                         :href="result.link"
                         :title="result.title"
                         class="search-result-item"
@@ -579,6 +680,6 @@
         </div>
     </div>
 </div>
-        <script src="/assets/build/js/main-Dzsy4ql_.js" type="module"></script>
+        <script src="/assets/build/js/main-DSZUOB5W.js" type="module"></script>
     </body>
 </html>

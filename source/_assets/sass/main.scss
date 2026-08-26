@@ -1,6 +1,6 @@
 // Modern white-and-beige editorial recipe theme.
 @import "theme-variables";
-@import url("https://fonts.googleapis.com/css2?family=Galada&family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Galada&family=Noto+Sans:wght@400;500;600;700&family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap");
 @import "bootstrap/scss/bootstrap";
 @import "startbootstrap-clean-blog.scss";
 
@@ -49,6 +49,14 @@ h6,
 .font-normal,
 .form-control {
     @include sans-serif-font;
+}
+
+html[lang="en"] {
+    body,
+    .font-normal,
+    .form-control {
+        font-family: "Noto Sans", sans-serif !important;
+    }
 }
 
 a {

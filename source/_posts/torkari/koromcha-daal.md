@@ -9,6 +9,8 @@ excerpt: সুস্বাদু করমচা ডালের রেসি�
 metaImage: "/assets/images/recipes/koromcha-daal.jpg"
 date: "2020-05-25"
 categories: ["ডাল"]
+servings: 3
+prepMinutes: 25
 ---
 
 চলুন দেখে নেয়া যাক অসম্ভব মজার করমচা দিয়ে ডাল রান্নার রেসিপি।

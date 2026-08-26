@@ -9,6 +9,8 @@ excerpt: ডিম দিয়ে লাউ ভাজির রেসিপি
 metaImage: "/assets/images/recipes/lau-vaji.jpg"
 date: "2020-07-16"
 categories: ["ভাজি"]
+servings: 4
+prepMinutes: 25
 ---
 
 চলুন দেখে নেয়া যাক ডিম দিয়ে মজাদার লাউ ভাজি রান্নার রেসিপি।

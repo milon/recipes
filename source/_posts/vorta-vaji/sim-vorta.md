@@ -9,6 +9,8 @@ excerpt: খুব সহজ ও মজাদার শিম ভর্তা �
 metaImage: "/assets/images/recipes/sim-vorta.jpg"
 date: "2020-04-15"
 categories: ["ভর্তা"]
+servings: 3
+prepMinutes: 20
 ---
 
 চলুন দেখে নেই মজাদার শিম ভর্তার রেসিপি।

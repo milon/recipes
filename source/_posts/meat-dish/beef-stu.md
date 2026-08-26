@@ -9,6 +9,8 @@ subtitle: গরুর মাংসের সাদা স্টু তৈরি
 excerpt: গরুর মাংসের সাদা স্টু তৈরির রেসিপি
 metaImage: "/assets/images/recipes/beef-stu.jpg"
 categories: ["মাংসের তরকারী"]
+servings: 6
+prepMinutes: 90
 ---
 
 এটা আমার মায়ের রেসিপি। আমার সবচেয়ে পছন্দের গরুর মাংসের ডিস। গরম গরম পরটার সাথে খেলে বেহেস্তি খানা

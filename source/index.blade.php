@@ -16,7 +16,11 @@ pagination:
 
 @section('content')
     <div id="recipes" class="recipe-section-intro">
-        <h2 class="recipe-section-title">সব রেসিপি</h2>
+        <div>
+            <p class="editorial-kicker">রেসিপি সংগ্রহ</p>
+            <h2 class="recipe-section-title">আজ কী রান্না করবেন?</h2>
+        </div>
+        <p class="recipe-section-count">সহজ উপকরণ, পরিষ্কার নির্দেশনা, পরিচিত স্বাদ।</p>
     </div>
 
     <div class="recipe-grid">

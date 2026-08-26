@@ -9,6 +9,8 @@ excerpt: খুব সহজেই ঝটপট তৈরি করে ফেল
 date: "2020-05-14"
 metaImage: "/assets/images/recipes/alur-chips.jpg"
 categories: ["নাস্তা"]
+servings: 2
+prepMinutes: 25
 ---
 
 চলুন দেখে নেয়া যাক খুব সহজেই ঝটপট মজাদার আলুর চিপস তৈরির রেসিপি।

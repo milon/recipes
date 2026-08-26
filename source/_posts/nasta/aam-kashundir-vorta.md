@@ -9,6 +9,8 @@ excerpt: জিহ্বে জল আনা কাঁচা আম আর ক�
 date: "2020-05-26"
 metaImage: "/assets/images/recipes/aam-kashundir-vorta.jpg"
 categories: ["নাস্তা", "ভর্তা"]
+servings: 4
+prepMinutes: 15
 ---
 
 চলুন কাসুন্দি দিয়ে মজাদার আম ভর্তার রেসিপি জেনে নেয়া যাক।

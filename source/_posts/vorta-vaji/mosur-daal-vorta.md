@@ -9,6 +9,8 @@ excerpt: সহজ কিন্তু অসম্ভব মজাদার ম�
 metaImage: "/assets/images/recipes/mosur-daal-vorta.jpg"
 date: "2020-05-15"
 categories: ["ভর্তা"]
+servings: 4
+prepMinutes: 30
 ---
 
 চলুন খুবই সহজ কিন্তু অসম্ভব মজাদার মসুর ডাল ভর্তার রেসিপিটা দেখে নেয়া যাক।

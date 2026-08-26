@@ -9,6 +9,8 @@ excerpt: খুব সহজে চালকুমড়া ভাজির রে�
 metaImage: "/assets/images/recipes/chalkumra-vaji.jpg"
 date: "2020-05-10"
 categories: ["ভাজি"]
+servings: 3
+prepMinutes: 20
 ---
 
 চলুন দেখে নেয়া যাক খুব সহজেই চালকুমড়া ভাজি রান্নার রেসিপি।

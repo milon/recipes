@@ -9,6 +9,8 @@ excerpt: মজাদার টমেটোর চপ তৈরির রে�
 date: "2020-05-16"
 metaImage: "/assets/images/recipes/tomator-chop.jpg"
 categories: ["নাস্তা", "ইফতার"]
+servings: 2
+prepMinutes: 25
 ---
 
 চলুন জেনে নেয়া যাক সহজ টমেটোর চপ তৈরির রেসিপি।

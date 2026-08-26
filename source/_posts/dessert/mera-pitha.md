@@ -9,6 +9,8 @@ excerpt: ম্যারা পিঠা তৈরির রেসিপি
 metaImage: "/assets/images/recipes/mera-pitha.jpg"
 date: "2026-03-15"
 categories: ["নাস্তা", "ডেসার্ট", "পিঠা"]
+servings: 6
+prepMinutes: 50
 ---
 
 চলুন দেখে নেয়া যাক খুব সহজেই ঐতিহ্যবাহী ম্যারা পিঠা তৈরি করার রেসিপি।

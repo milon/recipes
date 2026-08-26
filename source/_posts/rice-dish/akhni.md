@@ -9,6 +9,8 @@ excerpt: চট্টগ্রামের ঐতিহ্যবাহী আখ
 date: "2023-11-30"
 metaImage: "/assets/images/recipes/akhni.jpg"
 categories: ["বিরিয়ানি", "তেহারি"]
+servings: 8
+prepMinutes: 90
 ---
 
 চলুন দেখে নেয়া যাক চট্টগ্রামের ঐতিহ্যবাহী আখনি বিরিয়ানি রান্নার রেসিপি।

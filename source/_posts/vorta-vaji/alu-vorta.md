@@ -9,6 +9,8 @@ excerpt: মজাদার আলু ভর্তার রেসিপি
 metaImage: "/assets/images/recipes/alu-vorta.jpg"
 date: "2020-04-18"
 categories: ["ভর্তা"]
+servings: 4
+prepMinutes: 25
 ---
 
 চলুন সহজ আর সাধারণ আলু ভর্তার রেসিপি দেখে নেয়া যাক।

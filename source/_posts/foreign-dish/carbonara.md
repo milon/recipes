@@ -9,6 +9,8 @@ excerpt: খুব সহজেই তৈরি করে ফেলুন ইত
 date: "2020-04-04"
 metaImage: "/assets/images/recipes/carbonara.jpg"
 categories: ["পাস্তা", "ইতালিয়ান"]
+servings: 3
+prepMinutes: 25
 ---
 
 পাস্তা আমরা কমবেশি সবাই পছন্দ করি। চলুন দেখে নেয়া যাক ইতালিয়ান ট্রেডিশনাল কার্বোনারা রেসিপি।

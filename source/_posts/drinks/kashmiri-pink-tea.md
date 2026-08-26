@@ -9,6 +9,8 @@ excerpt: অসাধারণ স্বাদের কাশ্মীরী �
 date: "2021-01-23"
 metaImage: "/assets/images/recipes/kashmiri-pink-tea.jpg"
 categories: ["পানীয়", "চা"]
+servings: 4
+prepMinutes: 25
 ---
 
 কাশ্মীরের ঐতিহ্যবাহী গোলাপী চা বা পিঙ্ক টি তৈরির রেসিপিটা চলুন চট করে জেনে নেয়া যাক।

@@ -9,6 +9,8 @@ excerpt: খুব সহজেই মজাদার ক্যারট কে�
 metaImage: "/assets/images/recipes/carrot-cake.jpg"
 date: "2023-10-12"
 categories: ["কেক"]
+servings: 8
+prepMinutes: 70
 ---
 
 চলুন দেখে নেয়া যাক খুব সহজেই মজাদার ক্যারট কেক তৈরি করার রেসিপি।

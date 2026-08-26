@@ -9,6 +9,8 @@ subtitle: আমার সবচেয়ে প্রিয় নাস্তার 
 excerpt: আমার সবচেয়ে প্রিয় নাস্তার আইটেম গাজরের হালুয়া তৈরির রেসিপি
 metaImage: "/assets/images/recipes/gajorer-halua.jpg"
 categories: ["নাস্তা", "ডেসার্ট", "হালুয়া"]
+servings: 8
+prepMinutes: 75
 ---
 
 আমার সবচেয়ে প্রিয় নাস্তার আইটেম গাজরের হালুয়া। চলুন দেখে নেই এটা তৈরির রেসিপি।

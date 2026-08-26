@@ -9,6 +9,8 @@ excerpt: বাংলার আটপৌরে খাবার টমেট�
 metaImage: "/assets/images/recipes/tomator-tok.jpg"
 date: "2020-04-14"
 categories: ["টক"]
+servings: 4
+prepMinutes: 20
 ---
 
 টমেটোর টক খুবই সহজ আর মজাদার একটা খাবার। চলুন রেসিপিটা দেখে নেই।

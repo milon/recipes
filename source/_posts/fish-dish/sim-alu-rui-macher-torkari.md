@@ -9,6 +9,8 @@ excerpt: শিম, টমেটো আর আলু দিয়ে রুই �
 metaImage: "/assets/images/recipes/sim-alu-rui-macher-torkari.jpg"
 date: "2020-05-02"
 categories: ["মাছের তরকারী"]
+servings: 4
+prepMinutes: 30
 ---
 
 শীতের সবজি দিয়ে রুই মাছের ঝোল খুব মজার তরকারী। চলুন খুব সহজেই শিখে নেয়া যাক রেসিপিটা।

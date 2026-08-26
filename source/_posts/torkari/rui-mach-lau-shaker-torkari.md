@@ -9,6 +9,8 @@ excerpt: রুই মাছ দিয়ে লাউ শাকের তরকা
 metaImage: "/assets/images/recipes/rui-mach-lau-shaker-torkari.jpg"
 date: "2025-09-11"
 categories: ["রুই মাছ", "লাউ শাক"]
+servings: 4
+prepMinutes: 30
 ---
 
 চলুন দেখে নেয়া যাক মজাদার রুই মাছ দিয়ে লাউ শাকের তরকারি রান্নার রেসিপি।

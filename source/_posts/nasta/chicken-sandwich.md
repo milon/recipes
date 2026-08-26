@@ -9,6 +9,8 @@ excerpt: মাত্র ১০ মিনিটেই চিকেন স্য�
 metaImage: "/assets/images/recipes/chicken-sandwich-2.jpg"
 date: "2020-04-07"
 categories: ["নাস্তা", "স্যান্ডউইচ"]
+servings: 3
+prepMinutes: 25
 ---
 
 সকালে বা বিকালের নাস্তায় চিকেন স্যান্ডউইচের কোন তুলনাই চলে না। আর বাচ্চাদেরও খুব প্রিয় খাবার এটা। চলুন

@@ -9,6 +9,8 @@ excerpt: খুব সহজেই তৈরি করে ফেলুন মজ
 date: "2020-05-17"
 metaImage: "/assets/images/recipes/potato-wedges.jpg"
 categories: ["নাস্তা"]
+servings: 4
+prepMinutes: 40
 ---
 
 চলুন দেখে নেয়া যাক মজাদার নাস্তা পটেটো ওয়েজেস তৈরির রেসিপি।

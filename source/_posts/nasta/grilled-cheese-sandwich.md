@@ -9,6 +9,8 @@ excerpt: খুব সহজে গ্রিলড চিজ স্যান্�
 metaImage: "/assets/images/recipes/grilled-cheese-sandwich.jpg"
 date: "2021-01-22"
 categories: ["নাস্তা", "স্যান্ডউইচ"]
+servings: 2
+prepMinutes: 10
 ---
 
 চলুন খুব সহজেই মজাদার গ্রিলড চিজ স্যান্ডউইচ তৈরির রেসিপিটা জেনে নেই।

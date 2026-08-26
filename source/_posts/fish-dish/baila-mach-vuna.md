@@ -9,6 +9,8 @@ excerpt: বাইলা মাছ ভুনা রান্নার রেস�
 metaImage: "/assets/images/recipes/baila-mach-vuna.jpg"
 date: "2022-04-24"
 categories: ["মাছের তরকারী"]
+servings: 4
+prepMinutes: 30
 ---
 
 চলুন দেখে নেয়া যাক, মজাদার বাইলা মাছ ভুনা রান্নার রেসিপি।

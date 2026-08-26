@@ -9,6 +9,8 @@ excerpt: সুস্বাদু চিকেন বল তৈরির রে�
 date: "2023-11-04"
 metaImage: "/assets/images/recipes/chicken-ball.jpg"
 categories: ["নাস্তা"]
+servings: 4
+prepMinutes: 40
 ---
 
 চলুন দেখে নেয়া যাক মজাদার চিকেন বল তৈরির রেসিপি।

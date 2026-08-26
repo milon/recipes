@@ -9,6 +9,8 @@ subtitle: মুগ ডাল দিয়ে গরুর মাংসের ভ�
 excerpt: মুগ ডাল দিয়ে গরুর মাংসের ভুনা রান্নার রেসিপি
 metaImage: "/assets/images/recipes/mug-daale-beef-vuna.jpg"
 categories: ["মাংসের তরকারী"]
+servings: 6
+prepMinutes: 100
 ---
 
 পরটার সাথে মুগ ডাল দিয়ে গরুর মাংসের ভুনার কোন তুলনাই হয় না। চলুন রেসিপিটা দেখে নেই।

@@ -9,6 +9,8 @@ subtitle: খুব সহজেই লাচ্ছা সেমাই তৈর
 excerpt: খুব সহজেই লাচ্ছা সেমাই তৈরি করার রেসিপি
 metaImage: "/assets/images/recipes/laccha-semai.jpg"
 categories: ["নাস্তা", "ডেসার্ট", "ঈদ"]
+servings: 6
+prepMinutes: 30
 ---
 
 ঈদসহ যে কোন উৎসব সেমাই ছাড়া চলেই না। চলুন দেখে নেই লাচ্ছা সেমাইয়ের রেসিপি।

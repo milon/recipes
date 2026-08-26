@@ -9,6 +9,8 @@ subtitle: মজাদার তিল, নারিকেল গুড়ের �
 excerpt: মজাদার তিল, নারিকেল গুড়ের নাড়ু তৈরির রেসিপি
 metaImage: "/assets/images/recipes/til-narikeler-naru.jpg"
 categories: ["নাস্তা"]
+servings: 8
+prepMinutes: 35
 ---
 
 চলুন দেখে নেয়া যাক মজাদার তিল নারিকেলের নাড়ু তৈরির রেসিপি।

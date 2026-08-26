@@ -9,6 +9,8 @@ subtitle: আলু দিয়ে গরুর মাংসের তরকার
 excerpt: আলু দিয়ে গরুর মাংসের তরকারির রেসিপি
 metaImage: "/assets/images/recipes/beef-alur-jhol.jpg"
 categories: ["মাংসের তরকারী"]
+servings: 6
+prepMinutes: 90
 ---
 
 গরুর মাংস আমরা সবাই কমবেশি পছন্দ করি। চলুন দেখে নেই আলু দিয়ে গরুর মাংসের ঝোলের রেসিপি।

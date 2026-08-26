@@ -9,6 +9,8 @@ excerpt: মজাদার ডিম ভর্তার রেসিপি
 metaImage: "/assets/images/recipes/dim-vorta.jpg"
 date: "2020-05-13"
 categories: ["ভর্তা"]
+servings: 3
+prepMinutes: 20
 ---
 
 চলুন দেখে নেয়া যাক সহজেই ডিম ভর্তা তৈরির রেসিপি।

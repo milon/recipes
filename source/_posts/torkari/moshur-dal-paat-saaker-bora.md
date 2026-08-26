@@ -9,6 +9,8 @@ excerpt: মসুর ডাল দিয়ে পাট শাকের বড়া
 metaImage: "/assets/images/recipes/moshur-dal-paat-saaker-bora.jpg"
 date: "2020-04-20"
 categories: ["ডালের বড়া", "মসুর ডাল"]
+servings: 4
+prepMinutes: 35
 ---
 
 চলুন দেখে নেই, খুব সহজেই মসুর ডাল দিয়ে পাট শাকের বড়া তৈরির রেসিপি।

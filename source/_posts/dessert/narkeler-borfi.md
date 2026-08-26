@@ -9,6 +9,8 @@ subtitle: মজাদার নারিকেলের বরফি তৈর�
 excerpt: মজাদার নারিকেলের বরফি তৈরির রেসিপি
 metaImage: "/assets/images/recipes/narkeler-borfi.jpg"
 categories: ["নাস্তা"]
+servings: 8
+prepMinutes: 30
 ---
 
 চলুন দেখে নেয়া যাক, মজাদার নাস্তা নারিকেলের বরফি তৈরির রেসিপি।

@@ -9,6 +9,8 @@ excerpt: খুব সহজে করল্লা ভাজি রান্ন�
 metaImage: "/assets/images/recipes/korolla-vaji.jpg"
 date: "2020-05-16"
 categories: ["ভাজি"]
+servings: 3
+prepMinutes: 20
 ---
 
 চলুন দেখে নেয়া যাক সাদা করল্লা ভাজি রান্নার রেসিপি।

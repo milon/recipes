@@ -9,6 +9,8 @@ excerpt: দারুন মজাদার লাচ্ছি তৈরির �
 date: "2020-04-19"
 metaImage: "/assets/images/recipes/lacchi.jpg"
 categories: ["পানীয়", "লাচ্ছি"]
+servings: 1
+prepMinutes: 5
 ---
 
 গরমে বা ইফতারে লাচ্ছির কোন তুলনাই হয় না। চলুন খুব সহজ এ রেসিপিটা দেখে নেই।

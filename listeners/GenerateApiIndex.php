@@ -15,7 +15,9 @@ class GenerateApiIndex
                 'thumbnail'  => $page->getApiThumbnail(),
                 'date'       => $page->date,
                 'excerpt'    => $page->excerpt,
-                'categories' => $page->categories ?? []
+                'categories' => $page->categories ?? [],
+                'servings'   => $page->servings ?? null,
+                'prepMinutes' => $page->prepMinutes ?? null,
             ];
         })->values());
 

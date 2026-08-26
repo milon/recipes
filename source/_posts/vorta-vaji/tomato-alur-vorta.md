@@ -9,6 +9,8 @@ excerpt: খুব সহজেই শিখে নিন মজাদার ট
 metaImage: "/assets/images/recipes/tomato-alur-vorta.jpg"
 date: "2020-04-20"
 categories: ["ভর্তা"]
+servings: 4
+prepMinutes: 25
 ---
 
 চলুন দেখে নেই খুব সহজ টমেটো আলুর ভর্তার রেসিপি।

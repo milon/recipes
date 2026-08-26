@@ -9,6 +9,8 @@ excerpt: ম্যাগী স্যুপ মিক্স দিয়ে সহ�
 date: "2020-05-14"
 metaImage: "/assets/images/recipes/ginger-lemon-vegetable-thai-soup.jpg"
 categories: ["স্যুপ", "থাই"]
+servings: 4
+prepMinutes: 25
 ---
 
 চলুন সহজেই ম্যাগী স্যুপ মিক্স দিয়ে তৈরি করে ফেলি একদম রেস্টুরেন্টের স্বাদের জিঞ্জার লেমন ভেজিটেবল থাই স্যুপ।

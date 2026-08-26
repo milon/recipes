@@ -9,6 +9,8 @@ excerpt: খুব সহজে চালকুমড়া দিয়ে ডিম 
 metaImage: "/assets/images/recipes/chalkumra-dim-vaji.jpg"
 date: "2022-07-11"
 categories: ["ভাজি"]
+servings: 3
+prepMinutes: 25
 ---
 
 চলুন দেখে নেয়া যাক খুব সহজেই চালকুমড়া দিয়ে ডিম ভাজি রান্নার রেসিপি।

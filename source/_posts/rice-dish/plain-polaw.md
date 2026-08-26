@@ -9,6 +9,8 @@ excerpt: সাদা পোলাও রান্নার রেসিপ�
 date: "2020-04-04"
 metaImage: "/assets/images/recipes/plain-polaw.jpg"
 categories: ["পোলাও", "বিয়ে বাড়ীর খাবার"]
+servings: 3
+prepMinutes: 30
 ---
 
 বাঙ্গালীর যে কোন স্পেশাল অকেশন বা অতিথি আপ্যায়নে পোলাও ছাড়া চলেই না। চলুন দেখে নেই প্লেইন পোলাও

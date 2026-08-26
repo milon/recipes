@@ -9,6 +9,8 @@ subtitle: সুস্বাদু কাঠি কাবাবের রেস�
 excerpt: সুস্বাদু কাঠি কাবাবের রেসিপি
 metaImage: "/assets/images/recipes/kathi-kabab.jpg"
 categories: ["মাংসের তরকারী"]
+servings: 6
+prepMinutes: 45
 ---
 
 চলুন দেখে নেয়া যাক সুস্বাদু কাঠি কাবাব তৈরির রেসিপি।

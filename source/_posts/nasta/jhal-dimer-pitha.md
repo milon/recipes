@@ -9,6 +9,8 @@ excerpt: খুবই সহজ এবং মজাদার ঝাল ডিম
 date: "2020-04-21"
 metaImage: "/assets/images/recipes/jhal-dimer-pitha.jpg"
 categories: ["নাস্তা", "পিঠা"]
+servings: 3
+prepMinutes: 25
 ---
 
 ঝাল ডিমের পিঠাকে অনেকে ঝাল পোয়া পিঠাও বলে। চলুন রেসিপিটা দেখে নেয়া যাক।

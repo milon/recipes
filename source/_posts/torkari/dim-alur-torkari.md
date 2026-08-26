@@ -9,6 +9,8 @@ excerpt: খুব সহজেই ভিন্ন স্বাদের ডি�
 metaImage: "/assets/images/recipes/dim-alur-torkari.jpg"
 date: "2020-04-14"
 categories: ["তরকারী", "ডিম"]
+servings: 3
+prepMinutes: 25
 ---
 
 ছোটবেলা থেকেই ডিম আমার খুব পছন্দ। আমার মা আমার জন্য ভিন্ন ধরনের এই ডিম আলুর তরকারীটা রান্না করতেন।

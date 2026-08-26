@@ -9,6 +9,8 @@ excerpt: সহজে বেগুনী তৈরির রেসিপি
 date: "2020-05-12"
 metaImage: "/assets/images/recipes/beguni.jpg"
 categories: ["নাস্তা", "ইফতার"]
+servings: 3
+prepMinutes: 25
 ---
 
 বেগুনী ইফতারের অপরিহার্য অঙ্গ। চলুন সহজেই বেগুনী তৈরির রেসিপি জেনে নেই।

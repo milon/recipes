@@ -9,6 +9,8 @@ subtitle: ডাটা দিয়ে গরুর মাংসের তরকা
 excerpt: ডাটা দিয়ে গরুর মাংসের তরকারির রেসিপি
 metaImage: "/assets/images/recipes/beef-datar-jhol.jpg"
 categories: ["মাংসের তরকারী"]
+servings: 6
+prepMinutes: 90
 ---
 
 গরুর মাংস আমরা সবাই কমবেশি পছন্দ করি। চলুন দেখে নেই ডাটা দিয়ে গরুর মাংসের ঝোলের রেসিপি।

@@ -9,6 +9,8 @@ excerpt: মজাদার গ্রিল চিকেন তৈরির র�
 metaImage: "/assets/images/recipes/grill-chicken.jpg"
 date: "2020-05-30"
 categories: ["মাংসের তরকারী"]
+servings: 4
+prepMinutes: 300
 ---
 
 চলুন দেখে নেয়া যাক ঘরে বসেই মজাদার গ্রিল চিকেন রান্নার রেসিপি।

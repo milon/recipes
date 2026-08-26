@@ -9,6 +9,8 @@ excerpt: ঐতিহ্যবাহী বিবিখানা পিঠা �
 metaImage: "/assets/images/recipes/bibikhana-pitha.jpg"
 date: "2023-01-04"
 categories: ["নাস্তা", "ডেসার্ট", "পিঠা"]
+servings: 8
+prepMinutes: 90
 ---
 
 চলুন দেখে নেয়া যাক ঐতিহ্যবাহী বিবিখানা পিঠা তৈরির রেসিপি।

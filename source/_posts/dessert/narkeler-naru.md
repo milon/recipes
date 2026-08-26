@@ -9,6 +9,8 @@ subtitle: মজাদার নারিকেলের নাড়ু তৈর�
 excerpt: মজাদার নারিকেলের নাড়ু তৈরির রেসিপি
 metaImage: "/assets/images/recipes/narkeler-naru.jpg"
 categories: ["নাস্তা"]
+servings: 8
+prepMinutes: 35
 ---
 
 চলুন দেখে নেয়া যাক, মজাদার নাস্তা নারিকেলের নাড়ু তৈরির রেসিপি।

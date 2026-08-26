@@ -9,6 +9,8 @@ subtitle: সুস্বাদু আমেরিকান টেক্সা�
 excerpt: সুস্বাদু আমেরিকান টেক্সাস স্টাইলের চিলি রান্নার রেসিপি
 metaImage: "/assets/images/recipes/texan-chili.jpg"
 categories: ["মাংসের ডিশ", "আমেরিকান"]
+servings: 4
+prepMinutes: 50
 ---
 
 চলুন দেখে নেয়া যাক টেক্সান স্টাইলে চিলি তৈরির রেসিপি।

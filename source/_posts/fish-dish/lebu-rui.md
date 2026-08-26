@@ -9,6 +9,8 @@ excerpt: লেবু দিয়ে রুই মাছ রান্নার র
 metaImage: "/assets/images/recipes/lebu-rui.jpg"
 date: "2020-05-12"
 categories: ["মাছের তরকারী"]
+servings: 3
+prepMinutes: 25
 ---
 
 চলুন দেখে নেই লেবু দিয়ে রুই মাছ রান্নার রেসিপি।

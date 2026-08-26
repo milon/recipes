@@ -9,6 +9,8 @@ subtitle: সুস্বাদু জার্মান ডেজার্ট �
 excerpt: সুস্বাদু জার্মান ডেজার্ট কাইজারস্মার্ন তৈরির রেসিপি
 metaImage: "/assets/images/recipes/kaiserschmarrn.jpg"
 categories: ["ডেজার্ট", "জার্মান"]
+servings: 3
+prepMinutes: 25
 ---
 
  অস্ট্রিয়ান এম্পেরর Franz Joseph এর পছন্দের ডেজার্ট ছিলো কাইজারস্মার্ন। জার্মান ভাষায় কাইজার মানে সম্রাট

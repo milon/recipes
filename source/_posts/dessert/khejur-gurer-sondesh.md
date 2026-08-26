@@ -9,6 +9,8 @@ excerpt: ঐতিহ্যবাহী খেজুরের গুড়ের �
 date: "2022-01-09"
 metaImage: "/assets/images/recipes/khejur-gurer-sondesh.jpg"
 categories: ["মিষ্টি", "ডেসার্ট", "পায়েস"]
+servings: 6
+prepMinutes: 40
 ---
 
 চলুন দেখে নেয়া যাক জিহ্বে জল আনা মজাদার খেজুর গুড়ের সন্দেশ তৈরির রেসিপি।

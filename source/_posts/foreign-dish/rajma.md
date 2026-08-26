@@ -9,6 +9,8 @@ excerpt: সুস্বাদু পাঞ্জাবি ডিশ রাজ�
 date: "2022-01-05"
 metaImage: "/assets/images/recipes/rajma.jpg"
 categories: ["ভারতীয়", "ডাল", "পাঞ্জাবি"]
+servings: 4
+prepMinutes: 90
 ---
 
 চলুন দেখে নেয়া যাক পাঞ্জাবের অত্যন্ত জনপ্রিয় রান্না রাজমা ডাল তৈরির রেসিপি।

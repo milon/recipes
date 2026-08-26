@@ -9,6 +9,8 @@ excerpt: মজাদার সুজির বড়া তৈরির রেস�
 date: "2020-05-10"
 metaImage: "/assets/images/recipes/sujir-bora.jpg"
 categories: ["নাস্তা"]
+servings: 4
+prepMinutes: 30
 ---
 
 আজকে আপনাদের দেখাবো একটু ব্যতিক্রম কিন্তু খুবই সহজ সুজির বড়া তৈরির রেসিপি। চলুন শুরু করা যাক।

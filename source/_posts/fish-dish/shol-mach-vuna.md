@@ -9,6 +9,8 @@ excerpt: শোল মাছ ভুনা রান্নার রেসি�
 metaImage: "/assets/images/recipes/shol-mach-vuna.jpg"
 date: "2022-09-11"
 categories: ["মাছের তরকারী"]
+servings: 5
+prepMinutes: 35
 ---
 
 চলুন দেখে নেয়া যাক, মজাদার শোল মাছ ভুনা রান্নার রেসিপি।

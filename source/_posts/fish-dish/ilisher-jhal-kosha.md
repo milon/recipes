@@ -9,6 +9,8 @@ excerpt: লেবুপাতা দিয়ে ইলিশ মাছের ঝ�
 metaImage: "/assets/images/recipes/ilisher-jhal-kosha.jpg"
 date: "2020-04-11"
 categories: ["মাছের তরকারী"]
+servings: 4
+prepMinutes: 30
 ---
 
 ইলিশ মাছ আমাদের সবারই খুব প্রিয়। চলুন দেখে নেই ইলিশ মাছ দিয়ে তৈরি একটা ভিন্নধর্মী রেসিপি।

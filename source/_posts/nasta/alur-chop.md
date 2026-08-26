@@ -9,6 +9,8 @@ excerpt: আলুর চপ তৈরির রেসিপি
 date: "2020-04-24"
 metaImage: "/assets/images/recipes/alur-chop-vaja.jpg"
 categories: ["নাস্তা", "ইফতার"]
+servings: 4
+prepMinutes: 40
 ---
 
 আলুর চপ ছাড়া ইফতার যেন পরিপূর্ণই হয় না। চলুন সহজে আলুর চপ তৈরির রেসিপি জেনে নেই।

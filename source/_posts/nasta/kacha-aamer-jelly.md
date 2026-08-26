@@ -9,6 +9,8 @@ excerpt: সুস্বাদু এবং স্বাস্থ্যকর �
 date: "2020-07-15"
 metaImage: "/assets/images/recipes/kacha-aamer-jelly.jpg"
 categories: ["নাস্তা"]
+servings: 8
+prepMinutes: 40
 ---
 
 চলুন দেখে নেয়া যাক সুস্বাদু এবং স্বাস্থ্যকর কাঁচা আমের জেলি তৈরির রেসিপি।

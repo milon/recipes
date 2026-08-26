@@ -9,6 +9,8 @@ excerpt: মেথি দিয়ে শিং মাছের ঝোলের 
 metaImage: "/assets/images/recipes/methi-shinger-jhol.jpg"
 date: "2020-04-20"
 categories: ["মাছের তরকারী"]
+servings: 4
+prepMinutes: 30
 ---
 
 মেথি দিয়ে শিং মাছের ঝোল রান্নার রেসিপিটা দেখে নিন।

@@ -9,6 +9,8 @@ excerpt: খুবই সাধারণ কিন্তু স্বাস্�
 metaImage: "/assets/images/recipes/salad.jpg"
 date: "2020-04-20"
 categories: ["সালাদ"]
+servings: 3
+prepMinutes: 10
 ---
 
 সালাদ আমরা কমবেশি সবাই খাই। চলুন দেখে নেয়া যাক সহজে সালাদ তৈরির রেসিপি।

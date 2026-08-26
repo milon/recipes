@@ -9,6 +9,8 @@ excerpt: বিয়ের দাওয়াতের জনপ্রিয় ডে�
 date: "2020-04-04"
 metaImage: "/assets/images/recipes/jorda.jpg"
 categories: ["নাস্তা", "ডেসার্ট", "বিয়ে বাড়ীর খাবার"]
+servings: 4
+prepMinutes: 40
 ---
 
 বিয়ে বাড়ীতে আমার জন্য সবচেয়ে বড় আকর্ষণ হচ্ছে জর্দা। চলুন জর্দার রেসিপি জেনে নেই।

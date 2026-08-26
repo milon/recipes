@@ -9,6 +9,8 @@ excerpt: খুব সহজেই ভিন্ন স্বাদের টম�
 metaImage: "/assets/images/recipes/tomato-simer-bichir-torkari.jpg"
 date: "2022-01-07"
 categories: ["তরকারী", "সিমের বিচি"]
+servings: 4
+prepMinutes: 30
 ---
 
 চলুন দেখে নেয়া যাক, খুব সহজেই ভিন্ন স্বাদের টমেটো দিয়ে সিমের বিচির তরকারি রান্নার রেসিপি।

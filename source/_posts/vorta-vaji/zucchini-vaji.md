@@ -9,6 +9,8 @@ excerpt: ডিম দিয়ে জুকিনি ভাজির রেসি�
 metaImage: "/assets/images/recipes/zucchini-vaji.jpg"
 date: "2020-08-04"
 categories: ["ভাজি"]
+servings: 3
+prepMinutes: 20
 ---
 
 চলুন দেখে নেয়া যাক ডিম দিয়ে মজাদার জুকিনি ভাজি রান্নার রেসিপি।

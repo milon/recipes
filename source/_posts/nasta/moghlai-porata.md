@@ -9,6 +9,8 @@ excerpt: দেশী জনপ্রিয় নাস্তা মোঘল�
 date: "2020-04-17"
 metaImage: "/assets/images/recipes/moghlai-porata.jpg"
 categories: ["নাস্তা"]
+servings: 2
+prepMinutes: 30
 ---
 
 বাংলাদেশে থাকাকালীন সময়ে প্রায়শই বিকালে হোটেলে গিয়ে মোঘলাই পরটা খাওয়া হতো। এখানে যেহেতু হোটেলে গিয়ে

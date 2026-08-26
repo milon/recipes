@@ -9,6 +9,8 @@ excerpt: খুব সহজেই তৈরি করে ফেলুন বল
 date: "2020-05-05"
 metaImage: "/assets/images/recipes/cevapcici.jpg"
 categories: ["পাস্তা", "ক্রোয়েশিয়ান"]
+servings: 4
+prepMinutes: 40
 ---
 
 এই রেসিপি আমি পেয়েছি আমার ক্রোয়েট কলিগ Jan এর কাছ থেকে। ইউরোপের বলকান অঞ্চলে এই রেসিপিটি খুবই

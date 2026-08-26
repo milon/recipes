@@ -9,6 +9,8 @@ excerpt: সুস্বাদু ইন্দোনেশিয়ান কা
 date: "2021-01-04"
 metaImage: "/assets/images/recipes/beef-rendang.jpg"
 categories: ["ইন্দোনেশিয়ান", "মাংসের তরকারি"]
+servings: 8
+prepMinutes: 240
 ---
 
 ২০১৭ সালে [CNN Travel](https://edition.cnn.com/travel/article/world-best-foods-readers-choice)

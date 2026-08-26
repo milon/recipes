@@ -9,6 +9,8 @@ excerpt: মজাদার লইট্ট্যা শুটকি ভুন�
 metaImage: "/assets/images/recipes/loitta-sutki-vuna.jpg"
 date: "2025-08-08"
 categories: ["শুটকি", "ভুনা"]
+servings: 4
+prepMinutes: 30
 ---
 
 বিদেশ বিভূঁইয়ে এলে যেন শুটকি খাওয়ার জন্য মনটা আনচান করে। চলুন সহজেই জিহ্বে জল আনা লইট্ট্যা শুটকি ভুনা বানানোর পদ্ধতিটা জেনে নেই।

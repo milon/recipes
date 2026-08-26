@@ -9,6 +9,8 @@ excerpt: ভিন্নধর্মী চিকেন র‍্যাপ ত�
 date: "2020-05-18"
 metaImage: "/assets/images/recipes/chicken-wrap.jpg"
 categories: ["নাস্তা"]
+servings: 2
+prepMinutes: 50
 ---
 
 চলুন মজাদার নাস্তা চিকেন র‍্যাপ তৈরির রেসিপিটা জেনে নেয়া যাক।

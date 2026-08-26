@@ -8,6 +8,7 @@ export default function search() {
     query: '',
     selectedIndex: 0,
     open: false,
+    lastActiveElement: null,
 
     init() {
       fetch('/index.json')
@@ -50,6 +51,7 @@ export default function search() {
     },
 
     openModal() {
+      this.lastActiveElement = document.activeElement;
       this.open = true;
       document.body.classList.add('search-modal-open');
       this.$nextTick(() => {
@@ -64,6 +66,9 @@ export default function search() {
       this.open = false;
       document.body.classList.remove('search-modal-open');
       this.reset();
+      if (this.lastActiveElement && this.lastActiveElement.focus) {
+        this.$nextTick(() => this.lastActiveElement.focus());
+      }
     },
 
     get results() {
@@ -109,11 +114,32 @@ export default function search() {
       }
     },
 
+    trapFocus(e) {
+      const panel = this.$refs.searchPanel;
+      if (!panel) return;
+
+      const focusable = Array.from(panel.querySelectorAll(
+        'a[href], button:not([disabled]), input:not([disabled]), [tabindex]:not([tabindex="-1"])',
+      )).filter((element) => element.offsetParent !== null);
+      if (!focusable.length) return;
+
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    },
+
     scrollSelectedIntoView() {
       const refs = this.$refs.resultItem;
       const el = Array.isArray(refs) ? refs[this.selectedIndexClamped] : refs;
       if (el && el.scrollIntoView) {
-        el.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+        const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        el.scrollIntoView({ block: 'nearest', behavior: reduceMotion ? 'auto' : 'smooth' });
       }
     },
   };

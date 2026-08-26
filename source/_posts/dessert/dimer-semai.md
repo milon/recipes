@@ -9,6 +9,8 @@ subtitle: অসম্ভব মজাদার ডিমের সেমাই 
 excerpt: অসম্ভব মজাদার ডিমের সেমাই রান্নার রেসিপি
 metaImage: "/assets/images/recipes/dimer-semai.jpg"
 categories: ["নাস্তা", "ডেসার্ট"]
+servings: 4
+prepMinutes: 30
 ---
 
 চলুন দেখে নেয়া যাক অসম্ভব মজাদার ডিমের সেমাই রান্নার রেসিপি।

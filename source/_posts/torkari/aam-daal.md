@@ -9,6 +9,8 @@ excerpt: বাংলার আটপৌরে খাবার আম ডা�
 metaImage: "/assets/images/recipes/aam-daal.jpg"
 date: "2020-04-04"
 categories: ["ডাল"]
+servings: 3
+prepMinutes: 25
 ---
 
 আম ডাল খুব জনপ্রিয় একটা খাবার। কাঁচা আমের মৌসুম চলে আসলেই শুধু আম ডাল খেতে ইচ্ছে করে। চলুন দেখে

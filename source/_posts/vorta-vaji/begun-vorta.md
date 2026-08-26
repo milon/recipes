@@ -9,6 +9,8 @@ excerpt: মাইক্রোওয়েভ ওভেনে বেগুন �
 metaImage: "/assets/images/recipes/begun-vorta.jpg"
 date: "2020-04-10"
 categories: ["ভর্তা"]
+servings: 3
+prepMinutes: 25
 ---
 
 বেগুন ভর্তা আমার খুবই পছন্দের একটা ডিশ। দেশে থাকতে চুলায় পুড়িয়ে ভর্তা খেতে পারতাম। এখানে যেহেতু এটা

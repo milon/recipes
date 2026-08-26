@@ -9,6 +9,8 @@ excerpt: সহজেই ডিমের ওমলেট তৈরির রে�
 date: "2020-05-02"
 metaImage: "/assets/images/recipes/omlet-2.jpg"
 categories: ["নাস্তা", "ডিম"]
+servings: 1
+prepMinutes: 10
 ---
 
 সকালের নাস্তায় ওমলেট যেন এক অবিচ্ছেদ্য অংশ। চলুন সহজে মজাদার ওমলেট তৈরির রেসিপি জেনে নেই।

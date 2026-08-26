@@ -9,6 +9,8 @@ excerpt: ঐতিহ্যবাহী আতপ চালের পায়ে�
 metaImage: "/assets/images/recipes/atop-chaler-payesh.jpg"
 date: "2020-04-04"
 categories: ["নাস্তা", "ডেসার্ট", "পায়েস"]
+servings: 6
+prepMinutes: 50
 ---
 
 চলুন দেখে নেই খুব সহজেই আতপ চালের পায়েস রান্নার রেসিপি।

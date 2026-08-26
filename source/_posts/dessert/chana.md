@@ -9,6 +9,8 @@ excerpt: খুব সহজেই ছানা তৈরির রেসিপ�
 metaImage: "/assets/images/recipes/chana.jpg"
 date: "2020-12-21"
 categories: ["ছানা", মিষ্টি]
+servings: 4
+prepMinutes: 90
 ---
 
 চলুন ঘরে বসে খুব সহজেই ছানা তৈরির রেসিপিটা জেনে নেয়া যাক।

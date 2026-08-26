@@ -9,6 +9,8 @@ subtitle: পুরান ঢাকার ঐতিহ্যবাহী বু�
 excerpt: পুরান ঢাকার ঐতিহ্যবাহী বুটের হালুয়া তৈরির রেসিপি
 metaImage: "/assets/images/recipes/buter-halua.jpg"
 categories: ["নাস্তা", "হালুয়া"]
+servings: 8
+prepMinutes: 60
 ---
 
 শবে বরাত এলে সবার ঘরে ঘরে তৈরি হয় মজাদার বুটের হালুয়া। আপনি চাইলে যে কোন সময়েই তৈরি করতে পারেন

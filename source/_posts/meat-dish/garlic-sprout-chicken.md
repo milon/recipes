@@ -9,6 +9,8 @@ excerpt: মজাদার গার্লিক স্প্রাউট চ�
 metaImage: "/assets/images/recipes/garlic-sprout-chicken.jpg"
 date: "2024-06-09"
 categories: ["মাংসের তরকারী"]
+servings: 3
+prepMinutes: 45
 ---
 
 চলুন দেখে নেয়া যাক চাইনিজ রেস্টুরেন্টের মজাদার গার্লিক স্প্রাউট চিকেন রান্নার রেসিপি।

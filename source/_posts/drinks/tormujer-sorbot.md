@@ -9,6 +9,8 @@ excerpt: দারুন মজাদার তরমুজের শরবত �
 date: "2020-04-29"
 metaImage: "/assets/images/recipes/tormujer-sorbot.jpg"
 categories: ["পানীয়"]
+servings: 1
+prepMinutes: 8
 ---
 
 গরমে তরমুজের শরবত এনে দিতে পারে প্রশান্তি। চলুন খুবই সহজে তরমুজের শরবত তৈরির উপায় জেনে নেই।

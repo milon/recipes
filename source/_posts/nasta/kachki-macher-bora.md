@@ -7,8 +7,10 @@ title: কাঁচকি মাছের বড়া
 date: "2020-11-05"
 subtitle: কাঁচকি মাছ দিয়ে বড়া তৈরির রেসিপি
 excerpt: কাঁচকি মাছ দিয়ে বড়া তৈরির রেসিপি
-metaImage: "/assets/images/recipes/kachki-macher-chop.jpg"
+metaImage: "/assets/images/recipes/kachki-macher-bora.jpg"
 categories: ["নাস্তা"]
+servings: 4
+prepMinutes: 30
 ---
 
 চলুন দেখে নেয়া যাক, কাঁচকি মাছ দিয়ে মজাদার বড়া তৈরির রেসিপি।

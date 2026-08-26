@@ -9,6 +9,8 @@ excerpt: খুব সহজেই ঘরে বসে প্যান পিজ
 date: "2022-01-12"
 metaImage: "/assets/images/recipes/pan-pizza.jpg"
 categories: ["ইতালিয়ান"]
+servings: 4
+prepMinutes: 150
 ---
 
 চলুন দেখে নেয়া যাক খুব সহজেই ঘরে বসে প্যান পিজ্জা তৈরির রেসিপি।

@@ -9,6 +9,8 @@ excerpt: খুব সহজেই ঘরে তৈরি করে ফেলু
 date: "2020-04-04"
 metaImage: "/assets/images/recipes/fried-rice.jpg"
 categories: ["চাইনিজ"]
+servings: 3
+prepMinutes: 40
 ---
 
 ফ্রাইড রাইস আমার খুব পছন্দের একটা ডিস। চলুন রেসিপিটা দেখে নেই।

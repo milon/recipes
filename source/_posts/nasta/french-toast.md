@@ -9,6 +9,8 @@ subtitle: সুস্বাদু নাস্তা ফ্রেঞ্চ ট�
 excerpt: সুস্বাদু নাস্তা ফ্রেঞ্চ টোস্ট তৈরির রেসিপি
 metaImage: "/assets/images/recipes/french-toast.jpg"
 categories: ["নাস্তা", "ফ্রেঞ্চ", "টোস্ট"]
+servings: 4
+prepMinutes: 20
 ---
 
 চলুন দেখে নেয়া যাক ঝটপট ফ্রেঞ্চ টোস্ট তৈরির রেসিপি।

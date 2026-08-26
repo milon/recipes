@@ -9,6 +9,8 @@ excerpt: রাঁধুনী হালিম মিক্স দিয়ে গ�
 date: "2020-04-09"
 metaImage: "/assets/images/recipes/gorur-mangsher-halim.jpg"
 categories: ["নাস্তা"]
+servings: 6
+prepMinutes: 120
 ---
 
 হালিম আমরা সবাই পছন্দ করি। চলুন খুব সহজেই হালিম মিক্স দিয়ে গরুর মাংসের হালিম তৈরির রেসিপি শিখে নেই।

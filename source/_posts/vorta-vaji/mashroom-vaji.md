@@ -9,6 +9,8 @@ excerpt: সুস্বাদু আর পুষ্টিকর মাশর�
 date: "2021-02-12"
 metaImage: "/assets/images/recipes/mashroom-vaji.jpg"
 categories: ["ভাজি"]
+servings: 4
+prepMinutes: 25
 ---
 
 ভারী খাবার তো অনেক হলো, এবারে চলুন স্বাস্থ্যকর খাবারের দিকে নজর দেয়া যাক। দেখে নিন মাশরুম ভাজির

@@ -9,6 +9,8 @@ excerpt: চাপিলা মাছ ভুনা রান্নার রে�
 metaImage: "/assets/images/recipes/chapila-mach-vuna.jpg"
 date: "2020-05-13"
 categories: ["মাছের তরকারী"]
+servings: 4
+prepMinutes: 30
 ---
 
 চাপিলা মাছ ভুনা রান্নার রেসিপিটা চলুন চট করে দেখে নেয়া যাক।

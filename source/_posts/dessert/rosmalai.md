@@ -9,6 +9,8 @@ excerpt: ঘরে বসেই মজাদার রসমালাই তৈ�
 metaImage: "/assets/images/recipes/rosmalai.jpg"
 date: "2020-12-29"
 categories: ["মিষ্টি", "রসমালাই"]
+servings: 8
+prepMinutes: 60
 ---
 
 চলুন ঘরে বসে খুব সহজেই দোকানের স্বাদের রসমালাই তৈরির রেসিপিটা জেনে নেয়া যাক।

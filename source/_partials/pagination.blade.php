@@ -1,7 +1,7 @@
-<section id="paginator">
+<nav id="paginator" aria-label="পৃষ্ঠা নেভিগেশন">
     @if ($previous = $pagination->previous)
-        <a href="{{ $pagination->first }}">@include('_components.icon', ['name' => 'chevrons-left', 'class' => 'icon--sm'])</a>
-        <a href="{{ $previous }}">@include('_components.icon', ['name' => 'chevron-left', 'class' => 'icon--sm'])</a>
+        <a href="{{ $pagination->first }}" aria-label="প্রথম পৃষ্ঠা">@include('_components.icon', ['name' => 'chevrons-left', 'class' => 'icon--sm'])</a>
+        <a href="{{ $previous }}" aria-label="আগের পৃষ্ঠা">@include('_components.icon', ['name' => 'chevron-left', 'class' => 'icon--sm'])</a>
     @else
         <span>@include('_components.icon', ['name' => 'chevrons-left', 'class' => 'icon--sm'])</span>
         <span>@include('_components.icon', ['name' => 'chevron-left', 'class' => 'icon--sm'])</span>
@@ -11,7 +11,8 @@
         @foreach ($pagination->pages as $pageNumber => $path)
             @if($pageNumber <= $page->paginatationLinkNumber)
                 <a href="{{ $path }}"
-                class="{{ $pagination->currentPage == $pageNumber ? 'selected' : '' }}">
+                class="{{ $pagination->currentPage == $pageNumber ? 'selected' : '' }}"
+                @if ($pagination->currentPage == $pageNumber) aria-current="page" @endif>
                     {{ $page->translateNumber($pageNumber) }}
                 </a>
             @endif
@@ -26,7 +27,8 @@
         @foreach ($pagination->pages as $pageNumber => $path)
             @if($pageNumber > ($pagination->totalPages - $page->paginatationLinkNumber))
                 <a href="{{ $path }}"
-                class="{{ $pagination->currentPage == $pageNumber ? 'selected' : '' }}">
+                class="{{ $pagination->currentPage == $pageNumber ? 'selected' : '' }}"
+                @if ($pagination->currentPage == $pageNumber) aria-current="page" @endif>
                     {{ $page->translateNumber($pageNumber) }}
                 </a>
             @endif
@@ -38,7 +40,8 @@
         @foreach ($pagination->pages as $pageNumber => $path)
             @if($pageNumber >= ($pagination->currentPage - floor($page->paginatationLinkNumber / 2)) && $pageNumber <= ($pagination->currentPage + floor($page->paginatationLinkNumber / 2)))
                 <a href="{{ $path }}"
-                class="{{ $pagination->currentPage == $pageNumber ? 'selected' : '' }}">
+                class="{{ $pagination->currentPage == $pageNumber ? 'selected' : '' }}"
+                @if ($pagination->currentPage == $pageNumber) aria-current="page" @endif>
                     {{ $page->translateNumber($pageNumber) }}
                 </a>
             @endif
@@ -49,10 +52,10 @@
     @endif
 
     @if ($next = $pagination->next)
-        <a href="{{ $next }}">@include('_components.icon', ['name' => 'chevron-right', 'class' => 'icon--sm'])</a>
-        <a href="{{ $pagination->last }}">@include('_components.icon', ['name' => 'chevrons-right', 'class' => 'icon--sm'])</a>
+        <a href="{{ $next }}" aria-label="পরের পৃষ্ঠা">@include('_components.icon', ['name' => 'chevron-right', 'class' => 'icon--sm'])</a>
+        <a href="{{ $pagination->last }}" aria-label="শেষ পৃষ্ঠা">@include('_components.icon', ['name' => 'chevrons-right', 'class' => 'icon--sm'])</a>
     @else
         <span>@include('_components.icon', ['name' => 'chevron-right', 'class' => 'icon--sm'])</span>
         <span>@include('_components.icon', ['name' => 'chevrons-right', 'class' => 'icon--sm'])</span>
     @endif
-</section>
+</nav>

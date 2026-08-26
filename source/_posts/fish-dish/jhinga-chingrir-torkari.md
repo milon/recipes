@@ -9,6 +9,8 @@ excerpt: খুব সহজেই ঝিঙা আর চিংড়ি মাছ
 metaImage: "/assets/images/recipes/jhinga-chingrir-torkari.jpg"
 date: "2020-05-25"
 categories: ["মাছের তরকারী"]
+servings: 4
+prepMinutes: 25
 ---
 
 খুব সাধারণ কিন্তু অসম্ভব মজাদার ঝিঙা আর চিংড়ির তরকারি তৈরির রেসিপি দেখে নিন।

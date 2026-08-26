@@ -9,6 +9,8 @@ excerpt: খুব সহজেই তৈরি করে ফেলুন মজ
 date: "2023-11-08"
 metaImage: "/assets/images/recipes/french-fries.jpg"
 categories: ["নাস্তা"]
+servings: 2
+prepMinutes: 25
 ---
 
 চলুন দেখে নেয়া যাক মজাদার নাস্তা ফ্রেঞ্চ ফ্রাইস তৈরির রেসিপি।

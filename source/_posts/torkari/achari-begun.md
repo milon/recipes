@@ -9,6 +9,8 @@ subtitle: আচারি বেগুন রেসিপি
 excerpt: আচারি বেগুন রেসিপি
 metaImage: "/assets/images/recipes/achari-begun.jpg"
 categories: ["তরকারী"]
+servings: 4
+prepMinutes: 30
 ---
 
 চলুন দেখে নেয়া যাক সুস্বাদু আচারি বেগুন রান্নার রেসিপি।

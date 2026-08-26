@@ -9,6 +9,8 @@ excerpt: জিহ্বে জল আনা কাঁচা আম ভর্ত
 date: "2020-05-25"
 metaImage: "/assets/images/recipes/kacha-aam-vorta.jpg"
 categories: ["নাস্তা", "ভর্তা"]
+servings: 4
+prepMinutes: 15
 ---
 
 চলুন দেখে নেয়া যাক জিহ্বে জল আনা কাঁচা আম ভর্তার রেসিপি।

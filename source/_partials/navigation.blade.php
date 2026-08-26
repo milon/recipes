@@ -1,11 +1,14 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-        <a class="navbar-brand" href="/">{{ $page->siteName }}</a>
+        <a class="navbar-brand" href="/" aria-label="{{ $page->siteName }} — হোম">
+            <span class="navbar-brand-mark" aria-hidden="true">র</span>
+            <span>{{ $page->siteName }}</span>
+        </a>
 
         <div class="navbar-mobile-tools d-flex d-lg-none align-items-center ml-auto">
             @include('_components.search_trigger')
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                মেনু &nbsp;
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="নেভিগেশন মেনু খুলুন">
+                <span>মেনু</span>
                 @include('_components.icon', ['name' => 'menu', 'class' => 'icon--sm'])
             </button>
         </div>

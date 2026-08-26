@@ -9,6 +9,8 @@ excerpt: আলু আর বেগুন দিয়ে স্যামন মা
 metaImage: "/assets/images/recipes/begun-salmoner-torkari.jpg"
 date: "2020-04-16"
 categories: ["মাছের তরকারী"]
+servings: 3
+prepMinutes: 25
 ---
 
 চলুন দেখে নেয়া যাক আলু আর বেগুন দিয়ে স্যামন মাছের তরকারির রেসিপি।

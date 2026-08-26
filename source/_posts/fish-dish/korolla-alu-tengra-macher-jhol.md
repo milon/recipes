@@ -9,6 +9,8 @@ excerpt: করল্লা, আলু দিয়ে টেংরা মাছে
 metaImage: "/assets/images/recipes/korolla-alu-tengra-macher-jhol.jpg"
 date: "2020-05-19"
 categories: ["মাছের তরকারী"]
+servings: 3
+prepMinutes: 25
 ---
 
 চলুন দেখে নেই করল্লা, আলু দিয়ে টেংরা মাছের ঝোলের রেসিপি।

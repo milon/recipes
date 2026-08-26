@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
     <head>
                 <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162769200-1"></script>
@@ -37,80 +37,43 @@
         <meta property="og:type" content="website">
         <meta property="og:image" content="/assets/images/recipes/chapila-mach-vuna.jpg" />
         
-        <link rel="stylesheet" href="/assets/build/css/main-Bl3pSHqb.css">
+        <link rel="stylesheet" href="/assets/build/css/main-BEBKsz28.css">
     </head>
-    <body>
-            <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <body x-data="search()" @keydown.window.escape="closeModal()">
+        <a class="skip-link" href="#main-content">মূল কনটেন্টে যান</a>
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-        <a class="navbar-brand" href="/">সহজ রেসিপি</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            মেনু &nbsp;
-            <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <div class="navbar-search-mobile w-100 order-first order-lg-0 mr-lg-0 mb-2 mb-lg-0">
-                <div
-    x-data="search()"
-    x-cloak
-    class="navbar-search-wrapper position-relative"
->
-    <div class="search-bar-row d-flex align-items-center w-100">
-        <label for="search-input" class="sr-only">খুঁজুন</label>
-        <input
-            id="search-input"
-            type="text"
-            x-ref="searchInput"
-            x-model="query"
-            class="form-control search-input"
-            placeholder="খুঁজুন..."
-            autocomplete="off"
-            @keydown.esc="reset"
-            @keydown="onInputKeydown($event)"
-        />
-        <button
-            type="button"
-            x-show="query"
-            x-transition
-            class="btn btn-link search-cancel"
-            @click="reset"
-            aria-label="বাতিল"
-        >
-            <i class="fas fa-times"></i>
-        </button>
-    </div>
+        <a class="navbar-brand" href="/" aria-label="সহজ রেসিপি — হোম">
+            <span class="navbar-brand-mark" aria-hidden="true">র</span>
+            <span>সহজ রেসিপি</span>
+        </a>
 
-    <div
-        x-show="isQuerying"
-        x-cloak
-        x-transition
-        class="search-panel position-absolute bg-white border rounded shadow-sm py-0 left-0 right-0"
-        style="top: 100%; margin-top: 0.25rem; max-height: 350px; overflow-y: auto; z-index: 1050;"
-    >
-        <template x-for="(result, index) in results" :key="result.link">
-            <a
-                x-ref="resultItem"
-                :href="result.link"
-                :title="result.title"
-                class="search-item d-block px-3 py-2 border-bottom text-dark text-decoration-none"
-                :class="{ 'search-item-selected': index === selectedIndexClamped }"
-                :aria-selected="index === selectedIndexClamped"
-                @mousedown.prevent
-            >
-                <span class="font-weight-bold" x-text="result.title"></span>
-                <span class="search-item-excerpt d-block small text-muted" x-html="result.excerpt || ''"></span>
-            </a>
-        </template>
-        <div
-            x-show="isQuerying && !results.length"
-            class="px-3 py-2 text-muted small"
-        >
-            <span x-text="query"></span>-এর জন্যে কোন ফলাফল পাওয়া যায় নি।
+        <div class="navbar-mobile-tools d-flex d-lg-none align-items-center ml-auto">
+            <button
+    type="button"
+    class="search-open-btn btn btn-link nav-link px-2"
+    @click="openModal()"
+    aria-label="খুঁজুন"
+    title="খুঁজুন (/)"
+>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm"  aria-hidden="true"  >
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.35-4.35" />
+        </svg>
+            <span class="search-open-label d-none d-lg-inline ml-1">খুঁজুন</span>
+</button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="নেভিগেশন মেনু খুলুন">
+                <span>মেনু</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm"  aria-hidden="true"  >
+            <path d="M4 6h16" />
+            <path d="M4 12h16" />
+            <path d="M4 18h16" />
+        </svg>
+                    </button>
         </div>
-    </div>
-</div>
-            </div>
-            <ul class="navbar-nav ml-auto">
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto align-items-lg-center">
                 <li class="nav-item">
                     <a class="nav-link" href="/">হোম</a>
                 </li>
@@ -120,39 +83,81 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/contact">যোগাযোগ</a>
                 </li>
+                <li class="nav-item d-none d-lg-flex align-items-center">
+                    <button
+    type="button"
+    class="search-open-btn btn btn-link nav-link px-2"
+    @click="openModal()"
+    aria-label="খুঁজুন"
+    title="খুঁজুন (/)"
+>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm"  aria-hidden="true"  >
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.35-4.35" />
+        </svg>
+            <span class="search-open-label d-none d-lg-inline ml-1">খুঁজুন</span>
+</button>
+                </li>
             </ul>
         </div>
     </div>
 </nav>
 
-    <!-- Page Header -->
-    <header class="masthead" style="background-image: url(/assets/images/backgrounds/bg-10.jpg)">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-10 mx-auto">
-                    <div class="post-heading">
-                        <h1>চাপিলা মাছ ভুনা</h1>
-                        <h2 class="subheading">চাপিলা মাছ ভুনা রান্নার রেসিপি</h2>
-                        <span class="meta">
-                            পোস্ট করা হয়েছে - মে ১৩, ২০২০
-                        </span>
-                    </div>
-                </div>
+    
+    <article class="recipe-detail">
+        <main id="main-content" class="container recipe-detail-main">
+            <nav class="recipe-breadcrumb" aria-label="ব্রেডক্রাম্ব">
+                <a href="/">← সব রেসিপি</a>
+            </nav>
+
+            <div class="recipe-card-sheet">
+                <header class="recipe-card-header">
+                    <div class="recipe-card-heading">
+                        <h1 class="recipe-card-title">চাপিলা মাছ ভুনা</h1>
+
+                        <div class="recipe-card-lead">
+                                                            <p>চাপিলা মাছ ভুনা রান্নার রেসিপিটা চলুন চট করে দেখে নেয়া যাক।</p>
+                                                    </div>
+
+                        <div class="recipe-card-header-tags">
+                    <a href="/category/macher-trkaree" class="recipe-tag">#মাছের তরকারী</a>
             </div>
-        </div>
-    </header>
+                    </div>
 
-    <!-- Post Content -->
-    <article>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-10 mx-auto">
-                    <p>চাপিলা মাছ ভুনা রান্নার রেসিপিটা চলুন চট করে দেখে নেয়া যাক।</p>
+                    <ul class="recipe-card-facts">
+                                                    <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="recipe-card-fact-icon" aria-hidden="true">
+                                    <path d="M4 3v7a2 2 0 0 0 4 0V3M6 12v9" />
+                                    <path d="M16 3c-1.5 1.5-2 3-2 5s.5 3 2 3 2-1 2-3-.5-3.5-2-5zM16 11v10" />
+                                </svg>
+                                ৮টি উপকরণ
+                            </li>
+                        
+                                                    <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="recipe-card-fact-icon" aria-hidden="true">
+                                    <path d="M9 6h11M9 12h11M9 18h11M4 6h1M4 12h1M4 18h1" />
+                                </svg>
+                                ২টি ধাপ
+                            </li>
+                        
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="recipe-card-fact-icon" aria-hidden="true">
+                                <circle cx="12" cy="12" r="9" />
+                                <path d="M12 7v5l3.5 2" />
+                            </svg>
+                            মে ১৩, ২০২০
+                        </li>
+                    </ul>
+                </header>
 
-<h2>উপকরণ</h2>
+                <figure class="recipe-card-photo">
+                    <img src="/assets/images/recipes/chapila-mach-vuna.jpg" alt="চাপিলা মাছ ভুনা">
+                </figure>
 
-<ul>
+                                    <div class="recipe-card-columns">
+                                                    <section class="recipe-card-ingredients" aria-labelledby="recipe-ingredients-heading">
+                                <h2 id="recipe-ingredients-heading" class="recipe-card-label">উপকরণ</h2>
+                                <ul>
 <li>চাপিলা মাছ (৫০০ গ্রাম)</li>
 <li>পেয়াজ কুচি (১ কাপ)</li>
 <li>হলুদের গুড়া (২ চা চামচ)</li>
@@ -162,104 +167,228 @@
 <li>কাঁচা মরিচ (৫-৬ টি)</li>
 <li>লবন (স্বাদমতো)</li>
 </ul>
-
-<p><img src="/assets/images/recipes/chapila-mach-vuna.jpg" alt="চাপিলা মাছ ভুনা" /></p>
-
-<h2>রন্ধনপ্রণালী</h2>
-
-<p>প্রথমেই চাপিলা মাছের আইশ ছাড়িয়ে হালকা লবন আর হলুদ মেখে হালকা করে ভেজে নিন।</p>
-
-<p>এবারে একটি পাত্রে তেল নিয়ে তাতে পেয়াজ কুচি দিয়ে দিন। পেয়াজ সামান্য নরম হয়ে এলে কাঁচা মরিচ বাদে বাকি সব
+                            </section>
+                        
+                                                    <section class="recipe-card-method" aria-labelledby="recipe-method-heading">
+                                <h2 id="recipe-method-heading" class="recipe-card-label">রন্ধনপ্রণালী</h2>
+                                <ol class="recipe-steps" start="1"><li class="recipe-step"><span class="recipe-step-number" aria-hidden="true">১</span><div class="recipe-step-body">প্রথমেই চাপিলা মাছের আইশ ছাড়িয়ে হালকা লবন আর হলুদ মেখে হালকা করে ভেজে নিন।</div></li><li class="recipe-step"><span class="recipe-step-number" aria-hidden="true">২</span><div class="recipe-step-body">এবারে একটি পাত্রে তেল নিয়ে তাতে পেয়াজ কুচি দিয়ে দিন। পেয়াজ সামান্য নরম হয়ে এলে কাঁচা মরিচ বাদে বাকি সব
 মসলা দিয়ে ভালো করে কষাতে থাকুন। প্রয়োজনে সামান্য পানি দিন। এবারে এতে ভেজে রাখা চাপিলা মাছ দিয়ে দিন।
-৫-৭ মিনিট রান্না করুন, নামানোর আগে আগে ফালি করে কাটা কাঁচা মরিচ দিয়ে দিন।</p>
-
-                    <div class="mt-3">
-            <span class="badge badge-pill badge-secondary category">মাছের তরকারী</span>
+৫-৭ মিনিট রান্না করুন, নামানোর আগে আগে ফালি করে কাটা কাঁচা মরিচ দিয়ে দিন।</div></li></ol>
+                            </section>
+                                            </div>
+                
+                
+                <div class="recipe-card-footer">
+                    <div class="recipe-share">
+    <span class="recipe-share-label">শেয়ার করুন</span>
+    <div class="recipe-share-links">
+        <button
+            type="button"
+            class="recipe-share-btn recipe-share-btn--x"
+            data-share="x"
+            data-url="https://recipes.milon.im/recipe/chapila-mach-vuna"
+            aria-label="X"
+        >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" fill="currentColor" fill-rule="evenodd" class="recipe-share-icon" aria-hidden="true">
+                <path d="M818 800 498.11 333.745l.546.437L787.084 0h-96.385L455.738 272 269.15 0H16.367l298.648 435.31-.036-.037L0 800h96.385l261.222-302.618L565.217 800zM230.96 72.727l448.827 654.546h-76.38L154.217 72.727z" transform="translate(103 112)" />
+            </svg>
+        </button>
+        <button
+            type="button"
+            class="recipe-share-btn recipe-share-btn--fb"
+            data-share="fb"
+            data-url="https://recipes.milon.im/recipe/chapila-mach-vuna"
+            aria-label="Facebook"
+        >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="recipe-share-icon" aria-hidden="true">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+            </svg>
+        </button>
+        <button
+            type="button"
+            class="recipe-share-btn recipe-share-btn--in"
+            data-share="in"
+            data-url="https://recipes.milon.im/recipe/chapila-mach-vuna"
+            aria-label="LinkedIn"
+        >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="recipe-share-icon" aria-hidden="true">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+            </svg>
+        </button>
     </div>
-                    <hr>
-                    <ul class="list-inline">
-    শেয়ার করুন:&nbsp;
-    <li class="list-inline-item">
-        <a href="http://twitter.com/share?url=https://recipes.milon.im/recipe/chapila-mach-vuna" target="_blank" class="text-twitter">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+</div>
+                    <nav class="recipe-nav-links" aria-label="অন্যান্য রেসিপি">
+            <a href="/recipe/alur-chips" class="recipe-nav-link recipe-nav-link--prev">
+            <span class="recipe-nav-link-label">আগের রেসিপি</span>
+            <span class="recipe-nav-link-title">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm"  aria-hidden="true"  >
+            <path d="m15 18-6-6 6-6" />
+        </svg>
+                        আলুর চিপস
             </span>
         </a>
-    </li>
-    <li class="list-inline-item">
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https://recipes.milon.im/recipe/chapila-mach-vuna" target="_blank" class="text-facebook">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
-            </span>
+                <a href="/recipe/dheros-vaji" class="recipe-nav-link recipe-nav-link--next">
+            <span class="recipe-nav-link-label">পরের রেসিপি</span>
+            <span class="recipe-nav-link-title">
+                ঢেঁড়স ভাজির রেসিপি
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm"  aria-hidden="true"  >
+            <path d="m9 18 6-6-6-6" />
+        </svg>
+                    </span>
         </a>
-    </li>
-    <li class="list-inline-item">
-        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://recipes.milon.im/recipe/chapila-mach-vuna" target="_blank" class="text-linkedin">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-            </span>
-        </a>
-    </li>
-</ul>
-                    <hr>
-                    <div class="clearfix">
-            <a href="/recipe/alur-chips" class="float-left">
-            <i class="fas fa-angle-left"></i>
-            আলুর চিপস
-        </a>
-                <a href="/recipe/dheros-vaji" class="float-right">
-            ঢেঁড়স ভাজির রেসিপি
-            <i class="fas fa-angle-right"></i>
-        </a>
-    </div>
+    </nav>
                 </div>
             </div>
-        </div>
+        </main>
     </article>
 
-    <!-- Footer -->
-    <footer>
+    <footer class="site-footer">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-md-10 mx-auto d-flex justify-content-center">
-                <ul class="list-inline d-flex justify-content-center">
+        <div class="site-footer-inner">
+            <div class="site-footer-brand">
+                <p class="editorial-kicker">রান্না হোক সহজ</p>
+                <p class="site-footer-title">সহজ রেসিপি</p>
+                <p class="site-footer-description">রান্না করা খুব কঠিন কোন কাজ না, আমি যেহেতু পারছি, পারবেন আপনিও...</p>
+            </div>
+            <div class="site-footer-meta">
+                <ul class="site-footer-social list-inline" aria-label="সামাজিক যোগাযোগ">
                                             <li class="list-inline-item">
-                            <a href="https://twitter.com/to_milon" target="_blank">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
+                            <a href="https://twitter.com/to_milon" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" fill="currentColor" fill-rule="evenodd" class="icon icon--md"  aria-hidden="true"  >
+            <path d="M818 800 498.11 333.745l.546.437L787.084 0h-96.385L455.738 272 269.15 0H16.367l298.648 435.31-.036-.037L0 800h96.385l261.222-302.618L565.217 800zM230.96 72.727l448.827 654.546h-76.38L154.217 72.727z" transform="translate(103 112)" />
+        </svg>
+                                    </a>
                         </li>
                                             <li class="list-inline-item">
-                            <a href="https://www.facebook.com/sohoj.recipes" target="_blank">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
+                            <a href="https://www.facebook.com/sohoj.recipes" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--md"  aria-hidden="true"  >
+            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+        </svg>
+                                    </a>
                         </li>
                                             <li class="list-inline-item">
-                            <a href="/feed.xml" target="_blank">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
+                            <a href="/feed.xml" target="_blank" rel="noopener noreferrer" aria-label="Rss">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--md"  aria-hidden="true"  >
+            <path d="M4 11a9 9 0 0 1 9 9" />
+            <path d="M4 4a16 16 0 0 1 16 16" />
+            <circle cx="5" cy="19" r="1" fill="currentColor" stroke="none" />
+        </svg>
+                                    </a>
                         </li>
                                     </ul>
-            </div>
-            <div class="col-lg-8 col-md-10 mx-auto">
-                <p class="copyright text-muted">
+                <p class="copyright">
                     কপিরাইট &copy; সহজ রেসিপি, ২০২৬
                 </p>
             </div>
         </div>
     </div>
 </footer>
-        <script src="/assets/build/js/main-DklNxEGf.js" type="module"></script>
+        <div
+    x-show="open"
+    x-cloak
+    class="search-modal"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="search-modal-title"
+    @click.self="closeModal()"
+>
+    <div class="search-modal-backdrop" @click="closeModal()"></div>
+
+    <div class="search-modal-panel" x-ref="searchPanel" @keydown.tab="trapFocus($event)">
+        <h2 id="search-modal-title" class="sr-only">রেসিপি খুঁজুন</h2>
+        <div class="search-modal-header">
+            <label for="search-modal-input" class="sr-only">খুঁজুন</label>
+            <div class="search-modal-input-wrap">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm search-modal-input-icon"  aria-hidden="true"  >
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.35-4.35" />
+        </svg>
+                        <input
+                    id="search-modal-input"
+                    type="text"
+                    role="searchbox"
+                    x-ref="searchInput"
+                    x-model="query"
+                    class="form-control search-modal-input"
+                    placeholder="রেসিপির নাম বা উপাদান খুঁজুন..."
+                    autocomplete="off"
+                    @keydown="onInputKeydown($event)"
+                />
+            </div>
+            <button
+                type="button"
+                class="search-modal-close btn btn-link"
+                @click="closeModal()"
+                aria-label="বন্ধ করুন"
+            >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm"  aria-hidden="true"  >
+            <path d="M18 6 6 18" />
+            <path d="m6 6 12 12" />
+        </svg>
+                    </button>
+        </div>
+
+        <div class="search-modal-body">
+            <p
+                x-show="!query"
+                class="search-modal-hint text-muted small mb-0"
+            >
+                <kbd>/</kbd> চাপ দিয়ে যেকোনো পাতা থেকে খুঁজুন
+            </p>
+
+            <div x-show="query" class="search-results">
+                <template x-for="(result, index) in results" :key="result.link">
+                    <a
+                        x-ref="resultItem"
+                        :href="result.link"
+                        :title="result.title"
+                        class="search-result-item"
+                        :class="{ 'search-result-item-selected': index === selectedIndexClamped }"
+                        :aria-current="index === selectedIndexClamped ? 'true' : null"
+                        @mousedown.prevent
+                    >
+                        <div class="search-result-thumb">
+                            <img
+                                x-show="result.image"
+                                :src="result.image"
+                                :alt="result.title"
+                                loading="lazy"
+                            />
+                            <span
+                                x-show="!result.image"
+                                class="search-result-thumb-placeholder"
+                                aria-hidden="true"
+                            >
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm"  aria-hidden="true"  >
+            <path d="M3 2v7c0 1.1.9 2 2 2h0a2 2 0 0 0 2-2V2" />
+            <path d="M7 2v20" />
+            <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
+        </svg>
+                                    </span>
+                        </div>
+                        <div class="search-result-text">
+                            <span class="search-result-title" x-text="result.title"></span>
+                            <span
+                                x-show="result.excerpt"
+                                class="search-result-excerpt"
+                                x-text="result.excerpt"
+                            ></span>
+                        </div>
+                    </a>
+                </template>
+
+                <div
+                    x-show="query && !results.length"
+                    class="search-no-results"
+                >
+                    <span x-text="query"></span>-এর জন্যে কোন ফলাফল পাওয়া যায় নি।
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <script src="/assets/build/js/main-Dzsy4ql_.js" type="module"></script>
     </body>
 </html>

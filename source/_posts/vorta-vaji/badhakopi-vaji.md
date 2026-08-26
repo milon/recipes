@@ -9,6 +9,8 @@ excerpt: সুস্বাদু এবং স্বাস্থ্যকর �
 metaImage: "/assets/images/recipes/badhakopi-vaji.jpg"
 date: "2020-05-03"
 categories: ["ভাজি"]
+servings: 3
+prepMinutes: 20
 ---
 
 বাঁধাকপি খুবই স্বাস্থ্যকর একটা সবজি। চলুন কিভাবে খুব সহজেই বাঁধাকপি ভাজি রান্না করা যায় সেটা দেখে নেই।

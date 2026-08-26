@@ -9,6 +9,8 @@ subtitle: খুব সহজেই গুড়া দুধ দিয়ে মা�
 excerpt: খুব সহজেই গুড়া দুধ দিয়ে মালাই চপ তৈরির রেসিপি
 metaImage: "/assets/images/recipes/malai-chop.jpg"
 categories: ["ডেসার্ট", "মিষ্টি"]
+servings: 8
+prepMinutes: 60
 ---
 
 চলুন দেখে নেয়া যাক কিভাবে খুব সহজেই গুড়া দুধ দিয়ে মালাই চপ তৈরি করা যায়।

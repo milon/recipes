@@ -9,6 +9,8 @@ excerpt: তুরস্কের ঐতিহ্যবাহী নাস্ত
 date: "2020-08-14"
 metaImage: "/assets/images/recipes/menemen.jpg"
 categories: ["তুরস্ক", "নাস্তা"]
+servings: 2
+prepMinutes: 20
 ---
 
 তুরস্কের সবচেয়ে জনপ্রিয় সকালের নাস্তার রেসিপি হচ্ছে মেনেমেন। এটা আসলে একটা স্ক্র্যাম্বলড এগের রেসিপি। চলুন

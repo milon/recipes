@@ -9,6 +9,8 @@ excerpt: মুরগীর কিমা দিয়ে আলুর চপ তৈ
 date: "2023-12-26"
 metaImage: "/assets/images/recipes/chicken-alur-chop.jpg"
 categories: ["নাস্তা"]
+servings: 4
+prepMinutes: 45
 ---
 
 চলুন দেখে নেয়া যাক মুরগীর কিমা দিয়ে আলুর চপ তৈরির রেসিপি।

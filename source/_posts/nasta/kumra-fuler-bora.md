@@ -9,6 +9,8 @@ excerpt: কুমড়া ফুলের বড়া তৈরির রেসি�
 date: "2023-08-23"
 metaImage: "/assets/images/recipes/kumra-fuler-bora.jpg"
 categories: ["নাস্তা"]
+servings: 4
+prepMinutes: 25
 ---
 
 চলুন দেখে নেয়া যাক মজাদার কুমড়া ফুলের বড়া তৈরির রেসিপি।

@@ -9,6 +9,8 @@ subtitle: গরুর মাংসের কোফতা কারির র
 excerpt: গরুর মাংসের কোফতা কারির রেসিপি
 metaImage: "/assets/images/recipes/beef-kofta-curry.jpg"
 categories: ["মাংসের তরকারী"]
+servings: 6
+prepMinutes: 80
 ---
 
 চলুন দেখে নেয়া যাক সুস্বাদু গরুর মাংসের কোফতা কারি রান্নার রেসিপি।

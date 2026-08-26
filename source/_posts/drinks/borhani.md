@@ -9,6 +9,8 @@ excerpt: টক দই আর রাঁধুনি বোরহানি ম
 date: "2020-04-04"
 metaImage: "/assets/images/recipes/borhani.jpg"
 categories: ["পানীয়", "বিয়ে বাড়ীর খাবার"]
+servings: 8
+prepMinutes: 15
 ---
 
 একটু ভারী খাবার খাওয়ার পর বোরহানি না খেলে যেন চলেই না। চলুন দেখে নেই রাঁধুনি বোরহানি মিক্স দিয়ে

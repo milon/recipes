@@ -9,6 +9,8 @@ excerpt: মজাদার ইতালিয়ান রেড সস পাস�
 date: "2020-07-06"
 metaImage: "/assets/images/recipes/red-sauce-pasta.jpg"
 categories: ["পাস্তা", "ইতালিয়ান"]
+servings: 3
+prepMinutes: 25
 ---
 
 চলুন দেখে নেয়া যাক মজাদার রেড সস পাস্তা তৈরির রেসিপি।

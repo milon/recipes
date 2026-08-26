@@ -9,6 +9,8 @@ excerpt: খুব সহজেই তৈরি করে ফেলুন মজ
 date: "2020-05-21"
 metaImage: "/assets/images/recipes/potato-pinwheel-fried.jpg"
 categories: ["নাস্তা"]
+servings: 4
+prepMinutes: 90
 ---
 
 চলুন দেখে নেয়া যাক মজাদার নাস্তা পটেটো পিনহুইল তৈরির রেসিপি।

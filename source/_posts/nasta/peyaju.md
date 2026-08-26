@@ -9,6 +9,8 @@ excerpt: মুচমুচে পেঁয়াজু তৈরির রেস�
 date: "2021-05-09"
 metaImage: "/assets/images/recipes/peyaju.jpg"
 categories: ["নাস্তা", "ইফতার"]
+servings: 6
+prepMinutes: 40
 ---
 
 পেঁয়াজু ছাড়া ইফতার যেন পরিপূর্ণই হয় না। চলুন সহজেই মুচমুচে পেঁয়াজু তৈরির রেসিপি জেনে নেই।

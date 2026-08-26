@@ -9,6 +9,8 @@ excerpt: সহজেই ঘুগনি তৈরির রেসিপি
 date: "2020-05-15"
 metaImage: "/assets/images/recipes/ghugni.jpg"
 categories: ["ইফতার"]
+servings: 4
+prepMinutes: 50
 ---
 
 ইফতার বলেন আর স্কুলের গেটের মামার দোকানই বলেন, ঘুগনির নাম শুনলেই জিহ্বে জল চলে আসে। চলুন দেখে

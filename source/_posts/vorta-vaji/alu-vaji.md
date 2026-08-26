@@ -9,6 +9,8 @@ excerpt: টমেটো দিয়ে আলু ভাজির রেসি�
 metaImage: "/assets/images/recipes/alu-vaji.jpg"
 date: "2020-04-08"
 categories: ["ভাজি"]
+servings: 4
+prepMinutes: 20
 ---
 
 আলু ভাজি কিভাবে করতে হয় আমরা কমবেশি সবাই সেটা জানি। আমি সেটাতেই একটু টুইস্ট যোগ করে সাধারণ আলু

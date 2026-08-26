@@ -9,6 +9,8 @@ excerpt: সহজ এবং মজাদার ঢেঁড়স ভাজির 
 metaImage: "/assets/images/recipes/dheros-vaji.jpg"
 date: "2020-05-13"
 categories: ["ভাজি"]
+servings: 3
+prepMinutes: 15
 ---
 
 চলুন খুব সহজেই ঢেঁড়স ভাজি রান্নার রেসিপিটা দেখে নেয়া যাক।

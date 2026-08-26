@@ -9,6 +9,8 @@ excerpt: অসম্ভব মজাদার চিংড়ি পোলা�
 date: "2020-04-29"
 metaImage: "/assets/images/recipes/chingri-polaw.jpg"
 categories: ["বিরিয়ানি", "পোলাও"]
+servings: 3
+prepMinutes: 40
 ---
 
 আসুন কিভাবে রাধুনী বিরিয়ানি মিক্স দিয়ে ঝটপট তৈরি করে ফেলতে পারবেন চিংড়ি পোলাও, সেটা দেখে নেয়া যাক।

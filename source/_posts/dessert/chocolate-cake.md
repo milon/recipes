@@ -9,6 +9,8 @@ excerpt: খুব সহজেই মজাদার চকলেট কেক 
 metaImage: "/assets/images/recipes/chocolate-cake.jpg"
 date: "2020-12-01"
 categories: ["চকলেট", "কেক"]
+servings: 8
+prepMinutes: 70
 ---
 
 চলুন দেখে নেয়া যাক খুব সহজেই মজাদার চকলেট কেক তৈরি করার রেসিপি।

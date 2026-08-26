@@ -1,11 +1,22 @@
-// Warm Kitchen palette (Option A)
-$warm-cream: #fff8f0;
-$warm-terracotta: #c45c26;
-$warm-paprika: #d4652f;
-$warm-brown: #5c2d18;
-$warm-sand: #f4e4d4;
-$warm-cream-dark: #f0e6da;
+// Modern white-and-beige editorial palette.
+$paper: #fffdf9;
+$canvas: #eee8de;
+$canvas-deep: #ded4c5;
+$ink: #25231f;
+$muted: #746e65;
+$accent: #8a6248;
+$accent-dark: #654531;
+$rule: #d7cec1;
 
-$teal: $warm-terracotta;
-$primary: $warm-terracotta;
-$body-bg: $warm-cream;
+// Legacy aliases keep Bootstrap/Clean Blog imports predictable.
+$warm-cream: $paper;
+$warm-terracotta: $accent;
+$warm-paprika: $accent-dark;
+$warm-brown: $ink;
+$warm-sand: $canvas;
+$warm-cream-dark: $rule;
+
+$teal: $accent;
+$primary: $accent;
+$body-color: $ink;
+$body-bg: $canvas;

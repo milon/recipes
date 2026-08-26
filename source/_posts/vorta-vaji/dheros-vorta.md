@@ -9,6 +9,8 @@ excerpt: সহজ এবং মজাদার ঢেঁড়স ভর্তা�
 metaImage: "/assets/images/recipes/dheros-vorta.jpg"
 date: "2020-05-10"
 categories: ["ভর্তা"]
+servings: 3
+prepMinutes: 20
 ---
 
 চলুন খুব সহজেই ঢেঁড়স ভর্তার রেসিপিটা দেখে নেয়া যাক।

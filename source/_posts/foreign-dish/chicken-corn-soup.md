@@ -9,6 +9,8 @@ excerpt: বাংলাদেশী চাইনিজ রেস্টুরে
 date: "2021-01-24"
 metaImage: "/assets/images/recipes/chicken-corn-soup.jpg"
 categories: ["স্যুপ", "চাইনিজ"]
+servings: 6
+prepMinutes: 40
 ---
 
 বাংলাদেশী চাইনিজ রেস্টুরেন্টের অন্যতম জনপ্রিয় আইটেম চিকেন কর্ন স্যুপ। চলুন সেটার রেসিপিটা জেনে নেয়া যাক।

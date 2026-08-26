@@ -9,6 +9,8 @@ excerpt: খুবই সাধারণ কিন্তু মজাদার �
 date: "2020-04-14"
 metaImage: "/assets/images/recipes/pui-chingri.jpg"
 categories: ["মাছের তরকারী"]
+servings: 4
+prepMinutes: 20
 ---
 
 পুঁই শাক দিয়ে চিংড়ির তরকারীটা আমার খুবই পছন্দের। সেই রেসিপিটাই চলুন দেখে নেয়া যাক।

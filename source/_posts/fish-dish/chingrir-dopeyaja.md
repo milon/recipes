@@ -9,6 +9,8 @@ excerpt: চিংড়ি মাছের দোপেয়াজা রান�
 metaImage: "/assets/images/recipes/chingrir-dopeyaja.jpg"
 date: "2020-05-19"
 categories: ["মাছের তরকারী"]
+servings: 4
+prepMinutes: 30
 ---
 
 চলুন দেখে নেয়া যাক, মজাদার চিংড়ি মাছের দোপেয়াজা রান্নার রেসিপি।

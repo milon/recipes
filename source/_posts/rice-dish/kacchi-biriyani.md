@@ -9,6 +9,8 @@ excerpt: অসম্ভব মজাদার কাচ্চি বিরি�
 date: "2023-12-27"
 metaImage: "/assets/images/recipes/kacchi-biriyani.jpg"
 categories: ["বিরিয়ানি"]
+servings: 8
+prepMinutes: 360
 ---
 
 চলুন দেখে নেয়া যাক সহজে মজাদার কাচ্চি বিরিয়ানির রেসিপি।

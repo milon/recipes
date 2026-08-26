@@ -9,6 +9,8 @@ excerpt: মজাদার ফুচকা তৈরির রেসিপি
 date: "2020-08-01"
 metaImage: "/assets/images/recipes/fuchka.jpg"
 categories: ["নাস্তা", "স্ট্রিটফুড"]
+servings: 6
+prepMinutes: 40
 ---
 
 আমার সবচেয়ে পছন্দের স্ট্রিটফুড হচ্ছে ফুচকা। চলুন সহজেই ফুচকা তৈরির রেসিপিটা জেনে নেয়া যাক।

@@ -9,6 +9,8 @@ excerpt: মজাদার মিষ্টি কুমড়ার ভর্ত�
 metaImage: "/assets/images/recipes/misti-kumrar-vorta.jpg"
 date: "2020-04-07"
 categories: ["ভর্তা"]
+servings: 3
+prepMinutes: 25
 ---
 
 চলুন দেখে নেয়া যাক মজাদার মিষ্টি কুমড়ার ভর্তার রেসিপি।

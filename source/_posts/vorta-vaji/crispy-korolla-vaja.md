@@ -9,6 +9,8 @@ excerpt: খুব সহজে মুচমুচে করল্লা ভা�
 metaImage: "/assets/images/recipes/crispy-korolla-vaja.jpg"
 date: "2020-05-12"
 categories: ["ভাজা"]
+servings: 3
+prepMinutes: 20
 ---
 
 করল্লা খুবই স্বাস্থ্যকর একটা খাবার। চলুন আজ দেখে নেই ভিন্নধর্মী মুচমুচে করল্লা ভাজার রেসিপি।

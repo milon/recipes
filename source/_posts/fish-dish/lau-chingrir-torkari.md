@@ -9,6 +9,8 @@ excerpt: খুবই সাধারণ কিন্তু মজাদার �
 date: "2020-04-04"
 metaImage: "/assets/images/recipes/lau-chingrir-torkari.jpg"
 categories: ["মাছের তরকারী"]
+servings: 4
+prepMinutes: 30
 ---
 
 বাংলাদেশে থাকাকালীন সময়ে লাউ চিংড়ির তরকারী ছিল আমার খুবই পছন্দের। সেই রেসিপিটাই চলুন দেখে নেয়া যাক।

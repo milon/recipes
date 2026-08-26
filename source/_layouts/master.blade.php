@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
     <head>
         @if($page->production && $page->gaTrackingId)
         <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -44,6 +44,7 @@
         <link rel="stylesheet" href="{{ vite_asset('css/main.css', 'assets/build') }}">
     </head>
     <body x-data="search()" @keydown.window.escape="closeModal()">
+        <a class="skip-link" href="#main-content">মূল কনটেন্টে যান</a>
         @yield('body')
         @include('_components.search_modal')
         <script src="{{ vite_asset('js/main.js', 'assets/build') }}" type="module"></script>

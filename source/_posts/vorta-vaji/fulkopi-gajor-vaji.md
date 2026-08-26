@@ -9,6 +9,8 @@ excerpt: সুস্বাদু আর পুষ্টিকর ফুলক�
 date: "2020-07-29"
 metaImage: "/assets/images/recipes/fulkopi-gajor-vaji.jpg"
 categories: ["ভাজি"]
+servings: 4
+prepMinutes: 25
 ---
 
 চলুন দেখে নেয়া যাক মজাদার ফুলকপি ও গাজরের মিক্সড ভেজিটেবলের রেসিপি।

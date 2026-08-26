@@ -9,6 +9,8 @@ excerpt: মজাদার চ্যাপা শুটকির ভর্ত�
 metaImage: "/assets/images/recipes/chepa-sutki-vorta-1.jpg"
 date: "2020-05-17"
 categories: ["ভর্তা"]
+servings: 4
+prepMinutes: 20
 ---
 
 বিদেশ বিভূইয়ে এলে যেন শুটকির ভর্তা খাওয়ার জন্য মনটা আনচান করে। চলুন সহজেই চ্যাপা শুটকির ভর্তা বানানোর

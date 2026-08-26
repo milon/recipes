@@ -9,6 +9,8 @@ excerpt: খুবই সাধারণ কিন্তু মজাদার �
 date: "2022-07-12"
 metaImage: "/assets/images/recipes/loti-chingrir-torkari.jpg"
 categories: ["মাছের তরকারী"]
+servings: 4
+prepMinutes: 35
 ---
 
 চলুন দেখে নেয়া যাক মজাদার কচুর লতি দিয়ে চিংড়ি মাছের তরকারীর রেসিপি।

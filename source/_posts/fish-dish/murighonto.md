@@ -9,6 +9,8 @@ subtitle: রুই মাছের মাথা আর মুগ ডাল দ�
 excerpt: রুই মাছের মাথা আর মুগ ডাল দিয়ে মুড়িঘন্টের রেসিপি
 metaImage: "/assets/images/recipes/murighonto.jpg"
 categories: ["মাছের তরকারী"]
+servings: 6
+prepMinutes: 50
 ---
 
 চলুন দেখে নেয়া যাক জিহ্বে জল আনা মুড়িঘন্ট রান্নার রেসিপি।

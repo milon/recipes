@@ -9,6 +9,8 @@ excerpt: সহজ এবং মজাদার ঢেঁড়সের চচ্�
 metaImage: "/assets/images/recipes/dheroser-chorchori.jpg"
 date: "2022-02-28"
 categories: ["তরকারি"]
+servings: 3
+prepMinutes: 20
 ---
 
 চলুন দেখে নেয়া যাক মজাদার ঢেঁড়সের চচ্চড়ি রান্নার রেসিপি।

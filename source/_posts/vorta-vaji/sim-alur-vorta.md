@@ -9,6 +9,8 @@ excerpt: খুব সহজ ও মজাদার শিম আলুর ভ�
 metaImage: "/assets/images/recipes/sim-alur-vorta.jpg"
 date: "2020-04-20"
 categories: ["ভর্তা"]
+servings: 4
+prepMinutes: 25
 ---
 
 চলুন দেখে নেই মজাদার শিম আলুর ভর্তার রেসিপি।

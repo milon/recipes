@@ -9,6 +9,8 @@ excerpt: খুব সহজেই শসা, আলু আর চিংড়ি �
 metaImage: "/assets/images/recipes/sosha-chingrir-torkari.jpg"
 date: "2020-04-13"
 categories: ["মাছের তরকারী"]
+servings: 4
+prepMinutes: 25
 ---
 
 খুব সাধারণ কিন্তু অসম্ভব মজাদার শসা আর চিংড়ির তরকারি তৈরির রেসিপি দেখে নিন।

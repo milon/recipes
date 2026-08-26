@@ -9,6 +9,8 @@ excerpt: জিহ্বে জল আনা সিঙ্গারা তৈর�
 date: "2021-02-13"
 metaImage: "/assets/images/recipes/singara.jpg"
 categories: ["নাস্তা"]
+servings: 4
+prepMinutes: 90
 ---
 
 গরম গরম সিঙ্গারার কথা মনে পড়লেই জিহ্বে জল চলে আসে। চলুন ঝটপট সিঙ্গারা তৈরির রেসিপি জেনে নেই।

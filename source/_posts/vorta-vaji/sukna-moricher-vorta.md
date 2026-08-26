@@ -9,6 +9,8 @@ excerpt: জিহ্বে জল আনা শুকনা মরিচের 
 metaImage: "/assets/images/recipes/sukna-moricher-vorta.jpg"
 date: "2020-04-14"
 categories: ["ভর্তা"]
+servings: 3
+prepMinutes: 10
 ---
 
 যারা ঝাল খাবার খেতে পছন্দ করেন, তাদের কাছে শুকনা মরিচের ভর্তার নাম শুনলেই জিহ্বে জল চলে আসে। চলুন

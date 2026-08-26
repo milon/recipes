@@ -9,6 +9,8 @@ excerpt: দারুন মজাদার ম্যাংগো মিল�
 date: "2020-04-22"
 metaImage: "/assets/images/recipes/mango-milk-shake.jpg"
 categories: ["পানীয়", "দুধ"]
+servings: 1
+prepMinutes: 8
 ---
 
 আমার খুব পছন্দের একটা পানীয় হচ্ছে ম্যাংগো মিল্ক শেক। চলুন রেসিপিটা জেনে নেয়া যাক।

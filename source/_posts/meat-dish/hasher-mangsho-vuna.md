@@ -9,6 +9,8 @@ excerpt: মজাদার হাঁসের মাংস ভুনা রা�
 metaImage: "/assets/images/recipes/hasher-mangsho-vuna.jpg"
 date: "2021-04-09"
 categories: ["মাংসের তরকারী"]
+servings: 6
+prepMinutes: 90
 ---
 
 চলুন দেখে নেয়া যাক জিহ্বে জল আনা হাঁসের মাংস ভুনা রান্নার রেসিপি।

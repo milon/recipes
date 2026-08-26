@@ -27,7 +27,9 @@ return [
                     'thumbnail'         => $page->getApiThumbnail(),
                     'body'              => $page->getBody(),
                     'englishSearchTerm' => str_replace('-', ' ', $page->getFilename()),
-                    'categories'        => $page->categories ?? []
+                    'categories'        => $page->categories ?? [],
+                    'servings'          => $page->servings ?? null,
+                    'prepMinutes'       => $page->prepMinutes ?? null,
                 ]);
             },
         ]
@@ -119,6 +121,33 @@ return [
         $enNum = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
         $bnNum = ['০', '১', '২', '৩', '৪', '৫', '৬', '৭', '৮', '৯'];
         return str_replace($enNum, $bnNum, $number);
+    },
+
+    'formatServings' => function ($page) {
+        $servings = (int) ($page->servings ?? 0);
+
+        return $servings > 0 ? $page->translateNumber($servings) . ' জন' : null;
+    },
+
+    'formatPrepTime' => function ($page) {
+        $minutes = (int) ($page->prepMinutes ?? 0);
+        if ($minutes <= 0) {
+            return null;
+        }
+
+        if ($minutes < 60) {
+            return $page->translateNumber($minutes) . ' মিনিট';
+        }
+
+        $hours = intdiv($minutes, 60);
+        $remainder = $minutes % 60;
+        $label = $page->translateNumber($hours) . ' ঘণ্টা';
+
+        if ($remainder) {
+            $label .= ' ' . $page->translateNumber($remainder) . ' মিনিট';
+        }
+
+        return $label;
     },
 
     'randomBackground' => function ($page) {

@@ -9,6 +9,8 @@ excerpt: টমেটো দিয়ে বাইলা মাছের তর�
 metaImage: "/assets/images/recipes/baila-macher-torkari.jpg"
 date: "2020-04-16"
 categories: ["মাছের তরকারী"]
+servings: 3
+prepMinutes: 20
 ---
 
 ছোট মাছ খেতে যারা ভালবাসেন, তাদের জন্য আজকের আয়োজন টমেটো দিয়ে বাইলা মাছের তরকারি।

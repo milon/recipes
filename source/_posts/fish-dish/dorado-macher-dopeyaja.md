@@ -9,6 +9,8 @@ excerpt: টমেটো দিয়ে ডোরাডো মাছে�
 date: "2020-04-09"
 metaImage: "/assets/images/recipes/dorado-macher-dopeyaja.jpg"
 categories: ["মাছের তরকারী"]
+servings: 4
+prepMinutes: 25
 ---
 
 বাঙ্গালী মানেই মাছের জন্য পাগল। আমার মত যারা বিদেশে থাকেন, তাদেরও নিশ্চয়ই আমার মত তাজা মাছ খাওয়ার

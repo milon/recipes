@@ -9,6 +9,8 @@ subtitle: মজাদার ক্ষীরসা পুলি পিঠা ত
 excerpt: মজাদার ক্ষীরসা পুলি পিঠা তৈরির রেসিপি
 metaImage: "/assets/images/recipes/khirsa-puli.jpg"
 categories: ["নাস্তা", "পিঠা"]
+servings: 8
+prepMinutes: 90
 ---
 
 চলুন দেখে নেয়া যাক, জিহ্বে জল আনা ক্ষীরসা পুলি পিঠা তৈরির রেসিপি।

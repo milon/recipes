@@ -9,6 +9,8 @@ excerpt: গ্রাম বাংলার ঐতিহ্যবাহী খ�
 date: "2021-01-10"
 metaImage: "/assets/images/recipes/khuder-vaat-bouya.jpg"
 categories: ["বউয়া ভাত", "খুদের ভাত"]
+servings: 3
+prepMinutes: 30
 ---
 
 বাংলাদেশের একটি ঐতিহ্যবাহী খাবার হচ্ছে খুদের ভাত বা বউয়া ভাত। চলুন মজাদার এ খাবারটির রেসিপি জেনে

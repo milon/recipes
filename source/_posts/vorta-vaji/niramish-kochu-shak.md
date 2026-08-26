@@ -9,6 +9,8 @@ excerpt: সুস্বাদু এবং স্বাস্থ্যকর �
 metaImage: "/assets/images/recipes/niramish-kochu-shak.jpg"
 date: "2022-03-21"
 categories: ["নিরামিষ"]
+servings: 4
+prepMinutes: 25
 ---
 
 ঐতিহ্যবাহী নিরামিষ কচু শাক রান্নার রেসিপিটা চলুন ঝটপট দেখে নেয়া যাক।

@@ -9,6 +9,8 @@ excerpt: ডিম দিয়ে চিচিঙ্গা/সসিন্দা �
 metaImage: "/assets/images/recipes/chichinga-vaji.jpg"
 date: "2020-07-22"
 categories: ["ভাজি"]
+servings: 3
+prepMinutes: 20
 ---
 
 চলুন দেখে নেয়া যাক মজাদার চিচিঙ্গা/কহি/সসিন্দা ভাজির রেসিপি।

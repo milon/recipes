@@ -4,12 +4,13 @@
     class="search-modal"
     role="dialog"
     aria-modal="true"
-    aria-label="রেসিপি খুঁজুন"
+    aria-labelledby="search-modal-title"
     @click.self="closeModal()"
 >
     <div class="search-modal-backdrop" @click="closeModal()"></div>
 
-    <div class="search-modal-panel">
+    <div class="search-modal-panel" x-ref="searchPanel" @keydown.tab="trapFocus($event)">
+        <h2 id="search-modal-title" class="sr-only">রেসিপি খুঁজুন</h2>
         <div class="search-modal-header">
             <label for="search-modal-input" class="sr-only">খুঁজুন</label>
             <div class="search-modal-input-wrap">
@@ -52,7 +53,7 @@
                         :title="result.title"
                         class="search-result-item"
                         :class="{ 'search-result-item-selected': index === selectedIndexClamped }"
-                        :aria-selected="index === selectedIndexClamped"
+                        :aria-current="index === selectedIndexClamped ? 'true' : null"
                         @mousedown.prevent
                     >
                         <div class="search-result-thumb">

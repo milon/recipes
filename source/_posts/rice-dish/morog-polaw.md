@@ -9,6 +9,8 @@ excerpt: অসম্ভব মজাদার মোরগ পোলা�
 date: "2021-03-12"
 metaImage: "/assets/images/recipes/morog-polaw.jpg"
 categories: ["বিরিয়ানি", "পোলাও"]
+servings: 6
+prepMinutes: 90
 ---
 
 চলুন দেখে নেয়া যাক খুব সহজেই রাধুনী মোরগ পোলাও মিক্স দিয়ে অসাধারণ স্বাদের মোরগ পোলাও তৈরির রেসিপি।

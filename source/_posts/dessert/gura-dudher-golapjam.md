@@ -9,6 +9,8 @@ subtitle: খুব সহজেই সুজি আর গুড়া দুধ �
 excerpt: খুব সহজেই সুজি আর গুড়া দুধ দিয়ে গোলাপজাম মিষ্টি তৈরির রেসিপি
 metaImage: "/assets/images/recipes/gura-dudher-golapjam.jpg"
 categories: ["ডেসার্ট", "মিষ্টি"]
+servings: 8
+prepMinutes: 90
 ---
 
 চলুন দেখে নেয়া যাক কিভাবে খুব সহজেই গুড়া দুধ দিয়ে গোলাপজাম মিষ্টি তৈরি করা যায়।

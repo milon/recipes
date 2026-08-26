@@ -9,6 +9,8 @@ excerpt: মুচমুচে পাপড় ভাজা তৈরির রে�
 date: "2020-07-03"
 metaImage: "/assets/images/recipes/papor-vaja.jpg"
 categories: ["নাস্তা"]
+servings: 4
+prepMinutes: 25
 ---
 
 চলুন সহজেই মুচমুচে পাপড় ভাজা তৈরির রেসিপিটা দেখে নেয়া যাক।

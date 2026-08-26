@@ -9,6 +9,8 @@ excerpt: ভিন্নধর্মী কাঁচা মরিচের চ�
 date: "2020-05-16"
 metaImage: "/assets/images/recipes/kacha-moricher-chop-1.jpg"
 categories: ["নাস্তা", "ইফতার"]
+servings: 4
+prepMinutes: 90
 ---
 
 চলুন জেনে নেয়া যাক ভিন্নধর্মী কাঁচা মরিচের চপ তৈরির রেসিপি।

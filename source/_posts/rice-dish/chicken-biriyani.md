@@ -9,6 +9,8 @@ excerpt: অসম্ভব মজাদার চিকেন বিরিয়�
 date: "2022-01-15"
 metaImage: "/assets/images/recipes/chicken-biriyani.jpg"
 categories: ["বিরিয়ানি", "চিকেন"]
+servings: 8
+prepMinutes: 120
 ---
 
 চলুন দেখে নেয়া যাক মজাদার চিকেন বিরিয়ানির রেসিপি।

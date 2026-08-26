@@ -9,6 +9,8 @@ excerpt: সুস্বাদু আর পুষ্টিকর মিক্�
 date: "2020-04-04"
 metaImage: "/assets/images/recipes/mixed-vegetables.jpg"
 categories: ["ভাজি"]
+servings: 4
+prepMinutes: 30
 ---
 
 ভারী খাবার তো অনেক হলো, এবারে চলুন স্বাস্থ্যকর খাবারের দিকে নজর দেয়া যাক। দেখে নিন মিক্সড ভেজিটেবল ডিসের রেসিপি।

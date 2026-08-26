@@ -9,6 +9,8 @@ excerpt: দারুন মজাদার লেবুর শরবত তৈ�
 date: "2020-05-16"
 metaImage: "/assets/images/recipes/lebur-sorbot.jpg"
 categories: ["পানীয়"]
+servings: 2
+prepMinutes: 10
 ---
 
 তীব্র গরমে এক গ্লাস লেবুর শরবত এনে দিতে পারে প্রশান্তি। চলুন লেবুর শরবতের রেসিপিটা দেখে নেয়া যাক।

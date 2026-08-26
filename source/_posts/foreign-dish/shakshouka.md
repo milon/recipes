@@ -9,6 +9,8 @@ excerpt: মধ্যপ্রাচ্যের ঐতিহ্যবাহী 
 date: "2020-05-08"
 metaImage: "/assets/images/recipes/shakshouka.jpg"
 categories: ["মধ্যপ্রাচ্য", "নাস্তা"]
+servings: 2
+prepMinutes: 25
 ---
 
 মধ্যপ্রাচ্যের ঐতিহ্যবাহী আর জনপ্রিয় নাস্তার রেসিপি হচ্ছে সাকশুকা। চলুন সহজেই কিভাবে এটা তৈরি করা যায় সেটা

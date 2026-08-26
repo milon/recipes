@@ -9,6 +9,8 @@ subtitle: গোলাপজাম মিষ্টি তৈরির রে�
 excerpt: গোলাপজাম মিষ্টি তৈরির রেসিপি
 metaImage: "/assets/images/recipes/golapjam.jpg"
 categories: ["ডেসার্ট", "মিষ্টি"]
+servings: 6
+prepMinutes: 90
 ---
 
 চলুন দেখে নেয়া যাক অসম্ভব মজাদার ঐতিহ্যবাহী গোলাপজাম তৈরির রেসিপি।

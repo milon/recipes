@@ -9,6 +9,8 @@ excerpt: খুব সহজেই শিখে নিন মজাদার ট
 metaImage: "/assets/images/recipes/tomato-vorta.jpg"
 date: "2020-04-15"
 categories: ["ভর্তা"]
+servings: 3
+prepMinutes: 15
 ---
 
 টমেটো আমার খুবই পছন্দের সবজি। চলুন দেখে নেই টমেটো ভর্তার রেসিপি।

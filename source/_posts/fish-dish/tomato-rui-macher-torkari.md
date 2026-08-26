@@ -9,6 +9,8 @@ excerpt: টমেটো আর আলু দিয়ে রুই মাছে
 metaImage: "/assets/images/recipes/tomato-rui-macher-torkari.jpg"
 date: "2020-04-20"
 categories: ["মাছের তরকারী"]
+servings: 4
+prepMinutes: 30
 ---
 
 রুই মাছের ঝোল খুব মজার তরকারী। চলুন খুব সহজেই শিখে নেয়া যাক রেসিপিটা।

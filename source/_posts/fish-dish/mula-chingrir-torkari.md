@@ -9,6 +9,8 @@ excerpt: খুবই সাধারণ কিন্তু মজাদার �
 date: "2020-07-30"
 metaImage: "/assets/images/recipes/mula-chingrir-torkari.jpg"
 categories: ["মাছের তরকারী"]
+servings: 4
+prepMinutes: 25
 ---
 
 জার্মানীসহ ইউরোপিয়ান দেশগুলোতে একটা খুবই কমন সবজি হচ্ছে ছোট গোলাকার লাল মূলা। সেই মূলা দিয়ে

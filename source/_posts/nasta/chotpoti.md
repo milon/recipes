@@ -9,6 +9,8 @@ excerpt: জিহ্বে জল আনা চটপটি রান্না�
 date: "2020-07-31"
 metaImage: "/assets/images/recipes/chotpoti.jpg"
 categories: ["নাস্তা", "স্ট্রিটফুড"]
+servings: 6
+prepMinutes: 90
 ---
 
 বিদেশে এসে সবচেয়ে বেশি যে খাবারটা মিস করি, সেটা হচ্ছে চটপটি। চলুন দেখে নেয়া যাক খুব সহজেই জিহ্বে জল

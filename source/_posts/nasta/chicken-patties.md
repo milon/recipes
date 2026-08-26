@@ -9,6 +9,8 @@ excerpt: মজাদার চিকেন প্যাটিস তৈরি�
 metaImage: "/assets/images/recipes/chicken-patties.jpg"
 date: "2020-11-26"
 categories: ["নাস্তা", "প্যাটিস"]
+servings: 6
+prepMinutes: 40
 ---
 
 চলুন দেখে নেয়া যাক, মজাদার চিকেন প্যাটিস তৈরির রেসিপি।

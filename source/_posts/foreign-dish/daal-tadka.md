@@ -9,6 +9,8 @@ excerpt: সুস্বাদু ভারতীয় ডিশ ডাল তড়�
 date: "2021-02-17"
 metaImage: "/assets/images/recipes/daal-tadka.jpg"
 categories: ["ভারতীয়", "ডাল তড়কা"]
+servings: 4
+prepMinutes: 80
 ---
 
 চলুন দেখে নেয়া যাক ভারতের জনপ্রিয় রেসিপি, যেটা প্রায় সমস্ত ভারতের রেস্টুরেন্টগুলোতেই সার্ভ করা হয়, সেই

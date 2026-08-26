@@ -9,6 +9,8 @@ excerpt: টমেটো আর আলু দিয়ে দেশি স্ট
 metaImage: "/assets/images/recipes/tomato-salmon-macher-jhol.jpg"
 date: "2020-04-10"
 categories: ["মাছের তরকারী"]
+servings: 3
+prepMinutes: 25
 ---
 
 ইউরোপ, আমেরিকায় গ্রোসারি শপে গেলেই স্যামন মাছ চোখে পড়ে। এমনকি দেশের সুপারমার্কেটগুলোতেও এখন স্যামন

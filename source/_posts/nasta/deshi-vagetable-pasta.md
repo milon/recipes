@@ -9,6 +9,8 @@ excerpt: দেশি স্টাইলে মিক্সড ভেজিট�
 date: "2020-04-21"
 metaImage: "/assets/images/recipes/deshi-vegetable-pasta.jpg"
 categories: ["নাস্তা", "পাস্তা"]
+servings: 3
+prepMinutes: 25
 ---
 
 দেখে নিন সম্পূর্ণ দেশি স্বাদের মিক্সড ভেজিটেবল পাস্তা তৈরির রেসিপি।

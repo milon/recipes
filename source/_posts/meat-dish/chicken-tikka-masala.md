@@ -9,6 +9,8 @@ excerpt: চিকেন টিক্কা মাসালা রেসিপ�
 metaImage: "/assets/images/recipes/chicken-tikka-masala.jpg"
 date: "2021-02-16"
 categories: ["মাংসের তরকারী"]
+servings: 4
+prepMinutes: 50
 ---
 
 পরোটা দিয়ে চিকেন টিক্কা মাসালার কোন তুলনাই চলে না। চলুন রেসিপিটা দেখে নেই।

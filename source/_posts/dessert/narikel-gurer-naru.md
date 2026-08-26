@@ -9,6 +9,8 @@ subtitle: মজাদার নারিকেল গুড়ের নাড়ু 
 excerpt: মজাদার নারিকেল গুড়ের নাড়ু তৈরির রেসিপি
 metaImage: "/assets/images/recipes/narikel-gurer-naru.jpg"
 categories: ["নাস্তা"]
+servings: 8
+prepMinutes: 35
 ---
 
 চলুন দেখে নেয়া যাক, মজাদার নাস্তা নারিকেল গুড়ের নাড়ু তৈরির রেসিপি।

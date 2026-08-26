@@ -9,6 +9,8 @@ excerpt: সহজেই ভাপা পিঠা তৈরির রেসি�
 metaImage: "/assets/images/recipes/vapa-pitha.jpg"
 date: "2022-01-02"
 categories: ["নাস্তা", "ডেসার্ট", "পিঠা"]
+servings: 6
+prepMinutes: 45
 ---
 
 চলুন দেখে নেয়া যাক দোকান থেকে কেনা রেডিমেড চালের গুড়া দিয়ে ভাপা পিঠা তৈরির রেসিপি।

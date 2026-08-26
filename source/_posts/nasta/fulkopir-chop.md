@@ -9,6 +9,8 @@ excerpt: সুস্বাদু ফুলকপির চপ তৈরির �
 date: "2020-07-26"
 metaImage: "/assets/images/recipes/fulkopir-chop.jpg"
 categories: ["নাস্তা", "ইফতার"]
+servings: 4
+prepMinutes: 35
 ---
 
 চলুন দেখে নেয়া যাক, খুব সহজেই সুস্বাদু ফুলকপির চপ তৈরির রেসিপি।

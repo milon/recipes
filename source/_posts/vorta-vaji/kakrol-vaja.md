@@ -9,6 +9,8 @@ excerpt: মজাদার কাকরোল ভাজা রান্ন�
 metaImage: "/assets/images/recipes/kakrol-vaja.jpg"
 date: "2020-06-02"
 categories: ["ভাজা"]
+servings: 3
+prepMinutes: 15
 ---
 
 চলুন সহজেই দেখে নেই মজাদার কাকরোল ভাজা তৈরির রেসিপি।

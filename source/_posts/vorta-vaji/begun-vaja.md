@@ -9,6 +9,8 @@ excerpt: মজাদার বেগুন ভাজা তৈরির রে�
 metaImage: "/assets/images/recipes/begun-vaja.jpg"
 date: "2020-06-02"
 categories: ["ভাজি"]
+servings: 2
+prepMinutes: 15
 ---
 
 চলুন সহজেই বেগুনের চাক ভাজা তৈরির রেসিপিটা দেখে নেই।

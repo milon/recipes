@@ -9,6 +9,8 @@ excerpt: দেশি স্টাইলে স্পাইসি চিকে�
 date: "2023-12-16"
 metaImage: "/assets/images/recipes/spicy-chicken-pasta.jpg"
 categories: ["নাস্তা", "পাস্তা"]
+servings: 3
+prepMinutes: 30
 ---
 
 দেখে নিন সম্পূর্ণ দেশি স্বাদের স্পাইসি চিকেন পাস্তা তৈরির রেসিপি।

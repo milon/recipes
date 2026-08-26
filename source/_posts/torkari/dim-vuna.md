@@ -9,6 +9,8 @@ excerpt: খুব সহজেই মজাদার ডিম ভুনার 
 metaImage: "/assets/images/recipes/dim-vuna.jpg"
 date: "2020-03-14"
 categories: ["তরকারী", "ডিম"]
+servings: 3
+prepMinutes: 20
 ---
 
 চলুন দেখে নেয়া যাক খুবই সহজ মজাদার ডিম ভুনার রেসিপি।

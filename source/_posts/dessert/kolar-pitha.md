@@ -9,6 +9,8 @@ excerpt: কলার পিঠা তৈরির রেসিপি
 metaImage: "/assets/images/recipes/kolar-pitha.jpg"
 date: "2025-01-08"
 categories: ["নাস্তা", "ডেসার্ট", "পিঠা"]
+servings: 6
+prepMinutes: 40
 ---
 
 চলুন দেখে নেয়া যাক খুব সহজেই কলার পিঠা তৈরি করার রেসিপি।

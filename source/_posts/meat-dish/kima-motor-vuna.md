@@ -9,6 +9,8 @@ subtitle: আলু আর মটরশুটি দিয়ে গরুর ক�
 excerpt: আলু আর মটরশুটি দিয়ে গরুর কিমা ভুনা রান্নার রেসিপি
 metaImage: "/assets/images/recipes/kima-motor-vuna.jpg"
 categories: ["মাংসের তরকারী"]
+servings: 4
+prepMinutes: 40
 ---
 
 আলু আর মটরশুটি দিয়ে মজাদার গরুর মাংসের কিমা ভুনা রান্নার রেসিপিটা চলুন ঝটপট দেখে নেয়া যাক।

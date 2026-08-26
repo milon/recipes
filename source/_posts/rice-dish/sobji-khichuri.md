@@ -9,6 +9,8 @@ excerpt: খুব সহজেই সবজি খিচুরি রান্�
 metaImage: "/assets/images/recipes/sobji-khichuri.jpg"
 date: "2020-04-12"
 categories: ["খিচুরি"]
+servings: 6
+prepMinutes: 45
 ---
 
 সহজে সবজি খিচুরি রান্না করার রেসিপিটি চলুন জেনে নেই।

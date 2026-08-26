@@ -9,6 +9,8 @@ excerpt: দারুন মজাদার ম্যাংগো লাচ�
 date: "2020-04-25"
 metaImage: "/assets/images/recipes/mango-lacchi.jpg"
 categories: ["পানীয়", "লাচ্ছি"]
+servings: 1
+prepMinutes: 8
 ---
 
 গরমে বা ইফতারে লাচ্ছির কোন তুলনাই হয় না। আর সেটাও যদি হয় ম্যাংগো লাচ্ছি তাহলে তো কথাই নেই। চলুন

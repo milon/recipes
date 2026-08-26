@@ -9,6 +9,8 @@ excerpt: ডিম চপ তৈরির রেসিপি
 date: "2020-05-12"
 metaImage: "/assets/images/recipes/dim-chop.jpg"
 categories: ["নাস্তা", "ইফতার"]
+servings: 4
+prepMinutes: 40
 ---
 
 চলুন দেখে নেয়া যাক ডিম চপ তৈরির রেসিপি।

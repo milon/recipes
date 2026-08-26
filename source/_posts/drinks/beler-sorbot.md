@@ -9,6 +9,8 @@ excerpt: দারুন মজাদার বেলের শরবত তৈ�
 date: "2020-05-10"
 metaImage: "/assets/images/recipes/beler-sorbot.jpg"
 categories: ["পানীয়"]
+servings: 2
+prepMinutes: 10
 ---
 
 গরমে বেলের শরবত এনে দিতে পারে প্রশান্তি। এছাড়া এটা আপনার পেটের জন্যও অনেক ভালো। চলুন খুবই সহজে

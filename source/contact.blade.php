@@ -11,19 +11,19 @@ subtitle: আপনার যদি কোন প্রশ্ন থাকে
     <form method="POST" action="{{ $page->contactFormUrl }}">
         <div class="control-group">
             <div class="form-group floating-label-form-group controls">
-                <label>নাম</label>
+                <label for="name">নাম</label>
                 <input type="text" class="form-control" placeholder="আপনার নাম" name="name" id="name" required>
             </div>
         </div>
         <div class="control-group">
             <div class="form-group floating-label-form-group controls">
-                <label>ইমেইল ঠিকানা</label>
+                <label for="email">ইমেইল ঠিকানা</label>
                 <input type="email" class="form-control" placeholder="ইমেইল এড্রেস" name="email" id="email" required>
             </div>
         </div>
         <div class="control-group">
             <div class="form-group floating-label-form-group controls">
-                <label>ম্যাসেজ</label>
+                <label for="message">ম্যাসেজ</label>
                 <textarea rows="5" class="form-control" placeholder="আপনার ম্যাসেজ লিখুন" name="message" id="message" required></textarea>
             </div>
         </div>

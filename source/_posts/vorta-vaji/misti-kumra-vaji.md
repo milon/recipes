@@ -9,6 +9,8 @@ excerpt: মজাদার চিংড়ি দিয়ে মিষ্টি ক�
 metaImage: "/assets/images/recipes/misti-kumra-vaji.jpg"
 date: "2020-11-11"
 categories: ["ভাজি"]
+servings: 4
+prepMinutes: 25
 ---
 
 চলুন দেখে নেয়া যাক মজাদার চিংড়ি দিয়ে মিষ্টি কুমড়া ভাজির রেসিপি।

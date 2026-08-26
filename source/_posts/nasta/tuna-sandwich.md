@@ -9,6 +9,8 @@ excerpt: সহজেই টুনা মাছের স্যান্ডউ�
 metaImage: "/assets/images/recipes/tuna-sandwich.jpg"
 date: "2020-09-07"
 categories: ["নাস্তা", "স্যান্ডউইচ"]
+servings: 2
+prepMinutes: 15
 ---
 
 চলুন খুব সহজেই ক্যানড টুনা মাছের স্যান্ডউইচ তৈরির রেসিপি জেনে নেয়া যাক।

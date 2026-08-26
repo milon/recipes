@@ -9,6 +9,8 @@ excerpt: সুস্বাদু চাইনিজ বিফ চিলি অ�
 date: "2020-08-26"
 metaImage: "/assets/images/recipes/beef-chili-onion-curry.jpg"
 categories: ["চাইনিজ", "মাংসের তরকারি"]
+servings: 3
+prepMinutes: 40
 ---
 
 চলুন দেখে নেয়া যাক, চাইনিজ রেস্টুরেন্টের মজাদার বিফ চিলি অনিয়ন কারি তৈরির রেসিপি।

@@ -9,6 +9,8 @@ excerpt: ঢাকার ঐতিহ্যবাহী ডেজার্ট �
 date: "2020-04-09"
 metaImage: "/assets/images/recipes/shahi-tukra.jpg"
 categories: ["নাস্তা", "ডেসার্ট"]
+servings: 4
+prepMinutes: 40
 ---
 
 চলুন জেনে নেয়া যাক শাহী টুকরার রেসিপি।

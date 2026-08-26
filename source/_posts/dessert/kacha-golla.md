@@ -9,6 +9,8 @@ excerpt: খুব সহজেই জিহ্বে জল আনা কাঁ
 metaImage: "/assets/images/recipes/kacha-golla.jpg"
 date: "2020-12-21"
 categories: ["মিষ্টি", "কাঁচা গোল্লা"]
+servings: 8
+prepMinutes: 40
 ---
 
 চলুন ঘরে বসে খুব সহজেই কাঁচা গোল্লা তৈরির রেসিপিটা জেনে নেয়া যাক।

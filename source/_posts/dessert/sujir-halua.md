@@ -9,6 +9,8 @@ subtitle: সহজ নাস্তার আইটেম সুজির হা
 excerpt: সহজ নাস্তার আইটেম সুজির হালুয়া তৈরির রেসিপি
 metaImage: "/assets/images/recipes/sujir-halua.jpg"
 categories: ["নাস্তা", "হালুয়া"]
+servings: 4
+prepMinutes: 25
 ---
 
 সকালের নাস্তার অন্যতম উপকরণ সুজির হালুয়া তৈরির রেসিপিটা চলুন দেখে নেয়া যাক।

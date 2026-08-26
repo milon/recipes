@@ -9,6 +9,8 @@ excerpt: নোয়াখালীর ঐতিহ্যবাহী নাস
 date: "2020-04-06"
 metaImage: "/assets/images/recipes/kholaja-pitha.jpg"
 categories: ["নাস্তা"]
+servings: 3
+prepMinutes: 20
 ---
 
 নোয়াখালী এলাকার মানুষের মধ্যে খুবই জনপ্রিয় একটা নাস্তা হচ্ছে খোলাজা পিঠা। এটি খুব সহজেই তৈরি করা যায়,

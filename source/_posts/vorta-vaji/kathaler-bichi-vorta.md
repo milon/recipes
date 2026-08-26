@@ -9,6 +9,8 @@ excerpt: মজাদার কাঠাঁলের বিচি ভর্ত�
 metaImage: "/assets/images/recipes/kathaler-bichi-vorta.jpg"
 date: "2025-08-31"
 categories: ["ভর্তা"]
+servings: 4
+prepMinutes: 30
 ---
 
 চলুন দেখে নেয়া যাক কিভাবে মজাদার কাঠাঁলের বিচির ভর্তা তৈরি করবেন।

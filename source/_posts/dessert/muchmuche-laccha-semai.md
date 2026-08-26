@@ -9,6 +9,8 @@ subtitle: খুব সহজেই মুচমুচে লাচ্ছা স
 excerpt: খুব সহজেই মুচমুচে লাচ্ছা সেমাই তৈরি করার রেসিপি
 metaImage: "/assets/images/recipes/muchmuche-laccha-semai.jpg"
 categories: ["নাস্তা", "ডেসার্ট", "ঈদ"]
+servings: 6
+prepMinutes: 25
 ---
 
 চলুন দেখে নেয়া যাক ভিন্নধর্মী মজাদার মুচমুচে লাচ্ছা সেমাইয়ের রেসিপি।

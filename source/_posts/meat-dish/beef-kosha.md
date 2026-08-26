@@ -9,6 +9,8 @@ subtitle: কষা গরুর মাংসের তরকারির রে
 excerpt: কষা গরুর মাংসের তরকারির রেসিপি
 metaImage: "/assets/images/recipes/beef-kosha.jpg"
 categories: ["মাংসের তরকারী"]
+servings: 6
+prepMinutes: 90
 ---
 
 চলুন দেখে নেয়া যাক কষা গরুর মাংসের রেসিপি।

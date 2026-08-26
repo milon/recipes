@@ -9,6 +9,8 @@ excerpt: মজাদার চিড়া দিয়ে ডেজার্ট র�
 date: "2020-05-14"
 metaImage: "/assets/images/recipes/chirar-dessert.jpg"
 categories: ["নাস্তা", "ডেসার্ট"]
+servings: 4
+prepMinutes: 40
 ---
 
 চলুন দেখে নেয়া যাক খুব সহজেই সামান্য উপকরণে মজাদার চিড়া দিয়ে ডেজার্ট রান্নার রেসিপি।

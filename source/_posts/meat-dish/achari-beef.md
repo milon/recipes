@@ -9,6 +9,8 @@ subtitle: আচারি গরুর মাংসের ভুনার রে
 excerpt: আচারি গরুর মাংসের ভুনার রেসিপি
 metaImage: "/assets/images/recipes/achari-beef.jpg"
 categories: ["মাংসের তরকারী"]
+servings: 6
+prepMinutes: 90
 ---
 
 চলুন দেখে নেয়া যাক সুস্বাদু আচারি গরুর মাংসের ভুনা রান্নার রেসিপি।

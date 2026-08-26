@@ -9,6 +9,8 @@ excerpt: ছোলা রান্নার রেসিপি
 date: "2020-04-21"
 metaImage: "/assets/images/recipes/chola.jpg"
 categories: ["নাস্তা", "ইফতার"]
+servings: 4
+prepMinutes: 40
 ---
 
 রমজানে ইফতারের একটা অবিচ্ছেদ্য অংশ হচ্ছে ছোলা। চলুন জেনে নেই ছোলা রান্নার রেসিপি।

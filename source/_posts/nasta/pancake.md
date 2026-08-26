@@ -9,6 +9,8 @@ subtitle: সুস্বাদু নাস্তা প্যানকেক �
 excerpt: সুস্বাদু নাস্তা প্যানকেক তৈরির রেসিপি
 metaImage: "/assets/images/recipes/pancake.jpg"
 categories: ["নাস্তা"]
+servings: 3
+prepMinutes: 20
 ---
 
 সকালের নাস্তায় প্যানকেকের কোন তুলনাই হয় না। চলুন রেসিপিটি দেখে নেয়া যাক।

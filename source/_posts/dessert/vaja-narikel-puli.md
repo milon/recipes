@@ -9,6 +9,8 @@ subtitle: মজাদার ভাজা নারিকেলের পুল�
 excerpt: মজাদার ভাজা নারিকেলের পুলি পিঠা তৈরির রেসিপি
 metaImage: "/assets/images/recipes/vaja-narikel-puli.jpg"
 categories: ["নাস্তা", "পিঠা"]
+servings: 8
+prepMinutes: 50
 ---
 
 চলুন দেখে নেয়া যাক, মজাদার ভাজা নারিকেলের পুলি পিঠা তৈরির রেসিপি।

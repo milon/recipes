@@ -9,6 +9,8 @@ excerpt: মজাদার ডাটা শাক ভাজির রেসি�
 metaImage: "/assets/images/recipes/data-saak-vaji.jpg"
 date: "2020-05-19"
 categories: ["ভাজি"]
+servings: 4
+prepMinutes: 20
 ---
 
 চলুন দেখে নেয়া যাক স্বাস্থ্যকর ডাটা শাক ভাজির রেসিপি।

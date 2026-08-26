@@ -9,6 +9,8 @@ excerpt: খুব সহজেই মজাদার ভ্যানিলা �
 metaImage: "/assets/images/recipes/vanilla-cake.jpg"
 date: "2020-12-02"
 categories: ["কেক"]
+servings: 8
+prepMinutes: 70
 ---
 
 চলুন দেখে নেয়া যাক খুব সহজেই মজাদার ভ্যানিলা কেক তৈরি করার রেসিপি।

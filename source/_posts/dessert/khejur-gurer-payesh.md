@@ -9,6 +9,8 @@ excerpt: ঐতিহ্যবাহী খেজুরের গুড়ের �
 date: "2020-04-04"
 metaImage: "/assets/images/recipes/khejur-gurer-payesh.jpg"
 categories: ["নাস্তা", "ডেসার্ট", "পায়েস"]
+servings: 6
+prepMinutes: 50
 ---
 
 শীতের সকালে খেজুরের গুড়ের পায়েসের কোন তুলনা হয় না। চলুন দেখে নেই রেসিপি।

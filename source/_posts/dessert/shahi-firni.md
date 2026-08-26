@@ -9,6 +9,8 @@ excerpt: ঐতিহ্যবাহী শাহী ফিরনী রান�
 date: "2021-04-18"
 metaImage: "/assets/images/recipes/shahi-firni.jpg"
 categories: ["নাস্তা", "ডেসার্ট"]
+servings: 6
+prepMinutes: 70
 ---
 
 চলুন দেখে নেয়া যাক বিয়ে বাড়ীর স্বাদের ঐতিহ্যবাহী শাহী ফিরনী রান্নার রেসিপি।

@@ -9,6 +9,8 @@ excerpt: রাইস কুকারে খুব সহজেই খিচু�
 metaImage: "/assets/images/recipes/khichuri.jpg"
 date: "2020-04-10"
 categories: ["খিচুরি"]
+servings: 3
+prepMinutes: 35
 ---
 
 খিচুরি আমরা সবাই পছন্দ করি। চলুন কিভাবে রাইস কুকারে খিচুরি রান্না করা যায় সেটা দেখে নেই।

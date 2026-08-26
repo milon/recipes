@@ -9,6 +9,8 @@ excerpt: খুব সহজে কালো জিরা ভর্তার 
 metaImage: "/assets/images/recipes/kalo-jira-vorta.jpg"
 date: "2020-04-25"
 categories: ["ভর্তা"]
+servings: 8
+prepMinutes: 20
 ---
 
 কালো জিরার ভর্তা স্বাদে যেমন অনন্য তেমনি খুবই স্বাস্থ্যকর। চলুন খুবই সহজ এ রেসিপিটা দেখে নেয়া যাক।

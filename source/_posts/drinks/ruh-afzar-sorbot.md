@@ -9,6 +9,8 @@ excerpt: দারুন মজাদার রুহ আফজার শরব�
 date: "2020-05-09"
 metaImage: "/assets/images/recipes/ruh-afzar-sorbot.jpg"
 categories: ["পানীয়", "ইফতার"]
+servings: 1
+prepMinutes: 5
 ---
 
 রুহ আফজা অত্যন্ত স্বাস্থ্যকর একটা পানীয়। চলুন রুহ আফজার শরবত বানানোর পদ্ধতিটি জেনে নেই।

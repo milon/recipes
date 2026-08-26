@@ -9,6 +9,8 @@ excerpt: সুজি দিয়ে সহজেই দই বড়া তৈরি
 date: "2020-05-11"
 metaImage: "/assets/images/recipes/doi-bora.jpg"
 categories: ["নাস্তা", "ইফতার"]
+servings: 6
+prepMinutes: 60
 ---
 
 দই বড়া নামটা শুনলেই জিহ্বে জল চলে আসে। চলুন কিভাবে খুব সহজেই সুজি দিয়ে মজাদার দই বড়া তৈরি করতে

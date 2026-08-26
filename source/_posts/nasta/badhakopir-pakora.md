@@ -9,6 +9,8 @@ date: "2020-04-04"
 metaImage: "/assets/images/recipes/badhakopir-pakora.jpg"
 section: content
 categories: ["নাস্তা"]
+servings: 4
+prepMinutes: 45
 ---
 
 বিকালের নাস্তায় একটু ভাজাপোড়া না খেলে চলেই না। চলুন খুব সহজ এবং সুস্বাদু এই বাঁধাকপির পাকোড়া তৈরি করা

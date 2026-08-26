@@ -3,10 +3,11 @@
 @section('hero')
     <header class="category-hero">
         <div class="container">
-            <nav class="recipe-breadcrumb" aria-label="Breadcrumb">
+            <nav class="recipe-breadcrumb" aria-label="ব্রেডক্রাম্ব">
                 <a href="/">← সব রেসিপি</a>
             </nav>
-            <h1 class="category-hero-title">#{{ $page->category }}</h1>
+            <p class="editorial-kicker">বিষয় অনুযায়ী</p>
+            <h1 class="category-hero-title">{{ $page->category }}</h1>
             <p class="category-hero-count">
                 {{ $page->translateNumber($page->categoryCount) }}টি রেসিপি
                 @if ($pagination->totalPages > 1)

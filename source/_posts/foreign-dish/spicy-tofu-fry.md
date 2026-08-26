@@ -9,6 +9,8 @@ excerpt: মজাদার চাইনিজ স্পাইসি টফু �
 date: "2021-03-15"
 metaImage: "/assets/images/recipes/spicy-tofu-fry.jpg"
 categories: ["টফু", "চাইনিজ"]
+servings: 4
+prepMinutes: 45
 ---
 
 চলুন দেখে নেয়া যাক মজাদার চাইনিজ স্পাইসি টফু ফ্রাই রান্নার রেসিপি।

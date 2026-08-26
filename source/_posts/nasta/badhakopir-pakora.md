@@ -2,9 +2,9 @@
 extends:
     web: _layouts.post
     api: _layouts.api.post
-title: বাধাঁকপির পাকোড়া
-subtitle: সহজেই তৈরি করুন বাধাঁকপির পাকোড়া
-excerpt: সহজেই তৈরি করুন বাধাঁকপির পাকোড়া
+title: বাঁধাকপির পাকোড়া
+subtitle: সহজেই তৈরি করুন বাঁধাকপির পাকোড়া
+excerpt: সহজেই তৈরি করুন বাঁধাকপির পাকোড়া
 date: "2020-04-04"
 metaImage: "/assets/images/recipes/badhakopir-pakora.jpg"
 section: content

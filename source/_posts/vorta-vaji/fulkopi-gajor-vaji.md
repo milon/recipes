@@ -4,8 +4,8 @@ extends:
     api: _layouts.api.post
 section: content
 title: ফুলকপি গাজরের ভাজি
-subtitle: সু্স্বাদু আর পুষ্টিকর ফুলকপি ও গাজরের ভাজির রেসিপি
-excerpt: সু্স্বাদু আর পুষ্টিকর ফুলকপি ও গাজরের ভাজির রেসিপি
+subtitle: সুস্বাদু আর পুষ্টিকর ফুলকপি ও গাজরের ভাজির রেসিপি
+excerpt: সুস্বাদু আর পুষ্টিকর ফুলকপি ও গাজরের ভাজির রেসিপি
 date: "2020-07-29"
 metaImage: "/assets/images/recipes/fulkopi-gajor-vaji.jpg"
 categories: ["ভাজি"]

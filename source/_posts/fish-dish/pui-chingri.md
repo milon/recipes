@@ -4,8 +4,8 @@ extends:
     api: _layouts.api.post
 section: content
 title: পুঁই চিংড়ি
-subtitle: খুবই সাধারন কিন্তু মজাদার পুঁই শাক আর চিংড়ির তরকারী
-excerpt: খুবই সাধারন কিন্তু মজাদার পুঁই শাক আর চিংড়ির তরকারী
+subtitle: খুবই সাধারণ কিন্তু মজাদার পুঁই শাক আর চিংড়ির তরকারী
+excerpt: খুবই সাধারণ কিন্তু মজাদার পুঁই শাক আর চিংড়ির তরকারী
 date: "2020-04-14"
 metaImage: "/assets/images/recipes/pui-chingri.jpg"
 categories: ["মাছের তরকারী"]

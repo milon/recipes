@@ -4,8 +4,8 @@ extends:
     api: _layouts.api.post
 section: content
 title: মাশরুম ভাজি
-subtitle: সু্স্বাদু আর পুষ্টিকর মাশরুম ভাজির রেসিপি
-excerpt: সু্স্বাদু আর পুষ্টিকর মাশরুম ভাজির রেসিপি
+subtitle: সুস্বাদু আর পুষ্টিকর মাশরুম ভাজির রেসিপি
+excerpt: সুস্বাদু আর পুষ্টিকর মাশরুম ভাজির রেসিপি
 date: "2021-02-12"
 metaImage: "/assets/images/recipes/mashroom-vaji.jpg"
 categories: ["ভাজি"]

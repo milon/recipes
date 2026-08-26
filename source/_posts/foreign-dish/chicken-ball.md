@@ -5,7 +5,7 @@ extends:
 section: content
 title: চিকেন বল
 subtitle: সুস্বাদু চিকেন বল তৈরির রেসিপি
-excerpt: ভিন্নধর্মী চিকেন বল তৈরির রেসিপি
+excerpt: সুস্বাদু চিকেন বল তৈরির রেসিপি
 date: "2023-11-04"
 metaImage: "/assets/images/recipes/chicken-ball.jpg"
 categories: ["নাস্তা"]

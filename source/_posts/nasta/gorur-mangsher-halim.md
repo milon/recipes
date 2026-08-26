@@ -5,7 +5,7 @@ extends:
 section: content
 title: গরুর মাংসের হালিম
 subtitle: রাঁধুনী হালিম মিক্স দিয়ে গরুর মাংসের হালিম তৈরির রেসিপি
-excerpt: রাধুনী হালিম মিক্স দিয়ে গরুর মাংসের হালিম তৈরির রেসিপি
+excerpt: রাঁধুনী হালিম মিক্স দিয়ে গরুর মাংসের হালিম তৈরির রেসিপি
 date: "2020-04-09"
 metaImage: "/assets/images/recipes/gorur-mangsher-halim.jpg"
 categories: ["নাস্তা"]

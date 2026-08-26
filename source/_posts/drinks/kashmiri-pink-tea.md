@@ -4,8 +4,8 @@ extends:
     api: _layouts.api.post
 section: content
 title: কাশ্মীরী গোলাপী চা
-subtitle: অসাধারন স্বাদের কাশ্মীরী গোলাপী চা তৈরির রেসিপি
-excerpt: অসাধারন স্বাদের কাশ্মীরী গোলাপী চা তৈরির রেসিপি
+subtitle: অসাধারণ স্বাদের কাশ্মীরী গোলাপী চা তৈরির রেসিপি
+excerpt: অসাধারণ স্বাদের কাশ্মীরী গোলাপী চা তৈরির রেসিপি
 date: "2021-01-23"
 metaImage: "/assets/images/recipes/kashmiri-pink-tea.jpg"
 categories: ["পানীয়", "চা"]

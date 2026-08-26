@@ -4,8 +4,8 @@ extends:
     api: _layouts.api.post
 section: content
 title: লতি চিংড়ির তরকারী
-subtitle: খুবই সাধারন কিন্তু মজাদার কচুর লতি দিয়ে চিংড়ির তরকারী
-excerpt: খুবই সাধারন কিন্তু মজাদার কচুর লতি দিয়ে চিংড়ির তরকারী
+subtitle: খুবই সাধারণ কিন্তু মজাদার কচুর লতি দিয়ে চিংড়ির তরকারী
+excerpt: খুবই সাধারণ কিন্তু মজাদার কচুর লতি দিয়ে চিংড়ির তরকারী
 date: "2022-07-12"
 metaImage: "/assets/images/recipes/loti-chingrir-torkari.jpg"
 categories: ["মাছের তরকারী"]

@@ -4,8 +4,8 @@ extends:
     api: _layouts.api.post
 section: content
 title: লাউ চিংড়ির তরকারী
-subtitle: খুবই সাধারন কিন্তু মজাদার লাউ আর চিংড়ির তরকারী
-excerpt: খুবই সাধারন কিন্তু মজাদার লাউ আর চিংড়ির তরকারী
+subtitle: খুবই সাধারণ কিন্তু মজাদার লাউ আর চিংড়ির তরকারী
+excerpt: খুবই সাধারণ কিন্তু মজাদার লাউ আর চিংড়ির তরকারী
 date: "2020-04-04"
 metaImage: "/assets/images/recipes/lau-chingrir-torkari.jpg"
 categories: ["মাছের তরকারী"]

@@ -5,7 +5,7 @@ extends:
 section: content
 title: ঘুগনি
 subtitle: সহজেই ঘুগনি তৈরির রেসিপি
-excerpt: সহজে ঘুগনি তৈরির রেসিপি
+excerpt: সহজেই ঘুগনি তৈরির রেসিপি
 date: "2020-05-15"
 metaImage: "/assets/images/recipes/ghugni.jpg"
 categories: ["ইফতার"]

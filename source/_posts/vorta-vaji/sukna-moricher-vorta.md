@@ -4,8 +4,8 @@ extends:
     api: _layouts.api.post
 section: content
 title: শুকনা মরিচের ভর্তা
-subtitle: জিহ্বে জল আনা শুকনা মরিচের রেসিপি
-excerpt: জিহ্বে জল আনা শুকনা মরিচের রেসিপি
+subtitle: জিহ্বে জল আনা শুকনা মরিচের ভর্তার রেসিপি
+excerpt: জিহ্বে জল আনা শুকনা মরিচের ভর্তার রেসিপি
 metaImage: "/assets/images/recipes/sukna-moricher-vorta.jpg"
 date: "2020-04-14"
 categories: ["ভর্তা"]

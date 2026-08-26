@@ -4,8 +4,8 @@ extends:
     api: _layouts.api.post
 section: content
 title: মূলা চিংড়ির তরকারী
-subtitle: খুবই সাধারন কিন্তু মজাদার মূলা আর চিংড়ির তরকারী
-excerpt: খুবই সাধারন কিন্তু মজাদার মূলা আর চিংড়ির তরকারী
+subtitle: খুবই সাধারণ কিন্তু মজাদার মূলা আর চিংড়ির তরকারী
+excerpt: খুবই সাধারণ কিন্তু মজাদার মূলা আর চিংড়ির তরকারী
 date: "2020-07-30"
 metaImage: "/assets/images/recipes/mula-chingrir-torkari.jpg"
 categories: ["মাছের তরকারী"]

@@ -4,8 +4,8 @@ extends:
     api: _layouts.api.post
 section: content
 title: মিক্সড ভেজিটেবল
-subtitle: সু্স্বাদু আর পুষ্টিকর মিক্সড ভেজিটবল ডিসের রেসিপি
-excerpt: সু্স্বাদু আর পুষ্টিকর মিক্সড ভেজিটবল ডিসের রেসিপি
+subtitle: সুস্বাদু আর পুষ্টিকর মিক্সড ভেজিটেবল ডিসের রেসিপি
+excerpt: সুস্বাদু আর পুষ্টিকর মিক্সড ভেজিটেবল ডিসের রেসিপি
 date: "2020-04-04"
 metaImage: "/assets/images/recipes/mixed-vegetables.jpg"
 categories: ["ভাজি"]

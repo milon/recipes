@@ -70,6 +70,10 @@ return [
     // Google Analytics Tracking Id. For example, UA-123456789-1
     'gaTrackingId' => 'UA-162769200-1',
 
+    'getCategoryUrl' => function ($page, $category) {
+        return '/category/' . category_slug((string) $category);
+    },
+
     'getApiUrl' => function($page) {
         return rightTrimPath($page->baseUrl) . "/api/recipe/{$page->getFilename()}.json";
     },

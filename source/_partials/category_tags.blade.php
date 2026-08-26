@@ -8,7 +8,7 @@
 @if ($categories->isNotEmpty())
     <div class="{{ $wrapperClass ?? 'recipe-detail-tags' }}">
         @foreach ($categories as $category)
-            <span class="{{ $tagClass }}">#{{ $category }}</span>
+            <a href="{{ $page->getCategoryUrl($category) }}" class="{{ $tagClass }}">#{{ $category }}</a>
         @endforeach
     </div>
 @endif

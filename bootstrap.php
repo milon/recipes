@@ -18,6 +18,9 @@ require_once __DIR__ . '/helpers.php';
  * });
  */
 
+// Generate category listing pages
+$events->afterCollections(App\Listeners\GenerateCategoryPages::class);
+
 // Generate sitemap listener
 $events->afterBuild(App\Listeners\GenerateSitemap::class);
 

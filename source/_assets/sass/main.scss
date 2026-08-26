@@ -78,12 +78,24 @@ img {
 
 .category,
 .recipe-tag {
+    display: inline-flex;
+    align-items: center;
     font-weight: 600;
     font-size: 0.8rem;
     padding: 0.35em 0.85em;
     background-color: $warm-sand;
     color: $warm-brown;
     border: none;
+    border-radius: 999px;
+    text-decoration: none;
+    transition: background-color 0.15s ease, color 0.15s ease;
+
+    &:hover,
+    &:focus {
+        background-color: $warm-terracotta;
+        color: #fff;
+        text-decoration: none;
+    }
 }
 
 .form-control {
@@ -612,6 +624,47 @@ header.masthead {
     @include serif-font;
 }
 
+.recipe-section-count {
+    margin: 0.45rem 0 0;
+    color: rgba(92, 45, 24, 0.65);
+    font-size: 0.95rem;
+}
+
+.category-hero {
+    padding: 6.5rem 0 1.75rem;
+    background: linear-gradient(180deg, #fff 0%, $warm-cream 100%);
+    border-bottom: 1px solid $warm-cream-dark;
+}
+
+.category-hero-title {
+    margin: 0;
+    color: $warm-brown;
+    font-size: clamp(1.85rem, 4vw, 2.5rem);
+    line-height: 1.25;
+    @include serif-font;
+}
+
+.category-hero-count {
+    margin: 0.5rem 0 0;
+    color: rgba(92, 45, 24, 0.65);
+    font-size: 0.95rem;
+}
+
+.recipe-breadcrumb {
+    margin-bottom: 0.75rem;
+
+    a {
+        color: rgba(92, 45, 24, 0.7);
+        text-decoration: none;
+        font-size: 0.92rem;
+
+        &:hover,
+        &:focus {
+            color: $warm-terracotta;
+        }
+    }
+}
+
 .page-content--home {
     padding-top: 2rem;
 }
@@ -704,7 +757,8 @@ footer.site-footer .copyright {
     }
 }
 
-.recipe-card-link {
+.recipe-card-link,
+.recipe-card-inner {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -717,7 +771,20 @@ footer.site-footer .copyright {
     }
 }
 
+.recipe-card-title-link,
+.recipe-card-excerpt-link {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+        color: $warm-terracotta;
+        text-decoration: none;
+    }
+}
+
 .recipe-card-image {
+    display: block;
     overflow: hidden;
     aspect-ratio: 16 / 10;
     background-color: $warm-cream-dark;
@@ -863,6 +930,12 @@ section#paginator a:hover {
     background: $warm-terracotta;
     color: #fff;
     border: none;
+
+    &:hover,
+    &:focus {
+        background: #fff;
+        color: $warm-terracotta;
+    }
 }
 
 .recipe-detail-title {

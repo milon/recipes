@@ -1,5 +1,17 @@
 <?php
 
+if (!function_exists('category_slug')) {
+    /**
+     * URL-safe slug for a recipe category/tag name.
+     */
+    function category_slug(string $category): string
+    {
+        $slug = (string) str($category)->slug();
+
+        return $slug !== '' ? $slug : 'tag-' . substr(md5($category), 0, 8);
+    }
+}
+
 if (!function_exists('vite_asset')) {
     /**
      * Get the path to a versioned asset from the Vite manifest.

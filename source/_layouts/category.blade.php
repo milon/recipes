@@ -3,15 +3,18 @@
 @section('hero')
     <header class="category-hero">
         <div class="container">
-            <nav class="recipe-breadcrumb" aria-label="ব্রেডক্রাম্ব">
-                <a href="/">← সব রেসিপি</a>
+            <nav class="recipe-breadcrumb" aria-label="{{ $page->t('common.breadcrumb') }}">
+                <a href="{{ $page->homeUrl() }}">← {{ $page->t('common.all_recipes') }}</a>
             </nav>
-            <p class="editorial-kicker">বিষয় অনুযায়ী</p>
+            <p class="editorial-kicker">{{ $page->t('category.kicker') }}</p>
             <h1 class="category-hero-title">{{ $page->category }}</h1>
             <p class="category-hero-count">
-                {{ $page->translateNumber($page->categoryCount) }}টি রেসিপি
+                {{ $page->t('category.count', ['count' => $page->translateNumber($page->categoryCount)]) }}
                 @if ($pagination->totalPages > 1)
-                    · পৃষ্ঠা {{ $page->translateNumber($pagination->currentPage) }} / {{ $page->translateNumber($pagination->totalPages) }}
+                    · {{ $page->t('category.page', [
+                        'current' => $page->translateNumber($pagination->currentPage),
+                        'total' => $page->translateNumber($pagination->totalPages),
+                    ]) }}
                 @endif
             </p>
         </div>

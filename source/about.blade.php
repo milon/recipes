@@ -2,6 +2,7 @@
 image: /assets/images/about-bg.jpg
 title: সাইট সম্পর্কে
 subtitle: আমি কেন এই ওয়েবসাইটটি তৈরি করলাম
+alternateUrlPath: /en/about
 ---
 
 @extends('_layouts.page')

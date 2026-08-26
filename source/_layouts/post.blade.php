@@ -14,8 +14,8 @@
 
     <article class="recipe-detail">
         <main id="main-content" class="container recipe-detail-main">
-            <nav class="recipe-breadcrumb" aria-label="ব্রেডক্রাম্ব">
-                <a href="/">← সব রেসিপি</a>
+            <nav class="recipe-breadcrumb" aria-label="{{ $page->t('common.breadcrumb') }}">
+                <a href="{{ $page->homeUrl() }}">← {{ $page->t('common.all_recipes') }}</a>
             </nav>
 
             <div class="recipe-card-sheet">
@@ -51,7 +51,7 @@
 
                         <li>
                             @include('_components.icon', ['name' => 'calendar', 'class' => 'recipe-fact-icon'])
-                            {{ $page->banglaDate($page->date) }}
+                            {{ $page->formatDate($page->date) }}
                         </li>
                     </ul>
                 </header>

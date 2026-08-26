@@ -1,4 +1,5 @@
 ---
+alternateUrlPath: /en
 pagination:
     collection: posts
 ---
@@ -8,14 +9,16 @@ pagination:
 @section('hero')
     @include('_partials.hero', [
         'heroRotate' => true,
-        'heroKicker' => 'সহজ রান্না · ঘরের স্বাদ',
-        'heroTitle' => $page->siteName,
+        'heroKicker' => $page->t('home.kicker'),
+        'heroTitle' => $page->localizedSiteName(),
         'heroSummary' => [
-            $page->siteDescription,
-            'প্রতিটি রেসিপিতে পরিমাণসহ উপকরণের তালিকা আর ধাপে ধাপে রান্নার নির্দেশনা দেয়া আছে, সবই ঘরের চেনা উপকরণে।',
+            $page->localizedSiteDescription(),
+            $page->t('home.summary'),
         ],
         'heroFacts' => [
-            ['icon' => 'utensils', 'label' => $page->translateNumber($posts->count()) . 'টি বাংলা রেসিপি'],
+            ['icon' => 'utensils', 'label' => $page->t('home.recipe_count', [
+                'count' => $page->translateNumber($posts->count()),
+            ])],
         ],
     ])
 @endsection
@@ -26,9 +29,9 @@ pagination:
 
 @section('content')
     <div id="recipes" class="recipe-section-intro">
-        <p class="editorial-kicker">রেসিপি সংগ্রহ</p>
-        <h2 class="recipe-section-title">আজ কী রান্না করবেন?</h2>
-        <p class="recipe-section-note">সহজ উপকরণ, পরিষ্কার নির্দেশনা, পরিচিত স্বাদ।</p>
+        <p class="editorial-kicker">{{ $page->t('home.collection') }}</p>
+        <h2 class="recipe-section-title">{{ $page->t('home.title') }}</h2>
+        <p class="recipe-section-note">{{ $page->t('home.note') }}</p>
     </div>
 
     <div class="recipe-grid">

@@ -3,7 +3,7 @@
 @endphp
 
 <div class="recipe-share">
-    <span class="recipe-share-label">শেয়ার করুন</span>
+    <span class="recipe-share-label">{{ $page->t('recipe.share') }}</span>
     <div class="recipe-share-links">
         <button
             type="button"

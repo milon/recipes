@@ -10,9 +10,9 @@
     <div class="search-modal-backdrop" @click="closeModal()"></div>
 
     <div class="search-modal-panel" x-ref="searchPanel" @keydown.tab="trapFocus($event)">
-        <h2 id="search-modal-title" class="sr-only">রেসিপি খুঁজুন</h2>
+        <h2 id="search-modal-title" class="sr-only">{{ $page->t('search.title') }}</h2>
         <div class="search-modal-header">
-            <label for="search-modal-input" class="sr-only">খুঁজুন</label>
+            <label for="search-modal-input" class="sr-only">{{ $page->t('search.label') }}</label>
             <div class="search-modal-input-wrap">
                 @include('_components.icon', ['name' => 'search', 'class' => 'icon--sm search-modal-input-icon'])
                 <input
@@ -22,7 +22,7 @@
                     x-ref="searchInput"
                     x-model="query"
                     class="form-control search-modal-input"
-                    placeholder="রেসিপির নাম বা উপাদান খুঁজুন..."
+                    placeholder="{{ $page->t('search.placeholder') }}"
                     autocomplete="off"
                     @keydown="onInputKeydown($event)"
                 />
@@ -31,7 +31,7 @@
                 type="button"
                 class="search-modal-close btn btn-link"
                 @click="closeModal()"
-                aria-label="বন্ধ করুন"
+                aria-label="{{ $page->t('search.close') }}"
             >
                 @include('_components.icon', ['name' => 'close', 'class' => 'icon--sm'])
             </button>
@@ -42,7 +42,7 @@
                 x-show="!query"
                 class="search-modal-hint text-muted small mb-0"
             >
-                <kbd>/</kbd> চাপ দিয়ে যেকোনো পাতা থেকে খুঁজুন
+                <kbd>/</kbd> {{ $page->t('search.hint') }}
             </p>
 
             <div x-show="query" class="search-results" x-ref="resultsList">
@@ -86,7 +86,7 @@
                     x-show="query && !results.length"
                     class="search-no-results"
                 >
-                    <span x-text="query"></span>-এর জন্যে কোন ফলাফল পাওয়া যায় নি।
+                    <span x-text="query"></span>{{ $page->t('search.no_results') }}
                 </div>
             </div>
         </div>

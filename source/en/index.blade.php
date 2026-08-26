@@ -1,7 +1,8 @@
 ---
-alternateUrlPath: /en
+locale: en
+alternateUrlPath: /
 pagination:
-    collection: posts
+    collection: posts_en
 ---
 
 @extends('_layouts.page')
@@ -17,7 +18,7 @@ pagination:
         ],
         'heroFacts' => [
             ['icon' => 'utensils', 'label' => $page->t('home.recipe_count', [
-                'count' => $page->translateNumber($posts->count()),
+                'count' => $page->translateNumber($posts_en->count()),
             ])],
         ],
     ])

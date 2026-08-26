@@ -1,8 +1,8 @@
 @php
     $heroRotate = $heroRotate ?? false;
-    $heroKicker = $heroKicker ?? $page->siteName;
-    $heroTitle = $heroTitle ?? ($page->title ?: $page->siteName);
-    $heroSummary = $heroSummary ?? array_filter([$page->subtitle ?: $page->siteDescription]);
+    $heroKicker = $heroKicker ?? $page->localizedSiteName();
+    $heroTitle = $heroTitle ?? ($page->title ?: $page->localizedSiteName());
+    $heroSummary = $heroSummary ?? array_filter([$page->subtitle ?: $page->localizedSiteDescription()]);
     $heroFacts = $heroFacts ?? [];
     $heroActions = $heroActions ?? [];
 

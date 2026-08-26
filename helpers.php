@@ -1,5 +1,61 @@
 <?php
 
+if (!function_exists('site_translation')) {
+    /**
+     * Read a translated site string using dot notation.
+     */
+    function site_translation(string $locale, string $key, array $replace = []): string
+    {
+        static $translations = [];
+
+        $locale = $locale === 'en' ? 'en' : 'bn';
+        $translations[$locale] ??= require __DIR__ . "/lang/{$locale}.php";
+
+        $value = $translations[$locale];
+        foreach (explode('.', $key) as $segment) {
+            if (!is_array($value) || !array_key_exists($segment, $value)) {
+                return $key;
+            }
+
+            $value = $value[$segment];
+        }
+
+        if (!is_string($value)) {
+            return $key;
+        }
+
+        foreach ($replace as $name => $replacement) {
+            $value = str_replace(":{$name}", (string) $replacement, $value);
+        }
+
+        return $value;
+    }
+}
+
+if (!function_exists('english_recipe_exists')) {
+    function english_recipe_exists(string $filename): bool
+    {
+        return glob(__DIR__ . "/source/_posts_en/*/{$filename}.md") !== [];
+    }
+}
+
+if (!function_exists('translated_category')) {
+    function translated_category(string $category, string $locale): ?string
+    {
+        static $categories;
+
+        $categories ??= require __DIR__ . '/lang/categories.php';
+
+        if ($locale === 'en') {
+            return $categories['bn_to_en'][$category] ?? null;
+        }
+
+        $englishToBangla = array_flip($categories['bn_to_en']);
+
+        return $englishToBangla[$category] ?? null;
+    }
+}
+
 if (!function_exists('category_slug')) {
     /**
      * URL-safe slug for a recipe category/tag name.
@@ -40,10 +96,16 @@ if (!function_exists('recipe_card_content')) {
             $title = trim(strip_tags($chunks[$i]));
             $body = trim($chunks[$i + 1]);
 
-            if ($parsed['ingredients'] === '' && str_contains($title, 'উপকরণ')) {
+            if ($parsed['ingredients'] === '' && (
+                str_contains($title, 'উপকরণ')
+                || strcasecmp($title, 'Ingredients') === 0
+            )) {
                 $parsed['ingredients'] = $body;
                 $parsed['ingredientsTitle'] = $title;
-            } elseif ($parsed['method'] === '' && str_contains($title, 'রন্ধনপ্রণালী')) {
+            } elseif ($parsed['method'] === '' && (
+                str_contains($title, 'রন্ধনপ্রণালী')
+                || in_array(strtolower($title), ['method', 'directions', 'instructions'], true)
+            )) {
                 $parsed['method'] = $body;
                 $parsed['methodTitle'] = $title;
             } else {

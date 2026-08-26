@@ -2,6 +2,7 @@
 image: /assets/images/contact-bg.jpg
 title: যোগাযোগ
 subtitle: আপনার যদি কোন প্রশ্ন থাকে, স্বাচ্ছন্দে লিখুন
+alternateUrlPath: /en/contact
 ---
 
 @extends('_layouts.page')

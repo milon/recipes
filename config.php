@@ -2,10 +2,27 @@
 
 use League\HTMLToMarkdown\HtmlConverter;
 
+$renderApi = function ($page) {
+    return json_encode([
+        'title' => $page->title,
+        'link' => $page->getApiUrl(),
+        'date' => $page->date,
+        'excerpt' => $page->excerpt,
+        'subtitle' => $page->subtitle,
+        'thumbnail' => $page->getApiThumbnail(),
+        'body' => $page->getBody(),
+        'englishSearchTerm' => str_replace('-', ' ', $page->getFilename()),
+        'categories' => $page->categories ?? [],
+        'servings' => $page->servings ?? null,
+        'prepMinutes' => $page->prepMinutes ?? null,
+    ]);
+};
+
 return [
     // Replace with the baseUrl of your site. For example, https://jigsaw-clean-blog.netlify.com
     'baseUrl' => 'http://recipes.test/',
     'production' => false,
+    'locale' => 'bn',
 
     'contactFormUrl' => 'https://formspree.io/f/mjvqjkvl',
 
@@ -17,22 +34,18 @@ return [
                 'api' => '/api/recipe/{filename}',
             ],
             'sort' => '-date',
-            'api' => function ($page) {
-                return json_encode([
-                    'title'             => $page->title,
-                    'link'              => $page->getApiUrl(),
-                    'date'              => $page->date,
-                    'excerpt'           => $page->excerpt,
-                    'subtitle'          => $page->subtitle,
-                    'thumbnail'         => $page->getApiThumbnail(),
-                    'body'              => $page->getBody(),
-                    'englishSearchTerm' => str_replace('-', ' ', $page->getFilename()),
-                    'categories'        => $page->categories ?? [],
-                    'servings'          => $page->servings ?? null,
-                    'prepMinutes'       => $page->prepMinutes ?? null,
-                ]);
-            },
-        ]
+            'locale' => 'bn',
+            'api' => $renderApi,
+        ],
+        'posts_en' => [
+            'path' => [
+                'web' => '/en/recipe/{filename}',
+                'api' => '/en/api/recipe/{filename}',
+            ],
+            'sort' => '-date',
+            'locale' => 'en',
+            'api' => $renderApi,
+        ],
     ],
 
     // Number of collection items to show per page
@@ -52,6 +65,62 @@ return [
 
     // The name of the site Author. Your name! This is used when building the rss feed
     'siteAuthor' => 'মিলন',
+
+    't' => function ($page, string $key, array $replace = []) {
+        return site_translation($page->locale ?? 'bn', $key, $replace);
+    },
+
+    'localizedSiteName' => function ($page) {
+        return $page->t('site.name');
+    },
+
+    'localizedSiteDescription' => function ($page) {
+        return $page->t('site.description');
+    },
+
+    'localePrefix' => function ($page) {
+        return ($page->locale ?? 'bn') === 'en' ? '/en' : '';
+    },
+
+    'homeUrl' => function ($page) {
+        return ($page->locale ?? 'bn') === 'en' ? '/en' : '/';
+    },
+
+    'alternateUrl' => function ($page) {
+        if ($page->alternateUrlPath ?? null) {
+            return $page->alternateUrlPath;
+        }
+
+        $locale = $page->locale ?? 'bn';
+        if ($page->date ?? null) {
+            $filename = $page->getFilename();
+
+            if ($locale === 'en') {
+                return "/recipe/{$filename}";
+            }
+
+            return english_recipe_exists($filename) ? "/en/recipe/{$filename}" : '/en';
+        }
+
+        return $locale === 'en' ? '/' : '/en';
+    },
+
+    'hasTranslation' => function ($page) {
+        if (($page->translationAvailable ?? null) !== null) {
+            return (bool) $page->translationAvailable;
+        }
+
+        if ($page->alternateUrlPath ?? null) {
+            return true;
+        }
+
+        if ($page->date ?? null) {
+            return ($page->locale ?? 'bn') === 'en'
+                || english_recipe_exists($page->getFilename());
+        }
+
+        return false;
+    },
 
     // How many bg-{n}.jpg files live in source/assets/images/backgrounds
     'backgroundCount' => 10,
@@ -76,11 +145,11 @@ return [
     'gaTrackingId' => 'UA-162769200-1',
 
     'getCategoryUrl' => function ($page, $category) {
-        return '/category/' . category_slug((string) $category);
+        return $page->localePrefix() . '/category/' . category_slug((string) $category);
     },
 
     'getApiUrl' => function($page) {
-        return rightTrimPath($page->baseUrl) . "/api/recipe/{$page->getFilename()}.json";
+        return rightTrimPath($page->baseUrl) . $page->getPath('api');
     },
 
     'getApiThumbnail' => function($page) {
@@ -104,9 +173,12 @@ return [
         );
     },
 
-    'banglaDate' => function ($page, $date) {
+    'formatDate' => function ($page, $date) {
         // format date
         $str = date("F j, Y", strtotime($date));
+        if (($page->locale ?? 'bn') === 'en') {
+            return $str;
+        }
 
         // translate number
         $str = $page->translateNumber($str);
@@ -121,6 +193,10 @@ return [
     },
 
     'translateNumber' => function($page, $number) {
+        if (($page->locale ?? 'bn') === 'en') {
+            return (string) $number;
+        }
+
         $enNum = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
         $bnNum = ['০', '১', '২', '৩', '৪', '৫', '৬', '৭', '৮', '৯'];
         return str_replace($enNum, $bnNum, $number);
@@ -129,7 +205,9 @@ return [
     'formatServings' => function ($page, $servings = null) {
         $servings = (int) ($servings ?? $page->servings ?? 0);
 
-        return $servings > 0 ? $page->translateNumber($servings) . ' জন' : null;
+        return $servings > 0
+            ? $page->t('recipe.servings', ['count' => $page->translateNumber($servings)])
+            : null;
     },
 
     'formatPrepTime' => function ($page, $minutes = null) {
@@ -139,15 +217,15 @@ return [
         }
 
         if ($minutes < 60) {
-            return $page->translateNumber($minutes) . ' মিনিট';
+            return $page->t('recipe.minutes', ['count' => $page->translateNumber($minutes)]);
         }
 
         $hours = intdiv($minutes, 60);
         $remainder = $minutes % 60;
-        $label = $page->translateNumber($hours) . ' ঘণ্টা';
+        $label = $page->t('recipe.hours', ['count' => $page->translateNumber($hours)]);
 
         if ($remainder) {
-            $label .= ' ' . $page->translateNumber($remainder) . ' মিনিট';
+            $label .= ' ' . $page->t('recipe.minutes', ['count' => $page->translateNumber($remainder)]);
         }
 
         return $label;

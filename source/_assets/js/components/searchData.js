@@ -11,7 +11,9 @@ export default function search() {
     lastActiveElement: null,
 
     init() {
-      fetch('/index.json')
+      const indexUrl = document.documentElement.dataset.searchIndex || '/index.json';
+
+      fetch(indexUrl)
         .then((response) => response.json())
         .then((data) => {
           const list = Array.isArray(data) ? data : Object.values(data || {});

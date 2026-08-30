@@ -2,16 +2,16 @@
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>সহজ রেসিপি</title>
-    <link>https://recipes.milon.im/</link>
+    <link>https://recipes.milon.im</link>
     <description>রান্না করা খুব কঠিন কোন কাজ না, আমি যেহেতু পারছি, পারবেন আপনিও...</description>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://recipes.milon.im/feed.xml" type="application/rss+xml" rel="self"/>
-    <language>en-GB</language>
+    <language>bn</language>
     <copyright>Copyright © সহজ রেসিপি 2026</copyright>
-    <pubDate>Wed, 26 Aug 2026 04:45:58 +0000</pubDate>
-    <lastBuildDate>Wed, 26 Aug 2026 04:45:58 +0000</lastBuildDate>
+    <pubDate>Sun, 30 Aug 2026 17:12:08 +0000</pubDate>
+    <lastBuildDate>Sun, 30 Aug 2026 17:12:08 +0000</lastBuildDate>
     <item>
       <title><![CDATA[ম্যারা পিঠা]]></title>
-      <link>https://recipes.milon.im/api/recipe/mera-pitha.json</link>
+      <link>https://recipes.milon.im/recipe/mera-pitha</link>
       <description><![CDATA[ম্যারা পিঠা তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক খুব সহজেই ঐতিহ্যবাহী ম্যারা পিঠা তৈরি করার রেসিপি।</p>
 
@@ -33,13 +33,13 @@
 
 <p>এবার এই খামির থেকে অল্প অল্প অংশ নিয়ে দুই হাতের তালুর সাহায্যে গোল বা লম্বাকৃতি করে ছোট ছোট পিঠা তৈরি করে নিন। একটি স্টিমারে বা ভাপে দেওয়ার পাত্রে পিঠাগুলো সাজিয়ে ২০-২৫ মিনিট ভাপে সেদ্ধ করুন। তৈরি হয়ে গেল গরম গরম ম্যারা পিঠা।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/mera-pitha.json</guid>
+      <guid>https://recipes.milon.im/recipe/mera-pitha</guid>
       <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[রুই মাছ দিয়ে লাউ শাক রান্না]]></title>
-      <link>https://recipes.milon.im/api/recipe/rui-mach-lau-shaker-torkari.json</link>
+      <link>https://recipes.milon.im/recipe/rui-mach-lau-shaker-torkari</link>
       <description><![CDATA[রুই মাছ দিয়ে লাউ শাকের তরকারি রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক মজাদার রুই মাছ দিয়ে লাউ শাকের তরকারি রান্নার রেসিপি।</p>
 
@@ -65,13 +65,13 @@
 
 <p>এবারে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/rui-mach-lau-shaker-torkari.json</guid>
+      <guid>https://recipes.milon.im/recipe/rui-mach-lau-shaker-torkari</guid>
       <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[কাঠাঁলের বিচি ভর্তা]]></title>
-      <link>https://recipes.milon.im/api/recipe/kathaler-bichi-vorta.json</link>
+      <link>https://recipes.milon.im/recipe/kathaler-bichi-vorta</link>
       <description><![CDATA[মজাদার কাঠাঁলের বিচি ভর্তার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক কিভাবে মজাদার কাঠাঁলের বিচির ভর্তা তৈরি করবেন।</p>
 
@@ -98,13 +98,13 @@
 
 <p>এবারে একটা ব্লেন্ডার বা ফুড প্রসেসরে তাজা ধনে পাতা আর ভাজা মিশ্রনটি নিয়ে ভালো করে ব্লেন্ড করে নিন। ব্যস মজাদার কাঁঠালের বিচির ভর্তা তৈরি হয়ে গেল। গরম গরম ভাতের সাথে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/kathaler-bichi-vorta.json</guid>
+      <guid>https://recipes.milon.im/recipe/kathaler-bichi-vorta</guid>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[লইট্ট্যা শুটকি ভুনার রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/loitta-sutki-vuna.json</link>
+      <link>https://recipes.milon.im/recipe/loitta-sutki-vuna</link>
       <description><![CDATA[মজাদার লইট্ট্যা শুটকি ভুনার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>বিদেশ বিভূঁইয়ে এলে যেন শুটকি খাওয়ার জন্য মনটা আনচান করে। চলুন সহজেই জিহ্বে জল আনা লইট্ট্যা শুটকি ভুনা বানানোর পদ্ধতিটা জেনে নেই।</p>
 
@@ -132,13 +132,13 @@
 
 <p>এবারে গরম গরম ভাতের সাথে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/loitta-sutki-vuna.json</guid>
+      <guid>https://recipes.milon.im/recipe/loitta-sutki-vuna</guid>
       <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[কলার পিঠা]]></title>
-      <link>https://recipes.milon.im/api/recipe/kolar-pitha.json</link>
+      <link>https://recipes.milon.im/recipe/kolar-pitha</link>
       <description><![CDATA[কলার পিঠা তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক খুব সহজেই কলার পিঠা তৈরি করার রেসিপি।</p>
 
@@ -164,13 +164,13 @@
 
 <p>একটা প্যানে তেল গরম করে মিশ্রণটি ছোট ছোট পিঠার আকারে ঢেলে দিন। পিঠার দুই পাশ সোনালী রঙের হওয়া পর্যন্ত ভাজুন। গরম গরম পরিবেশন করুন মজাদার কলার পিঠা।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/kolar-pitha.json</guid>
+      <guid>https://recipes.milon.im/recipe/kolar-pitha</guid>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[গার্লিক স্প্রাউট চিকেন]]></title>
-      <link>https://recipes.milon.im/api/recipe/garlic-sprout-chicken.json</link>
+      <link>https://recipes.milon.im/recipe/garlic-sprout-chicken</link>
       <description><![CDATA[মজাদার গার্লিক স্প্রাউট চিকেন তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক চাইনিজ রেস্টুরেন্টের মজাদার গার্লিক স্প্রাউট চিকেন রান্নার রেসিপি।</p>
 
@@ -196,13 +196,13 @@
 
 <p>এবারে একটা বড় কড়াইয়ে সামান্য তেল নিয়ে মুরগী ভাজতে দিন। মুরগীতে সামান্য রং ধরে এলে রসুন কুচি দিয়ে একটু নেড়ে গার্লিক স্প্রাউট, সয়া সস ও এমএসজি দিন। সবকিছু ৩-৪ মিনিট হাই হিটে ভাজুন। এবারে নামানোর আগে উপরে সামান্য তিল ছড়িয়ে দিন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/garlic-sprout-chicken.json</guid>
+      <guid>https://recipes.milon.im/recipe/garlic-sprout-chicken</guid>
       <pubDate>Sun, 09 Jun 2024 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[কাচ্চি বিরিয়ানি]]></title>
-      <link>https://recipes.milon.im/api/recipe/kacchi-biriyani.json</link>
+      <link>https://recipes.milon.im/recipe/kacchi-biriyani</link>
       <description><![CDATA[অসম্ভব মজাদার কাচ্চি বিরিয়ানির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক সহজে মজাদার কাচ্চি বিরিয়ানির রেসিপি।</p>
 
@@ -253,13 +253,13 @@
 
 <p>এবারে বিরিয়ানি ওভেন থেকে বের করে পাত্রের সিল ভেঙে চালের সাথে খাসির মাংস মিশিয়ে নিয়ে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/kacchi-biriyani.json</guid>
+      <guid>https://recipes.milon.im/recipe/kacchi-biriyani</guid>
       <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[চিকেন আলুর চপ]]></title>
-      <link>https://recipes.milon.im/api/recipe/chicken-alur-chop.json</link>
+      <link>https://recipes.milon.im/recipe/chicken-alur-chop</link>
       <description><![CDATA[মুরগীর কিমা দিয়ে আলুর চপ তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক মুরগীর কিমা দিয়ে আলুর চপ তৈরির রেসিপি।</p>
 
@@ -289,13 +289,13 @@
 
 <p>এবারে আলু সেদ্ধ করে নিন। এবারে সেটাকে লবন, কাঁচা মরিচ কুচি, আগে থেকে ভেজে রাখা মুরগীর কিমা আর পেয়াজ কুচি দিয়ে ভর্তা করুন। এবারে ছবির মত করে ছোট ছোট চপ তৈরি করুন। এবারে একটা ডিম ফেটিয়ে নিন। চপগুলোকে ফেটানো ডিমে ডুবিয়ে ব্রেডক্রাম্বসে গড়িয়ে নিয়ে মাঝারি আঁচে বাদামি করে ভেজে নিন। গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/chicken-alur-chop.json</guid>
+      <guid>https://recipes.milon.im/recipe/chicken-alur-chop</guid>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[স্পাইসি চিকেন পাস্তা]]></title>
-      <link>https://recipes.milon.im/api/recipe/spicy-chicken-pasta.json</link>
+      <link>https://recipes.milon.im/recipe/spicy-chicken-pasta</link>
       <description><![CDATA[দেশি স্টাইলে স্পাইসি চিকেন পাস্তার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>দেখে নিন সম্পূর্ণ দেশি স্বাদের স্পাইসি চিকেন পাস্তা তৈরির রেসিপি।</p>
 
@@ -327,13 +327,13 @@
 
 <p>এবারে এতে ২ টা ডিম ভেঙ্গে দিয়ে দিন। এরপর পাস্তা দিয়ে দিন এবং মিনিট পাঁচেক নাড়তে থাকুন। এবারে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/spicy-chicken-pasta.json</guid>
+      <guid>https://recipes.milon.im/recipe/spicy-chicken-pasta</guid>
       <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[আখনি]]></title>
-      <link>https://recipes.milon.im/api/recipe/akhni.json</link>
+      <link>https://recipes.milon.im/recipe/akhni</link>
       <description><![CDATA[চট্টগ্রামের ঐতিহ্যবাহী আখনি বিরিয়ানি রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক চট্টগ্রামের ঐতিহ্যবাহী আখনি বিরিয়ানি রান্নার রেসিপি।</p>
 
@@ -367,13 +367,13 @@
 
 <p>এবারে গরুর মাংস ধুয়ে ছোট ছোট টুকরা করে তাতে কিছুটা তেল, আদা বাটা, রসুন বাটা, জিরা বাটা, ধনে বাটা ও লবন মেখে ৩০ মিনিটের জন্য রেখে দিন। এরপর একটা পাত্রে তেল নিয়ে তাতে পেয়াজ কুচি, এলাচ, দারুচিনি, লবঙ্গ ও তেজপাতা দিয়ে ভাজতে হবে। পেয়াজ নরম হয়ে এলে তাতে মাংস দিয়ে দিতে হবে। মাংস ভালো করে কষিয়ে নিয়ে পানি দিয়ে সিদ্ধ করতে হবে। মাংস সিদ্ধ হয়ে গেলে তাতে আগে থেকে ধুয়ে রাখা চাল দিয়ে ভালো করে মিশিয়ে নিতে হবে। এরপর ৩ কাপ চালের জন্য ৬ কাপ গরম পানি দিতে হবে। এ সময় আলু, গাজর ও মটরশুটি দিয়ে দিতে হবে। ভালো করে নেড়ে মিশিয়ে পানি প্রায় শুকিয়ে এলে কাঁচা মরিচ দিয়ে দিন। চুলার আঁচ একদম কমিয়ে ১০ মিনিট দমে রাখুন। এই সময়ে ৩-৪ বার আখনি ওলট-পালট করে দিন। সবশেষে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/akhni.json</guid>
+      <guid>https://recipes.milon.im/recipe/akhni</guid>
       <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[সিলাগো মাছের চচ্চড়ি]]></title>
-      <link>https://recipes.milon.im/api/recipe/sillago-macher-chocchori.json</link>
+      <link>https://recipes.milon.im/recipe/sillago-macher-chocchori</link>
       <description><![CDATA[সিলাগো মাছের চচ্চড়ি রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>আমি যেখানে থাকি, সেখানে দেশি মাছ পাওয়া গেলেও তাজা মাছ পাওয়া যায় না। যা পাওয়া যায়, তার সবই ফ্রোজেন মাছ। তাজা মাছ খাওয়ার একমাত্র উপায় চাইনিজ গ্রোসারির মাছ। সেখানে সিলাগো মাছ (<a href="https://eol.org/pages/46579885">Silver Sillago</a>) পাওয়া যায়, যেটা সাউথ-ইস্ট এশিয়ায় অত্যন্ত জনপ্রিয়। এই মাছের চচ্চড়ি খুব সহজেই রান্না করা যায়। এই রান্নাটি খেতে খুব সুস্বাদু। আমার মনে হয় এই রান্নাটি আপনাদেরও খুব ভাল লাগবে।</p>
 
@@ -399,13 +399,13 @@
 
 <p>প্রথমেই মাছ কেটে ভালো করে পরিষ্কার করে ধুয়ে নিন। এবারে একটা কড়াইয়ে মাছের সঙ্গে ধনে পাতা ছাড়া বাকি সব উপকরণ নিয়ে ভালো করে মাখিয়ে নিন। কড়াইটি চুলায় বসিয়ে ঢেকে রান্না করুন। এই মাছ রান্না হতে খুব একটা সময় লাগে না। ৭-৮ মিনিট পরে একবার মাছগুলো নেড়ে দিন। খুব বেশি নাড়লে মাছ ভেঙে যাবে, তাই খুব সাবধানে অল্প করে নাড়লেই হবে। আরো ৫-৬ মিনিট পরে মাছ রান্না হয়ে গেলে উপরে ধনে পাতা কুচি ছিটিয়ে দিন। ব্যস তৈরি হয়ে গেল মজাদার সিলাগো মাছের চচ্চড়ি।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/sillago-macher-chocchori.json</guid>
+      <guid>https://recipes.milon.im/recipe/sillago-macher-chocchori</guid>
       <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ফ্রেঞ্চ ফ্রাইস]]></title>
-      <link>https://recipes.milon.im/api/recipe/french-fries.json</link>
+      <link>https://recipes.milon.im/recipe/french-fries</link>
       <description><![CDATA[খুব সহজেই তৈরি করে ফেলুন মজাদার ফ্রেঞ্চ ফ্রাইস]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক মজাদার নাস্তা ফ্রেঞ্চ ফ্রাইস তৈরির রেসিপি।</p>
 
@@ -428,13 +428,13 @@
 
 <p>এবারে উচ্চ তাপে (১৯০° সেলসিয়াস) ৪-৫ মিনিট বা সোনালি-বাদামী হওয়া পর্যন্ত ভেজে নিন। চুলা থেকে নামিয়ে সাথে সাথে লবন আর চাট মসলা ছিটিয়ে দিন। গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/french-fries.json</guid>
+      <guid>https://recipes.milon.im/recipe/french-fries</guid>
       <pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[চিকেন বল]]></title>
-      <link>https://recipes.milon.im/api/recipe/chicken-ball.json</link>
+      <link>https://recipes.milon.im/recipe/chicken-ball</link>
       <description><![CDATA[সুস্বাদু চিকেন বল তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক মজাদার চিকেন বল তৈরির রেসিপি।</p>
 
@@ -461,13 +461,13 @@
 
 <p>এবারে বলগুলোকে উচ্চ তাপে ডুবো তেলে বাদামী করে ভেজে নিতে হবে। বেশিক্ষন ভাজার প্রয়োজন নেই, যেহেতু বলগুলো ইতোমধ্যে সেদ্ধ করা হয়েছে। এবারে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/chicken-ball.json</guid>
+      <guid>https://recipes.milon.im/recipe/chicken-ball</guid>
       <pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ক্যারট কেক]]></title>
-      <link>https://recipes.milon.im/api/recipe/carrot-cake.json</link>
+      <link>https://recipes.milon.im/recipe/carrot-cake</link>
       <description><![CDATA[খুব সহজেই মজাদার ক্যারট কেক তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক খুব সহজেই মজাদার ক্যারট কেক তৈরি করার রেসিপি।</p>
 
@@ -499,13 +499,13 @@
 <p>এবারে বেকিংয়ের পাত্রে চারদিকে ভালো করে বাটার মাখিয়ে নিন। এরপর পাত্রের তলার মাপে বেকিং পেপার কেটে তাতেও বাটার মাখিয়ে নিচে রাখুন। এবারে একটা ১৭৫ ডিগ্রি সেলসিয়াস প্রিহিটেড ওভেনে ৩৫-৪৫ মিনিটের জন্য বেক করতে দিন। বেকিং সম্পূর্ণ হয়েছে কিনা এটা পরীক্ষা করার জন্য একটা টুথপিক নিয়ে কেকে ডুবালে সেটি যদি পরিষ্কার ভাবে উঠে আসে
 তাহলে বুঝবেন কেক তৈরি হয়ে গেছে। এবার ওভেন থেকে নামিয়ে ১০ মিনিট ঠান্ডা হতে দিন। সবশেষে টুকরা টুকরা করে কেটে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/carrot-cake.json</guid>
+      <guid>https://recipes.milon.im/recipe/carrot-cake</guid>
       <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[কুমড়া ফুলের বড়া]]></title>
-      <link>https://recipes.milon.im/api/recipe/kumra-fuler-bora.json</link>
+      <link>https://recipes.milon.im/recipe/kumra-fuler-bora</link>
       <description><![CDATA[কুমড়া ফুলের বড়া তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক মজাদার কুমড়া ফুলের বড়া তৈরির রেসিপি।</p>
 
@@ -529,13 +529,13 @@
 
 <p>প্রথমেই কুমড়া ফুল থেকে গর্ভমুন্ড এবং গর্ভদন্ড ফেলে দিয়ে ভালো করে ধুয়ে পানি ঝড়িয়ে নিন। বেসনের ব্যাটার তৈরির জন্য বেসনে হলুদের গুড়া, মরিচের গুড়া, গোল মরিচের গুড়া আর লবন দিন। এবারে পরিমাণমতো পানি দিয়ে প্যানকেকের ব্যাটারের চেয়ে সামান্য পাতলা মিশ্রন তৈরি করুন। লক্ষ্য রাখুন ব্যাটারে যেন কোন দানা না থাকে। এবারে মাঝারি আঁচে ডুবো তেলে কুমড়া ফুলগুলো ব্যাটারে ডুবিয়ে ভেজে নিন। গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/kumra-fuler-bora.json</guid>
+      <guid>https://recipes.milon.im/recipe/kumra-fuler-bora</guid>
       <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[অরেঞ্জ চিকেন]]></title>
-      <link>https://recipes.milon.im/api/recipe/orange-chicken.json</link>
+      <link>https://recipes.milon.im/recipe/orange-chicken</link>
       <description><![CDATA[সুস্বাদু চাইনিজ অরেঞ্জ চিকেন তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>আমেরিকার প্রসিদ্ধ রেস্টুরেন্ট চেইন পান্ডা এক্সপ্রেসের সবচেয়ে জনপ্রিয় আইটেম হচ্ছে অরেঞ্জ চিকেন। চলুন দেখে নেই কিভাবে এটি তৈরি করা যায়।</p>
 
@@ -566,13 +566,13 @@
 
 <p>এবারে সসের জন্য একটা কড়াইয়ে সামান্য তেল নিয়ে তাতে চিলি ফ্লেইক, আদা কুচি আর বাকি রসুন কুচি দিতে হবে। মিনিটখানেক ভাজার পরে এতে কমলার রস, বাকি সয়া সস, চিনি আর টেস্টিং সল্ট দিতে হবে। সসটাকে ঘন করার জন্য ২ টেবিল চামচ পানিতে বাকি ১ চা চামচ কর্ণ ফ্লাওয়ার গুলে দিয়ে দিতে হবে। সস ঘন হয়ে এলে এতে আগে থেকে ভেজে রাখা মুরগী দিয়ে ভালো করে মিশিয়ে নিতে হবে। এবারে উপরে তিল ছড়িয়ে নেড়ে নিয়ে পরিবেশন করতে পারবেন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/orange-chicken.json</guid>
+      <guid>https://recipes.milon.im/recipe/orange-chicken</guid>
       <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[বিবিখানা পিঠা]]></title>
-      <link>https://recipes.milon.im/api/recipe/bibikhana-pitha.json</link>
+      <link>https://recipes.milon.im/recipe/bibikhana-pitha</link>
       <description><![CDATA[ঐতিহ্যবাহী বিবিখানা পিঠা তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক ঐতিহ্যবাহী বিবিখানা পিঠা তৈরির রেসিপি।</p>
 
@@ -598,13 +598,13 @@
 
 <p>ট্রেডিশনালি এ পিঠা একটা পাত্রে ওয়াটার বাথে ঢেকে বেক করা হয়। তবে আপনি চাইলে ওভেনেও বেক করতে পারেন; সে ক্ষেত্রে ওয়াটার বাথের প্রয়োজন নেই। ১৭৫ ডিগ্রি সেলসিয়াসে ৩৫-৪০ মিনিট বেক করুন। বেক হয়ে গেলে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/bibikhana-pitha.json</guid>
+      <guid>https://recipes.milon.im/recipe/bibikhana-pitha</guid>
       <pubDate>Wed, 04 Jan 2023 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[আচারি বেগুন]]></title>
-      <link>https://recipes.milon.im/api/recipe/achari-begun.json</link>
+      <link>https://recipes.milon.im/recipe/achari-begun</link>
       <description><![CDATA[আচারি বেগুন রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক সুস্বাদু আচারি বেগুন রান্নার রেসিপি।</p>
 
@@ -639,13 +639,13 @@
 
 <p>এবারে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/achari-begun.json</guid>
+      <guid>https://recipes.milon.im/recipe/achari-begun</guid>
       <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[তিল নারিকেলের নাড়ু]]></title>
-      <link>https://recipes.milon.im/api/recipe/til-narikeler-naru.json</link>
+      <link>https://recipes.milon.im/recipe/til-narikeler-naru</link>
       <description><![CDATA[মজাদার তিল, নারিকেল গুড়ের নাড়ু তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক মজাদার তিল নারিকেলের নাড়ু তৈরির রেসিপি।</p>
 
@@ -678,13 +678,13 @@
 <p>সবশেষে গোল গোল নাড়ু তৈরি করে মুড়ির গুড়ার ওপর দিয়ে গড়িয়ে নিন। এতে করে নাড়ু একে অন্যের
 গায়ের সঙ্গে লেগে থাকবে না। এবারে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/til-narikeler-naru.json</guid>
+      <guid>https://recipes.milon.im/recipe/til-narikeler-naru</guid>
       <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[শোল মাছ ভুনা]]></title>
-      <link>https://recipes.milon.im/api/recipe/shol-mach-vuna.json</link>
+      <link>https://recipes.milon.im/recipe/shol-mach-vuna</link>
       <description><![CDATA[শোল মাছ ভুনা রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক, মজাদার শোল মাছ ভুনা রান্নার রেসিপি।</p>
 
@@ -715,13 +715,13 @@
 টমেটো দিয়ে দিন। টমেটো নরম হয়ে গেলে এবারে এতে ভেজে রাখা শোল মাছ দিয়ে দিন। ৫-৭ মিনিট রান্না করুন।
 নামানোর ঠিক আগে ফালি করে কাটা কাঁচা মরিচ আর ধনে পাতা কুচি ছড়িয়ে দিন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/shol-mach-vuna.json</guid>
+      <guid>https://recipes.milon.im/recipe/shol-mach-vuna</guid>
       <pubDate>Sun, 11 Sep 2022 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[লতি চিংড়ির তরকারী]]></title>
-      <link>https://recipes.milon.im/api/recipe/loti-chingrir-torkari.json</link>
+      <link>https://recipes.milon.im/recipe/loti-chingrir-torkari</link>
       <description><![CDATA[খুবই সাধারণ কিন্তু মজাদার কচুর লতি দিয়ে চিংড়ির তরকারী]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক মজাদার কচুর লতি দিয়ে চিংড়ি মাছের তরকারীর রেসিপি।</p>
 
@@ -746,13 +746,13 @@
 
 <p>প্রথমেই কচুর লতি ভালো করে ধুয়ে কেটে রাখুন। এবার একটা পাত্রে তেল নিয়ে তাতে পেয়াজ কুচি দিয়ে দিন। পেয়াজ সামান্য নরম হয়ে এলে তাতে রসুন কুচি দিন। একটু পরে আদা বাটা, রসুন বাটা, হলুদের গুড়া, মরিচের গুড়া, লবন আর সামান্য পানি দিয়ে মসলাটা কষিয়ে নিন। এবারে এতে আগে থেকে ধুয়ে রাখা চিংড়ি দিয়ে দিন। ৮-১০ মিনিট রান্না করুন। এরপর কেটে রাখা কচুর লতি দিয়ে ভালো করে রান্না করুন। প্রয়োজনে সামান্য পানি দিন। ৭-৮ মিনিটের মধ্যেই কচুর লতি সেদ্ধ হয়ে যাবে। নামানোর ২-৩ মিনিট আগে কাঁচা মরিচ দিয়ে দিন। ঝোল শুকিয়ে তরকারী মাখো মাখো হয়ে এলে নামিয়ে নিন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/loti-chingrir-torkari.json</guid>
+      <guid>https://recipes.milon.im/recipe/loti-chingrir-torkari</guid>
       <pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[চালকুমড়া দিয়ে ডিম ভাজির রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/chalkumra-dim-vaji.json</link>
+      <link>https://recipes.milon.im/recipe/chalkumra-dim-vaji</link>
       <description><![CDATA[খুব সহজে চালকুমড়া দিয়ে ডিম ভাজির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক খুব সহজেই চালকুমড়া দিয়ে ডিম ভাজি রান্নার রেসিপি।</p>
 
@@ -780,13 +780,13 @@
 মাঝখানে ফালি করে দিয়ে দিন। এবারে এতে দুটো ডিম ভেঙ্গে দিয়ে ভালো করে মিশিয়ে নিন। ডিম পুরোপুরি সেদ্ধ
 হওয়া পর্যন্ত কয়েক মিনিট নেড়ে তারপর নামিয়ে ফেলুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/chalkumra-dim-vaji.json</guid>
+      <guid>https://recipes.milon.im/recipe/chalkumra-dim-vaji</guid>
       <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[বাইলা মাছ ভুনা]]></title>
-      <link>https://recipes.milon.im/api/recipe/baila-mach-vuna.json</link>
+      <link>https://recipes.milon.im/recipe/baila-mach-vuna</link>
       <description><![CDATA[বাইলা মাছ ভুনা রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক, মজাদার বাইলা মাছ ভুনা রান্নার রেসিপি।</p>
 
@@ -817,13 +817,13 @@
 টমেটো দিয়ে দিন। টমেটো নরম হয়ে গেলে এবারে এতে ভেজে রাখা বাইলা মাছ দিয়ে দিন। ৫-৭ মিনিট রান্না করুন।
 নামানোর ঠিক আগে ফালি করে কাটা কাঁচা মরিচ আর ধনে পাতা কুচি ছড়িয়ে দিন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/baila-mach-vuna.json</guid>
+      <guid>https://recipes.milon.im/recipe/baila-mach-vuna</guid>
       <pubDate>Sun, 24 Apr 2022 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[নিরামিষ কচু শাক রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/niramish-kochu-shak.json</link>
+      <link>https://recipes.milon.im/recipe/niramish-kochu-shak</link>
       <description><![CDATA[সুস্বাদু এবং স্বাস্থ্যকর নিরামিষ কচু শাক রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>ঐতিহ্যবাহী নিরামিষ কচু শাক রান্নার রেসিপিটা চলুন ঝটপট দেখে নেয়া যাক।</p>
 
@@ -855,13 +855,13 @@
 সেদ্ধ করে রাখা কচু দিয়ে দিন। মাঝারি আচে অনেকক্ষন ধরে ভাজতে থাকুন যাতে কচুতে সামান্য পরিমান পানিও না
 থাকে। কচু শাক ভাজা ভাজা হয়ে গেলে নামিয়ে গরম ভাতের সাথে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/niramish-kochu-shak.json</guid>
+      <guid>https://recipes.milon.im/recipe/niramish-kochu-shak</guid>
       <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ঢেঁড়সের চচ্চড়ি]]></title>
-      <link>https://recipes.milon.im/api/recipe/dheroser-chorchori.json</link>
+      <link>https://recipes.milon.im/recipe/dheroser-chorchori</link>
       <description><![CDATA[সহজ এবং মজাদার ঢেঁড়সের চচ্চড়ি রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক মজাদার ঢেঁড়সের চচ্চড়ি রান্নার রেসিপি।</p>
 
@@ -893,13 +893,13 @@
 খুলে কাঁচা মরিচের ফালি আর ধনে পাতা কুচি ছড়িয়ে আরও ২-৩ মিনিট রান্না করুন। রান্না হয়ে এলে গরম গরম পরিবেশন
 করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/dheroser-chorchori.json</guid>
+      <guid>https://recipes.milon.im/recipe/dheroser-chorchori</guid>
       <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[মালাই চপ]]></title>
-      <link>https://recipes.milon.im/api/recipe/malai-chop.json</link>
+      <link>https://recipes.milon.im/recipe/malai-chop</link>
       <description><![CDATA[খুব সহজেই গুড়া দুধ দিয়ে মালাই চপ তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক কিভাবে খুব সহজেই গুড়া দুধ দিয়ে মালাই চপ তৈরি করা যায়।</p>
 
@@ -931,13 +931,13 @@
 আঁচে আরো ২০ মিনিট জ্বাল দিন। এরপর ঠান্ডা হয়ে এলে ওপরে কাঠবাদাম কুচি আর জাফরান ছড়িয়ে দিয়ে
 পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/malai-chop.json</guid>
+      <guid>https://recipes.milon.im/recipe/malai-chop</guid>
       <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[মুড়িঘন্ট]]></title>
-      <link>https://recipes.milon.im/api/recipe/murighonto.json</link>
+      <link>https://recipes.milon.im/recipe/murighonto</link>
       <description><![CDATA[রুই মাছের মাথা আর মুগ ডাল দিয়ে মুড়িঘন্টের রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক জিহ্বে জল আনা মুড়িঘন্ট রান্নার রেসিপি।</p>
 
@@ -984,13 +984,13 @@
 
 <p>এবার গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/murighonto.json</guid>
+      <guid>https://recipes.milon.im/recipe/murighonto</guid>
       <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[চিকেন বিরিয়ানি]]></title>
-      <link>https://recipes.milon.im/api/recipe/chicken-biriyani.json</link>
+      <link>https://recipes.milon.im/recipe/chicken-biriyani</link>
       <description><![CDATA[অসম্ভব মজাদার চিকেন বিরিয়ানির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক মজাদার চিকেন বিরিয়ানির রেসিপি।</p>
 
@@ -1040,13 +1040,13 @@
 শুকিয়ে নিতে হবে। এবার ৬-৭টি গোটা কাঁচা মরিচ দিয়ে নেড়ে ১০ মিনিটের জন্যে দমে রেখে দিতে হবে। এই ১০ মিনিটে
 ৩-৪ বার বিরিয়ানি ওলট-পালট করে দিতে হবে। সবশেষে উপরে পেয়াজ বেরেস্তা ছিটিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/chicken-biriyani.json</guid>
+      <guid>https://recipes.milon.im/recipe/chicken-biriyani</guid>
       <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[প্যান পিজ্জা]]></title>
-      <link>https://recipes.milon.im/api/recipe/pan-pizza.json</link>
+      <link>https://recipes.milon.im/recipe/pan-pizza</link>
       <description><![CDATA[খুব সহজেই ঘরে বসে প্যান পিজ্জা তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক খুব সহজেই ঘরে বসে প্যান পিজ্জা তৈরির রেসিপি।</p>
 
@@ -1103,13 +1103,13 @@
 <p>এবারে ২৫০ ডিগ্রি সেলসিয়াস তাপমাত্রায় প্রি-হিট করা ওভেনে বেক করতে দিন ১২-১৫ মিনিট। ব্যস, আপনার ঘরে
 তৈরি প্যান পিজ্জা প্রস্তুত। এবারে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/pan-pizza.json</guid>
+      <guid>https://recipes.milon.im/recipe/pan-pizza</guid>
       <pubDate>Wed, 12 Jan 2022 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[খেজুরের গুড়ের সন্দেশ]]></title>
-      <link>https://recipes.milon.im/api/recipe/khejur-gurer-sondesh.json</link>
+      <link>https://recipes.milon.im/recipe/khejur-gurer-sondesh</link>
       <description><![CDATA[ঐতিহ্যবাহী খেজুরের গুড়ের সন্দেশ তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক জিহ্বে জল আনা মজাদার খেজুর গুড়ের সন্দেশ তৈরির রেসিপি।</p>
 
@@ -1135,13 +1135,13 @@
 <p>কিছুক্ষণ পরে মিশ্রণ যখন মোটামুটি ঠান্ডা হবে, তখন কুকি কাটার, ছাঁচ বা হাতের তালুর সাহায্যে বিভিন্ন আকার দিন।
 এবারে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/khejur-gurer-sondesh.json</guid>
+      <guid>https://recipes.milon.im/recipe/khejur-gurer-sondesh</guid>
       <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[টমেটো সিমের বিচির তরকারি]]></title>
-      <link>https://recipes.milon.im/api/recipe/tomato-simer-bichir-torkari.json</link>
+      <link>https://recipes.milon.im/recipe/tomato-simer-bichir-torkari</link>
       <description><![CDATA[খুব সহজেই ভিন্ন স্বাদের টমেটো সিমের বিচির তরকারির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক, খুব সহজেই ভিন্ন স্বাদের টমেটো দিয়ে সিমের বিচির তরকারি রান্নার রেসিপি।</p>
 
@@ -1172,13 +1172,13 @@
 করুন। এবারে পানি দিয়ে ঢেকে দিন। সিমের বিচি সেদ্ধ হয়ে গেলে উপরে কয়েকটা ফালি করে রাখা কাঁচা মরিচ দিয়ে
 দিন। ২-৩ মিনিট পরে নামিয়ে ফেলুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/tomato-simer-bichir-torkari.json</guid>
+      <guid>https://recipes.milon.im/recipe/tomato-simer-bichir-torkari</guid>
       <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[পাঞ্জাবি ডিশ: রাজমা]]></title>
-      <link>https://recipes.milon.im/api/recipe/rajma.json</link>
+      <link>https://recipes.milon.im/recipe/rajma</link>
       <description><![CDATA[সুস্বাদু পাঞ্জাবি ডিশ রাজমা ডাল তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক পাঞ্জাবের অত্যন্ত জনপ্রিয় রান্না রাজমা ডাল তৈরির রেসিপি।</p>
 
@@ -1218,13 +1218,13 @@
 
 <p>গরম গরম রুটি, ভাত বা পরোটার সাথে রাজমার কোন তুলনাই চলে না।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/rajma.json</guid>
+      <guid>https://recipes.milon.im/recipe/rajma</guid>
       <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ভাপা পিঠা]]></title>
-      <link>https://recipes.milon.im/api/recipe/vapa-pitha.json</link>
+      <link>https://recipes.milon.im/recipe/vapa-pitha</link>
       <description><![CDATA[সহজেই ভাপা পিঠা তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক দোকান থেকে কেনা রেডিমেড চালের গুড়া দিয়ে ভাপা পিঠা তৈরির রেসিপি।</p>
 
@@ -1260,13 +1260,13 @@
 
 <p>কুয়াশা ঢাকা শীতের সকালে গরম গরম ধোঁয়া ওঠা ভাপা পিঠার কোন তুলনাই হয় না।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/vapa-pitha.json</guid>
+      <guid>https://recipes.milon.im/recipe/vapa-pitha</guid>
       <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[নারিকেল গুড়ের নাড়ু]]></title>
-      <link>https://recipes.milon.im/api/recipe/narikel-gurer-naru.json</link>
+      <link>https://recipes.milon.im/recipe/narikel-gurer-naru</link>
       <description><![CDATA[মজাদার নারিকেল গুড়ের নাড়ু তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক, মজাদার নাস্তা নারিকেল গুড়ের নাড়ু তৈরির রেসিপি।</p>
 
@@ -1297,13 +1297,13 @@
 <p>সবশেষে গোল গোল নাড়ু তৈরি করে মুড়ির গুড়ার ওপর দিয়ে গড়িয়ে নিন। এতে করে নাড়ু একে অন্যের
 গায়ের সঙ্গে লেগে থাকবে না। এবারে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/narikel-gurer-naru.json</guid>
+      <guid>https://recipes.milon.im/recipe/narikel-gurer-naru</guid>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ক্ষীরসা পুলি]]></title>
-      <link>https://recipes.milon.im/api/recipe/khirsa-puli.json</link>
+      <link>https://recipes.milon.im/recipe/khirsa-puli</link>
       <description><![CDATA[মজাদার ক্ষীরসা পুলি পিঠা তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক, জিহ্বে জল আনা ক্ষীরসা পুলি পিঠা তৈরির রেসিপি।</p>
 
@@ -1335,13 +1335,13 @@
 
 <p>সবশেষে ডুবো তেলে বাদামী করে ভেজে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/khirsa-puli.json</guid>
+      <guid>https://recipes.milon.im/recipe/khirsa-puli</guid>
       <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[পেঁয়াজু]]></title>
-      <link>https://recipes.milon.im/api/recipe/peyaju.json</link>
+      <link>https://recipes.milon.im/recipe/peyaju</link>
       <description><![CDATA[মুচমুচে পেঁয়াজু তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>পেঁয়াজু ছাড়া ইফতার যেন পরিপূর্ণই হয় না। চলুন সহজেই মুচমুচে পেঁয়াজু তৈরির রেসিপি জেনে নেই।</p>
 
@@ -1378,13 +1378,13 @@
 ভুলেও এ কাজ করবেন না। তাতে করে পেঁয়াজুর বাইরে খুব তাড়াতাড়ি বাদামী রং ধরে যাবে কিন্তু ভেতরে কাঁচা থেকে
 যাবে। এবারে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/peyaju.json</guid>
+      <guid>https://recipes.milon.im/recipe/peyaju</guid>
       <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[শাহী ফিরনী]]></title>
-      <link>https://recipes.milon.im/api/recipe/shahi-firni.json</link>
+      <link>https://recipes.milon.im/recipe/shahi-firni</link>
       <description><![CDATA[ঐতিহ্যবাহী শাহী ফিরনী রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক বিয়ে বাড়ীর স্বাদের ঐতিহ্যবাহী শাহী ফিরনী রান্নার রেসিপি।</p>
 
@@ -1419,13 +1419,13 @@
 <p>এই ফিরনী সাধারনত ঠান্ডা অবস্থায় পরিবেশন করতে হয়। তাই গরম ফিরনী প্রথমে রুম টেম্পারেচারে আসতে দিন।
 তারপর ফ্রিজে রেখে ঠান্ডা করে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/shahi-firni.json</guid>
+      <guid>https://recipes.milon.im/recipe/shahi-firni</guid>
       <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[হাঁসের মাংস ভুনা]]></title>
-      <link>https://recipes.milon.im/api/recipe/hasher-mangsho-vuna.json</link>
+      <link>https://recipes.milon.im/recipe/hasher-mangsho-vuna</link>
       <description><![CDATA[মজাদার হাঁসের মাংস ভুনা রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক জিহ্বে জল আনা হাঁসের মাংস ভুনা রান্নার রেসিপি।</p>
 
@@ -1468,13 +1468,13 @@
 
 <p>গরম গরম পরোটার সাথে এই হাঁসের মাংস ভুনার কোন তুলনাই হয় না।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/hasher-mangsho-vuna.json</guid>
+      <guid>https://recipes.milon.im/recipe/hasher-mangsho-vuna</guid>
       <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ফ্রেঞ্চ টোস্টের রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/french-toast.json</link>
+      <link>https://recipes.milon.im/recipe/french-toast</link>
       <description><![CDATA[সুস্বাদু নাস্তা ফ্রেঞ্চ টোস্ট তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক ঝটপট ফ্রেঞ্চ টোস্ট তৈরির রেসিপি।</p>
 
@@ -1502,13 +1502,13 @@
 করে ভেজে নিন। এক সাইড সম্পূর্ণ হয়ে গেলে অন্য সাইড ভাজুন। এভাবে করে সবগুলি পাউরুটির স্লাইসই বাদামী
 করে ভেজে নিন। এবারে গরম গরম টোস্টগুলো এক টুকরা বাটার আর ম্যাপল সিরাপ সহযোগে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/french-toast.json</guid>
+      <guid>https://recipes.milon.im/recipe/french-toast</guid>
       <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[চাইনিজ স্পাইসি টফু ফ্রাই]]></title>
-      <link>https://recipes.milon.im/api/recipe/spicy-tofu-fry.json</link>
+      <link>https://recipes.milon.im/recipe/spicy-tofu-fry</link>
       <description><![CDATA[মজাদার চাইনিজ স্পাইসি টফু ফ্রাই রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক মজাদার চাইনিজ স্পাইসি টফু ফ্রাই রান্নার রেসিপি।</p>
 
@@ -1539,13 +1539,13 @@
 তারপর ডিমের মিশ্রণে ডুবিয়ে এবং সবশেষে আরেকবার কর্ন ফ্লাওয়ারের মিশ্রণে গড়িয়ে মাঝারি আঁচে ডুবো তেলে বাদামী করে ভেজে নিন। এবারে
 সুইট এন্ড সাওয়ার সসের সাথে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/spicy-tofu-fry.json</guid>
+      <guid>https://recipes.milon.im/recipe/spicy-tofu-fry</guid>
       <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[মোরগ পোলাও]]></title>
-      <link>https://recipes.milon.im/api/recipe/morog-polaw.json</link>
+      <link>https://recipes.milon.im/recipe/morog-polaw</link>
       <description><![CDATA[অসম্ভব মজাদার মোরগ পোলাও তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক খুব সহজেই রাধুনী মোরগ পোলাও মিক্স দিয়ে অসাধারণ স্বাদের মোরগ পোলাও তৈরির রেসিপি।</p>
 
@@ -1594,13 +1594,13 @@
 
 <p>এবারে সেদ্ধ ডিম সহযোগে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/morog-polaw.json</guid>
+      <guid>https://recipes.milon.im/recipe/morog-polaw</guid>
       <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[টেক্সান চিলি]]></title>
-      <link>https://recipes.milon.im/api/recipe/texan-chili.json</link>
+      <link>https://recipes.milon.im/recipe/texan-chili</link>
       <description><![CDATA[সুস্বাদু আমেরিকান টেক্সাস স্টাইলের চিলি রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক টেক্সান স্টাইলে চিলি তৈরির রেসিপি।</p>
 
@@ -1645,13 +1645,13 @@
 <p>প্রতি ৫-৭ মিনিট পর পর এক-দুইবার নেড়ে তরকারির পানি প্রায় শুকিয়ে এলে চুলা থেকে নামিয়ে নিন। গরম
 গরম ক্রিমি ম্যাশড পটেটোর সাথে এই চিলি খেতে অসাধারন লাগে।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/texan-chili.json</guid>
+      <guid>https://recipes.milon.im/recipe/texan-chili</guid>
       <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ভারতীয় ডিশ: ডাল তড়কা]]></title>
-      <link>https://recipes.milon.im/api/recipe/daal-tadka.json</link>
+      <link>https://recipes.milon.im/recipe/daal-tadka</link>
       <description><![CDATA[সুস্বাদু ভারতীয় ডিশ ডাল তড়কা তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক ভারতের জনপ্রিয় রেসিপি, যেটা প্রায় সমস্ত ভারতের রেস্টুরেন্টগুলোতেই সার্ভ করা হয়, সেই
 তড়কা ডাল রান্নার রেসিপি।</p>
@@ -1687,13 +1687,13 @@
 জিরা, শুকনো মরিচ আর পাঁচ ফোড়ন দিয়ে দিন। পেয়াজ প্রায় বাদামী হয়ে এলে ডালের মিশ্রণটি এখানে ঢেলে দিন।
 আরো ২ মিনিট রান্না করুন, আর স্বাদমতো লবন যোগ করুন। ব্যস নামিয়ে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/daal-tadka.json</guid>
+      <guid>https://recipes.milon.im/recipe/daal-tadka</guid>
       <pubDate>Wed, 17 Feb 2021 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[চিকেন টিক্কা মাসালা]]></title>
-      <link>https://recipes.milon.im/api/recipe/chicken-tikka-masala.json</link>
+      <link>https://recipes.milon.im/recipe/chicken-tikka-masala</link>
       <description><![CDATA[চিকেন টিক্কা মাসালা রেসিপি]]></description>
       <content:encoded><![CDATA[<p>পরোটা দিয়ে চিকেন টিক্কা মাসালার কোন তুলনাই চলে না। চলুন রেসিপিটা দেখে নেই।</p>
 
@@ -1730,13 +1730,13 @@
 চমৎকার একটি লাল রং আসবে। এবারে এতে ১/২ কাপ ক্রিম দিয়ে দিন। এরপরে মুরগীর ভেজে রাখা টিক্কাগুলোকে
 দিয়ে ৫-৭ মিনিট রান্না করুন। এবারে গরম গরম পরোটার সাথে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/chicken-tikka-masala.json</guid>
+      <guid>https://recipes.milon.im/recipe/chicken-tikka-masala</guid>
       <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[সিঙ্গারা]]></title>
-      <link>https://recipes.milon.im/api/recipe/singara.json</link>
+      <link>https://recipes.milon.im/recipe/singara</link>
       <description><![CDATA[জিহ্বে জল আনা সিঙ্গারা তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>গরম গরম সিঙ্গারার কথা মনে পড়লেই জিহ্বে জল চলে আসে। চলুন ঝটপট সিঙ্গারা তৈরির রেসিপি জেনে নেই।</p>
 
@@ -1786,13 +1786,13 @@
 তাহলে সিঙ্গারার বাইরের অংশ পুড়ে যাবে কিন্তু ভেতরে কাঁচা থেকে যাবে। আপনাকে মাঝারি আঁচে ১৫-২০ মিনিট ধরে
 সিঙ্গারা ভাজতে হবে। সিঙ্গারা রং সোনালি বাদামী হয়ে এলে নামিয়ে নিয়ে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/singara.json</guid>
+      <guid>https://recipes.milon.im/recipe/singara</guid>
       <pubDate>Sat, 13 Feb 2021 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[মাশরুম ভাজি]]></title>
-      <link>https://recipes.milon.im/api/recipe/mashroom-vaji.json</link>
+      <link>https://recipes.milon.im/recipe/mashroom-vaji</link>
       <description><![CDATA[সুস্বাদু আর পুষ্টিকর মাশরুম ভাজির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>ভারী খাবার তো অনেক হলো, এবারে চলুন স্বাস্থ্যকর খাবারের দিকে নজর দেয়া যাক। দেখে নিন মাশরুম ভাজির
 রেসিপি।</p>
@@ -1829,13 +1829,13 @@
 <p>ব্যস তৈরি হয়ে গেল সুস্বাদু আর পুষ্টিকর মাশরুম ভাজি। গরম গরম আটার রুটির সাথে এ ভাজি খেতে অসাধারন
 লাগে।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/mashroom-vaji.json</guid>
+      <guid>https://recipes.milon.im/recipe/mashroom-vaji</guid>
       <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[বুটের হালুয়া]]></title>
-      <link>https://recipes.milon.im/api/recipe/buter-halua.json</link>
+      <link>https://recipes.milon.im/recipe/buter-halua</link>
       <description><![CDATA[পুরান ঢাকার ঐতিহ্যবাহী বুটের হালুয়া তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>শবে বরাত এলে সবার ঘরে ঘরে তৈরি হয় মজাদার বুটের হালুয়া। আপনি চাইলে যে কোন সময়েই তৈরি করতে পারেন
 মজাদার এ খাবারটি। চলুন রেসিপিটা জেনে নেয়া যাক।</p>
@@ -1871,13 +1871,13 @@
 <p>এবার হালুয়া গরম থাকতে থাকতেই একটি ট্রে তে বিছিয়ে ছুরি, কুকি কাটার বা ছাচে করে সুন্দর সুন্দর আকৃতি দিয়ে
 বরফি তৈরি করুন। এবারে উপরে বাদাম কুচি আর কিশমিশ দিয়ে সাজিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/buter-halua.json</guid>
+      <guid>https://recipes.milon.im/recipe/buter-halua</guid>
       <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[চাইনিজ ডিস: চিকেন কর্ন স্যুপ]]></title>
-      <link>https://recipes.milon.im/api/recipe/chicken-corn-soup.json</link>
+      <link>https://recipes.milon.im/recipe/chicken-corn-soup</link>
       <description><![CDATA[বাংলাদেশী চাইনিজ রেস্টুরেন্টের জনপ্রিয় আইটেম চিকেন কর্ন স্যুপের রেসিপি]]></description>
       <content:encoded><![CDATA[<p>বাংলাদেশী চাইনিজ রেস্টুরেন্টের অন্যতম জনপ্রিয় আইটেম চিকেন কর্ন স্যুপ। চলুন সেটার রেসিপিটা জেনে নেয়া যাক।</p>
 
@@ -1911,13 +1911,13 @@
 
 <p>এবারে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/chicken-corn-soup.json</guid>
+      <guid>https://recipes.milon.im/recipe/chicken-corn-soup</guid>
       <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[কাশ্মীরী গোলাপী চা]]></title>
-      <link>https://recipes.milon.im/api/recipe/kashmiri-pink-tea.json</link>
+      <link>https://recipes.milon.im/recipe/kashmiri-pink-tea</link>
       <description><![CDATA[অসাধারণ স্বাদের কাশ্মীরী গোলাপী চা তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>কাশ্মীরের ঐতিহ্যবাহী গোলাপী চা বা পিঙ্ক টি তৈরির রেসিপিটা চলুন চট করে জেনে নেয়া যাক।</p>
 
@@ -1953,13 +1953,13 @@
 খাওয়া হয়। আপনি চাইলে স্বাদমতো চিনি দিয়েও এ চা তৈরি করতে পারেন। সবশেষে চায়ের
 উপরে পেস্তা আর কাজু বাদাম কুচি ছড়িয়ে দিয়ে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/kashmiri-pink-tea.json</guid>
+      <guid>https://recipes.milon.im/recipe/kashmiri-pink-tea</guid>
       <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[নাস্তার রেসিপি: গ্রিলড চিজ স্যান্ডউইচ]]></title>
-      <link>https://recipes.milon.im/api/recipe/grilled-cheese-sandwich.json</link>
+      <link>https://recipes.milon.im/recipe/grilled-cheese-sandwich</link>
       <description><![CDATA[খুব সহজে গ্রিলড চিজ স্যান্ডউইচ তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন খুব সহজেই মজাদার গ্রিলড চিজ স্যান্ডউইচ তৈরির রেসিপিটা জেনে নেই।</p>
 
@@ -1982,13 +1982,13 @@
 গুড়া দিন। উপরে আরেক টুকরা পাউরুটি দিয়ে স্যান্ডউইচ সম্পূর্ণ করুন। এরপর এই পাউরুটির উপরেও বাটার দিয়ে
 দিন। সবশেষে পাউরুটির দুই পাশ গোল্ডেন ব্রাউন করে ভেজে নিয়ে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/grilled-cheese-sandwich.json</guid>
+      <guid>https://recipes.milon.im/recipe/grilled-cheese-sandwich</guid>
       <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[খুদের ভাত/বউয়া ভাত]]></title>
-      <link>https://recipes.milon.im/api/recipe/khuder-vaat-bouya.json</link>
+      <link>https://recipes.milon.im/recipe/khuder-vaat-bouya</link>
       <description><![CDATA[গ্রাম বাংলার ঐতিহ্যবাহী খুদের ভাত/বউয়া ভাতের রেসিপি]]></description>
       <content:encoded><![CDATA[<p>বাংলাদেশের একটি ঐতিহ্যবাহী খাবার হচ্ছে খুদের ভাত বা বউয়া ভাত। চলুন মজাদার এ খাবারটির রেসিপি জেনে
 নেয়া যাক।</p>
@@ -2025,13 +2025,13 @@
 
 <p>এবারে কয়েক পদের ভর্তা আর ডিম ভাজি সহযোগে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/khuder-vaat-bouya.json</guid>
+      <guid>https://recipes.milon.im/recipe/khuder-vaat-bouya</guid>
       <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[গুড়া দুধের গোলাপজাম]]></title>
-      <link>https://recipes.milon.im/api/recipe/gura-dudher-golapjam.json</link>
+      <link>https://recipes.milon.im/recipe/gura-dudher-golapjam</link>
       <description><![CDATA[খুব সহজেই সুজি আর গুড়া দুধ দিয়ে গোলাপজাম মিষ্টি তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক কিভাবে খুব সহজেই গুড়া দুধ দিয়ে গোলাপজাম মিষ্টি তৈরি করা যায়।</p>
 
@@ -2068,13 +2068,13 @@
 <p>মিষ্টি ভাজা হয়ে গেলে এটাকে চিনির সিরার মধ্যে ডুবিয়ে দিন। কমপক্ষে ১ ঘন্টা সিরায় ডুবিয়ে তারপর উপরে সামান্য
 পেস্তা বাদাম কুচি দিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/gura-dudher-golapjam.json</guid>
+      <guid>https://recipes.milon.im/recipe/gura-dudher-golapjam</guid>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ইন্দোনেশিয়ান কারি: বিফ রেনডাং]]></title>
-      <link>https://recipes.milon.im/api/recipe/beef-rendang.json</link>
+      <link>https://recipes.milon.im/recipe/beef-rendang</link>
       <description><![CDATA[সুস্বাদু ইন্দোনেশিয়ান কারি বিফ রেনডাং তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>২০১৭ সালে <a href="https://edition.cnn.com/travel/article/world-best-foods-readers-choice">CNN Travel</a>
 একটা জরিপ চালায় পৃথিবীর সবচেয়ে মজাদার খাবার খুঁজে পাওয়ার জন্য। পরে সে জরিপের ফলাফল অনুসারে
@@ -2123,13 +2123,13 @@
 দুই ভাগ করে দিয়ে দিন। তরল শুকিয়ে তরকারি একদম শুকনো শুকনো হয়ে গেলে রান্না হয়ে গেছে। এবারে লেমন গ্রাস
 তুলে ফেলে দিয়ে বাকিটা পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/beef-rendang.json</guid>
+      <guid>https://recipes.milon.im/recipe/beef-rendang</guid>
       <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[নারিকেলের নাড়ু]]></title>
-      <link>https://recipes.milon.im/api/recipe/narkeler-naru.json</link>
+      <link>https://recipes.milon.im/recipe/narkeler-naru</link>
       <description><![CDATA[মজাদার নারিকেলের নাড়ু তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক, মজাদার নাস্তা নারিকেলের নাড়ু তৈরির রেসিপি।</p>
 
@@ -2156,13 +2156,13 @@
 <p>সবশেষে গোল গোল নাড়ু তৈরি করে মুড়ির গুড়ার ওপর দিয়ে গড়িয়ে নিন। এতে করে নাড়ু একে অন্যের
 গায়ের সঙ্গে লেগে থাকবে না। এবারে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/narkeler-naru.json</guid>
+      <guid>https://recipes.milon.im/recipe/narkeler-naru</guid>
       <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[রসমালাই]]></title>
-      <link>https://recipes.milon.im/api/recipe/rosmalai.json</link>
+      <link>https://recipes.milon.im/recipe/rosmalai</link>
       <description><![CDATA[ঘরে বসেই মজাদার রসমালাই তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন ঘরে বসে খুব সহজেই দোকানের স্বাদের রসমালাই তৈরির রেসিপিটা জেনে নেয়া যাক।</p>
 
@@ -2201,13 +2201,13 @@
 পেস্তা আর কাজু বাদাম কুচি ছিটিয়ে দিন। এবারে এটাকে ঠান্ডা হওয়ার জন্য অপেক্ষা করুন। ঠান্ডা হয়ে গেলে মিষ্টি
 সহ মালাই ৬-৮ ঘণ্টা ফ্রিজে রেখে দিন। এরপর পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/rosmalai.json</guid>
+      <guid>https://recipes.milon.im/recipe/rosmalai</guid>
       <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[জার্মান ডেজার্ট: কাইজারস্মার্ন (Kaiserschmarrn)]]></title>
-      <link>https://recipes.milon.im/api/recipe/kaiserschmarrn.json</link>
+      <link>https://recipes.milon.im/recipe/kaiserschmarrn</link>
       <description><![CDATA[সুস্বাদু জার্মান ডেজার্ট কাইজারস্মার্ন তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>অস্ট্রিয়ান এম্পেরর Franz Joseph এর পছন্দের ডেজার্ট ছিলো কাইজারস্মার্ন। জার্মান ভাষায় কাইজার মানে সম্রাট
  আর স্মার্ন মানে টুকরো করা। চলুন এই মজাদার জার্মান শ্রেডেড প্যানকেকের রেসিপিটা জেনে নেয়া যাক।</p>
@@ -2237,13 +2237,13 @@
 <p>এবারে একটা প্লেটে নিয়ে তার উপরে গরম অবস্থাতেই কিছুটা আইসিং সুগার ছড়িয়ে দিয়ে স্ট্রবেরি বা রাস্পবেরি জ্যামসহ
 গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/kaiserschmarrn.json</guid>
+      <guid>https://recipes.milon.im/recipe/kaiserschmarrn</guid>
       <pubDate>Fri, 25 Dec 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ছানা]]></title>
-      <link>https://recipes.milon.im/api/recipe/chana.json</link>
+      <link>https://recipes.milon.im/recipe/chana</link>
       <description><![CDATA[খুব সহজেই ছানা তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন ঘরে বসে খুব সহজেই ছানা তৈরির রেসিপিটা জেনে নেয়া যাক।</p>
 
@@ -2268,13 +2268,13 @@
 ঝুলিয়ে দিন, যাতে অতিরিক্ত পানি ঝরে যায়। ব্যস আপনার ছানা তৈরি হয়ে গেছে। এই ছানা এবারে বিভিন্ন প্রকার
 মিষ্টি বানাতে ব্যবহার করতে পারবেন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/chana.json</guid>
+      <guid>https://recipes.milon.im/recipe/chana</guid>
       <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[কাঁচা গোল্লা]]></title>
-      <link>https://recipes.milon.im/api/recipe/kacha-golla.json</link>
+      <link>https://recipes.milon.im/recipe/kacha-golla</link>
       <description><![CDATA[খুব সহজেই জিহ্বে জল আনা কাঁচা গোল্লা তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন ঘরে বসে খুব সহজেই কাঁচা গোল্লা তৈরির রেসিপিটা জেনে নেয়া যাক।</p>
 
@@ -2303,13 +2303,13 @@
 সবশেষে গোল গোল বল তৈরি করে নিন। একটা পিরিচে ২ টেবিল চামচ গুড়া দুধ নিয়ে বলগুলোকে তার ওপর
 গড়িয়ে নিন। এবারে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/kacha-golla.json</guid>
+      <guid>https://recipes.milon.im/recipe/kacha-golla</guid>
       <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ভ্যানিলা কেক]]></title>
-      <link>https://recipes.milon.im/api/recipe/vanilla-cake.json</link>
+      <link>https://recipes.milon.im/recipe/vanilla-cake</link>
       <description><![CDATA[খুব সহজেই মজাদার ভ্যানিলা কেক তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক খুব সহজেই মজাদার ভ্যানিলা কেক তৈরি করার রেসিপি।</p>
 
@@ -2348,13 +2348,13 @@
 তাহলে বুঝবেন কেক তৈরি হয়ে গেছে। এবার ওভেন থেকে নামিয়ে ১০ মিনিট ঠান্ডা হতে দিন। সবশেষে টুকরা টুকরা করে
 কেটে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/vanilla-cake.json</guid>
+      <guid>https://recipes.milon.im/recipe/vanilla-cake</guid>
       <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[চকলেট কেক]]></title>
-      <link>https://recipes.milon.im/api/recipe/chocolate-cake.json</link>
+      <link>https://recipes.milon.im/recipe/chocolate-cake</link>
       <description><![CDATA[খুব সহজেই মজাদার চকলেট কেক তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক খুব সহজেই মজাদার চকলেট কেক তৈরি করার রেসিপি।</p>
 
@@ -2390,13 +2390,13 @@
 তাহলে বুঝবেন কেক তৈরি হয়ে গেছে। এবার ওভেন থেকে নামিয়ে ১০ মিনিট ঠান্ডা হতে দিন। সবশেষে টুকরা টুকরা করে
 কেটে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/chocolate-cake.json</guid>
+      <guid>https://recipes.milon.im/recipe/chocolate-cake</guid>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[চিকেন প্যাটিস]]></title>
-      <link>https://recipes.milon.im/api/recipe/chicken-patties.json</link>
+      <link>https://recipes.milon.im/recipe/chicken-patties</link>
       <description><![CDATA[মজাদার চিকেন প্যাটিস তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক, মজাদার চিকেন প্যাটিস তৈরির রেসিপি।</p>
 
@@ -2432,13 +2432,13 @@
 <p>এবারে ১৭৫ ডিগ্রি সেলসিয়াস তাপমাত্রায় প্রিহিট করা ওভেনে ১৫-১৮ মিনিট বেক করুন। বেক করা হয়ে গেলে গরম
 গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/chicken-patties.json</guid>
+      <guid>https://recipes.milon.im/recipe/chicken-patties</guid>
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[মিষ্টি কুমড়া ভাজি]]></title>
-      <link>https://recipes.milon.im/api/recipe/misti-kumra-vaji.json</link>
+      <link>https://recipes.milon.im/recipe/misti-kumra-vaji</link>
       <description><![CDATA[মজাদার চিংড়ি দিয়ে মিষ্টি কুমড়া ভাজির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক মজাদার চিংড়ি দিয়ে মিষ্টি কুমড়া ভাজির রেসিপি।</p>
 
@@ -2466,13 +2466,13 @@
 লবন দিয়ে কষিয়ে নিন। এবারে তাতে চিংড়ি দিয়ে ভালো করে কষিয়ে নিন। এবারে এতে মিষ্টি কুমড়া দিয়ে দিন। মিষ্টি
 কুমড়া সেদ্ধ হয়ে এলে কাঁচা মরিচ ও ধনে পাতা ছড়িয়ে আরো কিছুক্ষন রান্না করে নামিয়ে ফেলুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/misti-kumra-vaji.json</guid>
+      <guid>https://recipes.milon.im/recipe/misti-kumra-vaji</guid>
       <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[কাঁচকি মাছের বড়া]]></title>
-      <link>https://recipes.milon.im/api/recipe/kachki-macher-bora.json</link>
+      <link>https://recipes.milon.im/recipe/kachki-macher-bora</link>
       <description><![CDATA[কাঁচকি মাছ দিয়ে বড়া তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক, কাঁচকি মাছ দিয়ে মজাদার বড়া তৈরির রেসিপি।</p>
 
@@ -2503,13 +2503,13 @@
 <p>এবারে একটা প্যানে তেল নিয়ে চুলায় দিন। তেল গরম হয়ে গেলে মিশ্রন থেকে ছোট ছোট বড়ার আকৃতি দিয়ে
 বাদামী করে ভেজে তুলে ফেলুন। এবারে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/kachki-macher-bora.json</guid>
+      <guid>https://recipes.milon.im/recipe/kachki-macher-bora</guid>
       <pubDate>Thu, 05 Nov 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[নাস্তার রেসিপি: টুনা মাছের স্যান্ডউইচ]]></title>
-      <link>https://recipes.milon.im/api/recipe/tuna-sandwich.json</link>
+      <link>https://recipes.milon.im/recipe/tuna-sandwich</link>
       <description><![CDATA[সহজেই টুনা মাছের স্যান্ডউইচ তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন খুব সহজেই ক্যানড টুনা মাছের স্যান্ডউইচ তৈরির রেসিপি জেনে নেয়া যাক।</p>
 
@@ -2539,13 +2539,13 @@
 তাতে কিছুটা আইসবার্গ লেটুসের কুচি দিয়ে উপরে আরেক টুকরা রুটি দিন। এরপর স্যান্ডউইচের আকৃতিতে কোনাকুনি
 করে কেটে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/tuna-sandwich.json</guid>
+      <guid>https://recipes.milon.im/recipe/tuna-sandwich</guid>
       <pubDate>Mon, 07 Sep 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[নারিকেলের বরফি]]></title>
-      <link>https://recipes.milon.im/api/recipe/narkeler-borfi.json</link>
+      <link>https://recipes.milon.im/recipe/narkeler-borfi</link>
       <description><![CDATA[মজাদার নারিকেলের বরফি তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক, মজাদার নাস্তা নারিকেলের বরফি তৈরির রেসিপি।</p>
 
@@ -2572,13 +2572,13 @@
 নাড়তে থাকুন। মিশ্রণটি শুকিয়ে এলে মসলাগুলো তুলে ফেলে তাতে গুড়া দুধ আর বাদাম কুচি দিয়ে দিন। এবারে নামিয়ে সামান্য ঠান্ডা হয়ে
 এলে বরফি আকারে কেটে নিন। আপনি চাইলে ছাচে ফেলেও বরফি তৈরি করতে পারেন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/narkeler-borfi.json</guid>
+      <guid>https://recipes.milon.im/recipe/narkeler-borfi</guid>
       <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[বিফ চিলি অনিয়ন কারি]]></title>
-      <link>https://recipes.milon.im/api/recipe/beef-chili-onion-curry.json</link>
+      <link>https://recipes.milon.im/recipe/beef-chili-onion-curry</link>
       <description><![CDATA[সুস্বাদু চাইনিজ বিফ চিলি অনিয়ন কারি তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক, চাইনিজ রেস্টুরেন্টের মজাদার বিফ চিলি অনিয়ন কারি তৈরির রেসিপি।</p>
 
@@ -2612,13 +2612,13 @@
 স্বাদমতো লবন এবং সামান্য পানিতে গুলে রাখা ১ টেবিল চামচ কর্ণ ফ্লাওয়ার দিয়ে দিন। ভালো করে মিশিয়ে রান্না করতে থাকুন। তরকারির পানি
 প্রায় শুকিয়ে এলে এবং তরকারি মাখো মাখো হয়ে এলে নামিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/beef-chili-onion-curry.json</guid>
+      <guid>https://recipes.milon.im/recipe/beef-chili-onion-curry</guid>
       <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[টার্কিস স্ক্র্যাম্বলড এগ: মেনেমেন (Menemen)]]></title>
-      <link>https://recipes.milon.im/api/recipe/menemen.json</link>
+      <link>https://recipes.milon.im/recipe/menemen</link>
       <description><![CDATA[তুরস্কের ঐতিহ্যবাহী নাস্তার রেসিপি মেনেমেন]]></description>
       <content:encoded><![CDATA[<p>তুরস্কের সবচেয়ে জনপ্রিয় সকালের নাস্তার রেসিপি হচ্ছে মেনেমেন। এটা আসলে একটা স্ক্র্যাম্বলড এগের রেসিপি। চলুন
 সহজেই কিভাবে এটা তৈরি করা যায় সেটা শিখে নেই।</p>
@@ -2649,13 +2649,13 @@
 মিশ্রণে দিয়ে নাড়তে থাকুন। ২-৩ মিনিটের ভেতরেই ডিম রান্না হয়ে যাবে। এবারে ডিমের উপরে সামান্য গোল মরিচের
 গুড়া, ওরিগ্যানো আর পেয়াজ পাতা কুচি ছড়িয়ে দিয়ে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/menemen.json</guid>
+      <guid>https://recipes.milon.im/recipe/menemen</guid>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[গরুর মাংসের কোফতা কারি]]></title>
-      <link>https://recipes.milon.im/api/recipe/beef-kofta-curry.json</link>
+      <link>https://recipes.milon.im/recipe/beef-kofta-curry</link>
       <description><![CDATA[গরুর মাংসের কোফতা কারির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক সুস্বাদু গরুর মাংসের কোফতা কারি রান্নার রেসিপি।</p>
 
@@ -2698,13 +2698,13 @@
 পানি দিন। মসলা কষানো হয়ে গেলে তাতে আগে থেকে ভেজে রাখা গরুর মাংসের কোফতাগুলো দিয়ে দিন। এবারে
 আরো ৫-৭ মিনিট রান্না করুন। নামানোর আগে ভাজা জিরার গুড়া ছড়িয়ে দিয়ে চুলা থেকে নামিয়ে ফেলুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/beef-kofta-curry.json</guid>
+      <guid>https://recipes.milon.im/recipe/beef-kofta-curry</guid>
       <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[কাঠি কাবাব]]></title>
-      <link>https://recipes.milon.im/api/recipe/kathi-kabab.json</link>
+      <link>https://recipes.milon.im/recipe/kathi-kabab</link>
       <description><![CDATA[সুস্বাদু কাঠি কাবাবের রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক সুস্বাদু কাঠি কাবাব তৈরির রেসিপি।</p>
 
@@ -2734,13 +2734,13 @@
 চারপাশে কিমা লম্বা করে চেপে কাবাবের আকৃতিতে তৈরি করে নিন। এবার কাঠিতে থাকা কাবাবগুলোকে ডুবো তেলে ভেজে গরম
 গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/kathi-kabab.json</guid>
+      <guid>https://recipes.milon.im/recipe/kathi-kabab</guid>
       <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[জুকিনি ভাজির রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/zucchini-vaji.json</link>
+      <link>https://recipes.milon.im/recipe/zucchini-vaji</link>
       <description><![CDATA[ডিম দিয়ে জুকিনি ভাজির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক ডিম দিয়ে মজাদার জুকিনি ভাজি রান্নার রেসিপি।</p>
 
@@ -2768,13 +2768,13 @@
 পানি যোগ করতে পারেন। পানি শুকিয়ে এলে তাতে ২টা ডিম ভেঙ্গে দিয়ে ভালো করে মাখিয়ে নিন। সবশেষে নামানোর
 কিছুক্ষন আগে পেয়াজ কলি কুচি করে দিয়ে দিন। এবারে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/zucchini-vaji.json</guid>
+      <guid>https://recipes.milon.im/recipe/zucchini-vaji</guid>
       <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[আচারি গরুর মাংস]]></title>
-      <link>https://recipes.milon.im/api/recipe/achari-beef.json</link>
+      <link>https://recipes.milon.im/recipe/achari-beef</link>
       <description><![CDATA[আচারি গরুর মাংসের ভুনার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক সুস্বাদু আচারি গরুর মাংসের ভুনা রান্নার রেসিপি।</p>
 
@@ -2821,13 +2821,13 @@
 
 <p>ব্যস তৈরি হয়ে গেল আচারি গরুর মাংসের ভুনা। ভাত, খিচুরি বা পরোটার সাথে এই মাংস অসাধারন লাগে খেতে।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/achari-beef.json</guid>
+      <guid>https://recipes.milon.im/recipe/achari-beef</guid>
       <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ফুচকা]]></title>
-      <link>https://recipes.milon.im/api/recipe/fuchka.json</link>
+      <link>https://recipes.milon.im/recipe/fuchka</link>
       <description><![CDATA[মজাদার ফুচকা তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>আমার সবচেয়ে পছন্দের স্ট্রিটফুড হচ্ছে ফুচকা। চলুন সহজেই ফুচকা তৈরির রেসিপিটা জেনে নেয়া যাক।</p>
 
@@ -2867,13 +2867,13 @@
 <p>এবারে ফুচকার মধ্যে ছোট গর্ত করে তাতে ঘুগনি দিয়ে পূর্ণ করুন। উপরে সামান্য শসা কুচি, পেয়াজ কুচি, ধনে পাতা
 কুচি আর চটপটির মসলা দিন। এবারে ১ বাটি টকের সাথে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/fuchka.json</guid>
+      <guid>https://recipes.milon.im/recipe/fuchka</guid>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[চটপটি]]></title>
-      <link>https://recipes.milon.im/api/recipe/chotpoti.json</link>
+      <link>https://recipes.milon.im/recipe/chotpoti</link>
       <description><![CDATA[জিহ্বে জল আনা চটপটি রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>বিদেশে এসে সবচেয়ে বেশি যে খাবারটা মিস করি, সেটা হচ্ছে চটপটি। চলুন দেখে নেয়া যাক খুব সহজেই জিহ্বে জল
 আনা চটপটি রান্নার রেসিপি।</p>
@@ -2927,13 +2927,13 @@
 একটু সেদ্ধ ডিম কুচি, সামান্য কাঁচা মরিচ কুচি আর ১ চিমটি চটপটির মসলা দিন। সবশেষে ৩-৪টা ফুচকা ভেঙ্গে
 উপরে ছড়িয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/chotpoti.json</guid>
+      <guid>https://recipes.milon.im/recipe/chotpoti</guid>
       <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[মূলা চিংড়ির তরকারী]]></title>
-      <link>https://recipes.milon.im/api/recipe/mula-chingrir-torkari.json</link>
+      <link>https://recipes.milon.im/recipe/mula-chingrir-torkari</link>
       <description><![CDATA[খুবই সাধারণ কিন্তু মজাদার মূলা আর চিংড়ির তরকারী]]></description>
       <content:encoded><![CDATA[<p>জার্মানীসহ ইউরোপিয়ান দেশগুলোতে একটা খুবই কমন সবজি হচ্ছে ছোট গোলাকার লাল মূলা। সেই মূলা দিয়ে
 চিংড়ির তরকারির রেসিপিটা চলুন দেখে নেয়া যাক।</p>
@@ -2961,13 +2961,13 @@
 আর টমেটো দিয়ে দিন। পরিমানমতো পানি দিয়ে ঢেকে দিন। কিছুক্ষনের ভেতরেই মূলা সেদ্ধ হয়ে যাবে। এবার এতে
 ভেজে রাখা চিংড়ি আর কাঁচা মরিচ দিয়ে দিন। ২-৩ মিনিট নেড়ে তরকারী নামিয়ে নিন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/mula-chingrir-torkari.json</guid>
+      <guid>https://recipes.milon.im/recipe/mula-chingrir-torkari</guid>
       <pubDate>Thu, 30 Jul 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ফুলকপি গাজরের ভাজি]]></title>
-      <link>https://recipes.milon.im/api/recipe/fulkopi-gajor-vaji.json</link>
+      <link>https://recipes.milon.im/recipe/fulkopi-gajor-vaji</link>
       <description><![CDATA[সুস্বাদু আর পুষ্টিকর ফুলকপি ও গাজরের ভাজির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক মজাদার ফুলকপি ও গাজরের মিক্সড ভেজিটেবলের রেসিপি।</p>
 
@@ -3000,13 +3000,13 @@
 স্বাদমতো লবন দিন। এবারে তাতে টমেটোর টুকরাগুলো আর কয়েকটা কাঁচামরিচ ফালি করে কেটে দিয়ে দিন এবং
 আরো ৩-৪ মিনিট রান্না করুন। এবারে চুলা থেকে নামিয়ে নিয়ে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/fulkopi-gajor-vaji.json</guid>
+      <guid>https://recipes.milon.im/recipe/fulkopi-gajor-vaji</guid>
       <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ফুলকপির চপ]]></title>
-      <link>https://recipes.milon.im/api/recipe/fulkopir-chop.json</link>
+      <link>https://recipes.milon.im/recipe/fulkopir-chop</link>
       <description><![CDATA[সুস্বাদু ফুলকপির চপ তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক, খুব সহজেই সুস্বাদু ফুলকপির চপ তৈরির রেসিপি।</p>
 
@@ -3033,13 +3033,13 @@
 না থাকে। এবারে এতে সেদ্ধ করা ফুলকপিগুলো ডুবিয়ে মাঝারি আঁচে বাদামী করে ভেজে তুলে ফেলুন। গরম গরম
 পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/fulkopir-chop.json</guid>
+      <guid>https://recipes.milon.im/recipe/fulkopir-chop</guid>
       <pubDate>Sun, 26 Jul 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[চিচিঙ্গা ভাজির রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/chichinga-vaji.json</link>
+      <link>https://recipes.milon.im/recipe/chichinga-vaji</link>
       <description><![CDATA[ডিম দিয়ে চিচিঙ্গা/সসিন্দা ভাজির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক মজাদার চিচিঙ্গা/কহি/সসিন্দা ভাজির রেসিপি।</p>
 
@@ -3067,13 +3067,13 @@
 <p>পানি শুকিয়ে এলে তাতে ২টা ডিম ভেঙ্গে দিয়ে দিন। আরো ২-৩ মিনিট ভাজতে থাকুন। নামানোর আগ মুহুর্তে ধনে
 পাতা কুচি দিয়ে দিন। এবারে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/chichinga-vaji.json</guid>
+      <guid>https://recipes.milon.im/recipe/chichinga-vaji</guid>
       <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[লাউ ভাজির রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/lau-vaji.json</link>
+      <link>https://recipes.milon.im/recipe/lau-vaji</link>
       <description><![CDATA[ডিম দিয়ে লাউ ভাজির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক ডিম দিয়ে মজাদার লাউ ভাজি রান্নার রেসিপি।</p>
 
@@ -3100,13 +3100,13 @@
 লাউ সেদ্ধ হয়ে যাবে। পানি শুকিয়ে এলে তাতে ২টা ডিম ভেঙ্গে দিয়ে ভালো করে মাখিয়ে নিন। সবশেষে নামানোর
 কিছুক্ষন আগে পেয়াজ কলি কুচি করে দিয়ে দিন। এবারে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/lau-vaji.json</guid>
+      <guid>https://recipes.milon.im/recipe/lau-vaji</guid>
       <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[কাঁচা আমের জেলি]]></title>
-      <link>https://recipes.milon.im/api/recipe/kacha-aamer-jelly.json</link>
+      <link>https://recipes.milon.im/recipe/kacha-aamer-jelly</link>
       <description><![CDATA[সুস্বাদু এবং স্বাস্থ্যকর কাঁচা আমের জেলি তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক সুস্বাদু এবং স্বাস্থ্যকর কাঁচা আমের জেলি তৈরির রেসিপি।</p>
 
@@ -3136,13 +3136,13 @@
 <p>এবারে একটা কাঁচের পাত্রে গরম থাকা অবস্থাতেই জেলিটা ঢেলে নিন। ঠান্ডা হয়ে গেলে ফ্রিজে রেখে দিন। এই জেলি
 ফ্রিজে রেখে প্রায় ৬ মাস পর্যন্ত ভালো থাকে।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/kacha-aamer-jelly.json</guid>
+      <guid>https://recipes.milon.im/recipe/kacha-aamer-jelly</guid>
       <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[শিম-আলু ভাজির রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/sim-alu-vaji.json</link>
+      <link>https://recipes.milon.im/recipe/sim-alu-vaji</link>
       <description><![CDATA[শিম আর আলু ভাজির মজাদার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক সহজ এবং মজাদার শিম আলু ভাজির রেসিপি।</p>
 
@@ -3174,13 +3174,13 @@
 
 <p>গরম গরম রুটি বা ধোঁয়া ওঠা গরম ভাতের সাথে এই শিম-আলু ভাজি অসাধারন লাগে খেতে।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/sim-alu-vaji.json</guid>
+      <guid>https://recipes.milon.im/recipe/sim-alu-vaji</guid>
       <pubDate>Tue, 14 Jul 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ইতালিয়ান রেড সস পাস্তা]]></title>
-      <link>https://recipes.milon.im/api/recipe/red-sauce-pasta.json</link>
+      <link>https://recipes.milon.im/recipe/red-sauce-pasta</link>
       <description><![CDATA[মজাদার ইতালিয়ান রেড সস পাস্তা তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক মজাদার রেড সস পাস্তা তৈরির রেসিপি।</p>
 
@@ -3212,13 +3212,13 @@
 কুচি দিয়ে দিন। ২-৩ মিনিট রান্না করে সেদ্ধ পাস্তা ও ধনে পাতা কুচি দিয়ে ভালো করে মিশিয়ে নিন। নামানোর
 পর পার্মিসান চিজ কুচি ছড়িয়ে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/red-sauce-pasta.json</guid>
+      <guid>https://recipes.milon.im/recipe/red-sauce-pasta</guid>
       <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[পাপড় ভাজা]]></title>
-      <link>https://recipes.milon.im/api/recipe/papor-vaja.json</link>
+      <link>https://recipes.milon.im/recipe/papor-vaja</link>
       <description><![CDATA[মুচমুচে পাপড় ভাজা তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন সহজেই মুচমুচে পাপড় ভাজা তৈরির রেসিপিটা দেখে নেয়া যাক।</p>
 
@@ -3247,13 +3247,13 @@
 <p>সবশেষে সবগুলো পাপড়কে ডুবো তেলে ভেজে তুলে নিন। প্রত্যেকটা পাপড় খুব তাড়াতাড়িই ভাজা হয়ে যাবে, সাধারনত
 ১৫-২০ সেকেন্ডই যথেষ্ট। এবারে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/papor-vaja.json</guid>
+      <guid>https://recipes.milon.im/recipe/papor-vaja</guid>
       <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[কিমা মটর ভুনা]]></title>
-      <link>https://recipes.milon.im/api/recipe/kima-motor-vuna.json</link>
+      <link>https://recipes.milon.im/recipe/kima-motor-vuna</link>
       <description><![CDATA[আলু আর মটরশুটি দিয়ে গরুর কিমা ভুনা রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>আলু আর মটরশুটি দিয়ে মজাদার গরুর মাংসের কিমা ভুনা রান্নার রেসিপিটা চলুন ঝটপট দেখে নেয়া যাক।</p>
 
@@ -3293,13 +3293,13 @@
 <p>কিমা আর আলু যখন সেদ্ধ হয়ে যাবে, তখন এতে মটরশুটি দিয়ে দিন। ৪-৫ মিনিট রান্না করে নামানোর আগে
 ভাজা জিরার গুড়া ছিটিয়ে দিন। এবারে গরম গরম পরোটার সাথে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/kima-motor-vuna.json</guid>
+      <guid>https://recipes.milon.im/recipe/kima-motor-vuna</guid>
       <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[বেগুন ভাজা]]></title>
-      <link>https://recipes.milon.im/api/recipe/begun-vaja.json</link>
+      <link>https://recipes.milon.im/recipe/begun-vaja</link>
       <description><![CDATA[মজাদার বেগুন ভাজা তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন সহজেই বেগুনের চাক ভাজা তৈরির রেসিপিটা দেখে নেই।</p>
 
@@ -3320,13 +3320,13 @@
 <p>প্রথমেই বেগুন ধুয়ে বড় বড় চাক করে কেটে নিন। এবার এতে সামান্য হলুদের গুড়া, মরিচের গুড়া আর লবন মাখিয়ে
 ডুবো তেলে ভেজে তুলে ফেলুন। গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/begun-vaja.json</guid>
+      <guid>https://recipes.milon.im/recipe/begun-vaja</guid>
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[কাকরোল ভাজা]]></title>
-      <link>https://recipes.milon.im/api/recipe/kakrol-vaja.json</link>
+      <link>https://recipes.milon.im/recipe/kakrol-vaja</link>
       <description><![CDATA[মজাদার কাকরোল ভাজা রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন সহজেই দেখে নেই মজাদার কাকরোল ভাজা তৈরির রেসিপি।</p>
 
@@ -3347,13 +3347,13 @@
 <p>প্রথমেই কাকরোল ধুয়ে, খোসা ছাড়িয়ে লম্বা লম্বা করে কেটে নিন। এবার এতে সামান্য হলুদের গুড়া, মরিচের গুড়া
 আর লবন মাখিয়ে ডুবো তেলে ভেজে তুলে ফেলুন। গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/kakrol-vaja.json</guid>
+      <guid>https://recipes.milon.im/recipe/kakrol-vaja</guid>
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[গ্রিল চিকেন]]></title>
-      <link>https://recipes.milon.im/api/recipe/grill-chicken.json</link>
+      <link>https://recipes.milon.im/recipe/grill-chicken</link>
       <description><![CDATA[মজাদার গ্রিল চিকেন তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক ঘরে বসেই মজাদার গ্রিল চিকেন রান্নার রেসিপি।</p>
 
@@ -3383,13 +3383,13 @@
 
 <p>৪০ মিনিট পরে মুরগী ওভেন থেকে বের করে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/grill-chicken.json</guid>
+      <guid>https://recipes.milon.im/recipe/grill-chicken</guid>
       <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[কষা গরুর মাংস]]></title>
-      <link>https://recipes.milon.im/api/recipe/beef-kosha.json</link>
+      <link>https://recipes.milon.im/recipe/beef-kosha</link>
       <description><![CDATA[কষা গরুর মাংসের তরকারির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক কষা গরুর মাংসের রেসিপি।</p>
 
@@ -3430,13 +3430,13 @@
 
 <p>মাংস সেদ্ধ হয়ে গেলে এবং পানি শুকিয়ে গেলে উপরে সামান্য ভাজা জিরার গুড়া ছিটিয়ে দিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/beef-kosha.json</guid>
+      <guid>https://recipes.milon.im/recipe/beef-kosha</guid>
       <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[মুচমুচে লাচ্ছা সেমাই]]></title>
-      <link>https://recipes.milon.im/api/recipe/muchmuche-laccha-semai.json</link>
+      <link>https://recipes.milon.im/recipe/muchmuche-laccha-semai</link>
       <description><![CDATA[খুব সহজেই মুচমুচে লাচ্ছা সেমাই তৈরি করার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক ভিন্নধর্মী মজাদার মুচমুচে লাচ্ছা সেমাইয়ের রেসিপি।</p>
 
@@ -3465,13 +3465,13 @@
 মাঝামাঝি পর্যায়ে সেমাইয়ের মধ্যে চিনি দিয়ে অনবরত নাড়তে থাকুন। এবারে ১ কাপ গুড়ো দুধ দিয়ে ভালো করে
 মিশিয়ে নিন। নামানোর ১-২ মিনিট আগে ভেজে রাখা বাদাম আর কিশমিস দিয়ে নেড়ে নিন। এবারে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/muchmuche-laccha-semai.json</guid>
+      <guid>https://recipes.milon.im/recipe/muchmuche-laccha-semai</guid>
       <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[আম কাসুন্দির ভর্তা]]></title>
-      <link>https://recipes.milon.im/api/recipe/aam-kashundir-vorta.json</link>
+      <link>https://recipes.milon.im/recipe/aam-kashundir-vorta</link>
       <description><![CDATA[জিহ্বে জল আনা কাঁচা আম আর কাসুন্দি দিয়ে ভর্তা তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন কাসুন্দি দিয়ে মজাদার আম ভর্তার রেসিপি জেনে নেয়া যাক।</p>
 
@@ -3492,13 +3492,13 @@
 <p>প্রথমেই কাঁচা আম খোসা ছাড়িয়ে ভালো করে ধুয়ে পাতলা পাতলা স্লাইস করে কেটে নিন। এবার এর সাথে কাঁচা মরিচ
 কুচি, লবন, চিনি আর কাসুন্দি দিয়ে ভালো করে ভর্তা করে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/aam-kashundir-vorta.json</guid>
+      <guid>https://recipes.milon.im/recipe/aam-kashundir-vorta</guid>
       <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ঝিঙা চিংড়ির তরকারি]]></title>
-      <link>https://recipes.milon.im/api/recipe/jhinga-chingrir-torkari.json</link>
+      <link>https://recipes.milon.im/recipe/jhinga-chingrir-torkari</link>
       <description><![CDATA[খুব সহজেই ঝিঙা আর চিংড়ি মাছের তরকারীর রেসিপি]]></description>
       <content:encoded><![CDATA[<p>খুব সাধারণ কিন্তু অসম্ভব মজাদার ঝিঙা আর চিংড়ির তরকারি তৈরির রেসিপি দেখে নিন।</p>
 
@@ -3527,13 +3527,13 @@
 <p>কিছুক্ষনের মধ্যেই ঝিঙা সেদ্ধ হয়ে যাবে। এবার এতে ভেজে রাখা চিংড়ি আর কাঁচা মরিচ দিয়ে দিন। ২-৩ মিনিট নেড়ে 
 তরকারী নামিয়ে ফেলুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/jhinga-chingrir-torkari.json</guid>
+      <guid>https://recipes.milon.im/recipe/jhinga-chingrir-torkari</guid>
       <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[কাঁচা আম ভর্তা]]></title>
-      <link>https://recipes.milon.im/api/recipe/kacha-aam-vorta.json</link>
+      <link>https://recipes.milon.im/recipe/kacha-aam-vorta</link>
       <description><![CDATA[জিহ্বে জল আনা কাঁচা আম ভর্তা তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক জিহ্বে জল আনা কাঁচা আম ভর্তার রেসিপি।</p>
 
@@ -3554,13 +3554,13 @@
 বড় মাপে গ্রেট করেও নিতে পারেন। এবার এর সাথে কাঁচা মরিচ কুচি, লবন আর চিনি দিয়ে ভালো করে ভর্তা করে
 পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/kacha-aam-vorta.json</guid>
+      <guid>https://recipes.milon.im/recipe/kacha-aam-vorta</guid>
       <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[করমচা ডালের রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/koromcha-daal.json</link>
+      <link>https://recipes.milon.im/recipe/koromcha-daal</link>
       <description><![CDATA[সুস্বাদু করমচা ডালের রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক অসম্ভব মজার করমচা দিয়ে ডাল রান্নার রেসিপি।</p>
 
@@ -3591,13 +3591,13 @@
 পেয়াজ-রসুন বাদামী হয়ে গেলে তেল সহ সেটি সেদ্ধ করে রাখা ডালে দিয়ে দিতে হবে। এবার এটিকে চুলায় আরো ১-২
 মিনিট জ্বাল দিতে হবে। নামানোর ঠিক আগ মুহুর্তে ধনে পাতা কুচি দিয়ে দিতে হবে।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/koromcha-daal.json</guid>
+      <guid>https://recipes.milon.im/recipe/koromcha-daal</guid>
       <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ভাজা নারিকেলের পুলি]]></title>
-      <link>https://recipes.milon.im/api/recipe/vaja-narikel-puli.json</link>
+      <link>https://recipes.milon.im/recipe/vaja-narikel-puli</link>
       <description><![CDATA[মজাদার ভাজা নারিকেলের পুলি পিঠা তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক, মজাদার ভাজা নারিকেলের পুলি পিঠা তৈরির রেসিপি।</p>
 
@@ -3627,13 +3627,13 @@
 
 <p>সবশেষে ডুবো তেলে বাদামী করে ভেজে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/vaja-narikel-puli.json</guid>
+      <guid>https://recipes.milon.im/recipe/vaja-narikel-puli</guid>
       <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[পটেটো পিনহুইল]]></title>
-      <link>https://recipes.milon.im/api/recipe/potato-pinwheel.json</link>
+      <link>https://recipes.milon.im/recipe/potato-pinwheel</link>
       <description><![CDATA[খুব সহজেই তৈরি করে ফেলুন মজাদার পটেটো পিনহুইল]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক মজাদার নাস্তা পটেটো পিনহুইল তৈরির রেসিপি।</p>
 
@@ -3673,13 +3673,13 @@
 
 <p>এবারে ডিমের সাদা অংশে পিনহুইলগুলোকে ডুবিয়ে নিয়ে ডুবো তেলে বাদামী করে ভেজে নিন। গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/potato-pinwheel.json</guid>
+      <guid>https://recipes.milon.im/recipe/potato-pinwheel</guid>
       <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ডাটা দিয়ে গরুর মাংসের ঝোল]]></title>
-      <link>https://recipes.milon.im/api/recipe/beef-datar-jhol.json</link>
+      <link>https://recipes.milon.im/recipe/beef-datar-jhol</link>
       <description><![CDATA[ডাটা দিয়ে গরুর মাংসের তরকারির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>গরুর মাংস আমরা সবাই কমবেশি পছন্দ করি। চলুন দেখে নেই ডাটা দিয়ে গরুর মাংসের ঝোলের রেসিপি।</p>
 
@@ -3721,13 +3721,13 @@
 পানি দিতে পারেন। ঝোল ফুটে উঠলে তাতে ডাটার টুকরাগুলো দিয়ে দিন। মাংস ও ডাটা পুরোপুরি সেদ্ধ হওয়া পর্যন্ত রান্না করুন।
 এবারে উপরে কাঁচামরিচ আর ভাজা জিরার গুড়া ছড়িয়ে দিন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/beef-datar-jhol.json</guid>
+      <guid>https://recipes.milon.im/recipe/beef-datar-jhol</guid>
       <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[চিংড়ির দোপেয়াজা]]></title>
-      <link>https://recipes.milon.im/api/recipe/chingrir-dopeyaja.json</link>
+      <link>https://recipes.milon.im/recipe/chingrir-dopeyaja</link>
       <description><![CDATA[চিংড়ি মাছের দোপেয়াজা রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক, মজাদার চিংড়ি মাছের দোপেয়াজা রান্নার রেসিপি।</p>
 
@@ -3756,13 +3756,13 @@
 মসলা দিয়ে ভালো করে কষাতে থাকুন। প্রয়োজনে সামান্য পানি দিন। এবারে এতে ভেজে রাখা চিংড়ি মাছ দিয়ে দিন।
 ৫-৭ মিনিট রান্না করুন, নামানোর আগে আগে ফালি করে কাটা কাঁচা মরিচ দিয়ে দিন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/chingrir-dopeyaja.json</guid>
+      <guid>https://recipes.milon.im/recipe/chingrir-dopeyaja</guid>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[করল্লা, আলু দিয়ে টেংরা মাছের ঝোল]]></title>
-      <link>https://recipes.milon.im/api/recipe/korolla-alu-tengra-macher-jhol.json</link>
+      <link>https://recipes.milon.im/recipe/korolla-alu-tengra-macher-jhol</link>
       <description><![CDATA[করল্লা, আলু দিয়ে টেংরা মাছের ঝোলের রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেই করল্লা, আলু দিয়ে টেংরা মাছের ঝোলের রেসিপি।</p>
 
@@ -3788,13 +3788,13 @@
 দিয়ে দিন। এবারে এতে কেটে রাখা আলু আর করল্লা দিয়ে দিন। কিছুক্ষন নেড়ে পরিমানমতো পানি দিয়ে দিন। আলু ও করল্লা সেদ্ধ হয়ে গেলে এতে
 ভেজে রাখা টেংরা মাছ দিয়ে দিন। আরো ৫-৭ মিনিট রান্না করে নামিয়ে ফেলুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/korolla-alu-tengra-macher-jhol.json</guid>
+      <guid>https://recipes.milon.im/recipe/korolla-alu-tengra-macher-jhol</guid>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ডাটা শাক ভাজি]]></title>
-      <link>https://recipes.milon.im/api/recipe/data-saak-vaji.json</link>
+      <link>https://recipes.milon.im/recipe/data-saak-vaji</link>
       <description><![CDATA[মজাদার ডাটা শাক ভাজির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক স্বাস্থ্যকর ডাটা শাক ভাজির রেসিপি।</p>
 
@@ -3817,13 +3817,13 @@
 <p>একটা পাত্রে তেল নিয়ে তাতে পেয়াজ কুচি, রসুন কুচি আর শুকনো মরিচ টুকরো টুকরো করে কেটে দিয়ে দিন। এবার
 পেয়াজ নরম হয়ে এলে তাতে শাক ও স্বাদমতো লবন দিয়ে ভালো করে নেড়ে ১-২ মিনিট ভাজুন। তারপর নামিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/data-saak-vaji.json</guid>
+      <guid>https://recipes.milon.im/recipe/data-saak-vaji</guid>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[চিকেন র‍্যাপ]]></title>
-      <link>https://recipes.milon.im/api/recipe/chicken-wrap.json</link>
+      <link>https://recipes.milon.im/recipe/chicken-wrap</link>
       <description><![CDATA[ভিন্নধর্মী চিকেন র‍্যাপ তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন মজাদার নাস্তা চিকেন র‍্যাপ তৈরির রেসিপিটা জেনে নেয়া যাক।</p>
 
@@ -3852,13 +3852,13 @@
 মুরগীর টুকরা মুড়িয়ে টুথপিক দিয়ে আটকে দিন। তারপর ডুবো তেলে মুরগী পুরোপুরি সেদ্ধ হওয়া পর্যন্ত ভালো করে ভেজে নিন। গরম গরম পরিবেশন
 করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/chicken-wrap.json</guid>
+      <guid>https://recipes.milon.im/recipe/chicken-wrap</guid>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[পটেটো ওয়েজেস]]></title>
-      <link>https://recipes.milon.im/api/recipe/potato-wedges.json</link>
+      <link>https://recipes.milon.im/recipe/potato-wedges</link>
       <description><![CDATA[খুব সহজেই তৈরি করে ফেলুন মজাদার পটেটো ওয়েজেস]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক মজাদার নাস্তা পটেটো ওয়েজেস তৈরির রেসিপি।</p>
 
@@ -3893,13 +3893,13 @@
 
 <p>এবারে আধাসেদ্ধ আলুগুলোকে ব্যাটারে ডুবিয়ে ডুবো তেলে বাদামী করে ভেজে নিন। গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/potato-wedges.json</guid>
+      <guid>https://recipes.milon.im/recipe/potato-wedges</guid>
       <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[চ্যাপা শুটকির ভর্তার রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/chepa-sutki-vorta.json</link>
+      <link>https://recipes.milon.im/recipe/chepa-sutki-vorta</link>
       <description><![CDATA[মজাদার চ্যাপা শুটকির ভর্তার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>বিদেশ বিভূইয়ে এলে যেন শুটকির ভর্তা খাওয়ার জন্য মনটা আনচান করে। চলুন সহজেই চ্যাপা শুটকির ভর্তা বানানোর
 পদ্ধতিটা জেনে নেই।</p>
@@ -3923,13 +3923,13 @@
 ততক্ষণে শুটকি সেদ্ধ হয়ে যাওয়ার কথা। এবার এটা নামিয়ে শুকনা মরিচ সহ পাটায় বেটে নিন। এবার ৩-৪ টা পেয়াজ
 খোসা ছাড়িয়ে ভালো করে থেতলে নিন। এবারে শুটকি বাটার সাথে ভালো করে মিশিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/chepa-sutki-vorta.json</guid>
+      <guid>https://recipes.milon.im/recipe/chepa-sutki-vorta</guid>
       <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[লেবুর শরবত]]></title>
-      <link>https://recipes.milon.im/api/recipe/lebur-sorbot.json</link>
+      <link>https://recipes.milon.im/recipe/lebur-sorbot</link>
       <description><![CDATA[দারুন মজাদার লেবুর শরবত তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>তীব্র গরমে এক গ্লাস লেবুর শরবত এনে দিতে পারে প্রশান্তি। চলুন লেবুর শরবতের রেসিপিটা দেখে নেয়া যাক।</p>
 
@@ -3949,13 +3949,13 @@
 <p>প্রথমেই একটা পাত্রে ২ টা কাগজী লেবুর রস চিপে নিন। এবারে ৫০০ মিলি পানিতে স্বাদমতো চিনি গুলিয়ে নিন। লেবুর
 রস যুক্ত করে ভালো করে নাড়ুন। এবারে বরফকুচি দিয়ে ঠান্ডা ঠান্ডা পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/lebur-sorbot.json</guid>
+      <guid>https://recipes.milon.im/recipe/lebur-sorbot</guid>
       <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[কাঁচা মরিচের চপ]]></title>
-      <link>https://recipes.milon.im/api/recipe/kacha-moricher-chop.json</link>
+      <link>https://recipes.milon.im/recipe/kacha-moricher-chop</link>
       <description><![CDATA[ভিন্নধর্মী কাঁচা মরিচের চপ তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন জেনে নেয়া যাক ভিন্নধর্মী কাঁচা মরিচের চপ তৈরির রেসিপি।</p>
 
@@ -3985,13 +3985,13 @@
 প্যানকেকের ব্যাটারের মত মিশ্রন তৈরি করুন। লক্ষ্য রাখুন ব্যাটারে যেন কোন দানা না থাকে। এবারে মাঝারি আঁচে
 ডুবো তেলে কাঁচা মরিচ গুলোকে ব্যাটারে ডুবিয়ে ভেজে নিন। গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/kacha-moricher-chop.json</guid>
+      <guid>https://recipes.milon.im/recipe/kacha-moricher-chop</guid>
       <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[টমেটোর চপ]]></title>
-      <link>https://recipes.milon.im/api/recipe/tomator-chop.json</link>
+      <link>https://recipes.milon.im/recipe/tomator-chop</link>
       <description><![CDATA[মজাদার টমেটোর চপ তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন জেনে নেয়া যাক সহজ টমেটোর চপ তৈরির রেসিপি।</p>
 
@@ -4015,13 +4015,13 @@
 প্যানকেকের ব্যাটারের মত মিশ্রন তৈরি করুন। লক্ষ্য রাখুন ব্যাটারে যেন কোন দানা না থাকে। এবারে মাঝারি আঁচে
 ডুবো তেলে টমেটোর চাকগুলোকে ব্যাটারে ডুবিয়ে ভেজে নিন। গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/tomator-chop.json</guid>
+      <guid>https://recipes.milon.im/recipe/tomator-chop</guid>
       <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[করল্লা ভাজি]]></title>
-      <link>https://recipes.milon.im/api/recipe/korolla-vaji.json</link>
+      <link>https://recipes.milon.im/recipe/korolla-vaji</link>
       <description><![CDATA[খুব সহজে করল্লা ভাজি রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক সাদা করল্লা ভাজি রান্নার রেসিপি।</p>
 
@@ -4043,13 +4043,13 @@
 দিন। পেয়াজ সামান্য নরম হয়ে এলে তাতে করল্লা দিয়ে দিন। এবারে স্বাদমতো লবন দিন। ভাজি প্রায় হয়ে এলে তাতে
 ২-৩ টা কাঁচা মরিচ ফালি করে দিয়ে দিন। এবারে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/korolla-vaji.json</guid>
+      <guid>https://recipes.milon.im/recipe/korolla-vaji</guid>
       <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[সুজির হালুয়া]]></title>
-      <link>https://recipes.milon.im/api/recipe/sujir-halua.json</link>
+      <link>https://recipes.milon.im/recipe/sujir-halua</link>
       <description><![CDATA[সহজ নাস্তার আইটেম সুজির হালুয়া তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>সকালের নাস্তার অন্যতম উপকরণ সুজির হালুয়া তৈরির রেসিপিটা চলুন দেখে নেয়া যাক।</p>
 
@@ -4076,13 +4076,13 @@
 <p>একটা পাত্রে দুধ নিয়ে তাতে চিনি দিয়ে জ্বাল দিন। একটা বলক উঠে গেলে তাতে আগে থেকে ভেজে রাখা সুজি দিয়ে
 দিন। এবারে এতে কিশমিস দিয়ে দিন। দুধ শুকিয়ে এলে নামিয়ে নিন। ওপরে বাদাম কুচি দিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/sujir-halua.json</guid>
+      <guid>https://recipes.milon.im/recipe/sujir-halua</guid>
       <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ঘুগনি]]></title>
-      <link>https://recipes.milon.im/api/recipe/ghugni.json</link>
+      <link>https://recipes.milon.im/recipe/ghugni</link>
       <description><![CDATA[সহজেই ঘুগনি তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>ইফতার বলেন আর স্কুলের গেটের মামার দোকানই বলেন, ঘুগনির নাম শুনলেই জিহ্বে জল চলে আসে। চলুন দেখে
 নেয়া যাক সহজ ঘুগনি তৈরির রেসিপি।</p>
@@ -4112,13 +4112,13 @@
 <p>এবারে একটা বাটিতে ডাবলি সেদ্ধ নিয়ে তাতে লবন, চটপটির মসলা আর পেয়াজ কুচি দিয়ে ভালো করে মাখিয়ে নিন।
 এবারে শসা কুচি, পেয়াজ কলি কুচি, ধনে পাতা কুচি আর শুকনো মরিচের ফ্লেক দিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/ghugni.json</guid>
+      <guid>https://recipes.milon.im/recipe/ghugni</guid>
       <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[মসুর ডাল ভর্তার রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/mosur-daal-vorta.json</link>
+      <link>https://recipes.milon.im/recipe/mosur-daal-vorta</link>
       <description><![CDATA[সহজ কিন্তু অসম্ভব মজাদার মসুর ডাল ভর্তার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন খুবই সহজ কিন্তু অসম্ভব মজাদার মসুর ডাল ভর্তার রেসিপিটা দেখে নেয়া যাক।</p>
 
@@ -4145,13 +4145,13 @@
 নিয়ে তাতে ডাল ভর্তা দিয়ে ভালো করে মিশিয়ে নিন। এবার উপকরণে থাকা একটা শুকনা মরিচ ভেজে হাতে ভেঙ্গে গুড়া করে
 উপরে ছড়িয়ে দিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/mosur-daal-vorta.json</guid>
+      <guid>https://recipes.milon.im/recipe/mosur-daal-vorta</guid>
       <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[চিড়ার ডেজার্ট]]></title>
-      <link>https://recipes.milon.im/api/recipe/chirar-dessert.json</link>
+      <link>https://recipes.milon.im/recipe/chirar-dessert</link>
       <description><![CDATA[মজাদার চিড়া দিয়ে ডেজার্ট রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক খুব সহজেই সামান্য উপকরণে মজাদার চিড়া দিয়ে ডেজার্ট রান্নার রেসিপি।</p>
 
@@ -4178,13 +4178,13 @@
 দিয়ে দিন। ওপরে স্লাইস করে রাখা কলা আর আপেল দিন। এবারে খেজুরের স্লাইস, কিশমিস, কাজু বাদাম কুচি
 আর শুকনো এপ্রিকট দিয়ে সাজিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/chirar-dessert.json</guid>
+      <guid>https://recipes.milon.im/recipe/chirar-dessert</guid>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[জিঞ্জার লেমন ভেজিটেবল থাই স্যুপ]]></title>
-      <link>https://recipes.milon.im/api/recipe/ginger-lemon-vegetable-thai-soup.json</link>
+      <link>https://recipes.milon.im/recipe/ginger-lemon-vegetable-thai-soup</link>
       <description><![CDATA[ম্যাগী স্যুপ মিক্স দিয়ে সহজেই তৈরি করুন জিঞ্জার লেমন ভেজিটেবল থাই স্যুপ]]></description>
       <content:encoded><![CDATA[<p>চলুন সহজেই ম্যাগী স্যুপ মিক্স দিয়ে তৈরি করে ফেলি একদম রেস্টুরেন্টের স্বাদের জিঞ্জার লেমন ভেজিটেবল থাই স্যুপ।</p>
 
@@ -4219,13 +4219,13 @@
 <p>একবার ফুটে উঠলে তাতে টমেটো আর কাঁচা মরিচ কুচি দিয়ে দিন। ৫-৭ মিনিট রান্না করুন। সবশেষে একটা লেবুর
 খোসার জেস্ট, লেবুর রস আর ২টা লেবু পাতা দিয়ে আরও ২ মিনিট রান্না করে নামিয়ে ফেলুন। এবারে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/ginger-lemon-vegetable-thai-soup.json</guid>
+      <guid>https://recipes.milon.im/recipe/ginger-lemon-vegetable-thai-soup</guid>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[আলুর চিপস]]></title>
-      <link>https://recipes.milon.im/api/recipe/alur-chips.json</link>
+      <link>https://recipes.milon.im/recipe/alur-chips</link>
       <description><![CDATA[খুব সহজেই ঝটপট তৈরি করে ফেলুন মজাদার আলুর চিপস]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক খুব সহজেই ঝটপট মজাদার আলুর চিপস তৈরির রেসিপি।</p>
 
@@ -4248,13 +4248,13 @@
 <p>এবার একটা পাত্রে তেল নিয়ে আলুগুলো বাদামী করে ভেজে তুলে ফেলুন। আলু গরম থাকতে থাকতেই এতে লবন আর
 চাট মসলা ছিটিয়ে দিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/alur-chips.json</guid>
+      <guid>https://recipes.milon.im/recipe/alur-chips</guid>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[চাপিলা মাছ ভুনা]]></title>
-      <link>https://recipes.milon.im/api/recipe/chapila-mach-vuna.json</link>
+      <link>https://recipes.milon.im/recipe/chapila-mach-vuna</link>
       <description><![CDATA[চাপিলা মাছ ভুনা রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চাপিলা মাছ ভুনা রান্নার রেসিপিটা চলুন চট করে দেখে নেয়া যাক।</p>
 
@@ -4281,13 +4281,13 @@
 মসলা দিয়ে ভালো করে কষাতে থাকুন। প্রয়োজনে সামান্য পানি দিন। এবারে এতে ভেজে রাখা চাপিলা মাছ দিয়ে দিন।
 ৫-৭ মিনিট রান্না করুন, নামানোর আগে আগে ফালি করে কাটা কাঁচা মরিচ দিয়ে দিন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/chapila-mach-vuna.json</guid>
+      <guid>https://recipes.milon.im/recipe/chapila-mach-vuna</guid>
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ঢেঁড়স ভাজির রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/dheros-vaji.json</link>
+      <link>https://recipes.milon.im/recipe/dheros-vaji</link>
       <description><![CDATA[সহজ এবং মজাদার ঢেঁড়স ভাজির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন খুব সহজেই ঢেঁড়স ভাজি রান্নার রেসিপিটা দেখে নেয়া যাক।</p>
 
@@ -4310,13 +4310,13 @@
 থাকুন। ঢেঁড়স খুব সহজেই রান্না হয়ে যায়, খুব বেশি সময় লাগবে না। তবে ভুলেও এটাকে ঢাকতে যাবেন না, তাহলে
 ঢেঁড়সের রং নষ্ট হয়ে যাবে। এবারে নামানোর ১-২ মিনিট আগে কাঁচা মরিচ ফালি করে কেটে দিয়ে দিন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/dheros-vaji.json</guid>
+      <guid>https://recipes.milon.im/recipe/dheros-vaji</guid>
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ডিম ভর্তার রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/dim-vorta.json</link>
+      <link>https://recipes.milon.im/recipe/dim-vorta</link>
       <description><![CDATA[মজাদার ডিম ভর্তার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক সহজেই ডিম ভর্তা তৈরির রেসিপি।</p>
 
@@ -4338,13 +4338,13 @@
 নিতে পারেন। এবারে একটা পাত্রে পেয়াজ কুচি, শুকনা মরিচ ভাজা, লবন আর সরিষার তেল দিয়ে ভালো করে কচলে
 নিন। এতে ডিম দিয়ে ভালো করে মাখিয়ে নিয়ে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/dim-vorta.json</guid>
+      <guid>https://recipes.milon.im/recipe/dim-vorta</guid>
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[লেবু রুই]]></title>
-      <link>https://recipes.milon.im/api/recipe/lebu-rui.json</link>
+      <link>https://recipes.milon.im/recipe/lebu-rui</link>
       <description><![CDATA[লেবু দিয়ে রুই মাছ রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেই লেবু দিয়ে রুই মাছ রান্নার রেসিপি।</p>
 
@@ -4375,13 +4375,13 @@
 
 <p>গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/lebu-rui.json</guid>
+      <guid>https://recipes.milon.im/recipe/lebu-rui</guid>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[বেগুনী]]></title>
-      <link>https://recipes.milon.im/api/recipe/beguni.json</link>
+      <link>https://recipes.milon.im/recipe/beguni</link>
       <description><![CDATA[সহজে বেগুনী তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>বেগুনী ইফতারের অপরিহার্য অঙ্গ। চলুন সহজেই বেগুনী তৈরির রেসিপি জেনে নেই।</p>
 
@@ -4407,13 +4407,13 @@
 প্যানকেকের ব্যাটারের মত মিশ্রন তৈরি করুন। লক্ষ্য রাখুন ব্যাটারে যেন কোন দানা না থাকে। এবারে মাঝারি আঁচে
 ডুবো তেলে বেগুনগুলোকে ব্যাটারে ডুবিয়ে ভেজে নিন। গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/beguni.json</guid>
+      <guid>https://recipes.milon.im/recipe/beguni</guid>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ডিম চপ]]></title>
-      <link>https://recipes.milon.im/api/recipe/dim-chop.json</link>
+      <link>https://recipes.milon.im/recipe/dim-chop</link>
       <description><![CDATA[ডিম চপ তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক ডিম চপ তৈরির রেসিপি।</p>
 
@@ -4442,13 +4442,13 @@
 প্যানকেকের ব্যাটারের মত মিশ্রন তৈরি করুন। লক্ষ্য রাখুন ব্যাটারে যেন কোন দানা না থাকে। এবারে মাঝারি আঁচে
 ডুবো তেলে চপগুলো ব্যাটারে ডুবিয়ে ভেজে নিন। গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/dim-chop.json</guid>
+      <guid>https://recipes.milon.im/recipe/dim-chop</guid>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[মুচমুচে করল্লা ভাজা]]></title>
-      <link>https://recipes.milon.im/api/recipe/crispy-korolla-vaja.json</link>
+      <link>https://recipes.milon.im/recipe/crispy-korolla-vaja</link>
       <description><![CDATA[খুব সহজে মুচমুচে করল্লা ভাজার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>করল্লা খুবই স্বাস্থ্যকর একটা খাবার। চলুন আজ দেখে নেই ভিন্নধর্মী মুচমুচে করল্লা ভাজার রেসিপি।</p>
 
@@ -4472,13 +4472,13 @@
 
 <p>গরম গরম ভাতের সাথে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/crispy-korolla-vaja.json</guid>
+      <guid>https://recipes.milon.im/recipe/crispy-korolla-vaja</guid>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ডিমের সেমাই]]></title>
-      <link>https://recipes.milon.im/api/recipe/dimer-semai.json</link>
+      <link>https://recipes.milon.im/recipe/dimer-semai</link>
       <description><![CDATA[অসম্ভব মজাদার ডিমের সেমাই রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক অসম্ভব মজাদার ডিমের সেমাই রান্নার রেসিপি।</p>
 
@@ -4505,13 +4505,13 @@
 গেলে চুলার আঁচ কমিয়ে দিন। এবারে আগে থেকে ফেটিয়ে রাখা ডিম আস্তে আস্তে দুধে মেশাতে থাকুন আর একটা
 হুইস্ক দিয়ে অনবরত নাড়তে থাকুন। ডিম সেদ্ধ হয়ে মিশ্রণটি ঘন হওয়া পর্যন্ত অল্প আঁচে রান্না করুন। সবশেষে বাদাম কুচি আর কিশমিস দিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/dimer-semai.json</guid>
+      <guid>https://recipes.milon.im/recipe/dimer-semai</guid>
       <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[দই বড়া]]></title>
-      <link>https://recipes.milon.im/api/recipe/doi-bora.json</link>
+      <link>https://recipes.milon.im/recipe/doi-bora</link>
       <description><![CDATA[সুজি দিয়ে সহজেই দই বড়া তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>দই বড়া নামটা শুনলেই জিহ্বে জল চলে আসে। চলুন কিভাবে খুব সহজেই সুজি দিয়ে মজাদার দই বড়া তৈরি করতে
 পারবেন সেটা জেনে নেয়া যাক।</p>
@@ -4554,13 +4554,13 @@
 এবার উপরে আগে থেকে তৈরি করে রাখা দইয়ের ড্রেসিংটা দিয়ে দিন। এরপর উপরে তেঁতুলের সস আর কাঁচামরিচ-ধনেপাতা
 বাটা দিয়ে ধনেপাতা কুচি ছিটিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/doi-bora.json</guid>
+      <guid>https://recipes.milon.im/recipe/doi-bora</guid>
       <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[বেলের শরবত]]></title>
-      <link>https://recipes.milon.im/api/recipe/beler-sorbot.json</link>
+      <link>https://recipes.milon.im/recipe/beler-sorbot</link>
       <description><![CDATA[দারুন মজাদার বেলের শরবত তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>গরমে বেলের শরবত এনে দিতে পারে প্রশান্তি। এছাড়া এটা আপনার পেটের জন্যও অনেক ভালো। চলুন খুবই সহজে
 বেলের শরবত তৈরির উপায় জেনে নেই।</p>
@@ -4583,13 +4583,13 @@
 এটা ছেঁকে বাকি ২৫০ মিলি পানি ও ১ টা লেবুর রস দিয়ে দিন। স্বাদমতো চিনি যোগ করে নাড়তে থাকুন। এবারে বরফকুচিসহ ঠান্ডা ঠান্ডা
 পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/beler-sorbot.json</guid>
+      <guid>https://recipes.milon.im/recipe/beler-sorbot</guid>
       <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[সুজির বড়া]]></title>
-      <link>https://recipes.milon.im/api/recipe/sujir-bora.json</link>
+      <link>https://recipes.milon.im/recipe/sujir-bora</link>
       <description><![CDATA[মজাদার সুজির বড়া তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>আজকে আপনাদের দেখাবো একটু ব্যতিক্রম কিন্তু খুবই সহজ সুজির বড়া তৈরির রেসিপি। চলুন শুরু করা যাক।</p>
 
@@ -4615,13 +4615,13 @@
 সুজি ফুলে নরম হয়ে যাবে। এবার এতে বাকি সব উপকরণ মিশিয়ে ভালো করে মেখে নিন। সবশেষে মাঝারি আঁচে
 ডুবো তেলে ছোট ছোট বড়ার আকৃতিতে বাদামী করে ভেজে নিন। গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/sujir-bora.json</guid>
+      <guid>https://recipes.milon.im/recipe/sujir-bora</guid>
       <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[চালকুমড়া ভাজির রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/chalkumra-vaji.json</link>
+      <link>https://recipes.milon.im/recipe/chalkumra-vaji</link>
       <description><![CDATA[খুব সহজে চালকুমড়া ভাজির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক খুব সহজেই চালকুমড়া ভাজি রান্নার রেসিপি।</p>
 
@@ -4649,13 +4649,13 @@
 এটা সেদ্ধ হয়ে যাবে। এবারে পানি শুকিয়ে যাওয়া পর্যন্ত অপেক্ষা করুন। পানি প্রায় শুকিয়ে এলে এতে কয়েকটা কাঁচামরিচ
 মাঝখানে ফালি করে দিয়ে দিন। ২-৩ মিনিট পর নামিয়ে ফেলুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/chalkumra-vaji.json</guid>
+      <guid>https://recipes.milon.im/recipe/chalkumra-vaji</guid>
       <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ঢেঁড়স ভর্তা]]></title>
-      <link>https://recipes.milon.im/api/recipe/dheros-vorta.json</link>
+      <link>https://recipes.milon.im/recipe/dheros-vorta</link>
       <description><![CDATA[সহজ এবং মজাদার ঢেঁড়স ভর্তার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন খুব সহজেই ঢেঁড়স ভর্তার রেসিপিটা দেখে নেয়া যাক।</p>
 
@@ -4680,13 +4680,13 @@
 মরিচ ভাজা ও লবন দিয়ে ভালো করে চটকে নিন। এবারে আগে থেকে ভর্তা করে রাখা ঢেঁড়স নিয়ে আবারো ভালো করে
 মাখিয়ে নিন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/dheros-vorta.json</guid>
+      <guid>https://recipes.milon.im/recipe/dheros-vorta</guid>
       <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[রুহ আফজার শরবত]]></title>
-      <link>https://recipes.milon.im/api/recipe/ruh-afzar-sorbot.json</link>
+      <link>https://recipes.milon.im/recipe/ruh-afzar-sorbot</link>
       <description><![CDATA[দারুন মজাদার রুহ আফজার শরবত তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>রুহ আফজা অত্যন্ত স্বাস্থ্যকর একটা পানীয়। চলুন রুহ আফজার শরবত বানানোর পদ্ধতিটি জেনে নেই।</p>
 
@@ -4706,13 +4706,13 @@
 <p>একটা পাত্রে ৫০০ মিলি পানি নিয়ে তাতে ২ টেবিল চামচ রুহ আফজা, ১ চা চামচ লেবুর রস, স্বাদমতো চিনি দিয়ে
 ভালো করে গুলিয়ে নিন। এবারে বরফকুচি দিয়ে ঠান্ডা ঠান্ডা পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/ruh-afzar-sorbot.json</guid>
+      <guid>https://recipes.milon.im/recipe/ruh-afzar-sorbot</guid>
       <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[মেডিটেরিয়ান ডিস: সাকশুকা (Shakshouka)]]></title>
-      <link>https://recipes.milon.im/api/recipe/shakshouka.json</link>
+      <link>https://recipes.milon.im/recipe/shakshouka</link>
       <description><![CDATA[মধ্যপ্রাচ্যের ঐতিহ্যবাহী রেসিপি সাকশুকা তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>মধ্যপ্রাচ্যের ঐতিহ্যবাহী আর জনপ্রিয় নাস্তার রেসিপি হচ্ছে সাকশুকা। চলুন সহজেই কিভাবে এটা তৈরি করা যায় সেটা
 শিখে নেই।</p>
@@ -4749,13 +4749,13 @@
 ঢেকে দিয়ে রান্না করতে থাকুন। ডিম রান্না হয়ে গেলে ডিমের উপর গোলমরিচের গুড়া ছিটিয়ে দিন এবং গরম গরম পরিবেশন
 করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/shakshouka.json</guid>
+      <guid>https://recipes.milon.im/recipe/shakshouka</guid>
       <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ক্রোয়েশিয়ান কাবাব: চেভাপচিচি (ćevapčići)]]></title>
-      <link>https://recipes.milon.im/api/recipe/cevapcici.json</link>
+      <link>https://recipes.milon.im/recipe/cevapcici</link>
       <description><![CDATA[খুব সহজেই তৈরি করে ফেলুন বলকান অঞ্চলের জনপ্রিয় কাবাব চেভাপচিচি]]></description>
       <content:encoded><![CDATA[<p>এই রেসিপি আমি পেয়েছি আমার ক্রোয়েট কলিগ Jan এর কাছ থেকে। ইউরোপের বলকান অঞ্চলে এই রেসিপিটি খুবই
 জনপ্রিয়। চলুন দেখে নেয়া যাক রেসিপিটা। এটা আসলে স্কিনছাড়া সসেজ, এটা চেভাপি (ćevapi) নামেও পরিচিত।</p>
@@ -4783,13 +4783,13 @@
 <p>এবারে একটি পাত্রে তেল নিয়ে কাবাবগুলো মাঝারি আঁচে ভেজে নিন। আপনি চাইলে এগুলো গ্রিলও করতে পারেন। গরম
 গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/cevapcici.json</guid>
+      <guid>https://recipes.milon.im/recipe/cevapcici</guid>
       <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[গরুর মাংসের স্টু]]></title>
-      <link>https://recipes.milon.im/api/recipe/beef-stu.json</link>
+      <link>https://recipes.milon.im/recipe/beef-stu</link>
       <description><![CDATA[গরুর মাংসের সাদা স্টু তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>এটা আমার মায়ের রেসিপি। আমার সবচেয়ে পছন্দের গরুর মাংসের ডিস। গরম গরম পরটার সাথে খেলে বেহেস্তি খানা
 বলে মনে হয়। চলুন রেসিপিটা দেখে নেয়া যাক।</p>
@@ -4831,13 +4831,13 @@
 <p>মাংস সেদ্ধ হয়ে গেলে এবং পানি শুকিয়ে গেলে উপরে সামান্য ভাজা জিরার গুড়া ছিটিয়ে দিন, এবং গরম গরম
 পরোটার সাথে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/beef-stu.json</guid>
+      <guid>https://recipes.milon.im/recipe/beef-stu</guid>
       <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[বাঁধাকপি ভাজির রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/badhakopi-vaji.json</link>
+      <link>https://recipes.milon.im/recipe/badhakopi-vaji</link>
       <description><![CDATA[সুস্বাদু এবং স্বাস্থ্যকর বাঁধাকপি ভাজির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>বাঁধাকপি খুবই স্বাস্থ্যকর একটা সবজি। চলুন কিভাবে খুব সহজেই বাঁধাকপি ভাজি রান্না করা যায় সেটা দেখে নেই।</p>
 
@@ -4863,13 +4863,13 @@
 নেড়ে নিন। এবার এতে বাঁধাকপি কুচি দিয়ে দিন। বাঁধাকপি খুব তাড়াতাড়িই সেদ্ধ হয়ে যাবে। সেদ্ধ হয়ে এলে কয়েকটা
 কাঁচামরিচ মাঝখানে চিরে দিয়ে দিন। নামানোর আগে ধনেপাতা ছিটিয়ে দিন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/badhakopi-vaji.json</guid>
+      <guid>https://recipes.milon.im/recipe/badhakopi-vaji</guid>
       <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[শিম, আলু দিয়ে রুই মাছের তরকারি]]></title>
-      <link>https://recipes.milon.im/api/recipe/sim-alu-rui-macher-torkari.json</link>
+      <link>https://recipes.milon.im/recipe/sim-alu-rui-macher-torkari</link>
       <description><![CDATA[শিম, টমেটো আর আলু দিয়ে রুই মাছের তরকারির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>শীতের সবজি দিয়ে রুই মাছের ঝোল খুব মজার তরকারী। চলুন খুব সহজেই শিখে নেয়া যাক রেসিপিটা।</p>
 
@@ -4900,13 +4900,13 @@
 আর শিম সেদ্ধ হয়ে যাবে এবং টমেটো নরম হয়ে ঝোল মাখা মাখা হয়ে যাবে। এ অবস্থায় ভাজা মাছ ও কাঁচা মরিচ দিয়ে আরো
 ২-৩ মিনিট রান্না করুন। সবশেষে উপরে ধনে পাতা ছিটিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/sim-alu-rui-macher-torkari.json</guid>
+      <guid>https://recipes.milon.im/recipe/sim-alu-rui-macher-torkari</guid>
       <pubDate>Sat, 02 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ডিমের ওমলেট]]></title>
-      <link>https://recipes.milon.im/api/recipe/omlet.json</link>
+      <link>https://recipes.milon.im/recipe/omlet</link>
       <description><![CDATA[সহজেই ডিমের ওমলেট তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>সকালের নাস্তায় ওমলেট যেন এক অবিচ্ছেদ্য অংশ। চলুন সহজে মজাদার ওমলেট তৈরির রেসিপি জেনে নেই।</p>
 
@@ -4936,13 +4936,13 @@
 <p>এবারে একটা প্যানে বাটার নিয়ে তা গলে যাওয়া পর্যন্ত অপেক্ষা করুন। এবার ডিমের মিশ্রনটি তাতে মাঝারি আঁচে ভেজে
 নিন। এক পাশ জমে গেলে উল্টে অন্য পাশটিও ভেজে নিন। এবারে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/omlet.json</guid>
+      <guid>https://recipes.milon.im/recipe/omlet</guid>
       <pubDate>Sat, 02 May 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[তরমুজের শরবত]]></title>
-      <link>https://recipes.milon.im/api/recipe/tormujer-sorbot.json</link>
+      <link>https://recipes.milon.im/recipe/tormujer-sorbot</link>
       <description><![CDATA[দারুন মজাদার তরমুজের শরবত তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>গরমে তরমুজের শরবত এনে দিতে পারে প্রশান্তি। চলুন খুবই সহজে তরমুজের শরবত তৈরির উপায় জেনে নেই।</p>
 
@@ -4962,13 +4962,13 @@
 <p>ব্লেন্ডারে ছোট ছোট টুকরো করে কাটা তরমুজ আর ঠান্ডা পানি নিয়ে ভাল করে ব্লেন্ড করুন। আপনি চাইলে স্বাদমতো চিনি
 যোগ করতে পারেন। এবারে বরফকুচি দিয়ে ঠান্ডা পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/tormujer-sorbot.json</guid>
+      <guid>https://recipes.milon.im/recipe/tormujer-sorbot</guid>
       <pubDate>Wed, 29 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[চিংড়ি পোলাও]]></title>
-      <link>https://recipes.milon.im/api/recipe/chingri-polaw.json</link>
+      <link>https://recipes.milon.im/recipe/chingri-polaw</link>
       <description><![CDATA[অসম্ভব মজাদার চিংড়ি পোলাও তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>আসুন কিভাবে রাধুনী বিরিয়ানি মিক্স দিয়ে ঝটপট তৈরি করে ফেলতে পারবেন চিংড়ি পোলাও, সেটা দেখে নেয়া যাক।</p>
 
@@ -5009,13 +5009,13 @@
 ১০ মিনিটের জন্যে দমে রেখে দিতে হবে। এই ১০ মিনিটে ৩-৪ বার চিংড়ি পোলাও ওলট-পালট করে দিতে হবে। ব্যস
 তৈরি হয়ে গেল মজাদার চিংড়ি পোলাও।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/chingri-polaw.json</guid>
+      <guid>https://recipes.milon.im/recipe/chingri-polaw</guid>
       <pubDate>Wed, 29 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[জিলাপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/jilapi.json</link>
+      <link>https://recipes.milon.im/recipe/jilapi</link>
       <description><![CDATA[ঐতিহ্যবাহী জিলাপি তৈরির সহজ রেসিপি]]></description>
       <content:encoded><![CDATA[<p>ইফতার যেন জিলাপি ছাড়া জমেই না। আর রাস্তার পাশের গরম গরম জিলাপির কথা মনে হলেই জিহ্বে জল চলে আসে।
 চলুন খুব সহজেই জিলাপি তৈরির রেসিপি শিখে নেই।</p>
@@ -5051,13 +5051,13 @@
 হয়ে গেলে তা আগে থেকে তৈরি করে রাখা চিনির সিরায় ডুবিয়ে দিন। সিরাতে ৪-৫ মিনিট ডুবে থাকার পরে একটা পাত্রে
 তুলে রাখুন আর গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/jilapi.json</guid>
+      <guid>https://recipes.milon.im/recipe/jilapi</guid>
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ম্যাংগো লাচ্ছি]]></title>
-      <link>https://recipes.milon.im/api/recipe/mango-lacchi.json</link>
+      <link>https://recipes.milon.im/recipe/mango-lacchi</link>
       <description><![CDATA[দারুন মজাদার ম্যাংগো লাচ্ছি তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>গরমে বা ইফতারে লাচ্ছির কোন তুলনাই হয় না। আর সেটাও যদি হয় ম্যাংগো লাচ্ছি তাহলে তো কথাই নেই। চলুন
 খুব সহজ এ রেসিপিটা দেখে নেই।</p>
@@ -5081,13 +5081,13 @@
 <p>ব্লেন্ডারে দই, টুকরো করে কাটা আম আর ঠান্ডা পানি নিয়ে ভাল করে ব্লেন্ড করুন। আপনি চাইলে স্বাদমতো চিনি
 যোগ করতে পারেন। এবারে বরফকুচি দিয়ে ঠান্ডা পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/mango-lacchi.json</guid>
+      <guid>https://recipes.milon.im/recipe/mango-lacchi</guid>
       <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[মুরগীর রোস্ট]]></title>
-      <link>https://recipes.milon.im/api/recipe/murgir-roast.json</link>
+      <link>https://recipes.milon.im/recipe/murgir-roast</link>
       <description><![CDATA[অসম্ভব মজাদার মুরগীর রোস্ট তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>বিয়ে বাড়ীর খাবারের কথা মনে পড়লেই প্রথমেই মনে পড়ে মুরগীর রোস্টের কথা। চলুন কিভাবে খুব সহজেই রাধুনী
 মুরগীর রোস্টের মশলা দিয়ে রোস্ট তৈরি করবেন, সেটা জেনে নেই।</p>
@@ -5119,13 +5119,13 @@
 পুরোপুরি সেদ্ধ হয়ে যায়। এবারে এতে ৫-৬ টি কাঁচা মরিচ দিয়ে দিন। ৩-৪ মিনিট পরে নামানোর ঠিক আগমুহূর্তে
 পেয়াজ বেরেস্তা দিয়ে দিন। এবারে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/murgir-roast.json</guid>
+      <guid>https://recipes.milon.im/recipe/murgir-roast</guid>
       <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[কালো জিরা ভর্তা]]></title>
-      <link>https://recipes.milon.im/api/recipe/kalo-jira-vorta.json</link>
+      <link>https://recipes.milon.im/recipe/kalo-jira-vorta</link>
       <description><![CDATA[খুব সহজে কালো জিরা ভর্তার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>কালো জিরার ভর্তা স্বাদে যেমন অনন্য তেমনি খুবই স্বাস্থ্যকর। চলুন খুবই সহজ এ রেসিপিটা দেখে নেয়া যাক।</p>
 
@@ -5150,13 +5150,13 @@
 
 <p>এবারে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/kalo-jira-vorta.json</guid>
+      <guid>https://recipes.milon.im/recipe/kalo-jira-vorta</guid>
       <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[আলুর চপ]]></title>
-      <link>https://recipes.milon.im/api/recipe/alur-chop.json</link>
+      <link>https://recipes.milon.im/recipe/alur-chop</link>
       <description><![CDATA[আলুর চপ তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>আলুর চপ ছাড়া ইফতার যেন পরিপূর্ণই হয় না। চলুন সহজে আলুর চপ তৈরির রেসিপি জেনে নেই।</p>
 
@@ -5184,13 +5184,13 @@
 প্যানকেকের ব্যাটারের মত মিশ্রন তৈরি করুন। লক্ষ্য রাখুন ব্যাটারে যেন কোন দানা না থাকে। এবারে মাঝারি আঁচে
 ডুবো তেলে চপগুলো ব্যাটারে ডুবিয়ে ভেজে নিন। গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/alur-chop.json</guid>
+      <guid>https://recipes.milon.im/recipe/alur-chop</guid>
       <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[মিষ্টির রেসিপি: গোলাপজাম]]></title>
-      <link>https://recipes.milon.im/api/recipe/misti-golapjam.json</link>
+      <link>https://recipes.milon.im/recipe/misti-golapjam</link>
       <description><![CDATA[গোলাপজাম মিষ্টি তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক অসম্ভব মজাদার ঐতিহ্যবাহী গোলাপজাম তৈরির রেসিপি।</p>
 
@@ -5226,13 +5226,13 @@
 
 <p>মিষ্টি ভাজা হয়ে গেলে এটাকে চিনির সিরার মধ্যে ডুবিয়ে দিন। কমপক্ষে ১ ঘন্টা সিরায় ডুবিয়ে তারপর পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/misti-golapjam.json</guid>
+      <guid>https://recipes.milon.im/recipe/misti-golapjam</guid>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ম্যাংগো মিল্ক শেক]]></title>
-      <link>https://recipes.milon.im/api/recipe/mango-milk-shake.json</link>
+      <link>https://recipes.milon.im/recipe/mango-milk-shake</link>
       <description><![CDATA[দারুন মজাদার ম্যাংগো মিল্ক শেক তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>আমার খুব পছন্দের একটা পানীয় হচ্ছে ম্যাংগো মিল্ক শেক। চলুন রেসিপিটা জেনে নেয়া যাক।</p>
 
@@ -5256,13 +5256,13 @@
 
 <p>সবশেষে বরফ কুচি সহ পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/mango-milk-shake.json</guid>
+      <guid>https://recipes.milon.im/recipe/mango-milk-shake</guid>
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[মুগ ডালে গরুর মাংসের ভুনা]]></title>
-      <link>https://recipes.milon.im/api/recipe/mug-daale-beef-vuna.json</link>
+      <link>https://recipes.milon.im/recipe/mug-daale-beef-vuna</link>
       <description><![CDATA[মুগ ডাল দিয়ে গরুর মাংসের ভুনা রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>পরটার সাথে মুগ ডাল দিয়ে গরুর মাংসের ভুনার কোন তুলনাই হয় না। চলুন রেসিপিটা দেখে নেই।</p>
 
@@ -5306,13 +5306,13 @@
 <p>মাংস প্রায় সেদ্ধ হয়ে গেলে তাতে পরিমাণমতো পানি দিন। এবার এতে মুগ ডাল দিয়ে দিন। ডাল ও মাংস সেদ্ধ হওয়া পর্যন্ত
 রান্না করুন। ডাল সেদ্ধ হয়ে গেলে নামানোর ৪-৫ মিনিট আগে কাঁচামরিচ দিয়ে দিন। নামানোর আগে ভাজা জিরার গুড়া ছড়িয়ে দিন। এবার পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/mug-daale-beef-vuna.json</guid>
+      <guid>https://recipes.milon.im/recipe/mug-daale-beef-vuna</guid>
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ছোলা]]></title>
-      <link>https://recipes.milon.im/api/recipe/chola.json</link>
+      <link>https://recipes.milon.im/recipe/chola</link>
       <description><![CDATA[ছোলা রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>রমজানে ইফতারের একটা অবিচ্ছেদ্য অংশ হচ্ছে ছোলা। চলুন জেনে নেই ছোলা রান্নার রেসিপি।</p>
 
@@ -5346,13 +5346,13 @@
 ছোলা দিয়ে দিন। ভালো করে ১০-১২ মিনিট রান্না করুন। এবার এতে কাঁচা মরিচ দিয়ে আরো ২-৩ মিনিট রান্না
 করুন। নামানোর ঠিক আগ মুহুর্তে ধনে পাতা ছিটিয়ে দিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/chola.json</guid>
+      <guid>https://recipes.milon.im/recipe/chola</guid>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[দেশি স্টাইলে ভেজিটেবল পাস্তা]]></title>
-      <link>https://recipes.milon.im/api/recipe/deshi-vagetable-pasta.json</link>
+      <link>https://recipes.milon.im/recipe/deshi-vagetable-pasta</link>
       <description><![CDATA[দেশি স্টাইলে মিক্সড ভেজিটেবল পাস্তার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>দেখে নিন সম্পূর্ণ দেশি স্বাদের মিক্সড ভেজিটেবল পাস্তা তৈরির রেসিপি।</p>
 
@@ -5383,13 +5383,13 @@
 
 <p>এবারে এতে ২ টা ডিম ভেঙ্গে দিয়ে দিন। এরপর পাস্তা দিয়ে দিন এবং মিনিট পাঁচেক নাড়তে থাকুন। এবারে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/deshi-vagetable-pasta.json</guid>
+      <guid>https://recipes.milon.im/recipe/deshi-vagetable-pasta</guid>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ঝাল ডিমের পিঠা]]></title>
-      <link>https://recipes.milon.im/api/recipe/jhal-dimer-pitha.json</link>
+      <link>https://recipes.milon.im/recipe/jhal-dimer-pitha</link>
       <description><![CDATA[খুবই সহজ এবং মজাদার ঝাল ডিমের পিঠা]]></description>
       <content:encoded><![CDATA[<p>ঝাল ডিমের পিঠাকে অনেকে ঝাল পোয়া পিঠাও বলে। চলুন রেসিপিটা দেখে নেয়া যাক।</p>
 
@@ -5416,13 +5416,13 @@
 
 <p>এবার ডুবো তেলে মাঝারি আঁচে একটা একটা করে পিঠা ভেজে নিন এবং গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/jhal-dimer-pitha.json</guid>
+      <guid>https://recipes.milon.im/recipe/jhal-dimer-pitha</guid>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[মেথি শিংয়ের ঝোল]]></title>
-      <link>https://recipes.milon.im/api/recipe/methi-shinger-jhol.json</link>
+      <link>https://recipes.milon.im/recipe/methi-shinger-jhol</link>
       <description><![CDATA[মেথি দিয়ে শিং মাছের ঝোলের রেসিপি]]></description>
       <content:encoded><![CDATA[<p>মেথি দিয়ে শিং মাছের ঝোল রান্নার রেসিপিটা দেখে নিন।</p>
 
@@ -5450,13 +5450,13 @@
 
 <p>৫-৭ মিনিট রান্না করে আস্ত কাঁচামরিচ দিয়ে দিন। এবারে নামিয়ে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/methi-shinger-jhol.json</guid>
+      <guid>https://recipes.milon.im/recipe/methi-shinger-jhol</guid>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[টমেটো রুই মাছের তরকারি]]></title>
-      <link>https://recipes.milon.im/api/recipe/tomato-rui-macher-torkari.json</link>
+      <link>https://recipes.milon.im/recipe/tomato-rui-macher-torkari</link>
       <description><![CDATA[টমেটো আর আলু দিয়ে রুই মাছের তরকারির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>রুই মাছের ঝোল খুব মজার তরকারী। চলুন খুব সহজেই শিখে নেয়া যাক রেসিপিটা।</p>
 
@@ -5487,13 +5487,13 @@
 
 <p>সবশেষে উপরে ধনে পাতা ছিটিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/tomato-rui-macher-torkari.json</guid>
+      <guid>https://recipes.milon.im/recipe/tomato-rui-macher-torkari</guid>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[মসুর ডাল দিয়ে পাট শাকের বড়া]]></title>
-      <link>https://recipes.milon.im/api/recipe/moshur-dal-paat-saaker-bora.json</link>
+      <link>https://recipes.milon.im/recipe/moshur-dal-paat-saaker-bora</link>
       <description><![CDATA[মসুর ডাল দিয়ে পাট শাকের বড়া তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেই, খুব সহজেই মসুর ডাল দিয়ে পাট শাকের বড়া তৈরির রেসিপি।</p>
 
@@ -5519,13 +5519,13 @@
 
 <p>এবারে ডুবো তেলে ভেজে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/moshur-dal-paat-saaker-bora.json</guid>
+      <guid>https://recipes.milon.im/recipe/moshur-dal-paat-saaker-bora</guid>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[সালাদ]]></title>
-      <link>https://recipes.milon.im/api/recipe/salad.json</link>
+      <link>https://recipes.milon.im/recipe/salad</link>
       <description><![CDATA[খুবই সাধারণ কিন্তু স্বাস্থ্যকর সালাদের রেসিপি]]></description>
       <content:encoded><![CDATA[<p>সালাদ আমরা কমবেশি সবাই খাই। চলুন দেখে নেয়া যাক সহজে সালাদ তৈরির রেসিপি।</p>
 
@@ -5552,13 +5552,13 @@
 <p>এবারে পাত্রে পেয়াজ আর কাঁচা মরিচ কুচি নিয়ে লবন দিয়ে কচলে নিন। এবারে বাকি সব উপকরণ যোগ করে ভালো
 করে মাখিয়ে নিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/salad.json</guid>
+      <guid>https://recipes.milon.im/recipe/salad</guid>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[শিম আলুর ভর্তা]]></title>
-      <link>https://recipes.milon.im/api/recipe/sim-alur-vorta.json</link>
+      <link>https://recipes.milon.im/recipe/sim-alur-vorta</link>
       <description><![CDATA[খুব সহজ ও মজাদার শিম আলুর ভর্তা রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেই মজাদার শিম আলুর ভর্তার রেসিপি।</p>
 
@@ -5584,13 +5584,13 @@
 <p>এবারে আলুও সেদ্ধ করে ভালো করে চটকে নিন। এবারে ব্লেন্ডার থেকে বাকি ভর্তা নামিয়ে সামান্য সরষার তেল আর
 ধনে পাতা কুচির সাথে চটকে রাখা আলু মিশিয়ে ভালো করে মেখে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/sim-alur-vorta.json</guid>
+      <guid>https://recipes.milon.im/recipe/sim-alur-vorta</guid>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[টমেটো আলুর ভর্তা]]></title>
-      <link>https://recipes.milon.im/api/recipe/tomato-alur-vorta.json</link>
+      <link>https://recipes.milon.im/recipe/tomato-alur-vorta</link>
       <description><![CDATA[খুব সহজেই শিখে নিন মজাদার টমেটো আলুর ভর্তার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেই খুব সহজ টমেটো আলুর ভর্তার রেসিপি।</p>
 
@@ -5619,13 +5619,13 @@
 <p>এবারে বাটিতে পেয়াজ কুচি, ধনে পাতা কুচি, কাঁচামরিচ কুচি, সরিষার তেল আর লবন দিয়ে ভালো করে চটকে নিন।
 এবারে এটাকে সেদ্ধ টমেটো আর আলুর সাথে ভালো করে চটকে ভর্তা করে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/tomato-alur-vorta.json</guid>
+      <guid>https://recipes.milon.im/recipe/tomato-alur-vorta</guid>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[লাচ্ছি]]></title>
-      <link>https://recipes.milon.im/api/recipe/lacchi.json</link>
+      <link>https://recipes.milon.im/recipe/lacchi</link>
       <description><![CDATA[দারুন মজাদার লাচ্ছি তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>গরমে বা ইফতারে লাচ্ছির কোন তুলনাই হয় না। চলুন খুব সহজ এ রেসিপিটা দেখে নেই।</p>
 
@@ -5645,13 +5645,13 @@
 <p>ব্লেন্ডারে দই আর ঠান্ডা পানি নিয়ে ভাল করে ব্লেন্ড করুন। আপনি চাইলে স্বাদমতো চিনি যোগ করতে পারেন। এবারে
 বরফকুচি দিয়ে ঠান্ডা পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/lacchi.json</guid>
+      <guid>https://recipes.milon.im/recipe/lacchi</guid>
       <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[আলু ভর্তার রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/alu-vorta.json</link>
+      <link>https://recipes.milon.im/recipe/alu-vorta</link>
       <description><![CDATA[মজাদার আলু ভর্তার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন সহজ আর সাধারণ আলু ভর্তার রেসিপি দেখে নেয়া যাক।</p>
 
@@ -5674,13 +5674,13 @@
 নিন। এবারে একটা পাত্রে তেল নিয়ে তাতে পেয়াজ কুচি দিয়ে দিন। পেয়াজ সামান্য বাদামী হয়ে এলে তাতে আলু ভর্তা,
 কাঁচা মরিচ, ধনে পাতা আর স্বাদমতো লবন দিয়ে দিন। ভাজা হয়ে গেলে নামিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/alu-vorta.json</guid>
+      <guid>https://recipes.milon.im/recipe/alu-vorta</guid>
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[মোঘলাই পরটা]]></title>
-      <link>https://recipes.milon.im/api/recipe/moghlai-porata.json</link>
+      <link>https://recipes.milon.im/recipe/moghlai-porata</link>
       <description><![CDATA[দেশী জনপ্রিয় নাস্তা মোঘলাই পরটার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>বাংলাদেশে থাকাকালীন সময়ে প্রায়শই বিকালে হোটেলে গিয়ে মোঘলাই পরটা খাওয়া হতো। এখানে যেহেতু হোটেলে গিয়ে
 খাওয়ার সুযোগটা নেই, চলুন ঘরেই বানিয়ে ফেলি মজাদার মোঘলাই পরটা।</p>
@@ -5717,13 +5717,13 @@
 <p>অল্প আঁচে বাদামী করে ভেজে নামিয়ে নিন। এবারে দোকানের মত ছোট ছোট টুকরা করে টমেটোর সস এবং সালাদ সহ
 গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/moghlai-porata.json</guid>
+      <guid>https://recipes.milon.im/recipe/moghlai-porata</guid>
       <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[পাট শাক ভাজি]]></title>
-      <link>https://recipes.milon.im/api/recipe/paat-saak-vaji.json</link>
+      <link>https://recipes.milon.im/recipe/paat-saak-vaji</link>
       <description><![CDATA[পাট শাক ভাজির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক, দারুন মজাদার পাট শাক ভাজি।</p>
 
@@ -5747,13 +5747,13 @@
 <p>একটি পাত্রে তেল দিয়ে তাতে পেয়াজ কুচি, রসুন কুচি, লবন আর শুকনা মরিচ দিয়ে দিন। পেয়াজ প্রায় ভাজা হয়ে
 আসলে তাতে পাট শাক দিয়ে দিন। ১-২ মিনিট রান্না করে নামিয়ে ফেলুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/paat-saak-vaji.json</guid>
+      <guid>https://recipes.milon.im/recipe/paat-saak-vaji</guid>
       <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[বাইলা মাছের তরকারি]]></title>
-      <link>https://recipes.milon.im/api/recipe/baila-macher-torkari.json</link>
+      <link>https://recipes.milon.im/recipe/baila-macher-torkari</link>
       <description><![CDATA[টমেটো দিয়ে বাইলা মাছের তরকারির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>ছোট মাছ খেতে যারা ভালবাসেন, তাদের জন্য আজকের আয়োজন টমেটো দিয়ে বাইলা মাছের তরকারি।</p>
 
@@ -5780,13 +5780,13 @@
 পানি দিয়ে ঢেকে দিন। বাইলা মাছ খুব সহজেই সেদ্ধ হয়ে যায়। টমেটো থেকেও পানি বের হবে। পানি প্রায় শুকিয়ে তরকারি
 মাখা মাখা হয়ে এলে কাঁচা মরিচ দিয়ে আরো ২-৩ মিনিট রান্না করে নামিয়ে নিন। গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/baila-macher-torkari.json</guid>
+      <guid>https://recipes.milon.im/recipe/baila-macher-torkari</guid>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[বেগুন দিয়ে স্যামন মাছের তরকারি]]></title>
-      <link>https://recipes.milon.im/api/recipe/begun-salmoner-torkari.json</link>
+      <link>https://recipes.milon.im/recipe/begun-salmoner-torkari</link>
       <description><![CDATA[আলু আর বেগুন দিয়ে স্যামন মাছের তরকারির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক আলু আর বেগুন দিয়ে স্যামন মাছের তরকারির রেসিপি।</p>
 
@@ -5816,13 +5816,13 @@
 <p>এবারে এতে আগে থেকে ভেজে রাখা স্যামন মাছ ও কাঁচা মরিচ দিয়ে দিন। আরো ২-৩ মিনিট রান্না করুন। এবারে নামিয়ে নিয়ে
 পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/begun-salmoner-torkari.json</guid>
+      <guid>https://recipes.milon.im/recipe/begun-salmoner-torkari</guid>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[চিকেন ঝাল মাসালা]]></title>
-      <link>https://recipes.milon.im/api/recipe/chicken-jhal-masala.json</link>
+      <link>https://recipes.milon.im/recipe/chicken-jhal-masala</link>
       <description><![CDATA[চিকেন ঝাল মাসালা রেসিপি]]></description>
       <content:encoded><![CDATA[<p>পরোটা দিয়ে চিকেন ঝাল মাসালা কোন তুলনাই চলে না। চলুন রেসিপিটা দেখে নেই।</p>
 
@@ -5861,13 +5861,13 @@
 <p>এবার এতে কাঁচামরিচ দিয়ে দিন, এবং অল্প পানি যোগ করুন। পানি প্রায় শুকিয়ে এলে এর উপরে ভাজা জিরার গুড়া
 ছড়িয়ে দিন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/chicken-jhal-masala.json</guid>
+      <guid>https://recipes.milon.im/recipe/chicken-jhal-masala</guid>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[শিম ভর্তা]]></title>
-      <link>https://recipes.milon.im/api/recipe/sim-vorta.json</link>
+      <link>https://recipes.milon.im/recipe/sim-vorta</link>
       <description><![CDATA[খুব সহজ ও মজাদার শিম ভর্তা রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেই মজাদার শিম ভর্তার রেসিপি।</p>
 
@@ -5891,13 +5891,13 @@
 
 <p>এবারে ব্লেন্ডার থেকে নামিয়ে সামান্য সরিষার তেল আর ধনে পাতা কুচি মাখিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/sim-vorta.json</guid>
+      <guid>https://recipes.milon.im/recipe/sim-vorta</guid>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[টমেটো ভর্তা]]></title>
-      <link>https://recipes.milon.im/api/recipe/tomato-vorta.json</link>
+      <link>https://recipes.milon.im/recipe/tomato-vorta</link>
       <description><![CDATA[খুব সহজেই শিখে নিন মজাদার টমেটো ভর্তা রেসিপি]]></description>
       <content:encoded><![CDATA[<p>টমেটো আমার খুবই পছন্দের সবজি। চলুন দেখে নেই টমেটো ভর্তার রেসিপি।</p>
 
@@ -5923,13 +5923,13 @@
 <p>এবারে বাটিতে পেয়াজ কুচি, ধনে পাতা কুচি, কাঁচামরিচ কুচি, সরিষার তেল আর লবন দিয়ে ভালো করে চটকে নিন।
 এবারে এটাকে টমেটোর সাথে ভালো করে চটকে ভর্তা করে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/tomato-vorta.json</guid>
+      <guid>https://recipes.milon.im/recipe/tomato-vorta</guid>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[পুঁই চিংড়ি]]></title>
-      <link>https://recipes.milon.im/api/recipe/pui-chingri.json</link>
+      <link>https://recipes.milon.im/recipe/pui-chingri</link>
       <description><![CDATA[খুবই সাধারণ কিন্তু মজাদার পুঁই শাক আর চিংড়ির তরকারী]]></description>
       <content:encoded><![CDATA[<p>পুঁই শাক দিয়ে চিংড়ির তরকারীটা আমার খুবই পছন্দের। সেই রেসিপিটাই চলুন দেখে নেয়া যাক।</p>
 
@@ -5955,13 +5955,13 @@
 দিয়ে ঢেকে দিন। কিছুক্ষনের ভেতরেই পুঁই শাক সেদ্ধ হয়ে যাবে এবং আকারে অনেকটাই কমে যাবে। এবার এতে ভেজে
 রাখা চিংড়ি আর কাঁচা মরিচ দিয়ে দিন। ২-৩ মিনিট নেড়ে তরকারী নামিয়ে নিন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/pui-chingri.json</guid>
+      <guid>https://recipes.milon.im/recipe/pui-chingri</guid>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[চালকুমড়ার ডাল]]></title>
-      <link>https://recipes.milon.im/api/recipe/chalkumrar-daal.json</link>
+      <link>https://recipes.milon.im/recipe/chalkumrar-daal</link>
       <description><![CDATA[খুব সহজেই চালকুমড়া দিয়ে ডাল রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>এখন চালকুমড়ার মৌসুম চলছে। চলুন দেখে নেই কিভাবে চালকুমড়া দিয়ে ডাল রান্না করবেন।</p>
 
@@ -5994,13 +5994,13 @@
 গেলে তেল সহ সেটি সেদ্ধ করে রাখা ডালে দিয়ে দিতে হবে। এবার এটিকে চুলায় আরো ১-২ মিনিট জ্বাল দিতে হবে।
 নামানোর ঠিক আগ মুহুর্তে ধনে পাতা কুচি দিয়ে দিতে হবে।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/chalkumrar-daal.json</guid>
+      <guid>https://recipes.milon.im/recipe/chalkumrar-daal</guid>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ডিম আলুর তরকারি]]></title>
-      <link>https://recipes.milon.im/api/recipe/dim-alur-torkari.json</link>
+      <link>https://recipes.milon.im/recipe/dim-alur-torkari</link>
       <description><![CDATA[খুব সহজেই ভিন্ন স্বাদের ডিম, আলুর তরকারীর রেসিপি]]></description>
       <content:encoded><![CDATA[<p>ছোটবেলা থেকেই ডিম আমার খুব পছন্দ। আমার মা আমার জন্য ভিন্ন ধরনের এই ডিম আলুর তরকারীটা রান্না করতেন।
 চলুন রেসিপিটা জেনে নেয়া যাক।</p>
@@ -6034,13 +6034,13 @@
 <p>কিছুক্ষনের মধ্যেই আলু সেদ্ধ হয়ে যাবে। এবার এতে ভেজে রাখা ডিম আর কাঁচা মরিচ দিয়ে দিন। ২-৩ মিনিট নেড়ে
 তরকারী নামিয়ে ফেলুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/dim-alur-torkari.json</guid>
+      <guid>https://recipes.milon.im/recipe/dim-alur-torkari</guid>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[টমেটোর টকের রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/tomator-tok.json</link>
+      <link>https://recipes.milon.im/recipe/tomator-tok</link>
       <description><![CDATA[বাংলার আটপৌরে খাবার টমেটোর টকের রেসিপি]]></description>
       <content:encoded><![CDATA[<p>টমেটোর টক খুবই সহজ আর মজাদার একটা খাবার। চলুন রেসিপিটা দেখে নেই।</p>
 
@@ -6069,13 +6069,13 @@
 গেলে তেল সহ সেটি সেদ্ধ করে রাখা টমেটো দিয়ে দিতে হবে। এবার এটিকে চুলায় আরো ১-২ মিনিট জ্বাল দিতে হবে।
 নামানোর ঠিক আগ মুহুর্তে ধনে পাতা কুচি দিয়ে দিতে হবে।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/tomator-tok.json</guid>
+      <guid>https://recipes.milon.im/recipe/tomator-tok</guid>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[শুকনা মরিচের ভর্তা]]></title>
-      <link>https://recipes.milon.im/api/recipe/sukna-moricher-vorta.json</link>
+      <link>https://recipes.milon.im/recipe/sukna-moricher-vorta</link>
       <description><![CDATA[জিহ্বে জল আনা শুকনা মরিচের ভর্তার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>যারা ঝাল খাবার খেতে পছন্দ করেন, তাদের কাছে শুকনা মরিচের ভর্তার নাম শুনলেই জিহ্বে জল চলে আসে। চলুন
 খুব সহজ এ রেসিপিটা জেনে নেই।</p>
@@ -6098,13 +6098,13 @@
 নিয়ে লবন দিয়ে ভালো করে কচলে ভর্তা করে নিন। এবারে সরিষার তেল দিন, এবং ভালো মতো আরো ১ বার কচলে
 ভর্তা পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/sukna-moricher-vorta.json</guid>
+      <guid>https://recipes.milon.im/recipe/sukna-moricher-vorta</guid>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[শসা চিংড়ির তরকারি]]></title>
-      <link>https://recipes.milon.im/api/recipe/sosha-chingrir-torkari.json</link>
+      <link>https://recipes.milon.im/recipe/sosha-chingrir-torkari</link>
       <description><![CDATA[খুব সহজেই শসা, আলু আর চিংড়ি মাছের তরকারীর রেসিপি]]></description>
       <content:encoded><![CDATA[<p>খুব সাধারণ কিন্তু অসম্ভব মজাদার শসা আর চিংড়ির তরকারি তৈরির রেসিপি দেখে নিন।</p>
 
@@ -6135,13 +6135,13 @@
 <p>কিছুক্ষনের মধ্যেই আলু এবং শসা সেদ্ধ হয়ে যাবে। এবার এতে ভেজে রাখা চিংড়ি আর কাঁচা মরিচ দিয়ে দিন। ২-৩
 মিনিট নেড়ে তরকারী নামিয়ে ফেলুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/sosha-chingrir-torkari.json</guid>
+      <guid>https://recipes.milon.im/recipe/sosha-chingrir-torkari</guid>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ভুনা খিচুরির রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/vuna-khichuri.json</link>
+      <link>https://recipes.milon.im/recipe/vuna-khichuri</link>
       <description><![CDATA[খুব সহজেই ভুনা খিচুরি রান্না করার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>ভুনা খিচুরি আমার অসম্ভব প্রিয় একটা ডিস। চলুন রেসিপিটা জেনে নেই।</p>
 
@@ -6174,13 +6174,13 @@
 পরিমাণের দ্বিগুণ পানি দিতে হবে। পানি প্রায় শুকিয়ে এলে এতে কাঁচামরিচ দিয়ে দিন। এবারে খুব অল্প আঁচে
 খিচুরি মিনিট দশেক দমে রেখে দিন। এবার গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/vuna-khichuri.json</guid>
+      <guid>https://recipes.milon.im/recipe/vuna-khichuri</guid>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[তরমুজের খোসার পায়েস]]></title>
-      <link>https://recipes.milon.im/api/recipe/tormujer-khoshar-payesh.json</link>
+      <link>https://recipes.milon.im/recipe/tormujer-khoshar-payesh</link>
       <description><![CDATA[তরমুজের খোসা দিয়ে পায়েস রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>তরমুজ আমার খুব পছন্দ। চলুন দেখে নেই ভিন্নধর্মী রেসিপি তরমুজের খোসার পায়েস।</p>
 
@@ -6208,13 +6208,13 @@
 খোসা দিয়ে ভালো করে ভেজে নিন। এরপর চিনি আর দুধ দিয়ে দিন। দুধ ঘন হয়ে আসলে নামিয়ে ফেলুন। সবশেষে
 কিশমিস ছড়িয়ে দিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/tormujer-khoshar-payesh.json</guid>
+      <guid>https://recipes.milon.im/recipe/tormujer-khoshar-payesh</guid>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[সবজি খিচুরির রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/sobji-khichuri.json</link>
+      <link>https://recipes.milon.im/recipe/sobji-khichuri</link>
       <description><![CDATA[খুব সহজেই সবজি খিচুরি রান্না করার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>সহজে সবজি খিচুরি রান্না করার রেসিপিটি চলুন জেনে নেই।</p>
 
@@ -6251,13 +6251,13 @@
 <p>এবারে পানি দিয়ে ঢেকে দিন। পানি শুকিয়ে এলে কয়েকটা কাঁচামরিচ ছেড়ে দিয়ে ২-৩ মিনিট ঢেকে রাখুন। সবশেষে
 গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/sobji-khichuri.json</guid>
+      <guid>https://recipes.milon.im/recipe/sobji-khichuri</guid>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[টুনা মাছের ভর্তা]]></title>
-      <link>https://recipes.milon.im/api/recipe/tuna-macher-vorta.json</link>
+      <link>https://recipes.milon.im/recipe/tuna-macher-vorta</link>
       <description><![CDATA[ক্যানড টুনা মাছের ভর্তার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>দেশে থাকাকালীন টাকি মাছের ভর্তা খুব পছন্দ করতাম। এখানে টাটকা টাকি মাছ পাওয়া যায় না, তবে টুনা মাছ খুব এভেইলেবল। তাই যস্মিন দেশে যদাচার, চলুন টুনা মাছের ভর্তার রেসিপিই দেখে নেই।</p>
 
@@ -6283,13 +6283,13 @@
 মরিচও ভেজে নিন। এবার পাত্রে পেয়াজ, শুকনা মরিচ, ধনে পাতা আর লবন দিয়ে ভালো করে চটকে নিন। তারপর
 এতে স্বাদমতো সরিষার তেল আর টুনা মাছ নিয়ে চটকে ভর্তা করে নিন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/tuna-macher-vorta.json</guid>
+      <guid>https://recipes.milon.im/recipe/tuna-macher-vorta</guid>
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ইলিশের ঝাল কষা]]></title>
-      <link>https://recipes.milon.im/api/recipe/ilisher-jhal-kosha.json</link>
+      <link>https://recipes.milon.im/recipe/ilisher-jhal-kosha</link>
       <description><![CDATA[লেবুপাতা দিয়ে ইলিশ মাছের ঝাল কষার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>ইলিশ মাছ আমাদের সবারই খুব প্রিয়। চলুন দেখে নেই ইলিশ মাছ দিয়ে তৈরি একটা ভিন্নধর্মী রেসিপি।</p>
 
@@ -6318,13 +6318,13 @@
 কষানো হয়ে গেলে তাতে ইলিশ মাছ এবং আস্ত কাঁচামরিচ দিয়ে দিন। ৫-৭ মিনিট রান্না করুন। চুলা থেকে নামানোর
 ১-২ মিনিট আগে লেবু পাতাগুলো দিয়ে দিন। ব্যস এবারে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/ilisher-jhal-kosha.json</guid>
+      <guid>https://recipes.milon.im/recipe/ilisher-jhal-kosha</guid>
       <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[টমেটো স্যামন মাছের ঝোল]]></title>
-      <link>https://recipes.milon.im/api/recipe/tomato-salmon-macher-jhol.json</link>
+      <link>https://recipes.milon.im/recipe/tomato-salmon-macher-jhol</link>
       <description><![CDATA[টমেটো আর আলু দিয়ে দেশি স্টাইলে স্যামন মাছের ঝোলের রেসিপি]]></description>
       <content:encoded><![CDATA[<p>ইউরোপ, আমেরিকায় গ্রোসারি শপে গেলেই স্যামন মাছ চোখে পড়ে। এমনকি দেশের সুপারমার্কেটগুলোতেও এখন স্যামন
 মাছ খুবই সহজলভ্য। চলুন দেখে নেই টমেটো আর আলু দিয়ে দেশি স্টাইলে স্যামন মাছের ঝোলের রেসিপি।</p>
@@ -6356,13 +6356,13 @@
 
 <p>সবশেষে উপরে ধনে পাতা ছিটিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/tomato-salmon-macher-jhol.json</guid>
+      <guid>https://recipes.milon.im/recipe/tomato-salmon-macher-jhol</guid>
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[খিচুরি রান্নার রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/khichuri.json</link>
+      <link>https://recipes.milon.im/recipe/khichuri</link>
       <description><![CDATA[রাইস কুকারে খুব সহজেই খিচুরি রান্না করার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>খিচুরি আমরা সবাই পছন্দ করি। চলুন কিভাবে রাইস কুকারে খিচুরি রান্না করা যায় সেটা দেখে নেই।</p>
 
@@ -6392,13 +6392,13 @@
 আমি ১.৫ কাপের জন্য ৩ কাপ পানি দিয়েছি। এবারে রাইস কুকারে কুকিং মোড অন করে দিন। রাইস কুকারে কুকিং
 মোড থেকে ওয়ার্মিং মোডে আসা মানেই খিচুরি হয়ে গেছে। এবারে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/khichuri.json</guid>
+      <guid>https://recipes.milon.im/recipe/khichuri</guid>
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[বেগুন ভর্তার রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/begun-vorta.json</link>
+      <link>https://recipes.milon.im/recipe/begun-vorta</link>
       <description><![CDATA[মাইক্রোওয়েভ ওভেনে বেগুন ভর্তা তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>বেগুন ভর্তা আমার খুবই পছন্দের একটা ডিশ। দেশে থাকতে চুলায় পুড়িয়ে ভর্তা খেতে পারতাম। এখানে যেহেতু এটা
 সম্ভব না, তাই মাইক্রোওয়েভ ওভেনেই বেগুন ভর্তা তৈরি করার রেসিপিটা দেখে নেই।</p>
@@ -6425,13 +6425,13 @@
 <p>এবার পেয়াজ কুচি, ধনে পাতা কুচি, ভাজা শুকনা মরিচ, লবন আর সরিষার তেল দিয়ে ভাল করে ভর্তা করুন, তারপর
 গরম গরম ভাত বা খিচুরির সাথে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/begun-vorta.json</guid>
+      <guid>https://recipes.milon.im/recipe/begun-vorta</guid>
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[লাচ্ছা সেমাইয়ের রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/laccha-semai.json</link>
+      <link>https://recipes.milon.im/recipe/laccha-semai</link>
       <description><![CDATA[খুব সহজেই লাচ্ছা সেমাই তৈরি করার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>ঈদসহ যে কোন উৎসব সেমাই ছাড়া চলেই না। চলুন দেখে নেই লাচ্ছা সেমাইয়ের রেসিপি।</p>
 
@@ -6457,13 +6457,13 @@
 ঢেলে দিন এবং তার ওপরে কিশমিস আর কাজু বাদামের কুচি ছড়িয়ে দিন। দুধের পরিমাণ অনেক বেশি মনে হতে পারে,
 কিন্তু কিছুক্ষণের মধ্যেই সেমাই সব দুধ শোষণ করে ফেলবে। এবারে একটু ঠান্ডা হলে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/laccha-semai.json</guid>
+      <guid>https://recipes.milon.im/recipe/laccha-semai</guid>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[শাহী টুকরার রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/shahi-tukra.json</link>
+      <link>https://recipes.milon.im/recipe/shahi-tukra</link>
       <description><![CDATA[ঢাকার ঐতিহ্যবাহী ডেজার্ট শাহী টুকরার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন জেনে নেয়া যাক শাহী টুকরার রেসিপি।</p>
 
@@ -6494,13 +6494,13 @@
 দিন এবং ওপরে বাদাম কুচি ও কিশমিস ছিটিয়ে দিন। এবার দুধ ঠান্ডা হয়ে ঘরের তাপমাত্রায় এলে ফ্রিজে রেখে
 দিন। শাহী টুকরা সাধারনত ঠান্ডা পরিবেশন করা হয়। পরিবেশনের আগে ফ্রিজ থেকে নামিয়ে নিন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/shahi-tukra.json</guid>
+      <guid>https://recipes.milon.im/recipe/shahi-tukra</guid>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ডোরাডো মাছের দোপেঁয়াজা]]></title>
-      <link>https://recipes.milon.im/api/recipe/dorado-macher-dopeyaja.json</link>
+      <link>https://recipes.milon.im/recipe/dorado-macher-dopeyaja</link>
       <description><![CDATA[টমেটো দিয়ে ডোরাডো মাছের দোপেঁয়াজা রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>বাঙ্গালী মানেই মাছের জন্য পাগল। আমার মত যারা বিদেশে থাকেন, তাদেরও নিশ্চয়ই আমার মত তাজা মাছ খাওয়ার
 জন্য মন কাঁদে। দেশী মাছ বাংলাদেশী দোকানে ফ্রোজেন অবস্থায় পাওয়া গেলেও তাজা মাছের একমাত্র উৎস হচ্ছে বিদেশী
@@ -6531,13 +6531,13 @@
 এবারে এতে ভেজে রাখা মাছ দিয়ে মিনিট পাঁচেক রান্না করুন। নামানোর ঠিক আগে আগে পেয়াজ কলি কুচি আর ধনে
 পাতা কুচি ছড়িয়ে দিন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/dorado-macher-dopeyaja.json</guid>
+      <guid>https://recipes.milon.im/recipe/dorado-macher-dopeyaja</guid>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[গরুর মাংসের হালিম]]></title>
-      <link>https://recipes.milon.im/api/recipe/gorur-mangsher-halim.json</link>
+      <link>https://recipes.milon.im/recipe/gorur-mangsher-halim</link>
       <description><![CDATA[রাঁধুনী হালিম মিক্স দিয়ে গরুর মাংসের হালিম তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>হালিম আমরা সবাই পছন্দ করি। চলুন খুব সহজেই হালিম মিক্স দিয়ে গরুর মাংসের হালিম তৈরির রেসিপি শিখে নেই।</p>
 
@@ -6577,13 +6577,13 @@
 
 <p>সবশেষে আদা কুচি, শসা কুচি, কাঁচা মরিচ কুচি, পেয়াজ বেরেস্তা আর এক টুকরা লেবু সহ গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/gorur-mangsher-halim.json</guid>
+      <guid>https://recipes.milon.im/recipe/gorur-mangsher-halim</guid>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[মুড়ির মোয়ার রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/murir-moyar-recipe.json</link>
+      <link>https://recipes.milon.im/recipe/murir-moyar-recipe</link>
       <description><![CDATA[দেশী জনপ্রিয় নাস্তা মুড়ির মোয়ার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>মুড়ির মোয়ার কথা উঠলেই মনে পড়ে যায় ছোট বেলার পুরাতন কাঁচের বোতল দিয়ে মোয়া কেনার কথা। চলুন দেখে নেই
 ঘরে বসে খুব সহজেই কিভাবে মুড়ির মোয়া তৈরি করে নিতে পারবেন।</p>
@@ -6612,13 +6612,13 @@
 
 <p>এই মোয়ার এয়ারটাইট কন্টেইনারে রেখে দীর্ঘদিন খাওয়া যায়।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/murir-moyar-recipe.json</guid>
+      <guid>https://recipes.milon.im/recipe/murir-moyar-recipe</guid>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[প্যানকেকের রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/pancake.json</link>
+      <link>https://recipes.milon.im/recipe/pancake</link>
       <description><![CDATA[সুস্বাদু নাস্তা প্যানকেক তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>সকালের নাস্তায় প্যানকেকের কোন তুলনাই হয় না। চলুন রেসিপিটি দেখে নেয়া যাক।</p>
 
@@ -6645,13 +6645,13 @@
 <p>এভাবে একে একে সবগুলো প্যানকেক ভেজে নিন। পিনাট/হ্যাসেলনাট বাটার, নিউটেলা বা ম্যাপল সিরাপ সহকারে
 পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/pancake.json</guid>
+      <guid>https://recipes.milon.im/recipe/pancake</guid>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[আলু ভাজির রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/alu-vaji.json</link>
+      <link>https://recipes.milon.im/recipe/alu-vaji</link>
       <description><![CDATA[টমেটো দিয়ে আলু ভাজির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>আলু ভাজি কিভাবে করতে হয় আমরা কমবেশি সবাই সেটা জানি। আমি সেটাতেই একটু টুইস্ট যোগ করে সাধারণ আলু
 ভাজিতে অসাধারণ স্বাদ এনে দেব। চলুন দেখে নেয়া যাক।</p>
@@ -6685,13 +6685,13 @@
 
 <p>গরম গরম পরোটার সাথে এই আলু ভাজি অসাধারন লাগে খেতে।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/alu-vaji.json</guid>
+      <guid>https://recipes.milon.im/recipe/alu-vaji</guid>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[নাস্তার রেসিপি: চিকেন স্যান্ডউইচ]]></title>
-      <link>https://recipes.milon.im/api/recipe/chicken-sandwich.json</link>
+      <link>https://recipes.milon.im/recipe/chicken-sandwich</link>
       <description><![CDATA[মাত্র ১০ মিনিটেই চিকেন স্যান্ডউইচ তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>সকালে বা বিকালের নাস্তায় চিকেন স্যান্ডউইচের কোন তুলনাই চলে না। আর বাচ্চাদেরও খুব প্রিয় খাবার এটা। চলুন
 ঝটপট মাত্র ১০ মিনিটে মজাদার চিকেন স্যান্ডউইচ তৈরির রেসিপি শিখে নেয়া যাক।</p>
@@ -6728,13 +6728,13 @@
 করে গুড়া করে পরবর্তীতে ব্রেড ক্রাম্ব হিসেবে ব্যবহার করতে পারবেন। এবারে রুটির উপরে স্যান্ডউইচের পুর দিয়ে উপরে
 আরেক টুকরা রুটি দিন। এরপর স্যান্ডউইচের আকৃতিতে কোনাকুনি করে কেটে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/chicken-sandwich.json</guid>
+      <guid>https://recipes.milon.im/recipe/chicken-sandwich</guid>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[মিষ্টি কুমড়ার ভর্তা]]></title>
-      <link>https://recipes.milon.im/api/recipe/misti-kumrar-vorta.json</link>
+      <link>https://recipes.milon.im/recipe/misti-kumrar-vorta</link>
       <description><![CDATA[মজাদার মিষ্টি কুমড়ার ভর্তার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক মজাদার মিষ্টি কুমড়ার ভর্তার রেসিপি।</p>
 
@@ -6758,13 +6758,13 @@
 <p>একটা পাত্রে পেয়াজ কুচি, কাঁচা মরিচ কুচি, ধনে পাতা কুচি নিয়ে তা লবন আর সরিষার তেল দিয়ে ভালো করে চটকে
 নিন। এবার এতে আগে থেকে চটকে রাখা মিষ্টি কুমড়া দিয়ে ভালভাবে মিশিয়ে ভর্তা তৈরি করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/misti-kumrar-vorta.json</guid>
+      <guid>https://recipes.milon.im/recipe/misti-kumrar-vorta</guid>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[খোলাজা পিঠার রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/kholaja-pitha.json</link>
+      <link>https://recipes.milon.im/recipe/kholaja-pitha</link>
       <description><![CDATA[নোয়াখালীর ঐতিহ্যবাহী নাস্তা খোলাজা পিঠার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>নোয়াখালী এলাকার মানুষের মধ্যে খুবই জনপ্রিয় একটা নাস্তা হচ্ছে খোলাজা পিঠা। এটি খুব সহজেই তৈরি করা যায়,
 চলুন রেসিপিটা দেখে নেই।</p>
@@ -6791,13 +6791,13 @@
 
 <p>এবারে যে কোন ভর্তা বা গরুর মাংসের সাথে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/kholaja-pitha.json</guid>
+      <guid>https://recipes.milon.im/recipe/kholaja-pitha</guid>
       <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[গরুর মাংসের তেহারি]]></title>
-      <link>https://recipes.milon.im/api/recipe/beef-tehari.json</link>
+      <link>https://recipes.milon.im/recipe/beef-tehari</link>
       <description><![CDATA[অসম্ভব মজাদার গরুর মাংসের তেহারির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>গরুর মাংসের তেহারি পছন্দ করে না, এমন মানুষ খুঁজে পাওয়া খুব দুষ্কর। আসুন কিভাবে রাধুনী তেহারি মিক্স দিয়ে ঝটপট তৈরি করে ফেলতে পারবেন গরুর মাংসের তেহারি, সেটা দেখে নেয়া যাক।</p>
 
@@ -6838,13 +6838,13 @@
 শুকিয়ে নিতে হবে। এবার ৬-৭টি গোটা কাঁচা মরিচ দিয়ে নেড়ে ১০ মিনিটের জন্যে দমে রেখে দিতে হবে। এই ১০ মিনিটে
 ৩-৪ বার তেহারি ওলট-পালট করে দিতে হবে। সবশেষে উপরে পেয়াজ বেরেস্তা ছিটিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/beef-tehari.json</guid>
+      <guid>https://recipes.milon.im/recipe/beef-tehari</guid>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[আতপ চালের পায়েস]]></title>
-      <link>https://recipes.milon.im/api/recipe/atop-chaler-payesh.json</link>
+      <link>https://recipes.milon.im/recipe/atop-chaler-payesh</link>
       <description><![CDATA[ঐতিহ্যবাহী আতপ চালের পায়েসের রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেই খুব সহজেই আতপ চালের পায়েস রান্নার রেসিপি।</p>
 
@@ -6874,13 +6874,13 @@
 আঁচে দুধ শুকিয়ে ঘন হয়ে যাওয়া পর্যন্ত নাড়তে থাকুন। কোনোভাবেই নাড়ানো বন্ধ করবেন না; এতে পায়েস পাত্রের
 তলায় লেগে যেতে পারে। সবশেষে পরিবেশনের জন্য বাটিতে ঢেলে ওপরে কিশমিস আর বাদাম কুচি ছড়িয়ে দিন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/atop-chaler-payesh.json</guid>
+      <guid>https://recipes.milon.im/recipe/atop-chaler-payesh</guid>
       <pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ক্যারামেল পুডিং]]></title>
-      <link>https://recipes.milon.im/api/recipe/caramel-pudding.json</link>
+      <link>https://recipes.milon.im/recipe/caramel-pudding</link>
       <description><![CDATA[ডিম, দুধ আর চিনি দিয়ে তৈরি করুন ক্যারামেল পুডিং]]></description>
       <content:encoded><![CDATA[<p>পুডিং আমার খুব পছন্দের একটা ডেজার্ট। চলুন দেখে নেই কিভাবে তৈরি করবেন ক্যারামেল পুডিং।</p>
 
@@ -6919,13 +6919,13 @@
 করে নিন। শেষে পাত্রের চারপাশ একটা ছুড়ির সাহায্যে আলগা করে অন্য একটি পাত্রে উপুর করে ঢেলে নিন। এবারে
 টুকরা করে কেটে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/caramel-pudding.json</guid>
+      <guid>https://recipes.milon.im/recipe/caramel-pudding</guid>
       <pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[গাজরের হালুয়া]]></title>
-      <link>https://recipes.milon.im/api/recipe/gajorer-halua.json</link>
+      <link>https://recipes.milon.im/recipe/gajorer-halua</link>
       <description><![CDATA[আমার সবচেয়ে প্রিয় নাস্তার আইটেম গাজরের হালুয়া তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>আমার সবচেয়ে প্রিয় নাস্তার আইটেম গাজরের হালুয়া। চলুন দেখে নেই এটা তৈরির রেসিপি।</p>
 
@@ -6957,13 +6957,13 @@
 <p>দুধ প্রায় শুকিয়ে এলে তাতে কিছু বাদাম কুচি দিয়ে দিন। আরো কিছুক্ষণ রান্না করুন, দুধ একদম শুকিয়ে যাওয়া পর্যন্ত। এবারে
 নামিয়ে নিয়ে বাকি বাদাম কুচি, কিশমিস আর ডালিমের দানা দিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/gajorer-halua.json</guid>
+      <guid>https://recipes.milon.im/recipe/gajorer-halua</guid>
       <pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[জর্দা রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/jorda.json</link>
+      <link>https://recipes.milon.im/recipe/jorda</link>
       <description><![CDATA[বিয়ের দাওয়াতের জনপ্রিয় ডেজার্ট জর্দার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>বিয়ে বাড়ীতে আমার জন্য সবচেয়ে বড় আকর্ষণ হচ্ছে জর্দা। চলুন জর্দার রেসিপি জেনে নেই।</p>
 
@@ -6990,13 +6990,13 @@
 রস ও কিশমিস দিয়ে দিতে হবে। কিছুক্ষণ নাড়ানোর পর পানি পুরো শুকিয়ে গেলে বাদাম কুচি ও
 ছোট মিষ্টি ওপরে ছিটিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/jorda.json</guid>
+      <guid>https://recipes.milon.im/recipe/jorda</guid>
       <pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[খেজুরের গুড়ের পায়েস]]></title>
-      <link>https://recipes.milon.im/api/recipe/khejur-gurer-payesh.json</link>
+      <link>https://recipes.milon.im/recipe/khejur-gurer-payesh</link>
       <description><![CDATA[ঐতিহ্যবাহী খেজুরের গুড়ের পায়েসের রেসিপি]]></description>
       <content:encoded><![CDATA[<p>শীতের সকালে খেজুরের গুড়ের পায়েসের কোন তুলনা হয় না। চলুন দেখে নেই রেসিপি।</p>
 
@@ -7023,13 +7023,13 @@
 থাকুন। কোনোভাবেই নাড়ানো বন্ধ করবেন না; এতে পায়েস পাত্রের তলায় লেগে যেতে পারে। সবশেষে পরিবেশনের
 জন্য বাটিতে ঢেলে ওপরে কিশমিস ছড়িয়ে দিন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/khejur-gurer-payesh.json</guid>
+      <guid>https://recipes.milon.im/recipe/khejur-gurer-payesh</guid>
       <pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[বোরহানি]]></title>
-      <link>https://recipes.milon.im/api/recipe/borhani.json</link>
+      <link>https://recipes.milon.im/recipe/borhani</link>
       <description><![CDATA[টক দই আর রাঁধুনি বোরহানি মিক্স দিয়ে বোরহানি তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>একটু ভারী খাবার খাওয়ার পর বোরহানি না খেলে যেন চলেই না। চলুন দেখে নেই রাঁধুনি বোরহানি মিক্স দিয়ে
 খুব সহজেই বোরহানি তৈরির রেসিপি।</p>
@@ -7057,13 +7057,13 @@
 
 <p>আপনি এই বোরহানি ফ্রিজে রেখে ১ সপ্তাহ পর্যন্ত খেতে পারবেন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/borhani.json</guid>
+      <guid>https://recipes.milon.im/recipe/borhani</guid>
       <pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[লাউ চিংড়ির তরকারী]]></title>
-      <link>https://recipes.milon.im/api/recipe/lau-chingrir-torkari.json</link>
+      <link>https://recipes.milon.im/recipe/lau-chingrir-torkari</link>
       <description><![CDATA[খুবই সাধারণ কিন্তু মজাদার লাউ আর চিংড়ির তরকারী]]></description>
       <content:encoded><![CDATA[<p>বাংলাদেশে থাকাকালীন সময়ে লাউ চিংড়ির তরকারী ছিল আমার খুবই পছন্দের। সেই রেসিপিটাই চলুন দেখে নেয়া যাক।</p>
 
@@ -7089,13 +7089,13 @@
 লবন দিয়ে দিন। এবার এতে লাউ আর টমেটো দিয়ে দিন। পরিমানমতো পানি দিয়ে ঢেকে দিন। কিছুক্ষনের ভেতরেই লাউ সেদ্ধ
 হয়ে যাবে। এবার এতে ভেজে রাখা চিংড়ি আর কাঁচা মরিচ দিয়ে দিন। ২-৩ মিনিট নেড়ে তরকারী নামিয়ে নিন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/lau-chingrir-torkari.json</guid>
+      <guid>https://recipes.milon.im/recipe/lau-chingrir-torkari</guid>
       <pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ইতালিয়ান পাস্তা: কার্বোনারা]]></title>
-      <link>https://recipes.milon.im/api/recipe/carbonara.json</link>
+      <link>https://recipes.milon.im/recipe/carbonara</link>
       <description><![CDATA[খুব সহজেই তৈরি করে ফেলুন ইতালিয়ান পাস্তা ডিস কার্বোনারা]]></description>
       <content:encoded><![CDATA[<p>পাস্তা আমরা কমবেশি সবাই পছন্দ করি। চলুন দেখে নেয়া যাক ইতালিয়ান ট্রেডিশনাল কার্বোনারা রেসিপি।</p>
 
@@ -7128,13 +7128,13 @@
 ক্রীম, দুধ আর লবন দিন। ১-২ মিনিট রান্না করুন। এবার চুলা বন্ধ করে ১টা ডিমের কুসুম ভেঙে পাস্তার
 সাথে দ্রুত মিশিয়ে নিন। স্বাদমতো পার্মিসান চীজ আর গোলমরিচের গুড়া দিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/carbonara.json</guid>
+      <guid>https://recipes.milon.im/recipe/carbonara</guid>
       <pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[আলু দিয়ে গরুর মাংসের ঝোল]]></title>
-      <link>https://recipes.milon.im/api/recipe/beef-alur-jhol.json</link>
+      <link>https://recipes.milon.im/recipe/beef-alur-jhol</link>
       <description><![CDATA[আলু দিয়ে গরুর মাংসের তরকারির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>গরুর মাংস আমরা সবাই কমবেশি পছন্দ করি। চলুন দেখে নেই আলু দিয়ে গরুর মাংসের ঝোলের রেসিপি।</p>
 
@@ -7176,13 +7176,13 @@
 পানি দিতে পারেন। মাংস ও আলু পুরোপুরি সেদ্ধ হওয়া পর্যন্ত রান্না করুন।
 এবারে উপরে কাঁচামরিচ আর ভাজা জিরার গুড়া ছড়িয়ে দিন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/beef-alur-jhol.json</guid>
+      <guid>https://recipes.milon.im/recipe/beef-alur-jhol</guid>
       <pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[বাঁধাকপির পাকোড়া]]></title>
-      <link>https://recipes.milon.im/api/recipe/badhakopir-pakora.json</link>
+      <link>https://recipes.milon.im/recipe/badhakopir-pakora</link>
       <description><![CDATA[সহজেই তৈরি করুন বাঁধাকপির পাকোড়া]]></description>
       <content:encoded><![CDATA[<p>বিকালের নাস্তায় একটু ভাজাপোড়া না খেলে চলেই না। চলুন খুব সহজ এবং সুস্বাদু এই বাঁধাকপির পাকোড়া তৈরি করা
 যাক।</p>
@@ -7214,13 +7214,13 @@
 ডুবো তেলে পাকোড়াগুলোকে বাদামি করে ভেজে নিন। ভাজা শেষ হলে একটি পাত্রে পেপার টাওয়াল বিছিয়ে সেখানে তুলে
 রাখুন, এতে করে অতিরিক্ত তেল পেপার টাওয়াল শুষে নেবে। সবগুলো ভাজা হয়ে গেলে গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/badhakopir-pakora.json</guid>
+      <guid>https://recipes.milon.im/recipe/badhakopir-pakora</guid>
       <pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[টুনা মাছের চপ]]></title>
-      <link>https://recipes.milon.im/api/recipe/tuna-fish-chop.json</link>
+      <link>https://recipes.milon.im/recipe/tuna-fish-chop</link>
       <description><![CDATA[সহজেই ক্যানড টুনা মাছ দিয়ে চপ তৈরির রেসিপি]]></description>
       <content:encoded><![CDATA[<p>বর্তমানে সুপার মার্কেটে গেলেই ক্যানড ফুড চোখে পড়ে। আর করোনার কোয়ারেন্টাইনে সার্ভাইব করার জন্য একবার
 বাজারে গেলে অনেকগুলো ক্যান কিনে স্টকে রাখাটাই বুদ্ধিমানের কাজ। সেই ক্যানড টুনা দিয়েই আজকের রেসিপি।</p>
@@ -7256,13 +7256,13 @@
 তাপে ভাজলে চপের বাইরের অংশ খুব তাড়াতাড়ি বাদামী হয়ে যাবে, কিন্তু ভেতরে কাঁচা থেকে যেতে পারে। এবার গরম গরম
 পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/tuna-fish-chop.json</guid>
+      <guid>https://recipes.milon.im/recipe/tuna-fish-chop</guid>
       <pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ফ্রাইড রাইস]]></title>
-      <link>https://recipes.milon.im/api/recipe/fried-rice.json</link>
+      <link>https://recipes.milon.im/recipe/fried-rice</link>
       <description><![CDATA[খুব সহজেই ঘরে তৈরি করে ফেলুন মজাদার ফ্রাইড রাইস]]></description>
       <content:encoded><![CDATA[<p>ফ্রাইড রাইস আমার খুব পছন্দের একটা ডিস। চলুন রেসিপিটা দেখে নেই।</p>
 
@@ -7301,13 +7301,13 @@
 দিয়ে দিতে হবে। তারপর ১ টেবিল চামচ সয়া সস, ১ চিমটি টেস্টিং সল্ট আর স্বাদমতো লবন দিয়ে দিন। নামানোর ঠিক
 আগ মুহুর্তে শসা আর লেটুস দিয়ে একবার নেড়ে নামিয়ে ফেলুন এবং গরম গরম পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/fried-rice.json</guid>
+      <guid>https://recipes.milon.im/recipe/fried-rice</guid>
       <pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[প্লেইন পোলাও]]></title>
-      <link>https://recipes.milon.im/api/recipe/plain-polaw.json</link>
+      <link>https://recipes.milon.im/recipe/plain-polaw</link>
       <description><![CDATA[সাদা পোলাও রান্নার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>বাঙ্গালীর যে কোন স্পেশাল অকেশন বা অতিথি আপ্যায়নে পোলাও ছাড়া চলেই না। চলুন দেখে নেই প্লেইন পোলাও
 রান্নার রেসিপি।</p>
@@ -7344,13 +7344,13 @@
 দিন। একে দমে দেয়া বলে। এই ১০ মিনিটে ৩-৪ বার পোলাও ওলোট-পালোট করে উপরেরগুলো নিচে আর নিচেরগুলো
 উপরে তুলে দিন। সবশেষে চুলা থেকে নামিয়ে উপরে পেয়াজ বেরেস্তা ছিটিয়ে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/plain-polaw.json</guid>
+      <guid>https://recipes.milon.im/recipe/plain-polaw</guid>
       <pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[আম ডালের রেসিপি]]></title>
-      <link>https://recipes.milon.im/api/recipe/aam-daal.json</link>
+      <link>https://recipes.milon.im/recipe/aam-daal</link>
       <description><![CDATA[বাংলার আটপৌরে খাবার আম ডালের রেসিপি]]></description>
       <content:encoded><![CDATA[<p>আম ডাল খুব জনপ্রিয় একটা খাবার। কাঁচা আমের মৌসুম চলে আসলেই শুধু আম ডাল খেতে ইচ্ছে করে। চলুন দেখে
 নেয়া যাক আম ডালের রেসিপি।</p>
@@ -7381,13 +7381,13 @@
 গেলে তেল সহ সেটি সেদ্ধ করে রাখা ডালে দিয়ে দিতে হবে। এবার এটিকে চুলায় আরো ১-২ মিনিট জ্বাল দিতে হবে।
 নামানোর ঠিক আগ মুহুর্তে ধনে পাতা কুচি দিয়ে দিতে হবে।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/aam-daal.json</guid>
+      <guid>https://recipes.milon.im/recipe/aam-daal</guid>
       <pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[মিক্সড ভেজিটেবল]]></title>
-      <link>https://recipes.milon.im/api/recipe/mixed-vegetables.json</link>
+      <link>https://recipes.milon.im/recipe/mixed-vegetables</link>
       <description><![CDATA[সুস্বাদু আর পুষ্টিকর মিক্সড ভেজিটেবল ডিসের রেসিপি]]></description>
       <content:encoded><![CDATA[<p>ভারী খাবার তো অনেক হলো, এবারে চলুন স্বাস্থ্যকর খাবারের দিকে নজর দেয়া যাক। দেখে নিন মিক্সড ভেজিটেবল ডিসের রেসিপি।</p>
 
@@ -7417,13 +7417,13 @@
 
 <p>এই ডিসের প্রায় সব আইটেমই অপশনাল। আপনি চাইলে নাও দিতে পারেন। তবে ডিম দিলে সবজি ভাজিটি খেতে অসাধারন হয়, তাই আমার সাজেশন ডিমের পার্টটি মিস করবেন না।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/mixed-vegetables.json</guid>
+      <guid>https://recipes.milon.im/recipe/mixed-vegetables</guid>
       <pubDate>Sat, 04 Apr 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>
     <item>
       <title><![CDATA[ডিম ভুনা]]></title>
-      <link>https://recipes.milon.im/api/recipe/dim-vuna.json</link>
+      <link>https://recipes.milon.im/recipe/dim-vuna</link>
       <description><![CDATA[খুব সহজেই মজাদার ডিম ভুনার রেসিপি]]></description>
       <content:encoded><![CDATA[<p>চলুন দেখে নেয়া যাক খুবই সহজ মজাদার ডিম ভুনার রেসিপি।</p>
 
@@ -7452,7 +7452,7 @@
 কষাতে থাকুন। কষানো প্রায় হয়ে এলে আগে থেকে ভেজে রাখা ডিমগুলো দিয়ে দিন। এবারে নামানোর কিছুক্ষন আগে
 ২-৩টি কাঁচা মরিচ ফালি করে কেটে দিয়ে দিন। এবারে গরম গরম সাদা ভাতের সাথে পরিবেশন করুন।</p>
 ]]></content:encoded>
-      <guid>https://recipes.milon.im/api/recipe/dim-vuna.json</guid>
+      <guid>https://recipes.milon.im/recipe/dim-vuna</guid>
       <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
       <author>মিলন</author>
     </item>

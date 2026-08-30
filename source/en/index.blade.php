@@ -1,6 +1,7 @@
 ---
 locale: en
 alternateUrlPath: /
+preloadHero: true
 pagination:
     collection: posts_en
 ---

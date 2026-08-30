@@ -1,12 +1,18 @@
 @php
     $tileServings = $page->formatServings($post->servings ?? null);
     $tilePrepTime = $page->formatPrepTime($post->prepMinutes ?? null);
+    $tileWebp = responsive_image_url($post->metaImage ?? null, 'tile-640');
 @endphp
 
 <article class="recipe-tile">
     @if ($post->metaImage ?? null)
         <a href="{{ $post->getPath('web') }}" class="recipe-tile-photo" tabindex="-1" aria-hidden="true">
-            <img src="{{ $post->metaImage }}" alt="" loading="lazy" decoding="async">
+            <picture>
+                @if ($tileWebp)
+                    <source srcset="{{ $tileWebp }}" type="image/webp">
+                @endif
+                <img src="{{ $post->metaImage }}" alt="" width="640" height="480" loading="lazy" decoding="async">
+            </picture>
         </a>
     @endif
 

@@ -68,6 +68,71 @@ if (!function_exists('category_slug')) {
     }
 }
 
+if (!function_exists('responsive_image_path')) {
+    /**
+     * Build the public path for a generated image variant.
+     */
+    function responsive_image_path(string $src, string $variant): ?string
+    {
+        if (!str_starts_with($src, '/assets/images/')) {
+            return null;
+        }
+
+        $relativePath = substr($src, strlen('/assets/images/'));
+        $pathInfo = pathinfo($relativePath);
+        $directory = ($pathInfo['dirname'] ?? '.') === '.' ? '' : $pathInfo['dirname'] . '/';
+
+        return '/assets/images/responsive/' . $directory
+            . $pathInfo['filename'] . ".{$variant}.webp";
+    }
+}
+
+if (!function_exists('responsive_image_url')) {
+    /**
+     * Return a generated WebP variant for a local image when one exists.
+     */
+    function responsive_image_url(?string $src, string $variant): ?string
+    {
+        if (!$src) {
+            return null;
+        }
+
+        $url = responsive_image_path($src, $variant);
+
+        if (!$url) {
+            return null;
+        }
+
+        return is_file(__DIR__ . '/source' . $url) ? $url : null;
+    }
+}
+
+if (!function_exists('local_image_dimensions')) {
+    /**
+     * Read intrinsic dimensions for a local source image.
+     *
+     * @return array{width: int, height: int}|null
+     */
+    function local_image_dimensions(?string $src): ?array
+    {
+        static $dimensions = [];
+
+        if (!$src || !str_starts_with($src, '/assets/images/')) {
+            return null;
+        }
+
+        if (array_key_exists($src, $dimensions)) {
+            return $dimensions[$src];
+        }
+
+        $size = @getimagesize(__DIR__ . '/source' . $src);
+
+        return $dimensions[$src] = $size
+            ? ['width' => $size[0], 'height' => $size[1]]
+            : null;
+    }
+}
+
 if (!function_exists('recipe_card_content')) {
     /**
      * Split rendered recipe HTML into the pieces a recipe card lays out separately.
@@ -81,7 +146,7 @@ if (!function_exists('recipe_card_content')) {
             $html = recipe_without_image($html, $leadImage);
         }
 
-        $html = recipe_lazy_images($html);
+        $html = recipe_responsive_images($html);
 
         $chunks = preg_split('/<h2\b[^>]*>(.*?)<\/h2>/s', $html, -1, PREG_SPLIT_DELIM_CAPTURE);
 
@@ -192,14 +257,18 @@ if (!function_exists('recipe_method_steps')) {
     }
 }
 
-if (!function_exists('recipe_lazy_images')) {
+if (!function_exists('recipe_responsive_images')) {
     /**
-     * Mark in-body recipe photos as lazy so they do not compete with the lead image.
+     * Use generated WebP sources for in-body photos and load them lazily.
      */
-    function recipe_lazy_images(string $html): string
+    function recipe_responsive_images(string $html): string
     {
         return preg_replace_callback('/<img\b([^>]*)>/', function (array $match) {
-            $attributes = $match[1];
+            $attributes = rtrim($match[1]);
+            $selfClosing = str_ends_with($attributes, '/');
+            if ($selfClosing) {
+                $attributes = rtrim(substr($attributes, 0, -1));
+            }
 
             if (!str_contains($attributes, 'loading=')) {
                 $attributes .= ' loading="lazy"';
@@ -209,7 +278,26 @@ if (!function_exists('recipe_lazy_images')) {
                 $attributes .= ' decoding="async"';
             }
 
-            return '<img' . $attributes . '>';
+            if (!preg_match('/\bsrc="([^"]+)"/', $attributes, $srcMatch)) {
+                return '<img' . $attributes . ($selfClosing ? ' /' : '') . '>';
+            }
+
+            $dimensions = local_image_dimensions($srcMatch[1]);
+            if ($dimensions && !str_contains($attributes, 'width=')) {
+                $attributes .= ' width="' . $dimensions['width'] . '"';
+            }
+            if ($dimensions && !str_contains($attributes, 'height=')) {
+                $attributes .= ' height="' . $dimensions['height'] . '"';
+            }
+
+            $webp = responsive_image_url($srcMatch[1], 'detail-1280');
+            if (!$webp) {
+                return '<img' . $attributes . ($selfClosing ? ' /' : '') . '>';
+            }
+
+            return '<picture><source srcset="' . $webp
+                . '" type="image/webp"><img' . $attributes
+                . ($selfClosing ? ' /' : '') . '></picture>';
         }, $html) ?? $html;
     }
 }
@@ -221,7 +309,7 @@ if (!function_exists('recipe_figures')) {
     function recipe_figures(string $html): string
     {
         return preg_replace(
-            '/<p>\s*(<img[^>]*>)\s*<\/p>/',
+            '/<p>\s*(<picture>.*?<\/picture>|<img[^>]*>)\s*<\/p>/s',
             '<figure class="recipe-figure">$1</figure>',
             $html
         ) ?? $html;

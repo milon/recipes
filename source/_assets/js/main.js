@@ -29,6 +29,7 @@ document.querySelectorAll('.navbar-toggler').forEach((button) => {
     const layers = Array.from(frame.querySelectorAll('.hero-photo'));
     const total = Number(frame.dataset.heroRotate);
     const template = frame.dataset.heroSrc;
+    const webpTemplate = frame.dataset.heroWebpSrc;
     if (layers.length !== 2 || total < 2 || !template) {
         return;
     }
@@ -36,24 +37,36 @@ document.querySelectorAll('.navbar-toggler').forEach((button) => {
     let visible = 0;
     let queued = Number(frame.dataset.heroNext);
 
-    setInterval(() => {
-        layers[1 - visible].classList.add('is-visible');
-        layers[visible].classList.remove('is-visible');
-        visible = 1 - visible;
+    const startRotation = () => window.setInterval(() => {
+        const incoming = layers[1 - visible];
+        const outgoing = layers[visible];
 
         // Load the following photo into the layer that just faded out, waiting
         // for the crossfade to finish so the swap is never visible.
-        const outgoing = layers[1 - visible];
         const following = (queued % total) + 1;
         const preload = new Image();
 
         preload.onload = () => window.setTimeout(() => {
-            outgoing.src = preload.src;
+            const source = outgoing.closest('picture')?.querySelector('source');
+            outgoing.src = template.replace('{n}', following);
+            if (source && webpTemplate) {
+                source.srcset = webpTemplate.replace('{n}', following);
+            }
         }, 1400);
+
+        incoming.classList.add('is-visible');
+        outgoing.classList.remove('is-visible');
+        visible = 1 - visible;
 
         preload.src = template.replace('{n}', following);
         queued = following;
     }, 20000);
+
+    if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(startRotation, { timeout: 3000 });
+    } else {
+        window.setTimeout(startRotation, 1000);
+    }
 })();
 
 document.querySelectorAll('.recipe-share-btn[data-share]').forEach((btn) => {

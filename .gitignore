@@ -4,5 +4,7 @@
 .idea
 .DS_Store
 /source/assets/build/
+/source/assets/images/responsive/
+/build_production/assets/images/responsive/
 /cache/
 /local-docs/

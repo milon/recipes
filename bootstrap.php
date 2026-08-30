@@ -18,6 +18,8 @@ require_once __DIR__ . '/helpers.php';
  * });
  */
 
+$events->beforeBuild(App\Listeners\GenerateResponsiveImages::class);
+
 // Generate category listing pages
 $events->afterCollections(App\Listeners\GenerateCategoryPages::class);
 

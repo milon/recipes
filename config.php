@@ -141,9 +141,6 @@ return [
         ]
     ],
 
-    // Google Analytics Tracking Id. For example, UA-123456789-1
-    'gaTrackingId' => 'UA-162769200-1',
-
     'getCategoryUrl' => function ($page, $category) {
         return $page->localePrefix() . '/category/' . category_slug((string) $category);
     },
@@ -233,6 +230,14 @@ return [
 
     'backgroundImage' => function ($page, $number) {
         return "/assets/images/backgrounds/bg-$number.jpg";
+    },
+
+    'heroBackground' => function ($page) {
+        static $backgrounds = [];
+
+        $key = spl_object_id($page);
+
+        return $backgrounds[$key] ??= $page->backgroundImage(rand(1, $page->backgroundCount));
     },
 
     'randomBackground' => function ($page) {

@@ -1,18 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ $page->locale }}" data-search-index="{{ $page->localePrefix() }}/index.json">
     <head>
-        @if($page->production && $page->gaTrackingId)
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id={{ $page->gaTrackingId }}"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', '{{ $page->gaTrackingId }}');
-        </script>
-        @endif
-
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -53,15 +41,26 @@
             <link rel="alternate" hreflang="{{ $page->locale === 'en' ? 'bn' : 'en' }}" href="{{ rightTrimPath($page->baseUrl) }}{{ $page->alternateUrl() }}">
         @endif
         <link rel="alternate" hreflang="x-default" href="{{ $page->locale === 'en' ? rightTrimPath($page->baseUrl) . $page->alternateUrl() : $page->getUrl() }}">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/galada.woff2" crossorigin>
         @if ($page->locale === 'en')
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Galada&family=Noto+Sans:wght@400;600;700&display=swap">
+            <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/noto-sans.woff2" crossorigin>
         @else
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Galada&family=Noto+Sans+Bengali:wght@400;600;700&display=swap">
+            <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/noto-sans-bengali.woff2" crossorigin>
         @endif
-        @if ($page->metaImage ?? null)
-            <link rel="preload" as="image" href="{{ $page->metaImage }}" fetchpriority="high">
+        @php
+            $preloadImage = $page->metaImage
+                ?? $page->image
+                ?? (($page->preloadHero ?? false) ? $page->heroBackground() : null);
+            $preloadWebp = responsive_image_url($preloadImage, 'detail-1280');
+        @endphp
+        @if ($preloadImage)
+            <link
+                rel="preload"
+                as="image"
+                href="{{ $preloadWebp ?? $preloadImage }}"
+                @if ($preloadWebp) type="image/webp" @endif
+                fetchpriority="high"
+            >
         @endif
         <link rel="stylesheet" href="{{ vite_asset('css/main.css', 'assets/build') }}">
     </head>

@@ -1,11 +1,20 @@
 {
+  "_fuse-C1eknJXj.js": {
+    "file": "js/fuse-C1eknJXj.js",
+    "name": "fuse",
+    "isDynamicEntry": true
+  },
   "source/_assets/js/main.js": {
-    "file": "js/main-DSZUOB5W.js",
+    "file": "js/main-Bak3Njyt.js",
     "name": "main",
     "src": "source/_assets/js/main.js",
     "isEntry": true,
+    "dynamicImports": [
+      "_fuse-C1eknJXj.js",
+      "_fuse-C1eknJXj.js"
+    ],
     "css": [
-      "css/main-CKMyvOyN.css"
+      "css/main-DQtJmRJ7.css"
     ]
   }
 }

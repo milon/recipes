@@ -1,5 +1,6 @@
 ---
 alternateUrlPath: /en
+preloadHero: true
 pagination:
     collection: posts
 ---

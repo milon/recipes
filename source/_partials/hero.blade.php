@@ -6,11 +6,16 @@
     $heroFacts = $heroFacts ?? [];
     $heroActions = $heroActions ?? [];
 
-    $heroFirst = $heroRotate ? rand(1, $page->backgroundCount) : null;
-    $heroNext = $heroRotate ? ($heroFirst % $page->backgroundCount) + 1 : null;
     $heroPhoto = $heroRotate
-        ? $page->backgroundImage($heroFirst)
+        ? $page->heroBackground()
         : ($heroImage ?? ($page->image ?: $page->randomBackground()));
+    preg_match('/bg-(\d+)\.jpg$/', $heroPhoto, $heroPhotoMatch);
+    $heroFirst = $heroRotate ? (int) ($heroPhotoMatch[1] ?? 1) : null;
+    $heroNext = $heroRotate ? ($heroFirst % $page->backgroundCount) + 1 : null;
+    $heroWebp = responsive_image_url($heroPhoto, 'detail-1280');
+    $heroDimensions = local_image_dimensions($heroPhoto);
+    $heroNextPhoto = $heroRotate ? $page->backgroundImage($heroNext) : null;
+    $heroNextWebp = responsive_image_url($heroNextPhoto, 'detail-1280');
 @endphp
 
 <section class="hero {{ $heroRotate ? 'hero--rotating' : 'hero--page' }}">
@@ -21,12 +26,33 @@
                 data-hero-rotate="{{ $page->backgroundCount }}"
                 data-hero-next="{{ $heroNext }}"
                 data-hero-src="{{ $page->backgroundImage('{n}') }}"
+                data-hero-webp-src="{{ responsive_image_path($page->backgroundImage('{n}'), 'detail-1280') }}"
             @endif
         >
             <div class="hero-stage">
-                <img class="hero-photo is-visible" src="{{ $heroPhoto }}" alt="" fetchpriority="high" decoding="async">
+                <picture>
+                    @if ($heroWebp)
+                        <source srcset="{{ $heroWebp }}" type="image/webp">
+                    @endif
+                    <img
+                        class="hero-photo is-visible"
+                        src="{{ $heroPhoto }}"
+                        alt=""
+                        @if ($heroDimensions)
+                            width="{{ $heroDimensions['width'] }}"
+                            height="{{ $heroDimensions['height'] }}"
+                        @endif
+                        fetchpriority="high"
+                        decoding="async"
+                    >
+                </picture>
                 @if ($heroRotate)
-                    <img class="hero-photo" src="{{ $page->backgroundImage($heroNext) }}" alt="" loading="lazy" decoding="async">
+                    <picture>
+                        @if ($heroNextWebp)
+                            <source srcset="{{ $heroNextWebp }}" type="image/webp">
+                        @endif
+                        <img class="hero-photo" src="{{ $heroNextPhoto }}" alt="" loading="lazy" decoding="async">
+                    </picture>
                 @endif
             </div>
 

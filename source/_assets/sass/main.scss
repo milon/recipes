@@ -3,6 +3,30 @@
 @import "bootstrap";
 @import "startbootstrap-clean-blog.scss";
 
+@font-face {
+    font-family: "Galada";
+    src: url("/assets/fonts/galada.woff2") format("woff2");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Noto Sans Bengali";
+    src: url("/assets/fonts/noto-sans-bengali.woff2") format("woff2");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400 700;
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: url("/assets/fonts/noto-sans.woff2") format("woff2");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400 700;
+}
+
 // ---------------------------------------------------------------------------
 // Foundations
 // ---------------------------------------------------------------------------
@@ -377,6 +401,10 @@ textarea {
     &.is-visible {
         opacity: 1;
     }
+}
+
+.hero-stage picture {
+    display: contents;
 }
 
 .hero-panel {
@@ -963,6 +991,12 @@ textarea {
     border-radius: 0.85rem;
     background: $canvas-deep;
 
+    picture {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
     img {
         width: 100%;
         height: 100%;
@@ -1177,6 +1211,12 @@ textarea {
     overflow: hidden;
     border-radius: 1.1rem;
     background: $canvas-deep;
+
+    picture {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
 
     img {
         width: 100%;

@@ -10,6 +10,8 @@
         $steps = recipe_method_steps($recipe['method']);
         $servingsLabel = $page->formatServings();
         $prepTimeLabel = $page->formatPrepTime();
+        $leadWebp = responsive_image_url($leadImage, 'detail-1280');
+        $leadDimensions = local_image_dimensions($leadImage);
     @endphp
 
     <article class="recipe-detail">
@@ -57,7 +59,21 @@
                 </header>
 
                 <figure class="recipe-card-photo">
-                    <img src="{{ $leadImage }}" alt="{{ $page->title }}" fetchpriority="high" decoding="async">
+                    <picture>
+                        @if ($leadWebp)
+                            <source srcset="{{ $leadWebp }}" type="image/webp">
+                        @endif
+                        <img
+                            src="{{ $leadImage }}"
+                            alt="{{ $page->title }}"
+                            @if ($leadDimensions)
+                                width="{{ $leadDimensions['width'] }}"
+                                height="{{ $leadDimensions['height'] }}"
+                            @endif
+                            fetchpriority="high"
+                            decoding="async"
+                        >
+                    </picture>
                 </figure>
 
                 @if ($ingredients || $steps)

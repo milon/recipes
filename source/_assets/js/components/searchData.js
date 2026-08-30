@@ -1,32 +1,23 @@
 /**
  * Alpine.js search overlay (Fuse.js).
- * Used in source/_components/search.blade.php as x-data="search()"
+ * The search index and Fuse itself load on first open, not on every page.
  */
+const fuseOptions = {
+    minMatchCharLength: 1,
+    threshold: 0.4,
+    keys: ['title', 'excerpt', 'englishSearchTerm', 'categories'],
+};
+
 export default function search() {
   return {
     fuse: null,
+    indexPromise: null,
     query: '',
     selectedIndex: 0,
     open: false,
     lastActiveElement: null,
 
     init() {
-      const indexUrl = document.documentElement.dataset.searchIndex || '/index.json';
-
-      fetch(indexUrl)
-        .then((response) => response.json())
-        .then((data) => {
-          const list = Array.isArray(data) ? data : Object.values(data || {});
-          this.fuse = new window.Fuse(list, {
-            minMatchCharLength: 1,
-            threshold: 0.4,
-            keys: ['title', 'excerpt', 'englishSearchTerm', 'categories'],
-          });
-        })
-        .catch(() => {
-          this.fuse = new window.Fuse([], { keys: ['title'] });
-        });
-
       this.$watch('query', () => {
         this.selectedIndex = 0;
       });
@@ -52,7 +43,33 @@ export default function search() {
       });
     },
 
+    ensureIndex() {
+      if (this.fuse) {
+        return this.indexPromise ?? Promise.resolve();
+      }
+
+      this.indexPromise ??= (async () => {
+        const indexUrl = document.documentElement.dataset.searchIndex || '/index.json';
+
+        try {
+          const [{ default: Fuse }, response] = await Promise.all([
+            import('fuse.js'),
+            fetch(indexUrl),
+          ]);
+          const data = await response.json();
+          const list = Array.isArray(data) ? data : Object.values(data || {});
+          this.fuse = new Fuse(list, fuseOptions);
+        } catch {
+          const { default: Fuse } = await import('fuse.js');
+          this.fuse = new Fuse([], { keys: ['title'] });
+        }
+      })();
+
+      return this.indexPromise;
+    },
+
     openModal() {
+      this.ensureIndex();
       this.lastActiveElement = document.activeElement;
       this.open = true;
       document.body.classList.add('search-modal-open');

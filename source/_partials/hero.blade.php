@@ -24,9 +24,9 @@
             @endif
         >
             <div class="hero-stage">
-                <img class="hero-photo is-visible" src="{{ $heroPhoto }}" alt="">
+                <img class="hero-photo is-visible" src="{{ $heroPhoto }}" alt="" fetchpriority="high" decoding="async">
                 @if ($heroRotate)
-                    <img class="hero-photo" src="{{ $page->backgroundImage($heroNext) }}" alt="" loading="lazy">
+                    <img class="hero-photo" src="{{ $page->backgroundImage($heroNext) }}" alt="" loading="lazy" decoding="async">
                 @endif
             </div>
 

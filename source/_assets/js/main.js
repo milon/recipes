@@ -1,20 +1,23 @@
 import Alpine from 'alpinejs';
-import Fuse from 'fuse.js';
 import search from './components/searchData.js';
-
-window.Alpine = Alpine;
-window.Fuse = Fuse;
-
-Alpine.data('search', search);
-
-import 'bootstrap';
 import '../sass/main.scss';
 
-// Bootstrap + jQuery for nav and other components
-import $ from 'jquery';
-window.$ = window.jQuery = $;
-
+Alpine.data('search', search);
 Alpine.start();
+
+document.querySelectorAll('.navbar-toggler').forEach((button) => {
+    const panelId = button.getAttribute('data-target')?.replace('#', '');
+    const panel = panelId ? document.getElementById(panelId) : null;
+    if (!panel) {
+        return;
+    }
+
+    button.addEventListener('click', () => {
+        const open = !panel.classList.contains('show');
+        panel.classList.toggle('show', open);
+        button.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+});
 
 // Crossfade the home hero through the background photos, one every 20 seconds.
 (function initHeroRotation() {

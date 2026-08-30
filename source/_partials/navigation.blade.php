@@ -10,7 +10,7 @@
         <div class="navbar-mobile-tools d-flex d-lg-none align-items-center ml-auto">
             @include('_components.language_switch')
             @include('_components.search_trigger')
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="{{ $page->t('nav.open_menu') }}">
+            <button class="navbar-toggler" type="button" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="{{ $page->t('nav.open_menu') }}">
                 <span>{{ $page->t('nav.menu') }}</span>
                 @include('_components.icon', ['name' => 'menu', 'class' => 'icon--sm'])
             </button>

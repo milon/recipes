@@ -53,6 +53,16 @@
             <link rel="alternate" hreflang="{{ $page->locale === 'en' ? 'bn' : 'en' }}" href="{{ rightTrimPath($page->baseUrl) }}{{ $page->alternateUrl() }}">
         @endif
         <link rel="alternate" hreflang="x-default" href="{{ $page->locale === 'en' ? rightTrimPath($page->baseUrl) . $page->alternateUrl() : $page->getUrl() }}">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        @if ($page->locale === 'en')
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Galada&family=Noto+Sans:wght@400;600;700&display=swap">
+        @else
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Galada&family=Noto+Sans+Bengali:wght@400;600;700&display=swap">
+        @endif
+        @if ($page->metaImage ?? null)
+            <link rel="preload" as="image" href="{{ $page->metaImage }}" fetchpriority="high">
+        @endif
         <link rel="stylesheet" href="{{ vite_asset('css/main.css', 'assets/build') }}">
     </head>
     <body x-data="search()" @keydown.window.escape="closeModal()">

@@ -57,7 +57,7 @@
                 </header>
 
                 <figure class="recipe-card-photo">
-                    <img src="{{ $leadImage }}" alt="{{ $page->title }}">
+                    <img src="{{ $leadImage }}" alt="{{ $page->title }}" fetchpriority="high" decoding="async">
                 </figure>
 
                 @if ($ingredients || $steps)

@@ -6,7 +6,7 @@
 <article class="recipe-tile">
     @if ($post->metaImage ?? null)
         <a href="{{ $post->getPath('web') }}" class="recipe-tile-photo" tabindex="-1" aria-hidden="true">
-            <img src="{{ $post->metaImage }}" alt="" loading="lazy">
+            <img src="{{ $post->metaImage }}" alt="" loading="lazy" decoding="async">
         </a>
     @endif
 

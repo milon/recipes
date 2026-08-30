@@ -81,6 +81,8 @@ if (!function_exists('recipe_card_content')) {
             $html = recipe_without_image($html, $leadImage);
         }
 
+        $html = recipe_lazy_images($html);
+
         $chunks = preg_split('/<h2\b[^>]*>(.*?)<\/h2>/s', $html, -1, PREG_SPLIT_DELIM_CAPTURE);
 
         $parsed = [
@@ -187,6 +189,28 @@ if (!function_exists('recipe_method_steps')) {
         $flush();
 
         return $output;
+    }
+}
+
+if (!function_exists('recipe_lazy_images')) {
+    /**
+     * Mark in-body recipe photos as lazy so they do not compete with the lead image.
+     */
+    function recipe_lazy_images(string $html): string
+    {
+        return preg_replace_callback('/<img\b([^>]*)>/', function (array $match) {
+            $attributes = $match[1];
+
+            if (!str_contains($attributes, 'loading=')) {
+                $attributes .= ' loading="lazy"';
+            }
+
+            if (!str_contains($attributes, 'decoding=')) {
+                $attributes .= ' decoding="async"';
+            }
+
+            return '<img' . $attributes . '>';
+        }, $html) ?? $html;
     }
 }
 

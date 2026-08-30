@@ -35,13 +35,13 @@
         <link rel="alternate" hreflang="en" href="https://recipes.milon.im/en/about">
                     <link rel="alternate" hreflang="bn" href="https://recipes.milon.im/about">
                 <link rel="alternate" hreflang="x-default" href="https://recipes.milon.im/about">
-        <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/galada.woff2" crossorigin>
-                    <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/noto-sans.woff2" crossorigin>
-                                    <link
+                            <link
                 rel="preload"
                 as="image"
                 href="/assets/images/responsive/about-bg.detail-1280.webp"
-                 type="image/webp"                 fetchpriority="high"
+                 type="image/webp"                                     imagesrcset="/assets/images/responsive/about-bg.detail-640.webp 640w, /assets/images/responsive/about-bg.detail-768.webp 768w, /assets/images/responsive/about-bg.detail-1280.webp 1280w"
+                    imagesizes="(min-width: 1200px) 1110px, calc(100vw - 30px)"
+                                fetchpriority="high"
             >
                 <link rel="stylesheet" href="/assets/build/css/main-DQtJmRJ7.css">
     </head>
@@ -162,7 +162,11 @@
                     >
             <div class="hero-stage">
                 <picture>
-                                            <source srcset="/assets/images/responsive/about-bg.detail-1280.webp" type="image/webp">
+                                            <source
+                            srcset="/assets/images/responsive/about-bg.detail-640.webp 640w, /assets/images/responsive/about-bg.detail-768.webp 768w, /assets/images/responsive/about-bg.detail-1280.webp 1280w"
+                            sizes="(min-width: 1200px) 1110px, calc(100vw - 30px)"
+                            type="image/webp"
+                        >
                                         <img
                         class="hero-photo is-visible"
                         src="/assets/images/about-bg.jpg"
@@ -475,6 +479,6 @@
         </div>
     </div>
 </div>
-        <script src="/assets/build/js/main-Bak3Njyt.js" type="module"></script>
+        <script src="/assets/build/js/main-8HawI-Wc.js" type="module"></script>
     </body>
 </html>

@@ -30,6 +30,8 @@ document.querySelectorAll('.navbar-toggler').forEach((button) => {
     const total = Number(frame.dataset.heroRotate);
     const template = frame.dataset.heroSrc;
     const webpTemplate = frame.dataset.heroWebpSrc;
+    const webpSmallTemplate = frame.dataset.heroWebpSmallSrc;
+    const webpMobileTemplate = frame.dataset.heroWebpMobileSrc;
     if (layers.length !== 2 || total < 2 || !template) {
         return;
     }
@@ -37,30 +39,49 @@ document.querySelectorAll('.navbar-toggler').forEach((button) => {
     let visible = 0;
     let queued = Number(frame.dataset.heroNext);
 
-    const startRotation = () => window.setInterval(() => {
+    const setLayerImage = (layer, imageNumber, onload = null) => {
+        const source = layer.closest('picture')?.querySelector('source');
+        const large = webpTemplate?.replace('{n}', imageNumber);
+        const small = webpSmallTemplate?.replace('{n}', imageNumber);
+        const mobile = webpMobileTemplate?.replace('{n}', imageNumber);
+
+        if (source && large) {
+            source.srcset = [
+                small ? `${small} 640w` : null,
+                mobile ? `${mobile} 768w` : null,
+                `${large} 1024w`,
+            ].filter(Boolean).join(', ');
+        }
+
+        if (onload) {
+            layer.addEventListener('load', onload, { once: true });
+        }
+        layer.src = template.replace('{n}', imageNumber);
+    };
+
+    const rotate = () => {
         const incoming = layers[1 - visible];
         const outgoing = layers[visible];
 
-        // Load the following photo into the layer that just faded out, waiting
-        // for the crossfade to finish so the swap is never visible.
         const following = (queued % total) + 1;
-        const preload = new Image();
-
-        preload.onload = () => window.setTimeout(() => {
-            const source = outgoing.closest('picture')?.querySelector('source');
-            outgoing.src = template.replace('{n}', following);
-            if (source && webpTemplate) {
-                source.srcset = webpTemplate.replace('{n}', following);
-            }
-        }, 1400);
 
         incoming.classList.add('is-visible');
         outgoing.classList.remove('is-visible');
         visible = 1 - visible;
 
-        preload.src = template.replace('{n}', following);
+        // Once the crossfade is over, prepare the now-hidden layer.
+        window.setTimeout(() => setLayerImage(outgoing, following), 1400);
         queued = following;
-    }, 20000);
+    };
+
+    const startRotation = () => window.setTimeout(() => {
+        setLayerImage(layers[1], queued, () => {
+            window.setTimeout(() => {
+                rotate();
+                window.setInterval(rotate, 20000);
+            }, 5000);
+        });
+    }, 15000);
 
     if ('requestIdleCallback' in window) {
         window.requestIdleCallback(startRotation, { timeout: 3000 });

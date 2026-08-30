@@ -12,10 +12,10 @@
     preg_match('/bg-(\d+)\.jpg$/', $heroPhoto, $heroPhotoMatch);
     $heroFirst = $heroRotate ? (int) ($heroPhotoMatch[1] ?? 1) : null;
     $heroNext = $heroRotate ? ($heroFirst % $page->backgroundCount) + 1 : null;
-    $heroWebp = responsive_image_url($heroPhoto, 'detail-1280');
+    $heroWebpSrcset = responsive_image_srcset($heroPhoto);
     $heroDimensions = local_image_dimensions($heroPhoto);
     $heroNextPhoto = $heroRotate ? $page->backgroundImage($heroNext) : null;
-    $heroNextWebp = responsive_image_url($heroNextPhoto, 'detail-1280');
+    $heroNextDimensions = local_image_dimensions($heroNextPhoto);
 @endphp
 
 <section class="hero {{ $heroRotate ? 'hero--rotating' : 'hero--page' }}">
@@ -27,12 +27,18 @@
                 data-hero-next="{{ $heroNext }}"
                 data-hero-src="{{ $page->backgroundImage('{n}') }}"
                 data-hero-webp-src="{{ responsive_image_path($page->backgroundImage('{n}'), 'detail-1280') }}"
+                data-hero-webp-small-src="{{ responsive_image_path($page->backgroundImage('{n}'), 'detail-640') }}"
+                data-hero-webp-mobile-src="{{ responsive_image_path($page->backgroundImage('{n}'), 'detail-768') }}"
             @endif
         >
             <div class="hero-stage">
                 <picture>
-                    @if ($heroWebp)
-                        <source srcset="{{ $heroWebp }}" type="image/webp">
+                    @if ($heroWebpSrcset)
+                        <source
+                            srcset="{{ $heroWebpSrcset }}"
+                            sizes="(min-width: 1200px) 1110px, calc(100vw - 30px)"
+                            type="image/webp"
+                        >
                     @endif
                     <img
                         class="hero-photo is-visible"
@@ -48,10 +54,19 @@
                 </picture>
                 @if ($heroRotate)
                     <picture>
-                        @if ($heroNextWebp)
-                            <source srcset="{{ $heroNextWebp }}" type="image/webp">
-                        @endif
-                        <img class="hero-photo" src="{{ $heroNextPhoto }}" alt="" loading="lazy" decoding="async">
+                        <source
+                            sizes="(min-width: 1200px) 1110px, calc(100vw - 30px)"
+                            type="image/webp"
+                        >
+                        <img
+                            class="hero-photo"
+                            alt=""
+                            @if ($heroNextDimensions)
+                                width="{{ $heroNextDimensions['width'] }}"
+                                height="{{ $heroNextDimensions['height'] }}"
+                            @endif
+                            decoding="async"
+                        >
                     </picture>
                 @endif
             </div>

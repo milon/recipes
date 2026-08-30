@@ -133,6 +133,34 @@ if (!function_exists('local_image_dimensions')) {
     }
 }
 
+if (!function_exists('responsive_image_srcset')) {
+    /**
+     * Build a width-based WebP srcset for detail and hero images.
+     */
+    function responsive_image_srcset(?string $src): ?string
+    {
+        $small = responsive_image_url($src, 'detail-640');
+        $mobile = responsive_image_url($src, 'detail-768');
+        $large = responsive_image_url($src, 'detail-1280');
+        $dimensions = local_image_dimensions($src);
+
+        if (!$small || !$mobile || !$large || !$dimensions) {
+            return $large;
+        }
+
+        $variants = [
+            min(640, $dimensions['width']) => $small,
+            min(768, $dimensions['width']) => $mobile,
+            min(1280, $dimensions['width']) => $large,
+        ];
+        ksort($variants);
+
+        return collect($variants)
+            ->map(fn (string $url, int $width) => "{$url} {$width}w")
+            ->implode(', ');
+    }
+}
+
 if (!function_exists('recipe_card_content')) {
     /**
      * Split rendered recipe HTML into the pieces a recipe card lays out separately.
@@ -290,13 +318,14 @@ if (!function_exists('recipe_responsive_images')) {
                 $attributes .= ' height="' . $dimensions['height'] . '"';
             }
 
-            $webp = responsive_image_url($srcMatch[1], 'detail-1280');
-            if (!$webp) {
+            $webpSrcset = responsive_image_srcset($srcMatch[1]);
+            if (!$webpSrcset) {
                 return '<img' . $attributes . ($selfClosing ? ' /' : '') . '>';
             }
 
-            return '<picture><source srcset="' . $webp
-                . '" type="image/webp"><img' . $attributes
+            return '<picture><source srcset="' . htmlspecialchars($webpSrcset, ENT_QUOTES)
+                . '" sizes="(min-width: 992px) 760px, 100vw"'
+                . ' type="image/webp"><img' . $attributes
                 . ($selfClosing ? ' /' : '') . '></picture>';
         }, $html) ?? $html;
     }

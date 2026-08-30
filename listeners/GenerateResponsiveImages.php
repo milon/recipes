@@ -8,6 +8,10 @@ class GenerateResponsiveImages
 {
     private const DETAIL_MAX = 1280;
 
+    private const DETAIL_SMALL = 640;
+
+    private const DETAIL_MOBILE = 768;
+
     private const TILE_WIDTH = 640;
 
     private const TILE_HEIGHT = 480;
@@ -32,8 +36,14 @@ class GenerateResponsiveImages
                 continue;
             }
 
+            $detailSmallPath = $destinationDir . "/{$filename}.detail-640.webp";
+            $this->writeVariant($source, $detailSmallPath, 'detail', self::DETAIL_SMALL);
+
+            $detailMobilePath = $destinationDir . "/{$filename}.detail-768.webp";
+            $this->writeVariant($source, $detailMobilePath, 'detail', self::DETAIL_MOBILE);
+
             $detailPath = $destinationDir . "/{$filename}.detail-1280.webp";
-            $this->writeVariant($source, $detailPath, 'detail');
+            $this->writeVariant($source, $detailPath, 'detail', self::DETAIL_MAX);
 
             if (str_starts_with($relative, 'recipes' . DIRECTORY_SEPARATOR) || str_starts_with($relative, 'recipes/')) {
                 $tilePath = $destinationDir . "/{$filename}.tile-640.webp";
@@ -70,7 +80,12 @@ class GenerateResponsiveImages
         }
     }
 
-    private function writeVariant(string $source, string $destination, string $kind): void
+    private function writeVariant(
+        string $source,
+        string $destination,
+        string $kind,
+        int $max = self::DETAIL_MAX,
+    ): void
     {
         if (is_file($destination) && filemtime($destination) >= filemtime($source)) {
             return;
@@ -83,12 +98,12 @@ class GenerateResponsiveImages
 
         $variant = $kind === 'tile'
             ? $this->cover($image, self::TILE_WIDTH, self::TILE_HEIGHT)
-            : $this->contain($image, self::DETAIL_MAX);
+            : $this->contain($image, $max);
 
         imagewebp($variant, $destination, $kind === 'tile' ? 76 : 78);
     }
 
-    private function loadImage(string $path)
+    private function loadImage(string $path): ?\GdImage
     {
         $info = @getimagesize($path);
         if (!$info) {
@@ -104,7 +119,7 @@ class GenerateResponsiveImages
         return $image ?: null;
     }
 
-    private function contain($image, int $max)
+    private function contain(\GdImage $image, int $max): \GdImage
     {
         $width = imagesx($image);
         $height = imagesy($image);
@@ -115,7 +130,7 @@ class GenerateResponsiveImages
         return $this->resample($image, $targetWidth, $targetHeight, $width, $height);
     }
 
-    private function cover($image, int $targetWidth, int $targetHeight)
+    private function cover(\GdImage $image, int $targetWidth, int $targetHeight): \GdImage
     {
         $width = imagesx($image);
         $height = imagesy($image);
@@ -139,7 +154,13 @@ class GenerateResponsiveImages
         return $cropped;
     }
 
-    private function resample($image, int $targetWidth, int $targetHeight, int $width, int $height)
+    private function resample(
+        \GdImage $image,
+        int $targetWidth,
+        int $targetHeight,
+        int $width,
+        int $height,
+    ): \GdImage
     {
         $resized = imagecreatetruecolor($targetWidth, $targetHeight);
         imagecopyresampled($resized, $image, 0, 0, 0, 0, $targetWidth, $targetHeight, $width, $height);

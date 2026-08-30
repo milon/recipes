@@ -41,17 +41,12 @@
             <link rel="alternate" hreflang="{{ $page->locale === 'en' ? 'bn' : 'en' }}" href="{{ rightTrimPath($page->baseUrl) }}{{ $page->alternateUrl() }}">
         @endif
         <link rel="alternate" hreflang="x-default" href="{{ $page->locale === 'en' ? rightTrimPath($page->baseUrl) . $page->alternateUrl() : $page->getUrl() }}">
-        <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/galada.woff2" crossorigin>
-        @if ($page->locale === 'en')
-            <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/noto-sans.woff2" crossorigin>
-        @else
-            <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/noto-sans-bengali.woff2" crossorigin>
-        @endif
         @php
             $preloadImage = $page->metaImage
                 ?? $page->image
                 ?? (($page->preloadHero ?? false) ? $page->heroBackground() : null);
             $preloadWebp = responsive_image_url($preloadImage, 'detail-1280');
+            $preloadWebpSrcset = responsive_image_srcset($preloadImage);
         @endphp
         @if ($preloadImage)
             <link
@@ -59,6 +54,10 @@
                 as="image"
                 href="{{ $preloadWebp ?? $preloadImage }}"
                 @if ($preloadWebp) type="image/webp" @endif
+                @if ($preloadWebpSrcset)
+                    imagesrcset="{{ $preloadWebpSrcset }}"
+                    imagesizes="(min-width: 1200px) 1110px, calc(100vw - 30px)"
+                @endif
                 fetchpriority="high"
             >
         @endif

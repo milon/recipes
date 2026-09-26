@@ -11,7 +11,6 @@ pagination:
 @section('hero')
     @include('_partials.hero', [
         'heroRotate' => true,
-        'heroKicker' => $page->t('home.kicker'),
         'heroTitle' => $page->localizedSiteName(),
         'heroSummary' => [
             $page->localizedSiteDescription(),
@@ -31,7 +30,6 @@ pagination:
 
 @section('content')
     <div id="recipes" class="recipe-section-intro">
-        <p class="editorial-kicker">{{ $page->t('home.collection') }}</p>
         <h2 class="recipe-section-title">{{ $page->t('home.title') }}</h2>
         <p class="recipe-section-note">{{ $page->t('home.note') }}</p>
     </div>

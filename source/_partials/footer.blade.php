@@ -2,7 +2,6 @@
     <div class="container">
         <div class="site-footer-inner">
             <div class="site-footer-brand">
-                <p class="editorial-kicker">{{ $page->t('footer.kicker') }}</p>
                 <p class="site-footer-title">{{ $page->localizedSiteName() }}</p>
                 <p class="site-footer-description">{{ $page->localizedSiteDescription() }}</p>
             </div>

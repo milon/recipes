@@ -9,7 +9,6 @@ alternateUrlPath: /en/about
 
 @section('hero')
     @include('_partials.hero', [
-        'heroKicker' => 'পরিচয়',
         'heroSummary' => [
             'রান্না শিখতে গিয়ে যে ঝামেলাগুলোয় পড়েছি, সেগুলো যেন আর কাউকে পোহাতে না হয় — এই সাইট সেই ছোট্ট চেষ্টা।',
         ],
@@ -31,7 +30,6 @@ alternateUrlPath: /en/about
 @section('content')
     <div class="static-layout">
         <div class="static-main">
-            <p class="editorial-kicker">গল্পটা যেভাবে শুরু</p>
             <h2 class="static-title">রান্নাঘরে ঢোকা এক সফটওয়্যার প্রকৌশলীর ডায়েরি</h2>
 
             <p>আমি নুরুজ্জামান মিলন, পেশায় একজন সফটয়্যার প্রকৌশলী। বর্তমান আবাস কানাডার ব্রিটিশ কলাম্বিয়া প্রভিন্সের ভ্যাঙ্কুভার শহরে।</p>
@@ -45,7 +43,7 @@ alternateUrlPath: /en/about
 
         <aside class="static-aside">
             <div class="info-card">
-                <p class="editorial-kicker">এক নজরে</p>
+                <h2 class="info-card-title">এক নজরে</h2>
                 <dl class="info-list">
                     <div>
                         <dt>লেখক</dt>
@@ -79,7 +77,6 @@ alternateUrlPath: /en/about
     </div>
 
     <section class="static-section">
-        <p class="editorial-kicker">যা দিয়ে বানানো</p>
         <h2 class="static-section-title">ওয়েবসাইট তৈরিতে ব্যবহৃত টুলস</h2>
 
         <div class="tool-grid">
@@ -111,7 +108,6 @@ alternateUrlPath: /en/about
 
     <section class="callout-card">
         <div class="callout-body">
-            <p class="editorial-kicker">ডেভেলপারদের জন্য</p>
             <h2 class="callout-title">রেসিপিগুলো উন্মুক্ত API হিসেবেও আছে</h2>
             <p>এই ওয়েবসাইটের সবগুলো রেসিপি JSON API আকারে ব্যবহার করা যায়। API উন্মুক্ত করা হয়েছে <a href="https://creativecommons.org/licenses/by/2.0/deed.bn" target="_blank" rel="noopener noreferrer">Creative Commons অ্যাট্রিবিউশন ২.০ সাধারণ</a> লাইসেন্সের অধীনে।</p>
         </div>

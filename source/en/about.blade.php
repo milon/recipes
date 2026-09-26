@@ -10,7 +10,6 @@ subtitle: Why I created this website
 
 @section('hero')
     @include('_partials.hero', [
-        'heroKicker' => 'Introduction',
         'heroSummary' => [
             'This site is my small attempt to help others avoid the difficulties I faced while learning to cook.',
         ],
@@ -31,7 +30,6 @@ subtitle: Why I created this website
 @section('content')
     <div class="static-layout">
         <div class="static-main">
-            <p class="editorial-kicker">How it began</p>
             <h2 class="static-title">A software engineer's diary from the kitchen</h2>
 
             <p>I am Nuruzzaman Milon, a software engineer living in Vancouver, British Columbia, Canada.</p>
@@ -45,7 +43,7 @@ subtitle: Why I created this website
 
         <aside class="static-aside">
             <div class="info-card">
-                <p class="editorial-kicker">At a glance</p>
+                <h2 class="info-card-title">At a glance</h2>
                 <dl class="info-list">
                     <div>
                         <dt>Author</dt>
@@ -79,7 +77,6 @@ subtitle: Why I created this website
     </div>
 
     <section class="static-section">
-        <p class="editorial-kicker">Built with</p>
         <h2 class="static-section-title">Tools used to build this website</h2>
 
         <div class="tool-grid">
@@ -111,7 +108,6 @@ subtitle: Why I created this website
 
     <section class="callout-card">
         <div class="callout-body">
-            <p class="editorial-kicker">For developers</p>
             <h2 class="callout-title">Recipes are also available through an open API</h2>
             <p>Every translated recipe is available as JSON under the <a href="https://creativecommons.org/licenses/by/2.0/deed.en" target="_blank" rel="noopener noreferrer">Creative Commons Attribution 2.0 Generic</a> license.</p>
         </div>

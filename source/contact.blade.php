@@ -9,7 +9,6 @@ alternateUrlPath: /en/contact
 
 @section('hero')
     @include('_partials.hero', [
-        'heroKicker' => 'কথা বলুন',
         'heroSummary' => [
             'রেসিপি নিয়ে প্রশ্ন, মতামত কিংবা নতুন রান্নার অনুরোধ — যা খুশি লিখে পাঠান।',
         ],
@@ -27,7 +26,6 @@ alternateUrlPath: /en/contact
     <div class="static-layout">
         <div class="static-main">
             <div class="form-card">
-                <p class="editorial-kicker">বার্তা পাঠান</p>
                 <h2 class="form-card-title">আপনার কথাটা লিখুন</h2>
 
                 <form class="contact-form" method="POST" action="{{ $page->contactFormUrl }}">
@@ -58,7 +56,7 @@ alternateUrlPath: /en/contact
 
         <aside class="static-aside">
             <div class="info-card">
-                <p class="editorial-kicker">যা নিয়ে লিখতে পারেন</p>
+                <h2 class="info-card-title">যা নিয়ে লিখতে পারেন</h2>
                 <ul class="info-points">
                     <li>রেসিপির কোন ধাপ বুঝতে অসুবিধা হচ্ছে</li>
                     <li>কোন উপকরণের সহজ বিকল্প খুঁজছেন</li>

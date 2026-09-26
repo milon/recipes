@@ -10,7 +10,6 @@ subtitle: If you have a question, feel free to write
 
 @section('hero')
     @include('_partials.hero', [
-        'heroKicker' => 'Get in touch',
         'heroSummary' => [
             'Send a recipe question, feedback, or a request for a dish you would like to see.',
         ],
@@ -27,7 +26,6 @@ subtitle: If you have a question, feel free to write
     <div class="static-layout">
         <div class="static-main">
             <div class="form-card">
-                <p class="editorial-kicker">Send a message</p>
                 <h2 class="form-card-title">Tell me what is on your mind</h2>
 
                 <form class="contact-form" method="POST" action="{{ $page->contactFormUrl }}">
@@ -58,7 +56,7 @@ subtitle: If you have a question, feel free to write
 
         <aside class="static-aside">
             <div class="info-card">
-                <p class="editorial-kicker">Things you can ask about</p>
+                <h2 class="info-card-title">Things you can ask about</h2>
                 <ul class="info-points">
                     <li>A recipe step that is unclear</li>
                     <li>An easy substitute for an ingredient</li>

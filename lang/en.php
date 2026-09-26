@@ -22,10 +22,8 @@ return [
         "recipes" => "recipes",
     ],
     "home" => [
-        "kicker" => "Simple cooking · Homemade flavor",
         "summary" => "Every recipe includes measured ingredients and clear, step-by-step instructions using familiar home cooking staples.",
         "recipe_count" => ":count English recipes",
-        "collection" => "Recipe collection",
         "title" => "What will you cook today?",
         "note" => "Simple ingredients, clear instructions, familiar flavors.",
     ],
@@ -41,7 +39,6 @@ return [
         "hours" => ":count hr",
     ],
     "category" => [
-        "kicker" => "Browse by topic",
         "count" => ":count recipes",
         "page" => "Page :current / :total",
         "description" => "All :category recipes",
@@ -62,7 +59,6 @@ return [
         "no_results" => " returned no results.",
     ],
     "footer" => [
-        "kicker" => "Cooking made easy",
         "copyright" => "Copyright © :site, :year",
     ],
 ];

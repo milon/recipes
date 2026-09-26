@@ -1,6 +1,5 @@
 @php
     $heroRotate = $heroRotate ?? false;
-    $heroKicker = $heroKicker ?? $page->localizedSiteName();
     $heroTitle = $heroTitle ?? ($page->title ?: $page->localizedSiteName());
     $heroSummary = $heroSummary ?? array_filter([$page->subtitle ?: $page->localizedSiteDescription()]);
     $heroFacts = $heroFacts ?? [];
@@ -72,7 +71,6 @@
             </div>
 
             <div class="hero-panel">
-                <p class="editorial-kicker">{{ $heroKicker }}</p>
                 <h1 class="hero-title">{{ $heroTitle }}</h1>
 
                 @if (count($heroSummary))

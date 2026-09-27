@@ -10,8 +10,8 @@
         <div class="navbar-mobile-tools d-flex d-lg-none align-items-center ml-auto">
             @include('_components.language_switch')
             @include('_components.search_trigger')
+            @include('_components.theme_switch')
             <button class="navbar-toggler" type="button" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="{{ $page->t('nav.open_menu') }}">
-                <span>{{ $page->t('nav.menu') }}</span>
                 @include('_components.icon', ['name' => 'menu', 'class' => 'icon--sm'])
             </button>
         </div>
@@ -26,6 +26,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ $page->localePrefix() }}/contact">{{ $page->t('nav.contact') }}</a>
+                </li>
+                <li class="nav-item d-none d-lg-flex align-items-center">
+                    @include('_components.theme_switch')
                 </li>
                 <li class="nav-item d-none d-lg-flex align-items-center">
                     @include('_components.language_switch')

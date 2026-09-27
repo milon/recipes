@@ -13,6 +13,8 @@ return [
         "menu" => "Menu",
         "open_menu" => "Open navigation menu",
         "switch_language" => "View in Bangla",
+        "theme_dark" => "Use dark theme",
+        "theme_light" => "Use light theme",
     ],
     "common" => [
         "skip_to_content" => "Skip to main content",

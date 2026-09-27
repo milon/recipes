@@ -13,6 +13,8 @@ return [
         "menu" => "মেনু",
         "open_menu" => "নেভিগেশন মেনু খুলুন",
         "switch_language" => "ইংরেজিতে দেখুন",
+        "theme_dark" => "গাঢ় থিম চালু করুন",
+        "theme_light" => "হালকা থিম চালু করুন",
     ],
     "common" => [
         "skip_to_content" => "মূল কনটেন্টে যান",

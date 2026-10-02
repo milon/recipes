@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" data-search-index="/en/index.json">
     <head>
+        <script>
+            (function () {
+                try {
+                    var stored = localStorage.getItem('theme');
+                    var theme = stored === 'light' || stored === 'dark'
+                        ? stored
+                        : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                    document.documentElement.setAttribute('data-theme', theme);
+                } catch (error) {}
+            })();
+        </script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -21,7 +32,7 @@
         <meta name="twitter:card" content="summary">
         <meta name="twitter:title" content="Easy Recipes">
         <meta name="twitter:description" content="Cooking does not have to be difficult. If I can do it, so can you.">
-        <meta name="twitter:image" content="/assets/images/backgrounds/bg-9.jpg" />
+        <meta name="twitter:image" content="/assets/images/backgrounds/bg-8.jpg" />
         <!-- Open Graph general (Facebook, Pinterest & Google+) -->
         <meta property="og:url" content="https://recipes.milon.im/en/11">
         <meta property="og:title" content="Easy Recipes">
@@ -38,12 +49,12 @@
                             <link
                 rel="preload"
                 as="image"
-                href="/assets/images/responsive/backgrounds/bg-10.detail-1280.webp"
-                 type="image/webp"                                     imagesrcset="/assets/images/responsive/backgrounds/bg-10.detail-640.webp 640w, /assets/images/responsive/backgrounds/bg-10.detail-768.webp 768w, /assets/images/responsive/backgrounds/bg-10.detail-1280.webp 1024w"
+                href="/assets/images/responsive/backgrounds/bg-4.detail-1280.webp"
+                 type="image/webp"                                     imagesrcset="/assets/images/responsive/backgrounds/bg-4.detail-640.webp 640w, /assets/images/responsive/backgrounds/bg-4.detail-768.webp 768w, /assets/images/responsive/backgrounds/bg-4.detail-1280.webp 1024w"
                     imagesizes="(min-width: 1200px) 1110px, calc(100vw - 30px)"
                                 fetchpriority="high"
             >
-                <link rel="stylesheet" href="/assets/build/css/main-DQtJmRJ7.css">
+                <link rel="stylesheet" href="/assets/build/css/main-CIsL65hb.css">
     </head>
     <body x-data="search()" @keydown.window.escape="closeModal()">
         <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -94,8 +105,30 @@
         </svg>
             <span class="search-open-label d-none d-lg-inline ml-1">Search</span>
 </button>
+            <button
+    type="button"
+    class="theme-switch"
+    aria-pressed="false"
+    data-label-dark="Use dark theme"
+    data-label-light="Use light theme"
+    aria-label="Use dark theme"
+>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm theme-switch-icon theme-switch-icon--moon"  aria-hidden="true"  >
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z" />
+        </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm theme-switch-icon theme-switch-icon--sun"  aria-hidden="true"  >
+            <circle cx="12" cy="12" r="4" />
+            <path d="M12 2v2" />
+            <path d="M12 20v2" />
+            <path d="m4.93 4.93 1.41 1.41" />
+            <path d="m17.66 17.66 1.41 1.41" />
+            <path d="M2 12h2" />
+            <path d="M20 12h2" />
+            <path d="m4.93 19.07 1.41-1.41" />
+            <path d="m17.66 6.34 1.41-1.41" />
+        </svg>
+        </button>
             <button class="navbar-toggler" type="button" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Open navigation menu">
-                <span>Menu</span>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm"  aria-hidden="true"  >
             <path d="M4 6h16" />
             <path d="M4 12h16" />
@@ -114,6 +147,31 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/en/contact">Contact</a>
+                </li>
+                <li class="nav-item d-none d-lg-flex align-items-center">
+                    <button
+    type="button"
+    class="theme-switch"
+    aria-pressed="false"
+    data-label-dark="Use dark theme"
+    data-label-light="Use light theme"
+    aria-label="Use dark theme"
+>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm theme-switch-icon theme-switch-icon--moon"  aria-hidden="true"  >
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z" />
+        </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm theme-switch-icon theme-switch-icon--sun"  aria-hidden="true"  >
+            <circle cx="12" cy="12" r="4" />
+            <path d="M12 2v2" />
+            <path d="M12 20v2" />
+            <path d="m4.93 4.93 1.41 1.41" />
+            <path d="m17.66 17.66 1.41 1.41" />
+            <path d="M2 12h2" />
+            <path d="M20 12h2" />
+            <path d="m4.93 19.07 1.41-1.41" />
+            <path d="m17.66 6.34 1.41-1.41" />
+        </svg>
+        </button>
                 </li>
                 <li class="nav-item d-none d-lg-flex align-items-center">
                     <a
@@ -160,7 +218,7 @@
         <div
             class="hero-frame"
                             data-hero-rotate="10"
-                data-hero-next="1"
+                data-hero-next="5"
                 data-hero-src="/assets/images/backgrounds/bg-{n}.jpg"
                 data-hero-webp-src="/assets/images/responsive/backgrounds/bg-{n}.detail-1280.webp"
                 data-hero-webp-small-src="/assets/images/responsive/backgrounds/bg-{n}.detail-640.webp"
@@ -169,16 +227,16 @@
             <div class="hero-stage">
                 <picture>
                                             <source
-                            srcset="/assets/images/responsive/backgrounds/bg-10.detail-640.webp 640w, /assets/images/responsive/backgrounds/bg-10.detail-768.webp 768w, /assets/images/responsive/backgrounds/bg-10.detail-1280.webp 1024w"
+                            srcset="/assets/images/responsive/backgrounds/bg-4.detail-640.webp 640w, /assets/images/responsive/backgrounds/bg-4.detail-768.webp 768w, /assets/images/responsive/backgrounds/bg-4.detail-1280.webp 1024w"
                             sizes="(min-width: 1200px) 1110px, calc(100vw - 30px)"
                             type="image/webp"
                         >
                                         <img
                         class="hero-photo is-visible"
-                        src="/assets/images/backgrounds/bg-10.jpg"
+                        src="/assets/images/backgrounds/bg-4.jpg"
                         alt=""
                                                     width="1024"
-                            height="682"
+                            height="768"
                                                 fetchpriority="high"
                         decoding="async"
                     >
@@ -192,14 +250,13 @@
                             class="hero-photo"
                             alt=""
                                                             width="1024"
-                                height="683"
+                                height="697"
                                                         decoding="async"
                         >
                     </picture>
                             </div>
 
             <div class="hero-panel">
-                <p class="editorial-kicker">Simple cooking · Homemade flavor</p>
                 <h1 class="hero-title">Easy Recipes</h1>
 
                                     <div class="hero-summary">
@@ -214,7 +271,7 @@
             <path d="M7 2v20" />
             <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
         </svg>
-                                        200 English recipes
+                                        201 English recipes
                             </li>
                                             </ul>
                 
@@ -228,12 +285,50 @@
         <div class="row">
             <div class="col-12">
                     <div id="recipes" class="recipe-section-intro">
-        <p class="editorial-kicker">Recipe collection</p>
         <h2 class="recipe-section-title">What will you cook today?</h2>
         <p class="recipe-section-note">Simple ingredients, clear instructions, familiar flavors.</p>
     </div>
 
     <div class="recipe-grid">
+                    <article class="recipe-tile">
+            <a href="/en/recipe/jhinga-chingrir-torkari" class="recipe-tile-photo" tabindex="-1" aria-hidden="true">
+            <picture>
+                                    <source srcset="/assets/images/responsive/recipes/jhinga-chingrir-torkari.tile-640.webp" type="image/webp">
+                                <img src="/assets/images/recipes/jhinga-chingrir-torkari.jpg" alt="" width="640" height="480" loading="lazy" decoding="async">
+            </picture>
+        </a>
+    
+    <div class="recipe-tile-body">
+        <div class="recipe-tile-tags">
+                    <a href="/en/category/fish-curries" class="recipe-tag">#Fish Curries</a>
+            </div>
+
+        <h2 class="recipe-tile-title">
+            <a href="/en/recipe/jhinga-chingrir-torkari" class="recipe-tile-link">Ridge Gourd and Prawn Curry</a>
+        </h2>
+
+                    <p class="recipe-tile-excerpt">An easy recipe for ridge gourd and prawn curry</p>
+        
+                    <ul class="recipe-facts recipe-facts--compact">
+                                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
+        </svg>
+                                Serves 4
+                    </li>
+                
+                                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
+            <circle cx="12" cy="12" r="9" />
+            <path d="M12 7v5l3.5 2" />
+        </svg>
+                                25 min
+                    </li>
+                            </ul>
+            </div>
+</article>
                     <article class="recipe-tile">
             <a href="/en/recipe/kacha-aam-vorta" class="recipe-tile-photo" tabindex="-1" aria-hidden="true">
             <picture>
@@ -548,45 +643,6 @@
                             </ul>
             </div>
 </article>
-                    <article class="recipe-tile">
-            <a href="/en/recipe/chicken-wrap" class="recipe-tile-photo" tabindex="-1" aria-hidden="true">
-            <picture>
-                                    <source srcset="/assets/images/responsive/recipes/chicken-wrap.tile-640.webp" type="image/webp">
-                                <img src="/assets/images/recipes/chicken-wrap.jpg" alt="" width="640" height="480" loading="lazy" decoding="async">
-            </picture>
-        </a>
-    
-    <div class="recipe-tile-body">
-        <div class="recipe-tile-tags">
-                    <a href="/en/category/snacks" class="recipe-tag">#Snacks</a>
-            </div>
-
-        <h2 class="recipe-tile-title">
-            <a href="/en/recipe/chicken-wrap" class="recipe-tile-link">Chicken Wrap</a>
-        </h2>
-
-                    <p class="recipe-tile-excerpt">A recipe for a unique chicken wrap</p>
-        
-                    <ul class="recipe-facts recipe-facts--compact">
-                                    <li>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <circle cx="9" cy="7" r="4" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
-        </svg>
-                                Serves 2
-                    </li>
-                
-                                    <li>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon recipe-fact-icon"  aria-hidden="true"  >
-            <circle cx="12" cy="12" r="9" />
-            <path d="M12 7v5l3.5 2" />
-        </svg>
-                                50 min
-                    </li>
-                            </ul>
-            </div>
-</article>
             </div>
 
     <div class="clearfix recipe-pagination">
@@ -649,7 +705,6 @@
     <div class="container">
         <div class="site-footer-inner">
             <div class="site-footer-brand">
-                <p class="editorial-kicker">Cooking made easy</p>
                 <p class="site-footer-title">Easy Recipes</p>
                 <p class="site-footer-description">Cooking does not have to be difficult. If I can do it, so can you.</p>
             </div>
@@ -790,6 +845,6 @@
         </div>
     </div>
 </div>
-        <script src="/assets/build/js/main-8HawI-Wc.js" type="module"></script>
+        <script src="/assets/build/js/main-pD13I-Yu.js" type="module"></script>
     </body>
 </html>

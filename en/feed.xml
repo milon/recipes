@@ -7,8 +7,49 @@
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://recipes.milon.im/en/feed.xml" type="application/rss+xml" rel="self"/>
     <language>en</language>
     <copyright>Copyright © Easy Recipes 2026</copyright>
-    <pubDate>Sun, 30 Aug 2026 17:30:45 +0000</pubDate>
-    <lastBuildDate>Sun, 30 Aug 2026 17:30:45 +0000</lastBuildDate>
+    <pubDate>Fri, 02 Oct 2026 22:26:49 +0000</pubDate>
+    <lastBuildDate>Fri, 02 Oct 2026 22:26:49 +0000</lastBuildDate>
+    <item>
+      <title><![CDATA[Butter Chicken]]></title>
+      <link>https://recipes.milon.im/en/recipe/butter-chicken</link>
+      <description><![CDATA[Butter chicken recipe]]></description>
+      <content:encoded><![CDATA[<p>Nothing compares to butter chicken with naan or paratha. Tender chicken in a tomato and butter gravy. Here is the recipe.</p>
+
+<h2>Ingredients</h2>
+
+<ul>
+<li>Boneless chicken (500 g)</li>
+<li>Sour yogurt (3 tablespoons)</li>
+<li>Ginger paste (1 teaspoon)</li>
+<li>Garlic paste (1 teaspoon)</li>
+<li>Chili powder (1 teaspoon)</li>
+<li>Turmeric powder (1/2 teaspoon)</li>
+<li>Garam masala powder (1 teaspoon)</li>
+<li>Salt (to taste)</li>
+<li>Butter (3 tablespoons)</li>
+<li>Oil (2 tablespoons)</li>
+<li>Chopped onion (1 cup)</li>
+<li>Tomato puree (1 cup)</li>
+<li>Milk cream (1/2 cup)</li>
+<li>Sugar (1 teaspoon)</li>
+<li>Dried fenugreek leaves (1 teaspoon)</li>
+<li>Chopped cilantro (to garnish)</li>
+</ul>
+
+<p><img src="/assets/images/recipes/butter-chicken.jpg" alt="Butter chicken" /></p>
+
+<h2>Method</h2>
+
+<p>Cut the chicken into small cubes. Mix it with the sour yogurt, ginger-garlic paste, chili powder, turmeric, half of the garam masala, and salt. Cover and marinate for 30 minutes.</p>
+
+<p>Heat the oil and 1 tablespoon of butter in a pan. Fry the chicken until lightly golden, then set it aside. In the same pan, add the remaining butter and soften the chopped onion. Stir in the tomato puree, the rest of the garam masala, and the sugar. Add a little water and cook for 5 minutes, until the raw tomato smell is gone.</p>
+
+<p>Return the fried chicken to the pan with the cream and dried fenugreek leaves. Cook for another 8–10 minutes, until the gravy thickens. Scatter cilantro on top and take it off the heat. Serve hot with naan, paratha, or rice.</p>
+]]></content:encoded>
+      <guid>https://recipes.milon.im/en/recipe/butter-chicken</guid>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+      <author>Milon</author>
+    </item>
     <item>
       <title><![CDATA[Mera Pitha]]></title>
       <link>https://recipes.milon.im/en/recipe/mera-pitha</link>

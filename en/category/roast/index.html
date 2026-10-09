@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" data-search-index="/en/index.json">
     <head>
+        <script>
+            (function () {
+                try {
+                    var stored = localStorage.getItem('theme');
+                    var theme = stored === 'light' || stored === 'dark'
+                        ? stored
+                        : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                    document.documentElement.setAttribute('data-theme', theme);
+                } catch (error) {}
+            })();
+        </script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -21,13 +32,13 @@
         <meta name="twitter:card" content="summary">
         <meta name="twitter:title" content="Easy Recipes | #Roast">
         <meta name="twitter:description" content="All Roast recipes">
-        <meta name="twitter:image" content="/assets/images/backgrounds/bg-3.jpg" />
+        <meta name="twitter:image" content="/assets/images/backgrounds/bg-2.jpg" />
         <!-- Open Graph general (Facebook, Pinterest & Google+) -->
         <meta property="og:url" content="https://recipes.milon.im/en/category/roast">
         <meta property="og:title" content="#Roast | Easy Recipes">
         <meta property="og:description" content="All Roast recipes">
         <meta property="og:type" content="website">
-        <meta property="og:image" content="/assets/images/backgrounds/bg-2.jpg" />
+        <meta property="og:image" content="/assets/images/backgrounds/bg-10.jpg" />
         <meta property="og:locale" content="en_US">
                     <meta property="og:locale:alternate" content="bn_BD">
                 
@@ -35,7 +46,7 @@
         <link rel="alternate" hreflang="en" href="https://recipes.milon.im/en/category/roast">
                     <link rel="alternate" hreflang="bn" href="https://recipes.milon.im/category/reast">
                 <link rel="alternate" hreflang="x-default" href="https://recipes.milon.im/category/reast">
-                        <link rel="stylesheet" href="/assets/build/css/main-DQtJmRJ7.css">
+                        <link rel="stylesheet" href="/assets/build/css/main-CIsL65hb.css">
     </head>
     <body x-data="search()" @keydown.window.escape="closeModal()">
         <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -86,8 +97,30 @@
         </svg>
             <span class="search-open-label d-none d-lg-inline ml-1">Search</span>
 </button>
+            <button
+    type="button"
+    class="theme-switch"
+    aria-pressed="false"
+    data-label-dark="Use dark theme"
+    data-label-light="Use light theme"
+    aria-label="Use dark theme"
+>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm theme-switch-icon theme-switch-icon--moon"  aria-hidden="true"  >
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z" />
+        </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm theme-switch-icon theme-switch-icon--sun"  aria-hidden="true"  >
+            <circle cx="12" cy="12" r="4" />
+            <path d="M12 2v2" />
+            <path d="M12 20v2" />
+            <path d="m4.93 4.93 1.41 1.41" />
+            <path d="m17.66 17.66 1.41 1.41" />
+            <path d="M2 12h2" />
+            <path d="M20 12h2" />
+            <path d="m4.93 19.07 1.41-1.41" />
+            <path d="m17.66 6.34 1.41-1.41" />
+        </svg>
+        </button>
             <button class="navbar-toggler" type="button" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Open navigation menu">
-                <span>Menu</span>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm"  aria-hidden="true"  >
             <path d="M4 6h16" />
             <path d="M4 12h16" />
@@ -106,6 +139,31 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/en/contact">Contact</a>
+                </li>
+                <li class="nav-item d-none d-lg-flex align-items-center">
+                    <button
+    type="button"
+    class="theme-switch"
+    aria-pressed="false"
+    data-label-dark="Use dark theme"
+    data-label-light="Use light theme"
+    aria-label="Use dark theme"
+>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm theme-switch-icon theme-switch-icon--moon"  aria-hidden="true"  >
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z" />
+        </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm theme-switch-icon theme-switch-icon--sun"  aria-hidden="true"  >
+            <circle cx="12" cy="12" r="4" />
+            <path d="M12 2v2" />
+            <path d="M12 20v2" />
+            <path d="m4.93 4.93 1.41 1.41" />
+            <path d="m17.66 17.66 1.41 1.41" />
+            <path d="M2 12h2" />
+            <path d="M20 12h2" />
+            <path d="m4.93 19.07 1.41-1.41" />
+            <path d="m17.66 6.34 1.41-1.41" />
+        </svg>
+        </button>
                 </li>
                 <li class="nav-item d-none d-lg-flex align-items-center">
                     <a
@@ -152,7 +210,6 @@
             <nav class="recipe-breadcrumb" aria-label="Breadcrumb">
                 <a href="/en">← All recipes</a>
             </nav>
-            <p class="editorial-kicker">Browse by topic</p>
             <h1 class="category-hero-title">Roast</h1>
             <p class="category-hero-count">
                 1 recipes
@@ -216,7 +273,6 @@
     <div class="container">
         <div class="site-footer-inner">
             <div class="site-footer-brand">
-                <p class="editorial-kicker">Cooking made easy</p>
                 <p class="site-footer-title">Easy Recipes</p>
                 <p class="site-footer-description">Cooking does not have to be difficult. If I can do it, so can you.</p>
             </div>
@@ -357,6 +413,6 @@
         </div>
     </div>
 </div>
-        <script src="/assets/build/js/main-8HawI-Wc.js" type="module"></script>
+        <script src="/assets/build/js/main-pD13I-Yu.js" type="module"></script>
     </body>
 </html>

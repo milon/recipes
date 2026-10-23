@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="bn" data-search-index="/index.json">
     <head>
+        <script>
+            (function () {
+                try {
+                    var stored = localStorage.getItem('theme');
+                    var theme = stored === 'light' || stored === 'dark'
+                        ? stored
+                        : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                    document.documentElement.setAttribute('data-theme', theme);
+                } catch (error) {}
+            })();
+        </script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -43,7 +54,7 @@
                     imagesizes="(min-width: 1200px) 1110px, calc(100vw - 30px)"
                                 fetchpriority="high"
             >
-                <link rel="stylesheet" href="/assets/build/css/main-DQtJmRJ7.css">
+                <link rel="stylesheet" href="/assets/build/css/main-CIsL65hb.css">
     </head>
     <body x-data="search()" @keydown.window.escape="closeModal()">
         <a class="skip-link" href="#main-content">মূল কনটেন্টে যান</a>
@@ -94,8 +105,30 @@
         </svg>
             <span class="search-open-label d-none d-lg-inline ml-1">খুঁজুন</span>
 </button>
+            <button
+    type="button"
+    class="theme-switch"
+    aria-pressed="false"
+    data-label-dark="গাঢ় থিম চালু করুন"
+    data-label-light="হালকা থিম চালু করুন"
+    aria-label="গাঢ় থিম চালু করুন"
+>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm theme-switch-icon theme-switch-icon--moon"  aria-hidden="true"  >
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z" />
+        </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm theme-switch-icon theme-switch-icon--sun"  aria-hidden="true"  >
+            <circle cx="12" cy="12" r="4" />
+            <path d="M12 2v2" />
+            <path d="M12 20v2" />
+            <path d="m4.93 4.93 1.41 1.41" />
+            <path d="m17.66 17.66 1.41 1.41" />
+            <path d="M2 12h2" />
+            <path d="M20 12h2" />
+            <path d="m4.93 19.07 1.41-1.41" />
+            <path d="m17.66 6.34 1.41-1.41" />
+        </svg>
+        </button>
             <button class="navbar-toggler" type="button" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="নেভিগেশন মেনু খুলুন">
-                <span>মেনু</span>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm"  aria-hidden="true"  >
             <path d="M4 6h16" />
             <path d="M4 12h16" />
@@ -114,6 +147,31 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/contact">যোগাযোগ</a>
+                </li>
+                <li class="nav-item d-none d-lg-flex align-items-center">
+                    <button
+    type="button"
+    class="theme-switch"
+    aria-pressed="false"
+    data-label-dark="গাঢ় থিম চালু করুন"
+    data-label-light="হালকা থিম চালু করুন"
+    aria-label="গাঢ় থিম চালু করুন"
+>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm theme-switch-icon theme-switch-icon--moon"  aria-hidden="true"  >
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z" />
+        </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm theme-switch-icon theme-switch-icon--sun"  aria-hidden="true"  >
+            <circle cx="12" cy="12" r="4" />
+            <path d="M12 2v2" />
+            <path d="M12 20v2" />
+            <path d="m4.93 4.93 1.41 1.41" />
+            <path d="m17.66 17.66 1.41 1.41" />
+            <path d="M2 12h2" />
+            <path d="M20 12h2" />
+            <path d="m4.93 19.07 1.41-1.41" />
+            <path d="m17.66 6.34 1.41-1.41" />
+        </svg>
+        </button>
                 </li>
                 <li class="nav-item d-none d-lg-flex align-items-center">
                     <a
@@ -180,7 +238,6 @@
                             </div>
 
             <div class="hero-panel">
-                <p class="editorial-kicker">পরিচয়</p>
                 <h1 class="hero-title">সাইট সম্পর্কে</h1>
 
                                     <div class="hero-summary">
@@ -202,7 +259,7 @@
             <path d="M7 2v20" />
             <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
         </svg>
-                                        ২০০টি রেসিপি
+                                        ২০১টি রেসিপি
                             </li>
                                             </ul>
                 
@@ -227,7 +284,6 @@
             <div class="col-12">
                     <div class="static-layout">
         <div class="static-main">
-            <p class="editorial-kicker">গল্পটা যেভাবে শুরু</p>
             <h2 class="static-title">রান্নাঘরে ঢোকা এক সফটওয়্যার প্রকৌশলীর ডায়েরি</h2>
 
             <p>আমি নুরুজ্জামান মিলন, পেশায় একজন সফটয়্যার প্রকৌশলী। বর্তমান আবাস কানাডার ব্রিটিশ কলাম্বিয়া প্রভিন্সের ভ্যাঙ্কুভার শহরে।</p>
@@ -241,7 +297,7 @@
 
         <aside class="static-aside">
             <div class="info-card">
-                <p class="editorial-kicker">এক নজরে</p>
+                <h2 class="info-card-title">এক নজরে</h2>
                 <dl class="info-list">
                     <div>
                         <dt>লেখক</dt>
@@ -291,7 +347,6 @@
     </div>
 
     <section class="static-section">
-        <p class="editorial-kicker">যা দিয়ে বানানো</p>
         <h2 class="static-section-title">ওয়েবসাইট তৈরিতে ব্যবহৃত টুলস</h2>
 
         <div class="tool-grid">
@@ -323,7 +378,6 @@
 
     <section class="callout-card">
         <div class="callout-body">
-            <p class="editorial-kicker">ডেভেলপারদের জন্য</p>
             <h2 class="callout-title">রেসিপিগুলো উন্মুক্ত API হিসেবেও আছে</h2>
             <p>এই ওয়েবসাইটের সবগুলো রেসিপি JSON API আকারে ব্যবহার করা যায়। API উন্মুক্ত করা হয়েছে <a href="https://creativecommons.org/licenses/by/2.0/deed.bn" target="_blank" rel="noopener noreferrer">Creative Commons অ্যাট্রিবিউশন ২.০ সাধারণ</a> লাইসেন্সের অধীনে।</p>
         </div>
@@ -338,7 +392,6 @@
     <div class="container">
         <div class="site-footer-inner">
             <div class="site-footer-brand">
-                <p class="editorial-kicker">রান্না হোক সহজ</p>
                 <p class="site-footer-title">সহজ রেসিপি</p>
                 <p class="site-footer-description">রান্না করা খুব কঠিন কোন কাজ না, আমি যেহেতু পারছি, পারবেন আপনিও...</p>
             </div>
@@ -479,6 +532,6 @@
         </div>
     </div>
 </div>
-        <script src="/assets/build/js/main-8HawI-Wc.js" type="module"></script>
+        <script src="/assets/build/js/main-pD13I-Yu.js" type="module"></script>
     </body>
 </html>

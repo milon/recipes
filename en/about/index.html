@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" data-search-index="/en/index.json">
     <head>
+        <script>
+            (function () {
+                try {
+                    var stored = localStorage.getItem('theme');
+                    var theme = stored === 'light' || stored === 'dark'
+                        ? stored
+                        : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                    document.documentElement.setAttribute('data-theme', theme);
+                } catch (error) {}
+            })();
+        </script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -43,7 +54,7 @@
                     imagesizes="(min-width: 1200px) 1110px, calc(100vw - 30px)"
                                 fetchpriority="high"
             >
-                <link rel="stylesheet" href="/assets/build/css/main-DQtJmRJ7.css">
+                <link rel="stylesheet" href="/assets/build/css/main-CIsL65hb.css">
     </head>
     <body x-data="search()" @keydown.window.escape="closeModal()">
         <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -94,8 +105,30 @@
         </svg>
             <span class="search-open-label d-none d-lg-inline ml-1">Search</span>
 </button>
+            <button
+    type="button"
+    class="theme-switch"
+    aria-pressed="false"
+    data-label-dark="Use dark theme"
+    data-label-light="Use light theme"
+    aria-label="Use dark theme"
+>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm theme-switch-icon theme-switch-icon--moon"  aria-hidden="true"  >
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z" />
+        </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm theme-switch-icon theme-switch-icon--sun"  aria-hidden="true"  >
+            <circle cx="12" cy="12" r="4" />
+            <path d="M12 2v2" />
+            <path d="M12 20v2" />
+            <path d="m4.93 4.93 1.41 1.41" />
+            <path d="m17.66 17.66 1.41 1.41" />
+            <path d="M2 12h2" />
+            <path d="M20 12h2" />
+            <path d="m4.93 19.07 1.41-1.41" />
+            <path d="m17.66 6.34 1.41-1.41" />
+        </svg>
+        </button>
             <button class="navbar-toggler" type="button" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Open navigation menu">
-                <span>Menu</span>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm"  aria-hidden="true"  >
             <path d="M4 6h16" />
             <path d="M4 12h16" />
@@ -114,6 +147,31 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/en/contact">Contact</a>
+                </li>
+                <li class="nav-item d-none d-lg-flex align-items-center">
+                    <button
+    type="button"
+    class="theme-switch"
+    aria-pressed="false"
+    data-label-dark="Use dark theme"
+    data-label-light="Use light theme"
+    aria-label="Use dark theme"
+>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm theme-switch-icon theme-switch-icon--moon"  aria-hidden="true"  >
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z" />
+        </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm theme-switch-icon theme-switch-icon--sun"  aria-hidden="true"  >
+            <circle cx="12" cy="12" r="4" />
+            <path d="M12 2v2" />
+            <path d="M12 20v2" />
+            <path d="m4.93 4.93 1.41 1.41" />
+            <path d="m17.66 17.66 1.41 1.41" />
+            <path d="M2 12h2" />
+            <path d="M20 12h2" />
+            <path d="m4.93 19.07 1.41-1.41" />
+            <path d="m17.66 6.34 1.41-1.41" />
+        </svg>
+        </button>
                 </li>
                 <li class="nav-item d-none d-lg-flex align-items-center">
                     <a
@@ -180,7 +238,6 @@
                             </div>
 
             <div class="hero-panel">
-                <p class="editorial-kicker">Introduction</p>
                 <h1 class="hero-title">About</h1>
 
                                     <div class="hero-summary">
@@ -202,7 +259,7 @@
             <path d="M7 2v20" />
             <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
         </svg>
-                                        200 recipes
+                                        201 recipes
                             </li>
                                             </ul>
                 
@@ -227,7 +284,6 @@
             <div class="col-12">
                     <div class="static-layout">
         <div class="static-main">
-            <p class="editorial-kicker">How it began</p>
             <h2 class="static-title">A software engineer's diary from the kitchen</h2>
 
             <p>I am Nuruzzaman Milon, a software engineer living in Vancouver, British Columbia, Canada.</p>
@@ -241,7 +297,7 @@
 
         <aside class="static-aside">
             <div class="info-card">
-                <p class="editorial-kicker">At a glance</p>
+                <h2 class="info-card-title">At a glance</h2>
                 <dl class="info-list">
                     <div>
                         <dt>Author</dt>
@@ -291,7 +347,6 @@
     </div>
 
     <section class="static-section">
-        <p class="editorial-kicker">Built with</p>
         <h2 class="static-section-title">Tools used to build this website</h2>
 
         <div class="tool-grid">
@@ -323,7 +378,6 @@
 
     <section class="callout-card">
         <div class="callout-body">
-            <p class="editorial-kicker">For developers</p>
             <h2 class="callout-title">Recipes are also available through an open API</h2>
             <p>Every translated recipe is available as JSON under the <a href="https://creativecommons.org/licenses/by/2.0/deed.en" target="_blank" rel="noopener noreferrer">Creative Commons Attribution 2.0 Generic</a> license.</p>
         </div>
@@ -338,7 +392,6 @@
     <div class="container">
         <div class="site-footer-inner">
             <div class="site-footer-brand">
-                <p class="editorial-kicker">Cooking made easy</p>
                 <p class="site-footer-title">Easy Recipes</p>
                 <p class="site-footer-description">Cooking does not have to be difficult. If I can do it, so can you.</p>
             </div>
@@ -479,6 +532,6 @@
         </div>
     </div>
 </div>
-        <script src="/assets/build/js/main-8HawI-Wc.js" type="module"></script>
+        <script src="/assets/build/js/main-pD13I-Yu.js" type="module"></script>
     </body>
 </html>

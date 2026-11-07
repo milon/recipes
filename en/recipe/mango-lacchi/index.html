@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" data-search-index="/en/index.json">
     <head>
+        <script>
+            (function () {
+                try {
+                    var stored = localStorage.getItem('theme');
+                    var theme = stored === 'light' || stored === 'dark'
+                        ? stored
+                        : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                    document.documentElement.setAttribute('data-theme', theme);
+                } catch (error) {}
+            })();
+        </script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -43,7 +54,7 @@
                     imagesizes="(min-width: 1200px) 1110px, calc(100vw - 30px)"
                                 fetchpriority="high"
             >
-                <link rel="stylesheet" href="/assets/build/css/main-DQtJmRJ7.css">
+                <link rel="stylesheet" href="/assets/build/css/main-CIsL65hb.css">
     </head>
     <body x-data="search()" @keydown.window.escape="closeModal()">
         <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -93,8 +104,30 @@
         </svg>
             <span class="search-open-label d-none d-lg-inline ml-1">Search</span>
 </button>
+            <button
+    type="button"
+    class="theme-switch"
+    aria-pressed="false"
+    data-label-dark="Use dark theme"
+    data-label-light="Use light theme"
+    aria-label="Use dark theme"
+>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm theme-switch-icon theme-switch-icon--moon"  aria-hidden="true"  >
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z" />
+        </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm theme-switch-icon theme-switch-icon--sun"  aria-hidden="true"  >
+            <circle cx="12" cy="12" r="4" />
+            <path d="M12 2v2" />
+            <path d="M12 20v2" />
+            <path d="m4.93 4.93 1.41 1.41" />
+            <path d="m17.66 17.66 1.41 1.41" />
+            <path d="M2 12h2" />
+            <path d="M20 12h2" />
+            <path d="m4.93 19.07 1.41-1.41" />
+            <path d="m17.66 6.34 1.41-1.41" />
+        </svg>
+        </button>
             <button class="navbar-toggler" type="button" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Open navigation menu">
-                <span>Menu</span>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm"  aria-hidden="true"  >
             <path d="M4 6h16" />
             <path d="M4 12h16" />
@@ -113,6 +146,31 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/en/contact">Contact</a>
+                </li>
+                <li class="nav-item d-none d-lg-flex align-items-center">
+                    <button
+    type="button"
+    class="theme-switch"
+    aria-pressed="false"
+    data-label-dark="Use dark theme"
+    data-label-light="Use light theme"
+    aria-label="Use dark theme"
+>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm theme-switch-icon theme-switch-icon--moon"  aria-hidden="true"  >
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z" />
+        </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon--sm theme-switch-icon theme-switch-icon--sun"  aria-hidden="true"  >
+            <circle cx="12" cy="12" r="4" />
+            <path d="M12 2v2" />
+            <path d="M12 20v2" />
+            <path d="m4.93 4.93 1.41 1.41" />
+            <path d="m17.66 17.66 1.41 1.41" />
+            <path d="M2 12h2" />
+            <path d="M20 12h2" />
+            <path d="m4.93 19.07 1.41-1.41" />
+            <path d="m17.66 6.34 1.41-1.41" />
+        </svg>
+        </button>
                 </li>
                 <li class="nav-item d-none d-lg-flex align-items-center">
                     <a
@@ -233,7 +291,7 @@
 <li>Crushed ice (for serving)</li>
 </ul>
 
-<figure class="recipe-figure"><picture><source srcset="/assets/images/responsive/recipes/mango.detail-640.webp 640w, /assets/images/responsive/recipes/mango.detail-768.webp 768w, /assets/images/responsive/recipes/mango.detail-1280.webp 1024w" sizes="(min-width: 992px) 760px, 100vw" type="image/webp"><img src="/assets/images/recipes/mango.jpg" alt="Mango" loading="lazy" decoding="async" width="1024" height="1024" /></picture></figure>
+<figure class="recipe-figure"><picture><source srcset="/assets/images/responsive/recipes/mango.detail-1280.webp" sizes="(min-width: 992px) 760px, 100vw" type="image/webp"><img src="/assets/images/recipes/mango.jpg" alt="Mango" loading="lazy" decoding="async" /></picture></figure>
                             </section>
                         
                                                     <section class="recipe-card-method" aria-labelledby="recipe-method-heading">
@@ -313,7 +371,6 @@
     <div class="container">
         <div class="site-footer-inner">
             <div class="site-footer-brand">
-                <p class="editorial-kicker">Cooking made easy</p>
                 <p class="site-footer-title">Easy Recipes</p>
                 <p class="site-footer-description">Cooking does not have to be difficult. If I can do it, so can you.</p>
             </div>
@@ -454,6 +511,6 @@
         </div>
     </div>
 </div>
-        <script src="/assets/build/js/main-8HawI-Wc.js" type="module"></script>
+        <script src="/assets/build/js/main-pD13I-Yu.js" type="module"></script>
     </body>
 </html>
